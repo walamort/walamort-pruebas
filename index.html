@@ -765,7 +765,7 @@ document.querySelectorAll('.copy[data-copy]').forEach(function(b){
   var MONTHS = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
   var MAXW = 3, week = 0, selected = null, editing = false, dirty = false;
   var mine = [];
-  try { mine = JSON.parse(localStorage.getItem("walamort-solicitudes") || "[]"); } catch (e) { mine = []; }
+  try { mine = JSON.parse(localStorage.getItem("preview-walamort-solicitudes") || "[]"); } catch (e) { mine = []; }
 
   function pad(n) { return (n < 10 ? "0" : "") + n; }
   function bogotaNow() { return new Date(Date.now() - 5 * 3600e3); }   // fields read with getUTC*
@@ -854,7 +854,7 @@ document.querySelectorAll('.copy[data-copy]').forEach(function(b){
     document.getElementById("wa-send").href = "https://wa.me/" + WA_NUM + "?text=" + encodeURIComponent(lastMsg);
     document.getElementById("confirm").hidden = false;
     if (mine.indexOf(selected) === -1) mine.push(selected);
-    try { localStorage.setItem("walamort-solicitudes", JSON.stringify(mine)); } catch (e) {}
+    try { localStorage.setItem("preview-walamort-solicitudes", JSON.stringify(mine)); } catch (e) {}
     render();
     document.getElementById("confirm").scrollIntoView({ block: "nearest" });
   });
