@@ -11,7 +11,7 @@ Los commits 95ba5b8 (pruebas) y 7f13771 (home-improvements-oct29) ya implementab
 - Catálogo, Preuniversitario y Aula conectados a los ejercicios y seguimiento.
 
 ## Validación
-node --check para scripts; work/verify.cjs comprueba emparejamiento rítmico (exactos, omisiones, extras, fuera de tolerancia), validación de dictado, límites del tempo, sesión completa de lectura, persistencia y recuperación de almacenamiento corrupto, enlaces locales de catálogo y Preuniversitario. No se ha verificado físicamente audio ni latencia en iOS/Android; la compensación temporal sigue siendo manual.
+node --check para scripts; node tests/academy.cjs comprueba emparejamiento rítmico (exactos, omisiones, extras, fuera de tolerancia), validación de dictado, límites del tempo, sesión completa de lectura, persistencia y recuperación de almacenamiento corrupto, enlaces locales de catálogo y Preuniversitario. No se ha verificado físicamente audio ni latencia en iOS/Android; la compensación temporal sigue siendo manual.
 
 ## Prioridades siguientes
 1. Lectura: armaduras, alteraciones accidentales, duración y lectura a primera vista con tiempo.
@@ -23,3 +23,5 @@ node --check para scripts; work/verify.cjs comprueba emparejamiento rítmico (ex
 ## Publicación
 Sitio de pruebas: https://walamort.github.io/walamort-pruebas/
 Repositorio principal: exclusivamente rama home-improvements-oct29. Su rama no tiene una URL pública independiente confirmada. Nunca publicar estos cambios en main de producción.
+
+Comprobación publicada: despliegue de e835f18 completado con éxito; corrección visual de lectura y ciclo de dictado (escuchar, introducir, evaluar, verificar historial) comprobados en navegador con vista estrecha. Los enlaces github.io redirigen actualmente a https://walamort.com/walamort-pruebas/ por la configuración de dominio heredada de GitHub Pages. Eso no implica un cambio en main de producción.
