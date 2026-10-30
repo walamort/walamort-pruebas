@@ -28,3 +28,6 @@ Comprobación publicada: despliegue de e835f18 completado con éxito; correcció
 
 ## Mano y timbres interactivos
 Mano lateral con nueve posiciones explorables: cinco dedos/líneas y cuatro espacios; claves de sol/fa, nota en pentagrama y sonido al tocar, botones accesibles alternativos. Selector persistente de piano, guitarra, flauta y violín sintetizados en lectura, dictado y ritmo. En lectura, la nota del ejercicio solo se oye tras contestar. El patrón rítmico y los golpes usan el instrumento; el metrónomo mantiene clic diferenciado. Pruebas de correspondencia de claves y nueve posiciones, y cuatro espectros de sonido distintos.
+
+## Mano natural y clave de do
+Silueta vectorial original con pulgar superior, dedos abiertos, proporciones diferenciadas y pliegues. Nueve puntos táctiles, conectores de color y botones alternativos. Clave de do en tercera línea (alto) añadida a exploración y ejercicio; modo avanzado combina sol, fa y do. Do4 corresponde a la línea central de alto (líneas Fa3, La3, Do4, Mi4, Sol4). Pruebas de correspondencia incluidas.
