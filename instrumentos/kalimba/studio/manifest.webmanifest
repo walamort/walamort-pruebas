@@ -1,0 +1,11 @@
+{
+  "name": "Walamort Kalimba Studio",
+  "short_name": "Kalimba Studio",
+  "description": "Kalimba virtual de 17 lengüetas de Walamort",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#2B0D14",
+  "theme_color": "#2B0D14",
+  "lang": "es"
+}

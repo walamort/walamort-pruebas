@@ -1,0 +1,19 @@
+{
+  "name": "Walamort Handpan Studio Pro",
+  "short_name": "Handpan Studio",
+  "description": "Handpan virtual premium de Walamort",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#150809",
+  "theme_color": "#210a0e",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "../../../favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

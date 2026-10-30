@@ -1,0 +1,11 @@
+/* Walamort · editorial system for Academy, Museo and Test */
+:root{--bg:#210b12;--surface:#34131c;--line:#68404a;--fg:#f9efdf;--muted:#d9c4b7;--mustard:#dcb77c;--orange:#c98052}
+body{background:#eee8d9;color:#292d23;-webkit-font-smoothing:antialiased}
+.site-head{background:rgba(33,11,18,.97);border-bottom:1px solid rgba(220,183,124,.25);backdrop-filter:blur(12px)}
+.site-head .brand{font-family:Georgia,serif;letter-spacing:-.045em;font-size:clamp(1.6rem,3vw,2.1rem)}
+.site-head a[aria-current=page]{color:#f4c68c}
+h1,h2{font-family:Georgia,serif;letter-spacing:-.035em;font-weight:500}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #dfb47a;outline-offset:3px}
+a,button{transition:background .2s,border-color .2s}
+@media(max-width:760px){.site-head{width:100%;min-width:0}.site-head nav{max-width:100%;min-width:0;display:flex;flex-wrap:wrap;gap:8px 18px}.site-head nav a{min-height:42px;display:inline-flex;align-items:center}}
+@media(prefers-reduced-motion:reduce){a,button{transition:none}}

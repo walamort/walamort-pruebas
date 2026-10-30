@@ -1,0 +1,323 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Walamort | Tongue Drum Studio Pro</title><meta name="theme-color" content="#210a0e"><meta name="description" content="Toca, graba y experimenta con el tongue drum virtual de Walamort."><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><link rel="manifest" href="./manifest.webmanifest"><link rel="icon" href="././assets/icon-192.png" sizes="192x192"><link rel="apple-touch-icon" href="././assets/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"><style>
+:root{--orange:#f58a3e;--cream:#fff1de;--gold:#e4b77b;--wine:#210a0e}*{box-sizing:border-box}body{margin:0;background:#17070c;color:var(--cream);font:14px system-ui,Segoe UI,sans-serif}button,select,input{font:inherit}button{cursor:pointer;color:inherit}button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #ffd189;outline-offset:2px}
+.app{max-width:1700px;margin:auto;padding:14px}.hero{position:relative;aspect-ratio:1672/941;overflow:hidden;border:1px solid #5a3329;border-radius:24px;background:#2d0b10}.scene,.drum-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;pointer-events:none}.scene{opacity:.98}.drum-photo{clip-path:circle(22.1% at 50% 48%);transition:filter .4s ease}.tint-warm{filter:none}.tint-bright{filter:grayscale(.75) sepia(.12) hue-rotate(165deg) saturate(.65) brightness(1.05)}.tint-deep{filter:grayscale(.88) brightness(.62) contrast(1.18)}
+/* Live controls replace the controls baked into the concept image */
+.hero::before{content:"";position:absolute;z-index:2;top:0;left:0;right:0;height:11%;background:linear-gradient(90deg,#190908 0%,#240d0c 50%,#1b090a 100%);border-bottom:1px solid #613425}.brand{z-index:3;position:absolute;top:2%;left:3%;font-weight:900;font-size:clamp(13px,2.3vw,35px);letter-spacing:-1px;text-shadow:0 2px 9px #130608}.brand em{color:#f88a40;font-style:normal}.brand small{display:block;font-size:.3em;letter-spacing:.38em;font-weight:500}
+.nav{z-index:3;position:absolute;top:3%;left:35%;display:flex;gap:7px}.nav button{background:#210c0bd9;border:1px solid #75402c;border-radius:18px;padding:8px 14px;font-size:clamp(9px,.85vw,14px)}.nav button.selected{border-color:#f48b45;color:#ffab70}.nav-right{z-index:3;position:absolute;right:3%;top:3%;display:flex;gap:6px}.nav-right button{background:#230e0dd9;border:1px solid #8b533b;border-radius:12px;padding:7px}
+.panel{z-index:3;position:absolute;top:12%;bottom:15%;width:20%;background:linear-gradient(150deg,#2a100ceF,#210e0def);border:1px solid #80513a;border-radius:18px;padding:1.15%;overflow:auto;scrollbar-width:thin;scrollbar-color:#80503d transparent;box-shadow:0 10px 30px #10060588}.left{left:2.5%}.right{right:2.5%}.sect{font-size:clamp(9px,.9vw,14px);letter-spacing:.09em;color:#e5c7ac;margin:2px 0 12px}.option{width:100%;display:flex;align-items:center;gap:9px;text-align:left;border:1px solid #543023;background:#29110df0;border-radius:11px;padding:7px;margin-bottom:7px;min-height:52px}.option.active{border-color:var(--orange);background:#61301d;box-shadow:inset 0 0 10px #e26b2a44}.orb{display:inline-block;flex-shrink:0;width:32px;height:32px;border-radius:50%;background:radial-gradient(circle at 28% 25%,#ffdf9c,#b26a2d 55%,#3b1e15);border:2px solid #b98654}.orb.silver{background:radial-gradient(circle at 25% 25%,#f2f6ff,#667889 55%,#1b2835)}.orb.black{background:radial-gradient(circle at 25% 25%,#9a9998,#363b3e 55%,#080b0d)}.option b{display:block;font-size:clamp(10px,.85vw,14px)}.option small{display:block;font-size:clamp(9px,.72vw,12px);color:#d5b4a5;margin-top:2px}.divider{border-top:1px solid #79513c;margin:13px 0}.setting{margin-bottom:12px}.setting label{display:flex;justify-content:space-between;gap:5px;font-size:clamp(10px,.85vw,14px);margin-bottom:4px}.setting output{color:#ffac71}.setting input[type=range]{width:100%;accent-color:#f78c45;cursor:pointer}.setting select{width:100%;background:#381b16;color:#fff1dd;border:1px solid #80513a;border-radius:8px;padding:7px}.tune{display:flex;gap:6px;align-items:center;justify-content:space-between}.tune button{background:#49261e;border:1px solid #865037;border-radius:6px;padding:5px 10px}.tune output{font-weight:700}.shortcuts{display:grid;grid-template-columns:repeat(4,1fr);gap:5px}.shortcuts button{background:#3b1d17;border:1px solid #6d4032;border-radius:8px;padding:6px 2px;font-weight:800}.shortcuts button.on{background:#e77b37;color:#25100e}.shortcuts small{display:block;font-size:.75em;font-weight:400}
+.hit{position:absolute;z-index:5;width:7.5%;height:12%;transform:translate(-50%,-50%);background:transparent;border:0;border-radius:45%;touch-action:none}.hit::after{content:"";position:absolute;inset:2%;border-radius:45%;opacity:0;background:#ffad49;box-shadow:0 0 22px 9px #ffa438;transition:opacity .12s}.hit.on::after{opacity:.38}.hit:focus-visible{outline:2px solid #f8c17c}
+.bottom{z-index:3;position:absolute;left:2.5%;right:2.5%;bottom:2%;height:10%;background:#200d0cef;border:1px solid #79513a;border-radius:20px;display:flex;align-items:center;justify-content:space-around;gap:5px;padding:8px}.bottom button{background:#351813;border:1px solid #84513a;border-radius:12px;padding:9px 11px;font-size:clamp(9px,.8vw,14px)}.bottom .primary{border-color:#ff873c;color:#ffac75}.tempo{display:flex;align-items:center;gap:8px;font-size:11px}.tempo input{width:100px;accent-color:#fa873d}.status{font-size:12px;color:#f4bc7f;text-align:center;padding:8px}.library{max-width:1700px;margin:0 auto 30px;padding:0 16px}.library details{border:1px solid #6b3b2b;background:#291119;border-radius:14px;padding:14px}.library summary{cursor:pointer;color:#e9c391;font-weight:700}.library-row{display:flex;justify-content:space-between;align-items:center;gap:8px;border-top:1px solid #5c3027;padding:9px}.library button{background:#49241f;border:1px solid #855039;border-radius:8px;padding:7px}.hint{color:#cda99c;font-size:12px;line-height:1.5}
+@media(max-width:950px){.hero{aspect-ratio:auto;min-height:0;overflow:visible;background:#2b1012;display:flex;flex-direction:column;padding:10px;gap:10px}.hero::before{display:none}.scene{position:relative;aspect-ratio:1672/941;order:1;border-radius:12px}.drum-photo{position:absolute;top:10px;left:10px;width:calc(100% - 20px);height:auto;aspect-ratio:1672/941;z-index:1}.brand,.nav,.nav-right,.panel,.bottom{position:relative;top:auto;left:auto;right:auto;bottom:auto;width:auto;height:auto;z-index:6}.brand{order:0;font-size:24px}.nav{order:2;justify-content:center;flex-wrap:wrap}.nav-right{order:3;justify-content:center}.panel{order:4;max-height:none;padding:16px}.left{order:4}.right{order:5}.bottom{order:6;flex-wrap:wrap;justify-content:center;padding:12px}.hit{z-index:7;width:8%;height:6%;transform:translate(-50%,-50%)}.option b,.option small,.sect,.setting label{font-size:13px}.option{min-height:58px}.scene{pointer-events:none}.drum-photo{pointer-events:none}}
+
+/* WALAMORT STUDIO V6 — Precision audio hardware visual language */
+:root{--orange:#d98950;--cream:#f2e4d4;--gold:#c9a37d;--muted:#a99588}
+.hero{border-color:#493027;box-shadow:0 25px 85px #0008}
+.panel{background:#1b0d0c!important;border:1px solid #624238;border-radius:14px;box-shadow:0 16px 38px #0009,inset 0 1px 0 #cba78a16;scrollbar-color:#745141 #1b0d0c}
+.panel::before{content:none}
+.sect{color:#c5a791;letter-spacing:.16em;font-weight:650;font-size:clamp(9px,.78vw,12px)}
+.option{position:relative;background:#24120f!important;border:1px solid #55392f;border-radius:10px;min-height:58px;padding:9px 10px;transition:background .18s,border-color .18s,box-shadow .18s;box-shadow:inset 0 1px 0 #ffffff08}
+.option:hover{background:#302019!important;border-color:#967058}
+.option.active{background:linear-gradient(110deg,#382118,#301c15)!important;border-color:#bd845a;box-shadow:inset 3px 0 0 #db955c,0 0 0 1px #bb805022}
+.option b{color:#f4e7d9;font-weight:650;letter-spacing:.005em}
+.option small{color:#ad9789;line-height:1.35}
+.orb{width:33px;height:33px;border:1px solid #b78c61;box-shadow:inset -5px -6px 10px #0007,inset 3px 3px 7px #fff4,0 2px 8px #0009;background:radial-gradient(circle at 32% 24%,#ebc18b,#a36b3e 52%,#442618)}
+.orb.silver{background:radial-gradient(circle at 30% 24%,#e5eaf0,#7b8995 50%,#29333d)}
+.orb.black{background:radial-gradient(circle at 30% 24%,#a6a9a8,#3c4143 47%,#14181a)}
+.option span[style*="font-size:24px"]{font-size:21px!important;width:33px;text-align:center;color:#d7aa7c;font-family:Georgia,serif;font-weight:400;text-shadow:0 1px 4px #0009}
+.divider{border-top:1px solid #4a3028;margin:17px 0}
+.setting{margin-bottom:18px}
+.setting label{font-weight:500;color:#d8c3b5;letter-spacing:.015em;margin-bottom:9px}
+.setting output{color:#d8a577;font-variant-numeric:tabular-nums}
+.setting input[type=range],.tempo input[type=range]{-webkit-appearance:none;appearance:none;display:block;height:5px;border-radius:99px;background:linear-gradient(90deg,#c78050,#b16c42);border:1px solid #3b251f;box-shadow:inset 0 1px 3px #0009;cursor:pointer;outline-offset:7px}
+.setting input[type=range]::-webkit-slider-thumb,.tempo input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:15px;height:19px;border-radius:4px;background:linear-gradient(145deg,#e6c5a5,#a67c5d 52%,#5b3c2c);border:1px solid #e2b58b;box-shadow:0 2px 5px #000b,inset 0 1px 1px #fff5;cursor:ew-resize}
+.setting input[type=range]::-moz-range-thumb,.tempo input[type=range]::-moz-range-thumb{width:15px;height:19px;border-radius:4px;background:linear-gradient(145deg,#e6c5a5,#a67c5d 52%,#5b3c2c);border:1px solid #e2b58b;box-shadow:0 2px 5px #000b;cursor:ew-resize}
+.setting select{appearance:none;background:#281712;color:#e8d8c9;border:1px solid #745140;border-radius:8px;padding:12px 30px 12px 11px;font-weight:550;box-shadow:inset 0 1px 3px #0007;cursor:pointer}
+.tune button{min-width:33px;height:34px;border-radius:7px;border:1px solid #75503e;background:linear-gradient(#3b2820,#281710);box-shadow:inset 0 1px 0 #ffffff18,0 2px 5px #0007;color:#dfc4aa}
+.tune button:hover{border-color:#c38a62;background:#493022}
+.tune output{color:#e8b185;font-weight:650;letter-spacing:.03em}
+.shortcuts{gap:6px}
+.shortcuts button{border:1px solid #5d4235;border-bottom:3px solid #39231b;border-radius:7px;background:linear-gradient(#38251e,#261710);color:#efe0d1;min-height:47px;box-shadow:inset 0 1px 0 #ffffff15,0 3px 6px #0005;transition:transform .08s,border-color .12s}
+.shortcuts button:hover{border-color:#b78b69}
+.shortcuts button.on{transform:translateY(2px);background:linear-gradient(#9d6544,#75442f);border-color:#dba57c;color:#fff5e9}
+.shortcuts small{color:#c2a99a;margin-top:2px}
+.bottom{background:#1b0d0c!important;border-color:#6b493a;box-shadow:0 8px 24px #0009}
+.bottom button,.nav button,.nav-right button{background:linear-gradient(180deg,#36231c,#22130e);border:1px solid #78503d;color:#e8d6c7;border-radius:9px;box-shadow:inset 0 1px 0 #ffffff12,0 2px 7px #0006;transition:background .15s,border-color .15s,transform .1s}
+.bottom button:hover,.nav button:hover,.nav-right button:hover{background:#493025;border-color:#c28a60}
+.bottom button:active,.nav button:active{transform:translateY(1px)}
+.bottom .primary,.nav button.selected{background:linear-gradient(180deg,#563121,#3b2018);border-color:#ba7c4c;color:#f3bd8c}
+.nav{gap:9px}.nav button{border-radius:9px;padding:8px 15px}
+.brand{letter-spacing:-.06em}.brand small{letter-spacing:.26em}
+@media(max-width:950px){.panel{background:#1b0d0c!important}.option b,.option small,.sect,.setting label{font-size:13px}.bottom{background:#1b0d0c!important}}
+
+/* V7 — cohesive studio-console design system */
+:root{--orange:#bd8056;--cream:#f1e5d7;--gold:#cba37c;--muted:#aa9587;--surface:#1c100e;--surface-raised:#2b1b16;--edge:#614637;--accent:#d79a6a}
+body{background:radial-gradient(ellipse at 50% -20%,#3c1b18 0%,#17090b 64%);font-family:Inter,"Segoe UI",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.hero{border-radius:20px;border-color:#654534;box-shadow:0 30px 90px #0009,0 0 0 1px #d6a4780b}
+.hero::before{height:11.4%;background:linear-gradient(100deg,#1d0e0b 0%,#27120e 50%,#1b0d0b 100%);border-bottom:1px solid #6c4b36;box-shadow:0 8px 24px #0006}
+.brand{font-size:clamp(14px,2.1vw,32px);letter-spacing:-.045em;font-weight:800;color:#f6e9d9}.brand em{color:#d9915d}.brand small{font-size:.28em;letter-spacing:.28em;color:#d1ac8a;margin-top:1px}
+.panel{background:#1d100e!important;border-color:#604638;border-radius:13px;padding:1.3%;box-shadow:0 14px 40px #000b,inset 0 1px 0 #ffffff0b}
+.sect{font-weight:700;font-size:clamp(9px,.75vw,12px);letter-spacing:.13em;color:#d2b395;margin-bottom:12px}
+.option{min-height:62px;background:#251713!important;border:1px solid #49372e;border-radius:9px;padding:10px 11px;gap:12px;box-shadow:inset 0 1px 0 #ffffff08;transition:background .16s,border-color .16s,transform .1s}
+.option:hover{background:#32221c!important;border-color:#937058}.option:active{transform:translateY(1px)}
+.option.active{background:#352119!important;border-color:#a97755;box-shadow:inset 2px 0 0 #e0a273,inset 0 1px 0 #ffffff0d}
+.option b{font-weight:650;font-size:clamp(10px,.81vw,13px);line-height:1.35}.option small{font-size:clamp(9px,.7vw,11px);color:#ad998a}
+.orb{width:35px;height:35px;border:1px solid #9e7653;box-shadow:inset -5px -6px 9px #0008,inset 3px 3px 8px #fff3,0 2px 7px #0008}
+.option span[style*="font-size:24px"]{display:grid;place-items:center;flex:0 0 35px;width:35px;height:35px;font-family:Georgia,serif;font-size:13px!important;letter-spacing:.04em;border-radius:50%;border:1px solid #79553c;background:radial-gradient(circle at 30% 20%,#55402e,#251710 78%);color:#e2b98b;text-shadow:none;box-shadow:inset 0 1px 2px #ffffff16,0 2px 7px #0007}
+.divider{border-color:#49372d;margin:18px 0}.setting{margin-bottom:17px}.setting label{color:#dac8b8;font-size:clamp(10px,.79vw,13px);font-weight:550;margin-bottom:10px}.setting output{color:#e0ac7d;font-weight:650}
+.setting input[type=range],.tempo input[type=range]{height:5px;background:#43332a;border:1px solid #6a4d3b;box-shadow:inset 0 1px 2px #000b;accent-color:#c98c5f}
+.setting input[type=range]::-webkit-slider-thumb,.tempo input[type=range]::-webkit-slider-thumb{width:14px;height:18px;border-radius:3px;background:linear-gradient(100deg,#8b654c,#f0c49c 44%,#946b50);border:1px solid #e0b78f;box-shadow:0 2px 5px #000a,inset 1px 0 0 #fff6}
+.setting input[type=range]::-moz-range-thumb,.tempo input[type=range]::-moz-range-thumb{width:14px;height:18px;border-radius:3px;background:linear-gradient(100deg,#8b654c,#f0c49c 44%,#946b50);border:1px solid #e0b78f}
+.setting select{background:#2a1b16;border:1px solid #735442;border-radius:7px;padding:11px;color:#f1dfce;box-shadow:inset 0 1px 3px #0007}
+.tune button{border-radius:6px;background:#322019;border:1px solid #75533f;color:#e2c5aa}.tune output{font-variant-numeric:tabular-nums;font-size:clamp(13px,1.1vw,18px);font-weight:650;color:#e9b587}
+.shortcuts{gap:7px}.shortcuts button{min-height:46px;border:1px solid #634839;border-bottom:2px solid #3b2920;border-radius:6px;background:linear-gradient(#38261e,#291b15);box-shadow:inset 0 1px 0 #ffffff10,0 3px 6px #0005;font-size:14px}.shortcuts small{font-size:10px;color:#bca797}.shortcuts button.on{background:#86573e;border-color:#d5a37b}
+.nav{gap:5px;align-items:center}.nav button{background:transparent;border:1px solid transparent;border-radius:6px;box-shadow:none;color:#d8bba6;font-weight:600;letter-spacing:.02em}.nav button:hover{background:#3d261d;border-color:#6b4c38}.nav button.selected{background:#43271c;border-color:#9e6747;color:#f2d1ae;box-shadow:inset 0 -2px 0 #c58b5e}
+.nav-right button{border-radius:6px;background:#302019;border-color:#70513e;box-shadow:none}
+.bottom{border-radius:13px;background:#1e110e!important;border:1px solid #70503c;box-shadow:0 10px 35px #000a;padding:9px 12px;gap:8px}
+.bottom button{font-weight:600;letter-spacing:.01em;border-radius:7px;background:#30201a;border:1px solid #654a39;box-shadow:inset 0 1px 0 #ffffff10;white-space:nowrap}
+.bottom button:hover{background:#422a20;border-color:#ab7855}.bottom .primary{background:#493024;border-color:#a67451;color:#f1c6a2}
+.tempo label{color:#e0c6b2;font-variant-numeric:tabular-nums}
+.status{color:#c9a17f;letter-spacing:.015em}.library details{background:#221310;border-color:#634736}.library summary{color:#e1b98d}
+@media(max-width:950px){.hero{border-radius:15px}.panel{padding:16px!important}.option b{font-size:13px}.option small{font-size:12px}.sect,.setting label{font-size:12px}.nav{background:#23120f;padding:8px;border-radius:10px}.hero::before{display:none}}
+
+/* WALAMORT V8 — coherent studio-grade control system */
+:root{--surface:#1b1011;--surface-hi:#302020;--edge:#644338;--edge-soft:#48312c;--metal:#c9a37c;--active:#e6a06a}
+.panel{background:linear-gradient(145deg,#241518 0%,#170e11 100%)!important;border:1px solid #63473a!important;box-shadow:inset 0 1px 0 #8d625c33,0 14px 34px #080405bb!important;backdrop-filter:none;border-radius:16px}
+.sect{color:#d7b69b!important;font-size:clamp(10px,.78vw,12px)!important;letter-spacing:.16em!important;font-weight:650;margin:3px 0 14px!important}
+.option{background:linear-gradient(145deg,#28191a,#1b1113)!important;border:1px solid #4f3933!important;border-radius:11px!important;padding:10px 11px!important;margin-bottom:8px!important;min-height:59px!important;box-shadow:inset 0 1px 0 #ffffff0a,0 2px 5px #0b06073d;transition:border-color .16s,background .16s,box-shadow .16s,transform .12s}
+.option:hover{border-color:#a27b61!important;background:linear-gradient(145deg,#352322,#201416)!important}
+.option:active{transform:translateY(1px)}
+.option.active{border-color:#bd855d!important;background:linear-gradient(135deg,#513329,#2d1e1d)!important;box-shadow:inset 0 1px 0 #f3c69e33,inset 3px 0 0 #e2a36e,0 0 0 1px #4c2d21!important}
+.option b{font-size:clamp(11px,.84vw,14px)!important;font-weight:650;letter-spacing:.01em}
+.option small{color:#bfa79b!important;font-size:clamp(10px,.71vw,12px)!important;line-height:1.35}
+.orb{width:33px!important;height:33px!important;border:1px solid #e4b88588!important;box-shadow:inset -4px -5px 9px #0008,inset 2px 2px 4px #fff5,0 2px 6px #0008}
+.divider{border-color:#5b4038!important;margin:17px 0!important}
+.setting{margin-bottom:17px!important}
+.setting label{font-size:clamp(11px,.8vw,13px)!important;color:#dfc9bc;letter-spacing:.012em;margin-bottom:8px!important}
+.setting output{font-variant-numeric:tabular-nums;color:#edbc91!important;font-weight:600}
+.setting input[type=range],.tempo input[type=range]{appearance:none;-webkit-appearance:none;background:transparent;height:21px;cursor:pointer;margin:0}
+.setting input[type=range]::-webkit-slider-runnable-track,.tempo input[type=range]::-webkit-slider-runnable-track{height:5px;border-radius:20px;background:linear-gradient(90deg,#b6784e,#55413a);border:1px solid #a07d6633;box-shadow:inset 0 1px 2px #0009}
+.setting input[type=range]::-moz-range-track,.tempo input[type=range]::-moz-range-track{height:5px;border-radius:20px;background:#846047}
+.setting input[type=range]::-webkit-slider-thumb,.tempo input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:15px;height:21px;border-radius:5px;margin-top:-9px;background:linear-gradient(90deg,#a4795a,#f0c39b 40%,#a07152 70%,#62402e);border:1px solid #d5a77e;box-shadow:0 2px 6px #000b,inset 0 1px 0 #ffedcb8a}
+.setting input[type=range]::-moz-range-thumb,.tempo input[type=range]::-moz-range-thumb{width:14px;height:20px;border-radius:5px;background:linear-gradient(90deg,#9a6c4f,#e9bc93,#7b4e38);border:1px solid #d5a77e}
+.setting select{background:#27191a!important;border:1px solid #705044!important;border-radius:9px!important;padding:11px 9px!important;box-shadow:inset 0 1px 3px #0005;font-weight:550}
+.tune{background:#241719;border:1px solid #5c4038;border-radius:10px;padding:5px}
+.tune button{background:linear-gradient(#44302c,#291c1d)!important;border:1px solid #735447!important;border-radius:7px!important;min-width:33px;min-height:32px;box-shadow:inset 0 1px 0 #f7d0a21f,0 2px 3px #0006}
+.tune button:hover{border-color:#d09a73!important}
+.shortcuts{gap:7px!important}
+.shortcuts button{background:linear-gradient(#3a2928,#211719)!important;border:1px solid #6a4d42!important;border-bottom:3px solid #3e2924!important;border-radius:8px!important;min-height:49px;color:#f0e0d0;box-shadow:inset 0 1px 0 #fff2,0 2px 4px #0006;transition:transform .09s,background .09s}
+.shortcuts button:hover{border-color:#b68b70!important}
+.shortcuts button.on{background:linear-gradient(#bd8052,#6b3e2c)!important;transform:translateY(2px);border-bottom-width:1px!important;color:#fff6e9}
+.bottom{background:#1e1214f5!important;border-color:#745347!important;box-shadow:inset 0 1px 0 #ffffff1a,0 7px 25px #080305bb}
+.bottom button,.nav button,.nav-right button{background:linear-gradient(#382524,#211517)!important;border:1px solid #79574b!important;box-shadow:inset 0 1px 0 #ffddbb17,0 2px 5px #0005;transition:background .15s,border-color .15s}
+.bottom button:hover,.nav button:hover,.nav-right button:hover{background:linear-gradient(#50352c,#2c1b1b)!important;border-color:#b78a6d!important}
+.bottom button.primary,.nav button.selected{border-color:#c18a5e!important;color:#ffd1a4!important;background:linear-gradient(#493027,#2b1b19)!important}
+button{touch-action:manipulation}
+
+/* V10 — independently functioning, dismissible scale selector */
+.scale-setting{position:relative}
+.scale-menu{position:relative}
+.scale-trigger{width:100%;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 13px;border:1px solid #8d634d;border-radius:10px;background:linear-gradient(#342325,#24181b);color:#f5e6d7;font-weight:650;text-align:left;box-shadow:inset 0 1px 0 #ffffff12}
+.scale-trigger span{color:#e5b38b;font-size:19px;transition:transform .18s}
+.scale-trigger[aria-expanded=true] span{transform:rotate(180deg)}
+.scale-choices{position:relative;z-index:20;margin-top:7px;padding:5px;border:1px solid #a0785b;border-radius:10px;background:#241719;box-shadow:0 10px 20px #0804058c}
+.scale-choices[hidden]{display:none!important}
+.scale-choices button{width:100%;text-align:left;display:block;padding:11px 12px;border:0;border-radius:7px;background:transparent;color:#f5e8d9;font-weight:600}
+.scale-choices button:hover,.scale-choices button:focus-visible{background:#54372c}
+.scale-choices small{display:block;font-size:10px;color:#c5a997;font-weight:400;margin-top:3px}
+.keyboard-dock{max-width:1700px;margin:0 auto;padding:17px 22px;display:flex;gap:25px;align-items:center;justify-content:space-between;background:linear-gradient(120deg,#211316,#1b1113);border:1px solid #63473a;border-radius:14px}
+.keyboard-dock strong{font-size:12px;letter-spacing:.15em;color:#e6bb97}
+.keyboard-dock p{font-size:12px;color:#c6aca0;margin:6px 0 0}
+.keyboard-dock .shortcuts{display:grid;grid-template-columns:repeat(8,minmax(48px,65px));gap:7px}
+.keyboard-dock .shortcuts button{min-height:55px;font-size:17px}
+.keyboard-dock .shortcuts small{font-size:11px;margin-top:3px;color:#d8c4b6}
+@media(max-width:950px){.keyboard-dock{flex-direction:column;align-items:stretch;margin:10px}.keyboard-dock .shortcuts{grid-template-columns:repeat(8,minmax(0,1fr))}}
+@media(max-width:560px){.keyboard-dock .shortcuts{grid-template-columns:repeat(4,minmax(0,1fr))}}
+
+/* Identidad Walamort: marca compartida, estudio con carácter propio */
+.brand{font-family:'Poppins','Helvetica Neue',Arial,sans-serif;font-weight:700;letter-spacing:-.02em;color:#FBEFD9;text-shadow:none;line-height:1.2}
+.brand em{color:#F2762E}
+.brand small{font-family:'Poppins','Helvetica Neue',Arial,sans-serif;color:#E8B54D;letter-spacing:.32em;font-size:.28em;font-weight:500;margin-top:3px}
+.nav button.selected,.bottom .primary{border-color:#F2762E;color:#FBEFD9;background:#5a2417}
+.nav button.selected{box-shadow:inset 0 -2px 0 #F2762E}
+.option.active{border-color:#F2762E}
+.setting input[type=range],.tempo input{accent-color:#F2762E}
+.shortcuts button.on{background:#F2762E;color:#2B0D14}
+</style><meta name="robots" content="noindex,nofollow"></head><body>
+<div class="app"><div class="hero" id="hero">
+<img class="scene" id="scene" alt="Escena fotorrealista Walamort Tongue Drum Studio" src="./assets/material-1.png">
+
+<div class="brand">Wala<em>mort</em><small>TONGUE DRUM STUDIO</small></div>
+<div class="nav"><button data-tab="Tocar" class="selected">Tocar</button><button data-tab="Explorar">Explorar</button><button data-tab="Melodías">Melodías</button><button data-tab="Ajustes">Ajustes</button></div>
+<div class="nav-right"><button id="theme" title="Cambiar iluminación">☼</button><button id="lang" title="Idioma">ES</button></div>
+<aside class="panel left"><div class="sect">INSTRUMENTO</div>
+<button class="option active" data-model="warm"><span class="orb"></span><span><b>Acero cálido</b><small>Equilibrado y versátil</small></span></button>
+<button class="option" data-model="bright"><span class="orb silver"></span><span><b>Acero brillante</b><small>Claro y definido</small></span></button>
+<button class="option" data-model="deep"><span class="orb black"></span><span><b>Resonancia profunda</b><small>Grave y envolvente</small></span></button>
+<div class="divider"></div><div class="sect">TÉCNICA DE INTERPRETACIÓN</div>
+<button class="option active" data-tech="hand"><span style="font-size:24px">◌</span><span><b>Manos</b><small>Suave y cálido</small></span></button>
+<button class="option" data-tech="soft"><span style="font-size:24px">✧</span><span><b>Baquetas blandas</b><small>Redondo y armónico</small></span></button>
+<button class="option" data-tech="hard"><span style="font-size:24px">╱</span><span><b>Baquetas duras</b><small>Marcado y brillante</small></span></button>
+</aside>
+<aside class="panel right"><div class="sect">SONIDO</div>
+<div class="setting"><label>Volumen <output id="volout">75%</output></label><input id="volume" type="range" min="0" max="100" value="75"></div>
+<div class="setting"><label>Resonancia <output id="decayout">68%</output></label><input id="decay" type="range" min="0" max="100" value="68"></div>
+<div class="setting"><label>Brillo <output id="brightout">50%</output></label><input id="bright" type="range" min="0" max="100" value="50"></div>
+<div class="setting"><label>Ambiente <output id="spaceout">28%</output></label><input id="space" type="range" min="0" max="100" value="28"></div>
+<div class="setting"><label>Reverb <output id="reverbout">24%</output></label><input id="reverb" type="range" min="0" max="100" value="24"></div>
+<div class="setting"><label>Delay <output id="delayout">0%</output></label><input id="delay" type="range" min="0" max="100" value="0"></div>
+<div class="divider"></div><div class="sect">ESCALA Y AFINACIÓN</div>
+<div class="setting scale-setting"><select id="scale" hidden aria-hidden="true"><option value="minor">Re menor</option><option value="major">Do mayor</option><option value="pent">Re pentatónica</option></select>
+<div class="scale-menu" id="scaleMenu"><button type="button" class="scale-trigger" id="scaleTrigger" aria-expanded="false" aria-controls="scaleChoices">Re menor <span aria-hidden="true">⌄</span></button>
+<div class="scale-choices" id="scaleChoices" hidden role="group" aria-label="Elegir escala musical">
+<button type="button" data-scale-choice="minor">Re menor <small>Re · Fa · Sol · La · Do</small></button>
+<button type="button" data-scale-choice="major">Do mayor <small>Do · Mi · Sol · La</small></button>
+<button type="button" data-scale-choice="pent">Re pentatónica <small>Re · Fa · La · Do</small></button>
+</div></div></div>
+<div class="setting"><label>Afinación A4</label><div class="tune"><button id="minus">−</button><output id="hz">432 Hz</output><button id="plus">+</button></div></div>
+
+</aside>
+<div class="bottom"><button id="record">● Grabar</button><button id="play">▶ Reproducir</button><button id="stop">■ Detener</button><div class="tempo"><label>Tempo <output id="bpm">90</output> BPM</label><input id="tempo" type="range" min="45" max="160" value="90"></div><button id="random" class="primary">⤨ Melodía aleatoria</button><button id="save" class="primary">◇ Guardar melodía</button><button id="more" title="Melodías guardadas">•••</button></div>
+</div></div>
+<section class="keyboard-dock"><div><strong>TECLADO MUSICAL</strong><p>Usa estas teclas para tocar. Las notas aparecen con sus nombres en español.</p></div><div class="shortcuts" id="shortcuts"></div></section>
+<div class="status" id="status">Toca una lengüeta o pulsa A S D F G H J K · Audio disponible al interactuar</div>
+<div class="library"><details id="details"><summary>Mis melodías y grabaciones</summary><div id="saved"></div><p class="hint">Se guardan en este navegador. El audio es una simulación sintetizada; las muestras acústicas reales se podrán añadir después.</p><button id="clear">Limpiar melodía actual</button></details></div>
+<script>
+(()=>{
+const $=id=>document.getElementById(id),root=$('hero'),keys='asdfghjk',names={minor:['D3','F3','G3','A3','C4','D4','F4','G4'],major:['C3','E3','G3','A3','C4','E4','G4','A4'],pent:['D3','F3','A3','C4','D4','F4','G4','A4']},freq={minor:[146.83,174.61,196,220,261.63,293.66,349.23,392],major:[130.81,164.81,196,220,261.63,329.63,392,440],pent:[146.83,174.61,220,261.63,293.66,349.23,392,440]};
+const scenes={warm:document.getElementById('scene').src,bright:'./assets/material-2.webp',deep:'./assets/material-3.webp'};let model='warm',tech='hand',hz=432,audio,seq=[],saved=[],recording=false,start=0,playing=false,timers=[],held=new Set(),night=false;
+const positions=[[38.1,46.7],[41.3,31.3],[49.4,23.4],[58.3,30.5],[61.2,47.2],[58,65],[49.3,71.2],[41.3,65]];
+// Desktop hit zones use percentage of the source scene; mobile layout repositions them against the scene image.
+const hits=[];
+positions.forEach(([x,y],i)=>{let b=document.createElement('button');b.className='hit';b.setAttribute('aria-label','Tocar '+names.minor[i]);b.dataset.index=i;b.style.left=x+'%';b.style.top=y+'%';b.addEventListener('pointerdown',e=>{e.preventDefault();strike(i)});root.append(b);hits.push(b)});
+const spanish={minor:['Re','Fa','Sol','La','Do','Re','Fa','Sol'],major:['Do','Mi','Sol','La','Do','Mi','Sol','La'],pent:['Re','Fa','La','Do','Re','Fa','Sol','La']};
+const kb=$('shortcuts');keys.split('').forEach((k,i)=>{let b=document.createElement('button');b.innerHTML=k.toUpperCase()+'<small>'+spanish.minor[i]+'</small>';b.setAttribute('aria-label','Tecla '+k.toUpperCase()+', nota '+spanish.minor[i]);b.addEventListener('pointerdown',e=>{e.preventDefault();strike(i)});kb.append(b)});
+function status(t){$('status').textContent=t}
+let fx=null;
+function context(){
+  const C=window.AudioContext||window.webkitAudioContext;
+  if(!C){status('Este navegador no permite audio');return null}
+  if(!audio)audio=new C({latencyHint:'interactive'});
+  if(audio.state==='suspended')audio.resume().catch(()=>{});
+  if(!fx){
+    const c=audio;
+    const input=c.createGain(),dry=c.createGain(),pre=c.createBiquadFilter(),
+          convolver=c.createConvolver(),reverbWet=c.createGain(),
+          delayNode=c.createDelay(1.5),feedback=c.createGain(),delayWet=c.createGain(),
+          delayFilter=c.createBiquadFilter(),master=c.createDynamicsCompressor();
+    master.threshold.value=-12;master.knee.value=15;master.ratio.value=3;master.attack.value=.003;master.release.value=.18;
+    pre.type='lowpass';pre.frequency.value=9000;
+    delayFilter.type='lowpass';delayFilter.frequency.value=2600;
+    const duration=2.8,frames=Math.floor(c.sampleRate*duration),impulse=c.createBuffer(2,frames,c.sampleRate);
+    for(let ch=0;ch<2;ch++){
+      const a=impulse.getChannelData(ch);
+      for(let j=0;j<frames;j++){
+        let t=j/c.sampleRate;
+        a[j]=(Math.random()*2-1)*Math.pow(1-t/duration,2.6)*.65;
+      }
+    }
+    convolver.buffer=impulse;
+    input.connect(dry);dry.connect(master);
+    input.connect(pre);pre.connect(convolver);convolver.connect(reverbWet);reverbWet.connect(master);
+    input.connect(delayNode);delayNode.connect(delayFilter);delayFilter.connect(delayWet);delayWet.connect(master);
+    delayFilter.connect(feedback);feedback.connect(delayNode);
+    master.connect(c.destination);
+    fx={input,dry,pre,reverbWet,delayNode,feedback,delayWet};
+  }
+  updateFX();
+  return audio;
+}
+function updateFX(){
+  if(!fx||!audio)return;
+  const now=audio.currentTime;
+  const space=+$('space').value/100,reverb=+$('reverb').value/100,delay=+$('delay').value/100;
+  // Ambiente adjusts the room's early reflections; reverb sets the long tail.
+  fx.reverbWet.gain.setTargetAtTime(Math.min(.95,.04+space*.22+reverb*.7),now,.025);
+  fx.pre.frequency.setTargetAtTime(2100+space*6500,now,.04);
+  fx.delayWet.gain.setTargetAtTime(delay*.58,now,.025);
+  fx.feedback.gain.setTargetAtTime(delay*.57,now,.04);
+  fx.delayNode.delayTime.setTargetAtTime(Math.min(.8,60/(+$('tempo').value)*.5),now,.03);
+}
+function tone(i){
+  const c=context();if(!c)return;
+  const f=freq[$('scale').value][i]*hz/440,now=c.currentTime,
+        vol=+$('volume').value/100,bright=+$('bright').value/100,
+        dec=+$('decay').value/100,
+        dur=(.55+3.3*dec)*(model==='deep'?1.3:1),
+        attack=tech==='hand'?.023:tech==='soft'?.009:.003,
+        partials=model==='bright'?[1,2.02,3.98,5.1,6.7]:
+                 model==='deep'?[1,1.99,3.02,4.5]:
+                 [1,2.006,3.87,5.1,6.6];
+  partials.forEach((p,j)=>{
+    const o=c.createOscillator(),g=c.createGain(),filter=c.createBiquadFilter();
+    o.type='sine';
+    o.frequency.setValueAtTime(f*p,now);
+    o.frequency.exponentialRampToValueAtTime(f*p*.998,now+.8);
+    filter.type='lowpass';
+    filter.frequency.value=400+bright*11000+(tech==='hard'?1500:0);
+    // Brillo now controls both filter cutoff AND upper partial strength.
+    const spectral=j===0?1:Math.pow(.07+bright*1.6,j*.78);
+    const level=Math.max(.00002,vol*(tech==='hand'?.19:.22)*spectral/Math.pow(j+1,1.35));
+    const len=dur/(1+j*.48);
+    g.gain.setValueAtTime(.00001,now);
+    g.gain.exponentialRampToValueAtTime(Math.max(.00002,level),now+attack);
+    g.gain.exponentialRampToValueAtTime(.00001,now+len);
+    o.connect(filter);filter.connect(g);g.connect(fx.input);
+    o.start(now);o.stop(now+len+.06);
+  });
+  // A short transient adds realistic definition for hard mallets.
+  if(tech==='hard'||tech==='soft'){
+    const length=tech==='hard'?.012:.026,buffer=c.createBuffer(1,Math.max(1,Math.floor(c.sampleRate*length)),c.sampleRate);
+    const data=buffer.getChannelData(0);
+    for(let k=0;k<data.length;k++)data[k]=(Math.random()*2-1)*Math.exp(-7*k/data.length);
+    const noise=c.createBufferSource(),high=c.createBiquadFilter(),gain=c.createGain();
+    noise.buffer=buffer;high.type='highpass';high.frequency.value=tech==='hard'?2400:900;
+    gain.gain.value=vol*(tech==='hard'?.05:.016);
+    noise.connect(high);high.connect(gain);gain.connect(fx.input);
+    noise.start(now);
+  }
+}
+function strike(i,playback=false){tone(i);hits[i].classList.add('on');kb.children[i].classList.add('on');setTimeout(()=>{hits[i].classList.remove('on');kb.children[i].classList.remove('on')},260);status('♪ '+spanish[$('scale').value][i]+' · '+(tech==='hand'?'Manos':tech==='soft'?'Baquetas blandas':'Baquetas duras'));if(!playback){seq.push({n:i,t:recording?performance.now()-start:seq.length*60000/(+$('tempo').value)});}}
+function stop(){timers.forEach(clearTimeout);timers=[];playing=false;$('play').textContent='▶ Reproducir'}
+function play(events){stop();if(!events.length){status('Toca algunas notas o genera una melodía');return}playing=true;$('play').textContent='Ⅱ Pausar';let first=events[0].t;events.forEach(e=>timers.push(setTimeout(()=>{if(playing)strike(e.n,true)},Math.max(0,e.t-first))));timers.push(setTimeout(stop,Math.max(1000,events[events.length-1].t-first+1000)))}
+function persist(){try{localStorage.setItem('walamort-premium-v4',JSON.stringify(saved))}catch(e){status('No se pudo guardar en este navegador')}}
+function renderSaved(){let box=$('saved');box.replaceChildren();saved.forEach((m,i)=>{let r=document.createElement('div');r.className='library-row';let s=document.createElement('span');s.textContent=m.name+' · '+m.events.length+' notas';let a=document.createElement('div'),p=document.createElement('button'),d=document.createElement('button');p.textContent='▶';p.onclick=()=>play(m.events);d.textContent='Eliminar';d.onclick=()=>{saved.splice(i,1);persist();renderSaved()};a.append(p,d);r.append(s,a);box.append(r)});if(!saved.length)box.textContent='Todavía no hay melodías guardadas.'}
+document.querySelectorAll('[data-model]').forEach(b=>b.onclick=()=>{model=b.dataset.model;document.querySelectorAll('[data-model]').forEach(x=>x.classList.toggle('active',x===b));$('scene').src=scenes[model];status('Instrumento: '+b.querySelector('b').textContent)});
+document.querySelectorAll('[data-tech]').forEach(b=>b.onclick=()=>{tech=b.dataset.tech;document.querySelectorAll('[data-tech]').forEach(x=>x.classList.toggle('active',x===b));status('Técnica: '+b.querySelector('b').textContent)});
+['volume','decay','bright','space','reverb','delay'].forEach(id=>$(id).oninput=()=>{ $(id+'out').textContent=$(id).value+'%';updateFX();});
+document.querySelectorAll('input[type=range],select').forEach(control=>{
+  control.addEventListener('pointerup',()=>{if(document.activeElement===control)control.blur()});
+  control.addEventListener('change',()=>{if(document.activeElement===control)control.blur()});
+});
+$('tempo').oninput=()=>{$('bpm').textContent=$('tempo').value;updateFX()};
+const trigger=$('scaleTrigger'),choices=$('scaleChoices');
+function closeScale(){choices.hidden=true;trigger.setAttribute('aria-expanded','false')}
+trigger.addEventListener('click',()=>{const open=choices.hidden;choices.hidden=!open;trigger.setAttribute('aria-expanded',String(open))});
+document.querySelectorAll('[data-scale-choice]').forEach(btn=>btn.addEventListener('click',()=>{
+  $('scale').value=btn.dataset.scaleChoice;
+  trigger.firstChild.textContent=btn.childNodes[0].textContent.trim()+' ';
+  closeScale();$('scale').dispatchEvent(new Event('change'));
+}));
+document.addEventListener('pointerdown',e=>{if(!e.target.closest('#scaleMenu'))closeScale()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeScale()});
+$('scale').onchange=()=>{[...kb.children].forEach((b,i)=>b.querySelector('small').textContent=spanish[$('scale').value][i]);hits.forEach((b,i)=>b.setAttribute('aria-label','Tocar '+names[$('scale').value][i]));status('Escala: '+$('scale').selectedOptions[0].textContent)};
+function setHz(n){hz=Math.min(460,Math.max(415,n));$('hz').textContent=hz+' Hz'}$('minus').onclick=()=>setHz(hz-1);$('plus').onclick=()=>setHz(hz+1);
+$('random').onclick=()=>{let step=60000/(+$('tempo').value);seq=Array.from({length:12},(_,i)=>({n:Math.floor(Math.random()*8),t:i*step}));play(seq.slice())};
+$('record').onclick=()=>{recording=!recording;if(recording){stop();seq=[];start=performance.now();$('record').textContent='■ Finalizar grabación';status('● Grabando')}else{$('record').textContent='● Grabar';status('Grabación terminada')}};
+$('play').onclick=()=>playing?stop():play(seq.slice());$('stop').onclick=stop;$('save').onclick=()=>{if(!seq.length){status('Toca o genera una melodía antes de guardarla');return}saved.push({name:'Melodía '+(saved.length+1),events:seq.map(e=>({...e}))});persist();renderSaved();$('details').open=true;status('Melodía guardada')};
+$('clear').onclick=()=>{stop();seq=[];status('Melodía actual eliminada')};$('more').onclick=()=>$('details').open=!$('details').open;
+document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-tab]').forEach(x=>x.classList.toggle('selected',x===b));if(b.dataset.tab==='Melodías'){$('details').open=true;$('details').scrollIntoView({behavior:'smooth'})}else if(b.dataset.tab==='Ajustes')document.querySelector('.right').scrollIntoView({behavior:'smooth',block:'center'});else if(b.dataset.tab==='Explorar'){status('Explora los tres tipos de instrumento y las técnicas de interpretación')}else status('Modo tocar')});
+$('theme').onclick=()=>{night=!night;$('scene').style.filter=night?'brightness(.65)':'none';status(night?'Iluminación nocturna':'Iluminación cálida')};
+$('lang').onclick=()=>status('Interfaz en español · Próximamente portugués');
+document.addEventListener('keydown',e=>{if(e.ctrlKey||e.metaKey||e.altKey||e.target.matches('input[type=text],input[type=search],input[type=number],textarea,[contenteditable=true]'))return;let k=e.key.toLowerCase(),i=keys.indexOf(k);if(i>=0){e.preventDefault();if(!held.has(k)){held.add(k);strike(i)}}else if(e.code==='Space'&&e.target.tagName!=='BUTTON'){e.preventDefault();playing?stop():play(seq.slice())}else if(k==='r'&&e.target.tagName!=='BUTTON'){$('record').click()}});document.addEventListener('keyup',e=>held.delete(e.key.toLowerCase()));window.addEventListener('blur',()=>held.clear());
+try{saved=JSON.parse(localStorage.getItem('walamort-premium-v4')||'[]');if(!Array.isArray(saved))saved=[]}catch(e){saved=[]}renderSaved();
+// Mobile: hit areas are placed over the photo, whose box is within a stacked layout.
+function layoutHits(){if(window.innerWidth>950){positions.forEach(([x,y],i)=>{hits[i].style.left=x+'%';hits[i].style.top=y+'%'})}else{let stage=$('scene').getBoundingClientRect(),hero=root.getBoundingClientRect();positions.forEach(([x,y],i)=>{hits[i].style.left=(stage.left-hero.left+stage.width*x/100)+'px';hits[i].style.top=(stage.top-hero.top+stage.height*y/100)+'px'})}}
+window.addEventListener('resize',layoutHits);window.addEventListener('load',layoutHits);layoutHits();
+})();
+</script><script>
+if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+  window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(console.warn));
+}
+</script></body></html>

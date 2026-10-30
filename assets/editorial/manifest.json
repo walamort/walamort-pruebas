@@ -1,0 +1,42 @@
+{
+  "generator": "Built-in image_gen tool",
+  "purpose": "Conceptual editorial imagery; not photographs of Walter or his own instruments/studio",
+  "assets": [
+    {
+      "name": "explora",
+      "file": "explora-v1.webp",
+      "bytes": 50236,
+      "prompt": "Use case: ads-marketing. Asset type: photographic editorial image for the explora navigation card on Walamort's premium music website. An exquisite still life of a carved wooden kalimba, a bamboo flute and a small frame drum, arranged as a musical discovery cabinet. Realistic instrument construction. Photorealistic luxury music magazine photography, cinematic chiaroscuro, carefully controlled burnt-orange rim light, deep burgundy-black #210b12 background, warm ivory highlights #fbefd9, vibrant orange #f87927 accents, rich authentic material textures, tasteful art direction. Portrait 4:5 composition, central subject clearly recognizable when cropped to a narrow card, lower quarter quiet and dark for separately overlaid website labels. No humans, hands, faces, branding, lettering, watermarks, borders, collages or UI. This is evocative editorial art, not documentation of a real person's collection or studio. Generate one standalone image."
+    },
+    {
+      "name": "aprende",
+      "file": "aprende-v1.webp",
+      "bytes": 30650,
+      "prompt": "Use case: ads-marketing. Asset type: photographic editorial image for the aprende navigation card on Walamort's premium music website. An open blank cream music manuscript notebook with subtle empty staff lines, a wooden kalimba and pencil on an elegant dark walnut learning desk. No readable text. Photorealistic luxury music magazine photography, cinematic chiaroscuro, carefully controlled burnt-orange rim light, deep burgundy-black #210b12 background, warm ivory highlights #fbefd9, vibrant orange #f87927 accents, rich authentic material textures, tasteful art direction. Portrait 4:5 composition, central subject clearly recognizable when cropped to a narrow card, lower quarter quiet and dark for separately overlaid website labels. No humans, hands, faces, branding, lettering, watermarks, borders, collages or UI. This is evocative editorial art, not documentation of a real person's collection or studio. Generate one standalone image."
+    },
+    {
+      "name": "experimenta",
+      "file": "experimenta-v1.webp",
+      "bytes": 31258,
+      "prompt": "Use case: ads-marketing. Asset type: photographic editorial image for the experimenta navigation card on Walamort's premium music website. One beautiful bronze handpan with a central dome and eight surrounding tone fields, oblique close-up, believable hammered metal and tactile highlights. Photorealistic luxury music magazine photography, cinematic chiaroscuro, carefully controlled burnt-orange rim light, deep burgundy-black #210b12 background, warm ivory highlights #fbefd9, vibrant orange #f87927 accents, rich authentic material textures, tasteful art direction. Portrait 4:5 composition, central subject clearly recognizable when cropped to a narrow card, lower quarter quiet and dark for separately overlaid website labels. No humans, hands, faces, branding, lettering, watermarks, borders, collages or UI. This is evocative editorial art, not documentation of a real person's collection or studio. Generate one standalone image."
+    },
+    {
+      "name": "escucha",
+      "file": "escucha-v1.webp",
+      "bytes": 37632,
+      "prompt": "Use case: ads-marketing. Asset type: photographic editorial image for the escucha navigation card on Walamort's premium music website. A pair of high-end over-ear studio headphones beside a brass saxophone bell, cinematic intimate listening still life. Photorealistic luxury music magazine photography, cinematic chiaroscuro, carefully controlled burnt-orange rim light, deep burgundy-black #210b12 background, warm ivory highlights #fbefd9, vibrant orange #f87927 accents, rich authentic material textures, tasteful art direction. Portrait 4:5 composition, central subject clearly recognizable when cropped to a narrow card, lower quarter quiet and dark for separately overlaid website labels. No humans, hands, faces, branding, lettering, watermarks, borders, collages or UI. This is evocative editorial art, not documentation of a real person's collection or studio. Generate one standalone image."
+    },
+    {
+      "name": "crea",
+      "file": "crea-v1.webp",
+      "bytes": 27350,
+      "prompt": "Use case: ads-marketing. Asset type: photographic editorial image for the crea navigation card on Walamort's premium music website. A premium recording studio still life: condenser microphone with pop filter, small mixing console with amber indicator lights, walnut acoustic panels, no screens with text. Photorealistic luxury music magazine photography, cinematic chiaroscuro, carefully controlled burnt-orange rim light, deep burgundy-black #210b12 background, warm ivory highlights #fbefd9, vibrant orange #f87927 accents, rich authentic material textures, tasteful art direction. Portrait 4:5 composition, central subject clearly recognizable when cropped to a narrow card, lower quarter quiet and dark for separately overlaid website labels. No humans, hands, faces, branding, lettering, watermarks, borders, collages or UI. This is evocative editorial art, not documentation of a real person's collection or studio. Generate one standalone image."
+    },
+    {
+      "name": "conecta",
+      "file": "conecta-v1.webp",
+      "bytes": 33200,
+      "prompt": "Use case: ads-marketing. Asset type: photographic editorial image for the conecta navigation card on Walamort's premium music website. An intimate unoccupied live music stage with a saxophone on its stand, acoustic guitar and hand percussion arranged in a semicircle, warm stage spotlights suggesting musical collaboration, no people. Photorealistic luxury music magazine photography, cinematic chiaroscuro, carefully controlled burnt-orange rim light, deep burgundy-black #210b12 background, warm ivory highlights #fbefd9, vibrant orange #f87927 accents, rich authentic material textures, tasteful art direction. Portrait 4:5 composition, central subject clearly recognizable when cropped to a narrow card, lower quarter quiet and dark for separately overlaid website labels. No humans, hands, faces, branding, lettering, watermarks, borders, collages or UI. This is evocative editorial art, not documentation of a real person's collection or studio. Generate one standalone image."
+    }
+  ]
+}
