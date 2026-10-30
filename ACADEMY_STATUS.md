@@ -25,3 +25,6 @@ Sitio de pruebas: https://walamort.github.io/walamort-pruebas/
 Repositorio principal: exclusivamente rama home-improvements-oct29. Su rama no tiene una URL pública independiente confirmada. Nunca publicar estos cambios en main de producción.
 
 Comprobación publicada: despliegue de e835f18 completado con éxito; corrección visual de lectura y ciclo de dictado (escuchar, introducir, evaluar, verificar historial) comprobados en navegador con vista estrecha. Los enlaces github.io redirigen actualmente a https://walamort.com/walamort-pruebas/ por la configuración de dominio heredada de GitHub Pages. Eso no implica un cambio en main de producción.
+
+## Mano y timbres interactivos
+Mano lateral con nueve posiciones explorables: cinco dedos/líneas y cuatro espacios; claves de sol/fa, nota en pentagrama y sonido al tocar, botones accesibles alternativos. Selector persistente de piano, guitarra, flauta y violín sintetizados en lectura, dictado y ritmo. En lectura, la nota del ejercicio solo se oye tras contestar. El patrón rítmico y los golpes usan el instrumento; el metrónomo mantiene clic diferenciado. Pruebas de correspondencia de claves y nueve posiciones, y cuatro espectros de sonido distintos.
