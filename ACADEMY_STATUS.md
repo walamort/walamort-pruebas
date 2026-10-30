@@ -31,3 +31,8 @@ Mano lateral con nueve posiciones explorables: cinco dedos/líneas y cuatro espa
 
 ## Mano natural y clave de do
 Silueta vectorial original con pulgar superior, dedos abiertos, proporciones diferenciadas y pliegues. Nueve puntos táctiles, conectores de color y botones alternativos. Clave de do en tercera línea (alto) añadida a exploración y ejercicio; modo avanzado combina sol, fa y do. Do4 corresponde a la línea central de alto (líneas Fa3, La3, Do4, Mi4, Sol4). Pruebas de correspondencia incluidas.
+
+## Mi ruta y acceso en inglés
+Objetivos (inicio, admisión, profundización), rutina de 10/20/30 minutos, diagnóstico conceptual de nueve preguntas con explicaciones, recomendaciones por resultados recientes, casillas de práctica diaria y exportación JSON de preferencias/resultados. No evalúa audición en el diagnóstico conceptual; el oído se observa en dictados.
+Inglés: portada /en/, catálogo, preparación musical, ruta y herramientas de lectura, dictado y ritmo con etiquetas, mensajes y notación C/D/E. El historial comparte identificadores entre idiomas. La biblioteca ampliada (armonía, acordes, escalas, museo, etc.) sigue en español y se indica en los enlaces. Hreflang recíproco, canonicals, descripciones, Open Graph y sitemap preparados. Pruebas mantiene Disallow / y noindex; la rama principal de desarrollo prepara las URLs inglesas para una futura publicación autorizada. No hay publicación en main de producción ni garantía de posicionamiento en buscadores.
+Pruebas: validación de perfiles, duración total exacta de rutinas, prioridad de habilidades, persistencia de lista diaria, diagnóstico completo de nueve preguntas, notación inglesa, historial compartido, enlaces y metadatos bilingües. Ejecutar node tests/academy.cjs.

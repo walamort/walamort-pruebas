@@ -8,3 +8,5 @@ button{touch-action:manipulation} .staff{width:100%;max-width:540px;height:auto;
 .natural-hand{max-width:760px}.natural-hand button{left:82%;width:17%;height:4.5%;font-size:clamp(12px,2.8vw,19px);padding:0 5px;color:#245f83;font-weight:800}.natural-hand button.space-target{color:#a23d35}.natural-hand button[aria-pressed=true]{background:#411326;color:#fff4e5}.natural-hand button:hover{color:#fff4e5}
 
 .natural-hand #handTouches button{width:6.1%;height:8.6%;min-height:0;padding:0;border:2px solid transparent;border-radius:50%;background:transparent}.natural-hand #handTouches button:hover,.natural-hand #handTouches button[aria-pressed=true]{border-color:#411326;background:#ffe4b780;outline:2px solid #fff4e5}
+
+.path-task{padding:18px 0;border-top:1px solid #986550}.path-check{display:flex;align-items:center;gap:12px;margin-top:18px}.path-check input{width:24px;height:24px;accent-color:#df9968}.language-links{display:flex;gap:16px;flex-wrap:wrap;padding:15px 0}.path-task h3{font-size:24px}form select{max-width:100%}
