@@ -65,11 +65,15 @@ Pruebas: validación de perfiles, duración total exacta de rutinas, prioridad d
 - Pruebas: node tests/notation.cjs (2250 dictados reproducibles, compases/duraciones, alteraciones, corrección, primer intento, fichas offline y enlaces); se mantienen tests/academy.cjs y tests/creative.cjs.
 
 ## Próximas prioridades actualizadas
-1. Lectura a primera vista con tiempo y más armaduras; editor con ligaduras, edición individual y más compases.
+1. Ampliar lectura con ritmos; editor con ligaduras, edición individual y más compases.
 2. Afinador/entonación con micrófono, con pruebas físicas antes de evaluar rendimiento.
 3. Recorridos del museo sonoro y digitaciones guiadas en instrumentos virtuales.
 4. Más cursos por instrumento y traducción inglesa del catálogo antiguo.
 5. Aula docente con cuentas/tareas/resultados compartidos, comunidad y servicios con gestión real: aún requieren backend, privacidad y operación de contenidos.
 
 ## Integración del 31 de octubre
-Se integró el cambio remoto de retrato sin sobrescribirlo. Las pruebas de Academy, creación y notación pasaron. El servidor local permite comprobar el dictado completo (escucha, escritura, evaluación 100% y primer intento guardado). La publicación sigue pendiente: Git Credential Manager devuelve acceso denegado al almacén de credenciales de Windows. No se cambiaron credenciales ni protecciones del sistema.
+Se integró el cambio remoto de retrato sin sobrescribirlo. Las pruebas de Academy, creación y notación pasaron. El servidor local permite comprobar el dictado completo (escucha, escritura, evaluación 100% y primer intento guardado). En esa integración, Git Credential Manager denegó acceso al almacén de credenciales de Windows; el usuario completó después ambas subidas y se confirmó la publicación del dictado y la biblioteca. No se cambiaron credenciales ni protecciones del sistema.
+
+## Lectura de notas a primera vista — 31 de octubre
+Módulo bilingüe de identificación visual con claves de sol/fa/do (alto) o mezcla; siete armaduras mayores (Do, Sol, Re, La, Fa, Si bemol y Mi bemol); tres niveles, líneas adicionales y alteraciones escritas en avanzado. No evalúa ejecución instrumental. Diez preguntas por sesión, sin límite por defecto o con 5/8/12 segundos por pregunta, pausa explícita/al salir de pestaña, corrección explicada y audio posterior con timbre elegido. Precisión al historial local; media de respuesta y omisiones solo como orientación. Referencia imprimible de claves y armaduras integrada en Biblioteca, ruta y catálogo.
+Pruebas: node tests/sight-reading.cjs cubre 6300 preguntas, notas/MIDI, armaduras en tres claves, opciones únicas, sesión bilingüe completa, pausa/reanudación, límites de tiempo e integración de progreso. También se verificó en navegador local una sesión con un vencimiento, pausa/reanudación y corrección de Fa sostenido 2 en clave de fa/La mayor.
