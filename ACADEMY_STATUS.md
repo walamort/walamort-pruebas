@@ -36,3 +36,21 @@ Silueta vectorial original con pulgar superior, dedos abiertos, proporciones dif
 Objetivos (inicio, admisión, profundización), rutina de 10/20/30 minutos, diagnóstico conceptual de nueve preguntas con explicaciones, recomendaciones por resultados recientes, casillas de práctica diaria y exportación JSON de preferencias/resultados. No evalúa audición en el diagnóstico conceptual; el oído se observa en dictados.
 Inglés: portada /en/, catálogo, preparación musical, ruta y herramientas de lectura, dictado y ritmo con etiquetas, mensajes y notación C/D/E. El historial comparte identificadores entre idiomas. La biblioteca ampliada (armonía, acordes, escalas, museo, etc.) sigue en español y se indica en los enlaces. Hreflang recíproco, canonicals, descripciones, Open Graph y sitemap preparados. Pruebas mantiene Disallow / y noindex; la rama principal de desarrollo prepara las URLs inglesas para una futura publicación autorizada. No hay publicación en main de producción ni garantía de posicionamiento en buscadores.
 Pruebas: validación de perfiles, duración total exacta de rutinas, prioridad de habilidades, persistencia de lista diaria, diagnóstico completo de nueve preguntas, notación inglesa, historial compartido, enlaces y metadatos bilingües. Ejecutar node tests/academy.cjs.
+
+## Estudio creativo y armonía aplicada
+- Estudio bilingüe de cuatro compases en 4/4: 16 notas/silencios de negra, teclado de escala, selección cromática, motivo, retrogradación del primer compás, transposición cromática y deshacer. Ejemplo original incluido.
+- Cuatro acordes diatónicos con tríadas/séptimas e inversiones. Cinco tonalidades: Do/Sol/Fa mayor y La/Re menor natural.
+- Laboratorio bilingüe para oír acordes simultáneos, arpegios y recorrido I–IV–V–I (i–iv–v–i en menor natural), ver notas/bajo/estructura y llevar el acorde al primer compás del estudio. No corrige SATB ni presenta la menor natural como menor armónica.
+- Guardado local explícito, apertura/descarga JSON con validación, MIDI estándar formato 0 con melodía y acompañamiento en canales separados y ficha imprimible. No hay nube ni publicación. Los proyectos de pruebas usan un espacio de almacenamiento separado del sitio público.
+- Retos creativos diarios y observaciones sobre cromatismos, saltos y notas ajenas al acorde, sin calificarlos automáticamente como errores.
+- Integrado en portadas, catálogos, Mi ruta, preparación y cursos. Canonicals/hreflang/sitemap; pruebas mantiene noindex.
+- Ejecutar node tests/creative.cjs y node tests/academy.cjs. Se verifican tríadas/séptimas/inversiones, cinco escalas, importación, deshacer, reproducción, integridad del archivo MIDI, fin de notas y flujo bilingüe.
+
+## Siguientes posibilidades de marca, por prioridad
+1. Dictados con duraciones y entrada en pentagrama; lectura con armaduras y alteraciones.
+2. Biblioteca descargable de materiales propios, ejercicios y acompañamientos; ampliar las traducciones inglesas del catálogo anterior.
+3. Afinador y ejercicios de entonación con micrófono: requieren pruebas físicas de ruido/latencia.
+4. Museo sonoro con mapa y recorridos culturales revisados; ampliar instrumentos virtuales con digitaciones.
+5. Corrección SATB con entrada real de voces, alcance explícito de las reglas y explicaciones.
+6. Perfiles sincronizados y aula docente con tareas/grupos: requieren diseño de backend, privacidad y recuperación de cuentas.
+7. Comunidad, talleres y productos propios, con gestión de inscripciones, moderación y contenidos antes de habilitar servicios reales.
