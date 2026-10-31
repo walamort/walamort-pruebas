@@ -109,3 +109,8 @@ El enlace español/inglés de Biblioteca ahora conserva tipo, nivel, tonalidad, 
 ## Acceso visible desde la portada de desarrollo
 Panel superior con accesos a Centro de práctica, Preuniversitario y Mi ruta para evitar confundir la portada de pruebas con el catálogo. Revisión visual en escritorio y 390 px; enlaces relativos dentro de cada sitio. Solo pruebas y home-improvements-oct29; sin nuevos cambios en producción.
 
+
+## Diapasón de guitarra y bajo
+Nuevo módulo bilingüe diapason/: guitarra de seis cuerdas y bajo de cuatro en afinación estándar; cuerdas ordenadas desde la primera/aguda. Exploración de trastes 0–12, doce tónicas, escalas mayor, menor natural y pentatónica mayor. Destaca tónica y notas de escala, nombres de nota/octava opcionales y timbres sintetizados de guitarra/piano/flauta/violín.
+Reto de ocho alturas únicas entre trastes 0–5. Acepta posiciones equivalentes de la misma altura y octava, corrige la primera respuesta, muestra posiciones correctas y guarda un único porcentaje local al terminar. El modo libre sigue disponible sin puntuación. No evalúa ejecución real ni recomienda dedos de mano izquierda; etiquetas en sostenidos y sin articulaciones/afinaciones alternativas.
+Integrado en catálogo español/inglés, instrumentos virtuales, Mi ruta y sitemaps. Historial del catálogo distingue guitarra y bajo. Pruebas tests/fretboard.cjs en ambos repositorios: 4680 posiciones, doce tónicas/tres escalas, objetivos alcanzables, sesiones completas bilingües y un único guardado. Academy continúa pasando. Revisado reto y desplazamiento de tabla a 390 px; sin reproducir sonido físico durante revisión del navegador. No cambia producción main.
