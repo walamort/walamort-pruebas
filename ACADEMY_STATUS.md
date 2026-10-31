@@ -105,3 +105,7 @@ Validación en ambos repositorios con tests/notation.cjs: enlaces y parámetros,
 
 ## Cambio de idioma sin perder la ficha
 El enlace español/inglés de Biblioteca ahora conserva tipo, nivel, tonalidad, cantidad, código y opción de soluciones, y se actualiza al cambiar los filtros. Pruebas de notación en ambos repositorios verifican destinos por idioma y parámetros. Comprobado en navegador con seis ejercicios avanzados, código 987 y soluciones activas: mismas seis representaciones SVG al pasar de español a inglés y mismo solucionario.
+
+## Acceso visible desde la portada de desarrollo
+Panel superior con accesos a Centro de práctica, Preuniversitario y Mi ruta para evitar confundir la portada de pruebas con el catálogo. Revisión visual en escritorio y 390 px; enlaces relativos dentro de cada sitio. Solo pruebas y home-improvements-oct29; sin nuevos cambios en producción.
+
