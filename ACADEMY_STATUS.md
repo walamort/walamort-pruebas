@@ -121,3 +121,8 @@ Vista accesible mediante botones nativos con cuerda/traste/nota; fondo SVG decor
 
 ## Acabado de materiales del mástil
 Textura fotográfica de madera generada con image_gen, integrada como JPEG local de aproximadamente 388 KiB; documentación y prompt en diapason/assets/MATERIAL.md. Ilustración interactiva, no fotografía de un instrumento concreto. Añade reflejos y sombras en trastes, cejuela y clavijas; entorchado en cuerdas graves; clavijas 3+3/2+2, recorridos de cuerdas y etiquetas más pequeñas/translúcidas para ver el material. Conserva geometría, audio, accesibilidad y evaluación. La imagen se carga desde el propio sitio en español/inglés.
+
+## Vista completa y escalas guiadas en diapasón
+Selector de vista 100%, 80% o ajustada al ancho disponible, con reajuste al cambiar tamaño. La vista completa es de orientación; 100% mantiene blancos táctiles mayores. Reproducción por acción explícita de una escala en una octava ascendente y descendente, tempo 60/90/120, timbre seleccionado y resaltado de una posición concreta por nota. El recorrido muestra una opción posible de cuerdas/trastes, no digitación de dedos ni método único.
+La reproducción se bloquea durante el reto y se cancela al cambiar ajustes, pulsar una nota, detener sonido, salir de la pestaña o interrumpirse el contexto de audio. Al terminar vuelve a habilitarse. No añade calificaciones ni escucha de micrófono.
+Pruebas: fretboard.cjs valida recorridos de las 72 combinaciones instrumento/tónica/escala, octava y regreso; fretboard-explore.cjs verifica tiempos, resaltado, zoom, cancelación y bloqueo bilingües con audio simulado. Revisada en navegador la vista completa y el bloqueo al iniciar reto; escucha física pendiente. No cambia main de producción.
