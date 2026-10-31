@@ -1,0 +1,34 @@
+'use strict';
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');process.chdir(path.resolve(__dirname,'..'));
+const N=require('../notacion/core.js'),C=require('../estudio-creativo/core.js');
+for(const key of Object.keys(N.keys))for(const level of ['easy','medium','advanced'])for(let seed=0;seed<150;seed++){const events=N.generate(seed,key,level);assert.equal(N.total(events),8);assert(N.validate(events));assert.equal(events[0].note,N.keys[key].root);assert.equal(events.at(-1).note,N.keys[key].root);assert.deepEqual(events,N.generate(seed,key,level))}
+assert(!N.validate([{note:60,duration:2},{note:62,duration:1.5},{note:64,duration:1}]));assert(!N.validate([{note:60,duration:99}]));
+const expected=[{note:60,duration:2},{note:62,duration:1},{note:null,duration:1},{note:64,duration:2},{note:60,duration:2}];assert.equal(N.evaluate(expected,expected).score,100);
+const wrong=expected.map(e=>({...e}));wrong[0].note=61;assert(N.evaluate(expected,wrong).pitch<100);assert.equal(N.evaluate(expected,wrong).rhythm,100);
+const split=[{note:60,duration:1},{note:60,duration:1},...expected.slice(1)];const segmented=N.evaluate(expected,split);assert(segmented.rhythm<100);assert.equal(segmented.extra,1);assert.equal(segmented.details[1].beat,2);assert(segmented.details[1].pitchOK);
+assert.equal(N.name(70,'en','F'),'B♭4');assert.equal(N.name(66,'es','G'),'Fa♯4');assert(N.score([{note:60,duration:1}]).includes('cy="170"'));
+const accidentals=N.score([{note:65,duration:2},{note:65,duration:2},{note:65,duration:2},{note:65,duration:2}],'G');assert.equal((accidentals.match(/♮/g)||[]).length,2);assert(N.score([],'F','en',true).includes('♭'));assert.equal(N.escape('<script>'), '&lt;script&gt;');
+function harness(lang='es',isLibrary=false){
+ const elements={},data={},calls=[],downloads=[];let listener=()=>{},end=()=>{};
+ function make(tag='div'){return {tagName:tag.toUpperCase(),value:'',textContent:'',innerHTML:'',children:[],attributes:{},checked:false,disabled:false,hidden:false,style:{},setAttribute(k,v){this.attributes[k]=v},getAttribute(k){return this.attributes[k]},append(...nodes){this.children.push(...nodes)},replaceChildren(...nodes){this.children=nodes},querySelectorAll(){return []},addEventListener(k,fn){this[k]=fn},focus(){},select(){},click(){if(this.onclick)this.onclick()},remove(){}}}
+ function el(id){if(!elements[id]){elements[id]=make();elements[id].value=({key:'C',level:'easy',pitch:'60',duration:'1',tempo:'80',instrument:'piano',type:'reading',count:'4',code:'123'})[id]||''}return elements[id]}
+ const href='https://example.test/walamort-pruebas/'+(lang==='en'?'en/':'')+(isLibrary?'biblioteca/':'dictado-pentagrama/')+'?seed=123&key=G&level=advanced';
+ const window={location:{href,search:'?seed=123&key=G&level=advanced'},addEventListener(){},print(){calls.push('print')},WalamortNotation:N,WalamortCreative:C,WalamortProgress:{save(activity,level,score){calls.push({activity,level,score});return true}},WalamortCreativePlayer:{setStateListener(fn){listener=fn},stop(){listener(false)},play(items,bpm,a,b){calls.push({items,bpm});listener(true);end=()=>{listener(false);b()};return Promise.resolve()}}};
+ class FakeURL extends URL{static createObjectURL(blob){downloads.push(blob);return 'blob:worksheet'}static revokeObjectURL(){}}
+ const context={window,document:{documentElement:{lang},getElementById:el,createElement:make,body:make()},navigator:{clipboard:{writeText:async v=>calls.push(v)}},URL:FakeURL,URLSearchParams,Blob,console,setTimeout:()=>0,clearTimeout(){}};
+ vm.createContext(context);vm.runInContext(fs.readFileSync('notacion/copy.js','utf8'),context);return {context,el,calls,data,downloads,finish(){end()}};
+}
+(async()=>{
+ for(const lang of ['es','en']){
+  const h=harness(lang);vm.runInContext(fs.readFileSync('dictado-pentagrama/app.js','utf8'),h.context);h.el('evaluate').onclick();assert(h.el('status').textContent.includes(lang==='en'?'Listen':'Escucha'));
+  h.el('listen').onclick();h.finish();const target=N.generate(123,'G','advanced');for(const e of target){h.el('pitch').value=e.note===null?'rest':String(e.note);h.el('duration').value=String(e.duration);h.el('add').onclick()}h.el('evaluate').onclick();assert.equal(h.el('solution').hidden,false);assert(h.el('feedback').children[0].textContent.includes('100%'));assert.equal(h.calls.filter(x=>x.activity).length,1);h.el('evaluate').onclick();assert.equal(h.calls.filter(x=>x.activity).length,1);assert(h.el('exerciseLink').value.includes('seed=123'));
+  h.el('clear').onclick();h.el('pitch').value='60';h.el('duration').value='2';h.el('add').onclick();h.el('duration').value='1.5';h.el('add').onclick();h.el('duration').value='1';h.el('add').onclick();assert(h.el('status').textContent.includes(lang==='en'?'crosses':'cruza'));
+  const lib=harness(lang,true);vm.runInContext(fs.readFileSync('biblioteca/app.js','utf8'),lib.context);assert(lib.el('exercises').innerHTML.includes('<svg'));assert(!lib.el('exercises').innerHTML.includes('solution-box'));const before=lib.el('exercises').innerHTML;lib.el('generate').onclick();assert.equal(lib.el('exercises').innerHTML,before);
+  lib.el('solutions').checked=true;lib.el('solutions').onchange();assert(lib.el('exercises').innerHTML.includes('solution-box'));lib.el('download').onclick();const html=await lib.downloads[0].text();assert(html.includes('<svg'));assert(!html.includes('<script'));assert(!html.includes('data-hear'));
+  lib.el('type').value='dictation';lib.el('type').onchange();assert(lib.el('exercises').innerHTML.includes('seed=123'));assert(lib.el('exercises').innerHTML.includes('dictado-pentagrama'));
+  lib.el('type').value='harmony';lib.el('type').onchange();assert(lib.el('exercises').innerHTML.includes('laboratorio-armonico'));assert(lib.el('shareLink').value.includes('type=harmony'));
+ }
+ const route=require('../mi-ruta/core.js');const ear=route.plan({goal:'admission',minutes:20},[{activity:'Dictado en pentagrama',score:30}]).find(x=>x.skill==='ear');assert.equal(ear.average,30);assert.equal(ear.url,'dictado-pentagrama');assert.equal(ear.level,'easy');
+ for(const file of ['dictado-pentagrama/index.html','biblioteca/index.html','en/dictado-pentagrama/index.html','en/biblioteca/index.html']){const html=fs.readFileSync(file,'utf8');for(const match of html.matchAll(/(?:href|src)="([^"#]+)"/g)){if(/^https?:/.test(match[1]))continue;assert(fs.existsSync(path.resolve(path.dirname(file),match[1].split('?')[0])),file+' -> '+match[1])}}
+ console.log('PASS: 2250 reproducible dictations, bar totals and boundaries, pitch/rhythm scoring without index shifts, accidentals/ledger lines, first-attempt tracking, bilingual flows, offline worksheets, reproducible teacher links and route integration.');
+})().catch(e=>{console.error(e);process.exitCode=1});

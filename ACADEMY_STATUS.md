@@ -54,3 +54,19 @@ Pruebas: validación de perfiles, duración total exacta de rutinas, prioridad d
 5. Corrección SATB con entrada real de voces, alcance explícito de las reglas y explicaciones.
 6. Perfiles sincronizados y aula docente con tareas/grupos: requieren diseño de backend, privacidad y recuperación de cuentas.
 7. Comunidad, talleres y productos propios, con gestión de inscripciones, moderación y contenidos antes de habilitar servicios reales.
+
+## Dictado escrito y Biblioteca Walamort
+- Dictado bilingüe de dos compases 4/4, cinco tonalidades y tres niveles. Generación reproducible por código, cuenta previa, tónica de referencia y reproducción de respuesta.
+- Escritura mediante selección de nota/silencio y duración: semicorchea, corchea, negra, negra con puntillo y blanca. Pentagrama SVG con armaduras de Sol/Fa/Re menor, becuadros, puntillos, plicas y líneas adicionales. El editor no usa ligaduras ni permite cruzar barras; las respuestas completas suman ocho pulsos.
+- Corrección separada de alturas/silencios y posiciones/duraciones. Se compara por inicio temporal, para evitar desplazar toda la evaluación por una figura distinta. Solo la primera evaluación del dictado se registra en el historial. Mi ruta incorpora esos resultados en oído y dirige preparación/profundización al nuevo dictado.
+- Biblioteca bilingüe: fichas de lectura, dictado y construcción de acordes, entre dos y ocho ejercicios; soluciones opcionales, impresión y descarga HTML autocontenida sin scripts. Se puede imprimir o guardar como PDF usando el navegador; no se entrega un PDF precompilado.
+- Enlaces reproducibles para preparar clases, con tipo/nivel/tonalidad/cantidad/código. Son actividades de práctica abierta con soluciones consultables, no aula con grupos ni exámenes protegidos.
+- Fichas de dictado enlazan exactamente con el ejercicio interactivo; las de acordes abren el laboratorio con grado/séptima/inversión preseleccionados. Integrado en portadas, catálogos, ruta y herramientas anteriores. Inglés con notación C/D/E, metadatos y sitemap; pruebas excluido de indexación.
+- Pruebas: node tests/notation.cjs (2250 dictados reproducibles, compases/duraciones, alteraciones, corrección, primer intento, fichas offline y enlaces); se mantienen tests/academy.cjs y tests/creative.cjs.
+
+## Próximas prioridades actualizadas
+1. Lectura a primera vista con tiempo y más armaduras; editor con ligaduras, edición individual y más compases.
+2. Afinador/entonación con micrófono, con pruebas físicas antes de evaluar rendimiento.
+3. Recorridos del museo sonoro y digitaciones guiadas en instrumentos virtuales.
+4. Más cursos por instrumento y traducción inglesa del catálogo antiguo.
+5. Aula docente con cuentas/tareas/resultados compartidos, comunidad y servicios con gestión real: aún requieren backend, privacidad y operación de contenidos.

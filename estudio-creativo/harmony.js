@@ -28,5 +28,5 @@
   $('cadence').onclick=()=>{const events=[];[0,3,4,0].forEach((d,i)=>C.chord($('key').value,d,false,0).notes.forEach(note=>events.push({note,beat:i*4,duration:3.8,instrument:$('instrument').value})));$('status').textContent=L.playing;P.play(events,90,()=>{},()=>{$('status').textContent=L.finished},16).catch(()=>{$('status').textContent=L.audioError})};
   $('stop').onclick=()=>{P.stop();$('status').textContent=L.stopped};
   P.setStateListener(value=>{busy=value;$('hear').disabled=value;$('arpeggio').disabled=value;$('cadence').disabled=value;$('stop').disabled=!value});
-  render();$('stop').disabled=true;$('status').textContent=L.ready;
+  const params=new URLSearchParams(window.location.search);if(C.KEYS[params.get('key')])$('key').value=params.get('key');if(params.has('seventh'))$('seventh').checked=params.get('seventh')==='1';render();if(/^[0-6]$/.test(params.get('degree')||''))$('degree').value=params.get('degree');const inv=Number(params.get('inversion'));if(Number.isInteger(inv)&&inv>=0&&inv<=($('seventh').checked?3:2))$('inversion').value=String(inv);render();$('stop').disabled=true;$('status').textContent=L.ready;
 })();
