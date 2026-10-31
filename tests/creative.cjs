@@ -25,7 +25,7 @@ function harness(lang='es'){
  for(const lang of ['es','en']){
   const h=harness(lang);vm.runInContext(fs.readFileSync('estudio-creativo/app.js','utf8'),h.context);
   assert.equal(h.el('steps').children.length,4);assert.equal(h.el('bars').children.length,4);
-  h.el('example').onclick();h.el('save').onclick();let saved=C.validate(JSON.parse(Object.values(h.data)[0]));assert.equal(saved.melody.filter(n=>n!==null).length,15);
+  h.el('title').value='My musical idea';h.el('title').oninput();h.el('example').onclick();h.el('save').onclick();assert.equal(JSON.parse(Object.values(h.data)[0]).title,'My musical idea');let saved=C.validate(JSON.parse(Object.values(h.data)[0]));assert.equal(saved.melody.filter(n=>n!==null).length,15);
   h.el('pitch').value='61';h.el('pitch').onchange();h.el('save').onclick();saved=C.validate(JSON.parse(Object.values(h.data)[0]));assert.equal(saved.melody[0],61);assert.equal(h.el('editor').disabled,false);
   h.el('undo').onclick();h.el('save').onclick();saved=C.validate(JSON.parse(Object.values(h.data)[0]));assert.equal(saved.melody[0],60);
   h.el('repeat').onclick();h.el('save').onclick();saved=C.validate(JSON.parse(Object.values(h.data)[0]));assert.deepEqual(saved.melody.slice(4,8),saved.melody.slice(0,4));

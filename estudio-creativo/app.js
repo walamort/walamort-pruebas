@@ -44,7 +44,8 @@
     $('worksheet').replaceChildren(node('h2',project.title||L.studio),node('p',L.keys[Object.keys(C.KEYS).indexOf(project.key)]+' · 4/4 · '+project.tempo+' BPM'),...project.chords.map((c,i)=>node('p',L.bar+' '+(i+1)+' · '+chordLabel(c)+' | '+project.melody.slice(i*4,i*4+4).map(n=>n===null?L.rest:C.noteName(n,lang,C.KEYS[project.key].flat)).join(' · '))));
   }
   P.setStateListener((value,lock)=>{playing=value&&lock;value=playing;['editor','settings','files'].forEach(id=>$(id).disabled=value);$('play').disabled=value;$('stop').disabled=!value;if(!value)mark(-1)});
-  $('title').onchange=()=>change(()=>project.title=$('title').value.trim().slice(0,100));
+  $('title').oninput=()=>{const title=$('title').value.slice(0,100);if(title!==project.title){remember();project.title=title;$('undo').disabled=false}};
+  $('title').onchange=()=>{project.title=$('title').value.trim().slice(0,100);render()};
   $('key').onchange=()=>change(()=>project.key=$('key').value);
   $('tempo').onchange=()=>change(()=>{const v=Number($('tempo').value);project.tempo=Number.isFinite(v)?Math.max(45,Math.min(160,Math.round(v))):90});
   $('instrument').addEventListener('change',()=>change(()=>project.instrument=$('instrument').value));
