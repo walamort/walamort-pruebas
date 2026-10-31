@@ -1,0 +1,15 @@
+(function(root){'use strict';
+const figures=[{id:'whole',ticks:8},{id:'half',ticks:4},{id:'quarter',ticks:2},{id:'eighth',ticks:1},{id:'dotted-quarter',ticks:3},{id:'dotted-half',ticks:6}];
+function pool(level){return figures.filter(f=>level==='advanced'||(level==='medium'?f.ticks!==3&&f.ticks!==6:[8,4,2].includes(f.ticks)))}
+function question(level='easy',index=0,rnd=Math.random){const pick=a=>a[Math.floor(rnd()*a.length)],allowed=pool(level);let events=[],beats=null,answer;
+ if(index%2===0){const f=pick(allowed);events=[{...f,rest:level!=='easy'&&rnd()<.35}];answer=f.ticks}
+ else{beats=pick([2,3,4]);let left=beats*2;const count=1+Math.floor(rnd()*3);for(let i=0;i<count;i++){const candidates=allowed.filter(f=>f.ticks<left);if(!candidates.length)break;const f=pick(candidates);events.push({...f,rest:level!=='easy'&&rnd()<.35});left-=f.ticks}answer=left}
+ const distractors=[1,2,3,4,5,6,7,8].filter(v=>v!==answer);for(let i=distractors.length-1;i>0;i--){const j=Math.floor(rnd()*(i+1));[distractors[i],distractors[j]]=[distractors[j],distractors[i]]}const values=[answer,...distractors.slice(0,3)];for(let i=values.length-1;i>0;i--){const j=Math.floor(rnd()*(i+1));[values[i],values[j]]=[values[j],values[i]]}return {events,beats,answer,options:values};}
+function svg(q,lang='es'){let s='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 180" role="img" aria-label="'+(lang==='en'?'Read the rhythm':'Lee el ritmo')+'"><rect width="600" height="180" rx="12" fill="#fff6e8"/><line x1="20" y1="108" x2="580" y2="108" stroke="#321722"/>';const start=q.beats?100:270,gap=q.beats?100:0;
+ if(q.beats)s+='<text x="30" y="84" font-size="32" fill="#321722">'+q.beats+'</text><text x="30" y="118" font-size="32" fill="#321722">4</text>';
+ q.events.forEach((f,i)=>{const x=start+i*gap;if(f.rest){if(f.ticks>=4)s+='<rect x="'+(x-12)+'" y="'+(f.ticks===8?108:100)+'" width="25" height="8" fill="#321722"/>';else if(f.ticks===1)s+='<circle cx="'+(x-4)+'" cy="86" r="5" fill="#321722"/><path d="M'+(x-4)+' 87 Q'+(x+8)+' 97 '+(x+12)+' 82 L'+x+' 121" fill="none" stroke="#321722" stroke-width="3"/>';else s+='<path d="M'+(x-5)+' 72 L'+(x+7)+' 87 L'+(x-5)+' 100 L'+(x+8)+' 112 Q'+(x-9)+' 109 '+(x-3)+' 125" stroke="#321722" stroke-width="5" fill="none"/>'}
+ else{s+='<ellipse cx="'+x+'" cy="108" rx="13" ry="8" transform="rotate(-15 '+x+' 108)" fill="'+(f.ticks>=4?'#fff6e8':'#321722')+'" stroke="#321722" stroke-width="3"/>';if(f.ticks!==8)s+='<line x1="'+(x+12)+'" x2="'+(x+12)+'" y1="106" y2="57" stroke="#321722" stroke-width="3"/>';if(f.ticks===1)s+='<path d="M'+(x+12)+' 57 Q'+(x+42)+' 72 '+(x+21)+' 92 Q'+(x+31)+' 74 '+(x+12)+' 72" fill="#321722"/>'}
+ if(f.ticks===3||f.ticks===6)s+='<circle cx="'+(x+25)+'" cy="102" r="4" fill="#321722"/>'});
+ if(q.beats)s+='<text x="'+(start+q.events.length*gap)+'" y="110" font-size="36" fill="#321722">?</text>';return s+'</svg>'}
+const api={figures,pool,question,svg};if(typeof module==='object'&&module.exports)module.exports=api;else root.WalamortRhythmReading=api;
+})(typeof window==='object'?window:this);
