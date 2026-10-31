@@ -7,7 +7,7 @@
   $('code').value=String(params.has('seed')?N.seed(params.get('seed')):N.seed(NaN));
   let models=[];
   function url(path,values){const target=new URL(path,window.location.href);for(const [k,v]of Object.entries(values))target.searchParams.set(k,String(v));return target.href}
-  function noteList(events,key){return events.map(e=>N.name(e.note,lang,key)+' ('+e.duration+' '+(lang==='en'?'beats':'pulsos')+')').join(' · ')}
+  function noteList(events,key){return events.map(e=>N.name(e.note,lang,key)+' ('+e.duration+' '+(lang==='en'?(e.duration===1?'beat':'beats'):(e.duration===1?'pulso':'pulsos'))+')').join(' · ')}
   function markup(model,solutions,interactive){
     const {index,key,seed,level,type}=model,heading=L.exercise+' '+(index+1),metadata=L.key+': '+L.keys[Object.keys(N.keys).indexOf(key)];let html='<article class="worksheet-exercise"><h3>'+heading+'</h3><p>'+metadata+'</p>';
     if(type==='harmony'){

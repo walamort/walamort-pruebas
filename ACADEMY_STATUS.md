@@ -70,3 +70,6 @@ Pruebas: validación de perfiles, duración total exacta de rutinas, prioridad d
 3. Recorridos del museo sonoro y digitaciones guiadas en instrumentos virtuales.
 4. Más cursos por instrumento y traducción inglesa del catálogo antiguo.
 5. Aula docente con cuentas/tareas/resultados compartidos, comunidad y servicios con gestión real: aún requieren backend, privacidad y operación de contenidos.
+
+## Integración del 31 de octubre
+Se integró el cambio remoto de retrato sin sobrescribirlo. Las pruebas de Academy, creación y notación pasaron. El servidor local permite comprobar el dictado completo (escucha, escritura, evaluación 100% y primer intento guardado). La publicación sigue pendiente: Git Credential Manager devuelve acceso denegado al almacén de credenciales de Windows. No se cambiaron credenciales ni protecciones del sistema.

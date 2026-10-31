@@ -8,11 +8,11 @@
   function tell(text){$('status').textContent=text}
   function element(tag,text){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;return n}
   function option(value,text){const o=element('option',text);o.value=value;return o}
-  function description(event){return N.name(event.note,lang,$('key').value)+' · '+event.duration+' '+(lang==='en'?'beats':'pulsos')}
+  function description(event){return N.name(event.note,lang,$('key').value)+' · '+event.duration+' '+(lang==='en'?(event.duration===1?'beat':'beats'):(event.duration===1?'pulso':'pulsos'))}
   function draw(){
     $('answerScore').innerHTML=N.score(answer,$('key').value,lang);
     $('answerCount').textContent=N.total(answer)+' '+L.beats;
-    $('answerList').replaceChildren(...answer.map((event,i)=>element('li',(i+1)+'. '+description(event))));
+    $('answerList').replaceChildren(...answer.map((event,i)=>element('li',description(event))));
     $('undo').disabled=answer.length===0;$('clear').disabled=answer.length===0;
     $('hearAnswer').disabled=answer.every(e=>e.note===null);
   }
