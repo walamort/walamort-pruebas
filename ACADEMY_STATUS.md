@@ -149,3 +149,4 @@ Validación: tests/fifths.cjs en ambos repositorios comprueba las 30 combinacion
 
 ## Recorridos sonoros — 1 noviembre 2026
 Cuatro recorridos bilingües: resonancia de metal, kalimba, Pacífico Sur/Esmeraldas y Magdalena Grande. Demostraciones externas, fuentes PANArt/Kalimba Magic/UNESCO, tres preguntas por recorrido y conexiones con herramientas. Cuaderno local (2400 caracteres/recorrido), marcas auto declaradas, enlace sin notas, impresión y HTML offline completo con texto escapado. No inventa inventario ni simula grabaciones auténticas. Integrado en museo, práctica, Biblioteca, preuniversitario y sitemaps.
+Disponible también como actividad de exploración en el planificador docente (12 herramientas). Validación: journeys.cjs, academy.cjs, lesson.cjs, lesson-ui.cjs y fifths.cjs; navegador con persistencia y ancho móvil 375 px. Audio real y revisión cultural ampliada con especialistas siguen pendientes.
