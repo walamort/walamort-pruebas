@@ -2,7 +2,7 @@
   'use strict';
   const options = {
     service: {lesson:['Clase individual','Individual lesson'],workshop:['Taller para grupo','Group workshop'],institution:['Experiencia institucional','Institutional experience']},
-    topic: {theory:['Teoría, lectura y oído','Theory, reading and ear training'],instrument:['Instrumento y técnica','Instrument and technique'],armonia:['Armonía','Harmony'],composicion:['Composición','Composition'],improvisacion:['Improvisación','Improvisation'],world:['Instrumentos del mundo y ritmo en equipo','World instruments and team rhythm']},
+    topic: {production:['Producción y mezcla','Production and mixing'],theory:['Teoría, lectura y oído','Theory, reading and ear training'],instrument:['Instrumento y técnica','Instrument and technique'],armonia:['Armonía','Harmony'],composicion:['Composición','Composition'],improvisacion:['Improvisación','Improvisation'],world:['Instrumentos del mundo y ritmo en equipo','World instruments and team rhythm']},
     format: {online:['Virtual','Online'],onsite:['Presencial','In person']}
   };
   function clean(value, max) {
