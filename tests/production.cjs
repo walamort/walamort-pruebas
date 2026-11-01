@@ -14,7 +14,7 @@ for(const rate of [24000,44100,48000]){const impulse=core.impulse(rate);assert.e
 const wav=core.wav([new Float32Array([-2,-1,0,.5,1,2]),new Float32Array([0,0,0,0,0,0])],44100),v=new DataView(wav);assert.equal(Buffer.from(wav).toString('ascii',0,4),'RIFF');assert.equal(v.getUint32(24,true),44100);assert.equal(v.getUint16(22,true),2);assert.equal(v.getInt16(44,true),-32768);assert.equal(v.getInt16(60,true),32767);assert.equal(v.getUint32(40,true),24);assert.equal(core.metrics([new Float32Array([1,-1,.5])]).clipped,2);assert.throws(()=>core.wav([new Float32Array([NaN])],44100));
 function mockContext(rate){
  const nodes=[];const param=()=>({value:0,setTargetAtTime(value){this.value=value}});const ctx={sampleRate:rate,currentTime:0,destination:{name:'destination'},createBuffer(channels,length,sampleRate){return {sampleRate,duration:length/sampleRate,channels:Array.from({length:channels},()=>new Float32Array(length)),copyToChannel(data,i){this.channels[i].set(data)}}}};
- for(const method of ['createGain','createBiquadFilter','createDynamicsCompressor','createDelay','createConvolver','createStereoPanner','createAnalyser','createBufferSource'])ctx[method]=()=>{const node={name:method,edges:[],gain:param(),frequency:param(),Q:param(),threshold:param(),knee:param(),ratio:param(),attack:param(),release:param(),delayTime:param(),pan:param(),connect(to){this.edges.push(to)},disconnect(){this.edges=[];this.disconnected=true},start(t){this.started=t},stop(){this.stopped=true}};nodes.push(node);return node;};return {ctx,nodes};
+ for(const method of ['createGain','createBiquadFilter','createDynamicsCompressor','createDelay','createConvolver','createStereoPanner','createAnalyser','createBufferSource','createWaveShaper','createChannelSplitter','createChannelMerger'])ctx[method]=()=>{const node={name:method,edges:[],gain:param(),frequency:param(),Q:param(),threshold:param(),knee:param(),ratio:param(),attack:param(),release:param(),delayTime:param(),pan:param(),connect(to,...ports){this.edges.push(to);(this.routes??=[]).push({to,ports})},disconnect(){this.edges=[];this.disconnected=true},start(t){this.started=t},stop(){this.stopped=true}};nodes.push(node);return node;};return {ctx,nodes};
 }
 const scope={window:{WalamortProduction:core}};vm.createContext(scope);vm.runInContext(fs.readFileSync('produccion-musical/engine.js','utf8'),scope);
 for(const rate of [44100,48000]){
@@ -29,3 +29,15 @@ for(const file of ['produccion-musical/index.html','en/produccion-musical/index.
 }
 assert(!fs.readdirSync('descargas').some(n=>n==='Walamort-Produccion-Cuaderno-01-Piloto.pdf'));
 console.log('PASS: strict project bounds, deterministic stems/timbres, impulse rates, PCM encoding/clipping, live/offline graph controls, imported single source, cleanup, bilingual assets and private full workbook.');
+
+const rhythmHashes=Object.keys(core.grooves).map(groove=>Buffer.from(core.synth({groove,pattern:core.pattern(groove)}).tracks.drums.buffer).toString('base64'));assert.equal(new Set(rhythmHashes).size,6);
+for(const bad of [{pattern:{kick:[]}},{groove:'unknown'},{solo:'everything'},{delaySync:'never'},{width:2},{drive:100}])assert.throws(()=>core.project({kind:'walamort-production',version:1,settings:bad}));
+const silent=Object.fromEntries(core.lanes.map(l=>[l,Array(16).fill(0)]));assert.equal(core.metrics([core.synth({pattern:silent}).tracks.drums]).peak,0);
+assert.equal(core.delaySeconds(core.settings({tempo:120,delaySync:'quarter'})),.5);assert.equal(core.delaySeconds(core.settings({tempo:60,delaySync:'quarter'})),1);const curve=core.curve(12);assert(curve.every(x=>Number.isFinite(x)&&Math.abs(x)<=1));assert.equal(curve[Math.floor(curve.length/2)],0);console.log('PASS: six distinct grooves, empty sequencer, pattern/enumeration bounds, synchronized delay and bounded saturation.');
+
+for(const [width,expected] of [[0,[.5,.5]],[1,[1,0]],[1.5,[1.25,-.25]]]){
+ const {ctx,nodes}=mockContext(48000),g=scope.window.WalamortProductionAudio.graph(ctx,core.settings({width})),split=nodes.find(n=>n.name==='createChannelSplitter'),merge=nodes.find(n=>n.name==='createChannelMerger'),output=[0,0];
+ for(const route of split.routes){const input=route.ports[0]===0?1:0;for(const onward of route.to.routes||[])if(onward.to===merge)output[onward.ports[1]]+=input*route.to.gain.value;}
+ assert.deepEqual(output,expected);g.dispose();
+}
+const copied=core.settings({groove:'house'});copied.pattern.kick[0]=0;assert.equal(core.pattern('house').kick[0],1);console.log('PASS: mono/unity/wide matrix routing and independent editable patterns.');
