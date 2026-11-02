@@ -1,0 +1,207 @@
+[
+  {
+    "id": "piano-study",
+    "source": "Academia_y_Preuniversitario/Walamort_Servicio_05.png",
+    "editorial": true,
+    "destinations": [
+      "lectura-musical"
+    ],
+    "variants": [
+      {
+        "file": "piano-study-640.webp",
+        "width": 640,
+        "height": 357
+      },
+      {
+        "file": "piano-study-1280.webp",
+        "width": 1280,
+        "height": 714
+      }
+    ]
+  },
+  {
+    "id": "violin-study",
+    "source": "Estudio_y_Mezcla/Walamort_Servicio_17.png",
+    "editorial": true,
+    "destinations": [
+      "aula-docente",
+      "preuniversitario"
+    ],
+    "variants": [
+      {
+        "file": "violin-study-640.webp",
+        "width": 640,
+        "height": 357
+      },
+      {
+        "file": "violin-study-1280.webp",
+        "width": 1280,
+        "height": 714
+      }
+    ]
+  },
+  {
+    "id": "harmony-strings",
+    "source": "Instrumentos_Musicales/Walamort_Servicio_09.png",
+    "editorial": true,
+    "destinations": [
+      "circulo-quintas"
+    ],
+    "variants": [
+      {
+        "file": "harmony-strings-640.webp",
+        "width": 640,
+        "height": 357
+      },
+      {
+        "file": "harmony-strings-1280.webp",
+        "width": 1280,
+        "height": 714
+      }
+    ]
+  },
+  {
+    "id": "synthesizer",
+    "source": "Instrumentos_Musicales/Walamort_Servicio_11.png",
+    "editorial": true,
+    "destinations": [
+      "laboratorio"
+    ],
+    "variants": [
+      {
+        "file": "synthesizer-640.webp",
+        "width": 640,
+        "height": 357
+      },
+      {
+        "file": "synthesizer-1280.webp",
+        "width": 1280,
+        "height": 714
+      }
+    ]
+  },
+  {
+    "id": "ear-assessment",
+    "source": "Pruebas_y_Evaluacion/Walamort_Servicio_08.png",
+    "editorial": true,
+    "destinations": [
+      "simulacro",
+      "entrenamiento-auditivo",
+      "dictado-melodico"
+    ],
+    "variants": [
+      {
+        "file": "ear-assessment-640.webp",
+        "width": 640,
+        "height": 357
+      },
+      {
+        "file": "ear-assessment-1280.webp",
+        "width": 1280,
+        "height": 714
+      }
+    ]
+  },
+  {
+    "id": "tuning-reference",
+    "source": "Servicios_y_Tienda/Walamort_Servicio_24.png",
+    "editorial": true,
+    "destinations": [
+      "afinador"
+    ],
+    "variants": [
+      {
+        "file": "tuning-reference-640.webp",
+        "width": 640,
+        "height": 357
+      },
+      {
+        "file": "tuning-reference-1280.webp",
+        "width": 1280,
+        "height": 714
+      }
+    ]
+  },
+  {
+    "id": "harmony-piano",
+    "source": "Servicios_y_Tienda/Walamort_Servicio_25.png",
+    "editorial": true,
+    "destinations": [
+      "laboratorio-armonico",
+      "armonia",
+      "escalas-auditivas"
+    ],
+    "variants": [
+      {
+        "file": "harmony-piano-640.webp",
+        "width": 640,
+        "height": 357
+      },
+      {
+        "file": "harmony-piano-1280.webp",
+        "width": 1280,
+        "height": 714
+      }
+    ]
+  },
+  {
+    "id": "acoustic-session",
+    "source": "Servicios_y_Tienda/Walamort_Servicio_26.png",
+    "editorial": true,
+    "destinations": [
+      "servicios-musicales"
+    ],
+    "variants": [
+      {
+        "file": "acoustic-session-640.webp",
+        "width": 640,
+        "height": 357
+      },
+      {
+        "file": "acoustic-session-1280.webp",
+        "width": 1280,
+        "height": 714
+      }
+    ]
+  },
+  {
+    "id": "mix-console-detail",
+    "source": "Servicios_y_Tienda/Walamort_Servicio_27.png",
+    "editorial": true,
+    "destinations": [
+      "produccion-musical"
+    ],
+    "variants": [
+      {
+        "file": "mix-console-detail-640.webp",
+        "width": 640,
+        "height": 357
+      },
+      {
+        "file": "mix-console-detail-1280.webp",
+        "width": 1280,
+        "height": 714
+      }
+    ]
+  },
+  {
+    "id": "rhythm-score",
+    "source": "Estudio_y_Mezcla/Walamort_Servicio_16.png",
+    "editorial": true,
+    "destinations": [
+      "practica-ritmica"
+    ],
+    "variants": [
+      {
+        "file": "rhythm-score-640.webp",
+        "width": 640,
+        "height": 357
+      },
+      {
+        "file": "rhythm-score-1280.webp",
+        "width": 1280,
+        "height": 714
+      }
+    ]
+  }
+]

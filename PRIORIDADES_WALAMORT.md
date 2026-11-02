@@ -1,8 +1,11 @@
 # Walamort · Prioridades de desarrollo y lanzamiento
 
-Actualizado: 1 de noviembre de 2026.
+Actualizado: 2 de noviembre de 2026.
 
 ## Confirmado y terminado
+
+- Publicación principal trilingüe verificada (producción 655c742, Pages correcto). En este ciclo: dos ejercicios completos en portugués y corrección de sostenidos del teclado inglés.
+- Selección visual de 10 escenas nuevas entre 25 archivos recibidos; las maquetas con textos se conservan como referencias, sin presentarlas como interfaces reales.
 
 - El usuario confirmó que la versión inicial del laboratorio de producción se escucha bien en sus dos dispositivos. La ampliación de ritmos y efectos necesita una nueva escucha en esos dispositivos. No se registraron los modelos ni navegadores; esta confirmación complementa las pruebas técnicas, no representa todas las combinaciones posibles.
 - El usuario confirmó que publicó el carrusel. Alcance, consultas y ventas todavía no se han medido.
@@ -36,8 +39,8 @@ No se han fijado nuevos precios, fechas de curso, cupos ni reservas automáticas
 
 ## P3 · Crecimiento de marca con base operativa
 
-- Preparar una propuesta revisable de navegación para la web de producción. La autorización vigente limita el desarrollo del repositorio principal a `home-improvements-oct29`; no se mezcla en `main` automáticamente.
-- Completar inglés de contenido antiguo y revisar títulos, enlaces y accesibilidad. Mantener `noindex` en pruebas; planear la publicación indexable en el dominio de producción cuando esté autorizada.
+- La nueva navegación y el lanzamiento en producción ya están publicados por autorización explícita del usuario. Mantener revisión y pruebas antes de cada publicación; continuar replicando los avances en `home-improvements-oct29` y en pruebas.
+- Completar idiomas del contenido antiguo: ya hay portadas y búsqueda en español, inglés y portugués de Brasil; ahora también dictado melódico y ritmo en portugués. Revisar las demás herramientas sin presentarlas como traducidas. Producción es indexable; pruebas conserva `noindex`.
 - Ampliar museo con fuentes y voces de las comunidades, fotos propias identificadas y grabaciones autorizadas.
 - Diseñar licencias docentes, cursos guiados y talleres con capacidad real de entrega antes de anunciarlos como disponibles.
 - Considerar cuentas, grupos y sincronización después de definir backend, privacidad, soporte y recuperación de datos.
@@ -49,4 +52,4 @@ Preguntar a quienes consultan qué actividad o material les interesó y qué dif
 
 ## Condiciones que se conservan
 
-Colores y estilo Walamort; archivos propios procesados localmente; sin mensajes automáticos a terceros; sin rastreadores añadidos; muestras gratuitas separadas de ediciones completas. Cambios del repositorio principal solo en la rama de desarrollo autorizada.
+Colores y estilo Walamort; archivos propios procesados localmente; sin mensajes automáticos a terceros; sin rastreadores añadidos; muestras gratuitas separadas de ediciones completas. La publicación en main de producción está autorizada explícitamente desde el lanzamiento; comprobar cambios y conservar el sitio de pruebas.

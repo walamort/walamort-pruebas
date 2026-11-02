@@ -217,7 +217,7 @@
       "title": "Ditado melódico",
       "description": "Ouça e responda usando um teclado interativo."
     },
-    "portuguese": null
+    "portuguese": "pt/dictado-melodico/"
   },
   {
     "id": "11",
@@ -277,7 +277,7 @@
       "title": "Prática rítmica",
       "description": "Reproduza padrões e confira sua precisão."
     },
-    "portuguese": null
+    "portuguese": "pt/practica-ritmica/"
   },
   {
     "id": "14",
@@ -452,7 +452,7 @@
       "title": "Guitar and bass fretboard",
       "description": "Explore fretboard notes, scales and positions."
     },
-    "tags": "guitarra bajo notas digitacion fretboard guitar bass violao afinacao amostras gravar",
+    "tags": "guitarra bajo notas digitacion fretboard guitar bass violao afinacao amostras gravar violao afinacao amostras gravar",
     "pt": {
       "title": "Braço de guitarra e baixo",
       "description": "Explore notas, escalas e posições no braço."
@@ -492,7 +492,7 @@
       "title": "Instrument sound bank",
       "description": "14 variants and 564 samples with notes and credits."
     },
-    "tags": "muestras samples piano guitarra violin flauta sonidos sound bank violao afinacao amostras gravar",
+    "tags": "muestras samples piano guitarra violin flauta sonidos sound bank violao afinacao amostras gravar violao afinacao amostras gravar",
     "pt": {
       "title": "Banco de sons de instrumentos",
       "description": "14 variantes e 564 amostras com notas e créditos."

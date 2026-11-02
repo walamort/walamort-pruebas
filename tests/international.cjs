@@ -10,7 +10,7 @@ for(const logical of ['index.html','buscar/index.html'])for(const folder of ['',
  assert.equal((html.match(/class="wm-locale"/g)||[]).length,1);assert(html.includes('Português (Brasil)'));
 }
 for(const name of ['Kalimba','Handpan','Tongue-Drum'])assert(fs.existsSync(path.join(root,'descargas',name+'-Primeiros-Passos-Walamort.pdf')));
-assert(read('pt/index.html').includes('Os exercícios interativos ainda estão em espanhol ou inglês'));
+assert(read('pt/index.html').includes('As demais ferramentas ainda estão em espanhol ou inglês'));
 const urls=[...read('sitemap.xml').matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]);assert(urls.includes(base));assert(urls.includes(base+'en/'));assert(urls.includes(base+'pt/'));assert(urls.includes(base+'pt/buscar/'));assert.equal(new Set(urls).size,urls.length);
 for(const url of urls){assert(url.startsWith(base));const relative=url.slice(base.length);const file=path.join(root,relative,'index.html');assert(fs.existsSync(file),file);if(!preview)assert(!read(relative+'index.html').split('</head>')[0].includes('noindex'));}
 assert(preview?read('robots.txt').includes('Disallow: /'):read('robots.txt').includes('Allow: /'));

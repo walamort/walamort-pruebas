@@ -1,7 +1,7 @@
 (()=>{"use strict";
 const $=id=>document.getElementById(id),melody=document.body.dataset.mode==="melody";
 let ctx,voices=[],timers=[],generation=0,busy=false,recording=false,start=0,beat=.75,notes=[],answer=[],pattern=[],taps=[],heard=false,scored=false,pendingKey=false;
-const names=["C","Do♯","D","Re♯","E","F","Bass♯","G","Treble♯","A","La♯","B"];
+const names=["C","C♯","D","D♯","E","F","F♯","G","G♯","A","A♯","B"];
 const name=n=>names[n%12]+(Math.floor(n/12)-1);
 function message(s){$("status").textContent=s}
 function later(fn,ms){timers.push(setTimeout(fn,ms))}
