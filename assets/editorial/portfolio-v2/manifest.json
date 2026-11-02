@@ -1,0 +1,86 @@
+[
+  {
+    "id": "composition",
+    "source": "User-supplied portfolio image, edited with image_gen",
+    "full": "composition-1280.webp",
+    "small": "composition-640.webp",
+    "editorial": true
+  },
+  {
+    "id": "ear-training",
+    "source": "User-supplied portfolio image, edited with image_gen",
+    "full": "ear-training-1280.webp",
+    "small": "ear-training-640.webp",
+    "editorial": true
+  },
+  {
+    "id": "acoustic-recording",
+    "source": "User-supplied portfolio image, edited with image_gen",
+    "full": "acoustic-recording-1280.webp",
+    "small": "acoustic-recording-640.webp",
+    "editorial": true
+  },
+  {
+    "id": "academy",
+    "source": "User-supplied portfolio image, edited with image_gen",
+    "full": "academy-1280.webp",
+    "small": "academy-640.webp",
+    "editorial": true
+  },
+  {
+    "id": "studio",
+    "source": "User-supplied portfolio image, edited with image_gen",
+    "full": "studio-1280.webp",
+    "small": "studio-640.webp",
+    "editorial": true
+  },
+  {
+    "id": "museum",
+    "source": "User-supplied portfolio image, edited with image_gen",
+    "full": "museum-1280.webp",
+    "small": "museum-640.webp",
+    "editorial": true
+  },
+  {
+    "id": "fretboard",
+    "source": "User-supplied portfolio image, edited with image_gen",
+    "full": "fretboard-1280.webp",
+    "small": "fretboard-640.webp",
+    "editorial": true
+  },
+  {
+    "id": "rhythm",
+    "source": "User-supplied portfolio image, edited with image_gen",
+    "full": "rhythm-1280.webp",
+    "small": "rhythm-640.webp",
+    "editorial": true
+  },
+  {
+    "id": "library",
+    "source": "User-supplied portfolio image, edited with image_gen",
+    "full": "library-1280.webp",
+    "small": "library-640.webp",
+    "editorial": true
+  },
+  {
+    "id": "staff-reading",
+    "source": "User-supplied portfolio image, edited with image_gen",
+    "full": "staff-reading-1280.webp",
+    "small": "staff-reading-640.webp",
+    "editorial": true
+  },
+  {
+    "id": "sequencer",
+    "source": "User-supplied portfolio image, edited with image_gen",
+    "full": "sequencer-1280.webp",
+    "small": "sequencer-640.webp",
+    "editorial": true
+  },
+  {
+    "id": "mixing",
+    "source": "User-supplied portfolio image, edited with image_gen",
+    "full": "mixing-1280.webp",
+    "small": "mixing-640.webp",
+    "editorial": true
+  }
+]

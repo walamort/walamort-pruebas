@@ -14,6 +14,7 @@
 
 (() => {
   'use strict';
+  document.documentElement.classList.add('experience-js');
   const toggle = document.querySelector('.wm-menu-toggle');
   const menu = document.getElementById('wm-nav-links');
   if (toggle && menu) {
