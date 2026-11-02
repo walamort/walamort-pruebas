@@ -41,3 +41,11 @@ for(const [width,expected] of [[0,[.5,.5]],[1,[1,0]],[1.5,[1.25,-.25]]]){
  assert.deepEqual(output,expected);g.dispose();
 }
 const copied=core.settings({groove:'house'});copied.pattern.kick[0]=0;assert.equal(core.pattern('house').kick[0],1);console.log('PASS: mono/unity/wide matrix routing and independent editable patterns.');
+{
+ const {ctx,nodes}=mockContext(44100),panners=[];
+ ctx.createPanner=()=>{const node=ctx.createStereoPanner();delete node.pan;node.positionX={setTargetAtTime(v){this.value=v}};node.positionY={setTargetAtTime(v){this.value=v}};node.positionZ={setTargetAtTime(v){this.value=v}};panners.push(node);return node;};
+ const s=core.settings({spatial:'binaural',keysAz:90,distance:2}),g=scope.window.WalamortProductionAudio.graph(ctx,s),voices=scope.window.WalamortProductionAudio.sources(ctx,g,core.synth(s),s);
+ assert.equal(panners.length,3);assert(panners.every(p=>p.panningModel==='HRTF'));assert(Math.abs(panners[2].positionX.value-2)<1e-10);voices.update({...s,keysAz:-90});assert(Math.abs(panners[2].positionX.value+2)<1e-10);voices.stop();g.dispose();assert(panners.every(p=>p.disconnected));
+ const project=core.project({kind:'walamort-production',version:1,settings:{...s,keysBank:'guitar-nylon',key:2,chords:[0,1,3,0],backingStyle:'random'}});assert.equal(project.settings.keysBank,'guitar-nylon');assert.deepEqual(project.settings.chords,[0,1,3,0]);
+ console.log('PASS: HRTF positions/update/cleanup and new backing/sample project fields.');
+}

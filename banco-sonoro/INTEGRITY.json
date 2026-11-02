@@ -1,0 +1,3650 @@
+[
+  {
+    "path": "samples/piano/A1.mp3",
+    "bytes": 382518,
+    "sha256": "31cac79b1c077e78f51eb725ab11bece140e537513668b92ef87fe1be0a1027e",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/A1.mp3"
+  },
+  {
+    "path": "samples/piano/A2.mp3",
+    "bytes": 230400,
+    "sha256": "557d453048c86cec76a5f674963aa52119507f6b886b41e5b60d050526447ce8",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/A2.mp3"
+  },
+  {
+    "path": "samples/piano/A3.mp3",
+    "bytes": 200352,
+    "sha256": "fdd984a8e4bfd27fbe92e071635dd1f5ca90c1aec6102270eb52b46d7d64f14a",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/A3.mp3"
+  },
+  {
+    "path": "samples/piano/A4.mp3",
+    "bytes": 159036,
+    "sha256": "a3b829eb92b37fd1174227bc83757f3a62bc3f9efbaf79503e83447c52338d44",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/A4.mp3"
+  },
+  {
+    "path": "samples/piano/A5.mp3",
+    "bytes": 122728,
+    "sha256": "d121012517f4985f66a72eb3947a9f5de3d7489260c6deb97022191d23670212",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/A5.mp3"
+  },
+  {
+    "path": "samples/piano/A6.mp3",
+    "bytes": 70144,
+    "sha256": "857dd0dfdf42a7c11c5a0934b96bec4954377a68a8e0d65921c14ee5e8179f1a",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/A6.mp3"
+  },
+  {
+    "path": "samples/piano/A7.mp3",
+    "bytes": 54494,
+    "sha256": "942e5d10c0f6998fa7a5a39692573ade6b6503dc29ddd80076ef4fa006cf44fa",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/A7.mp3"
+  },
+  {
+    "path": "samples/piano/As1.mp3",
+    "bytes": 316162,
+    "sha256": "7b4ac981b99eda31a7dd83d566d4674aea53a8bb408df83954d56ca7efc454d7",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/As1.mp3"
+  },
+  {
+    "path": "samples/piano/As2.mp3",
+    "bytes": 241042,
+    "sha256": "2ea188125600b816cc9d612912ed506cf13b53dc4ecfce83727f9312b415ea8b",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/As2.mp3"
+  },
+  {
+    "path": "samples/piano/As3.mp3",
+    "bytes": 163418,
+    "sha256": "6e1e073afbf56c5eb98390ce7a88d7700f63e01d59b36d5fc587f4af4b5a8e69",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/As3.mp3"
+  },
+  {
+    "path": "samples/piano/As4.mp3",
+    "bytes": 127736,
+    "sha256": "df99716c8bb127101058841a31f4a21de1b165171237e169e84614328dcfe9f5",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/As4.mp3"
+  },
+  {
+    "path": "samples/piano/As5.mp3",
+    "bytes": 83290,
+    "sha256": "db0d2b65b86d08cb8ffcf311c5cfdcc2b70e46a8a28649244fc9e97472f5f5e7",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/As5.mp3"
+  },
+  {
+    "path": "samples/piano/As6.mp3",
+    "bytes": 71396,
+    "sha256": "01e9b5cd930e2f004567cb224363f2781ffad03250476b42d93548252a6aff23",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/As6.mp3"
+  },
+  {
+    "path": "samples/piano/As7.mp3",
+    "bytes": 33836,
+    "sha256": "74b24c715eb611e15c233f1d751faf07823822b6bc3304941e770f5b96027a8d",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/As7.mp3"
+  },
+  {
+    "path": "samples/piano/B1.mp3",
+    "bytes": 279854,
+    "sha256": "34c7223e6376cc12956b9aa7a1758ffef927e0311b0e340b1450ff54b13e5041",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/B1.mp3"
+  },
+  {
+    "path": "samples/piano/B2.mp3",
+    "bytes": 287366,
+    "sha256": "8238f32cef0510a88123f8a719640687e8af20a4c52717252571ea7d9bc2d8d6",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/B2.mp3"
+  },
+  {
+    "path": "samples/piano/B3.mp3",
+    "bytes": 219132,
+    "sha256": "33b9cc40973310ac87cd882c6653b59952d30d02acfec3de08a7bab9a1353644",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/B3.mp3"
+  },
+  {
+    "path": "samples/piano/B4.mp3",
+    "bytes": 187832,
+    "sha256": "eab85d81b7b0abeab68c22198b60a81df77453642ffc3f06aaef4d72cc8f50fe",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/B4.mp3"
+  },
+  {
+    "path": "samples/piano/B5.mp3",
+    "bytes": 159662,
+    "sha256": "10c49807b622de3e3bd61a4963f0045762c60b25330658a3271173b6ec9b3dd2",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/B5.mp3"
+  },
+  {
+    "path": "samples/piano/B6.mp3",
+    "bytes": 115842,
+    "sha256": "37d7d77e78b26e1db791cb819118abe1404de6cd47e1bfa1562baa565d62699f",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/B6.mp3"
+  },
+  {
+    "path": "samples/piano/B7.mp3",
+    "bytes": 58876,
+    "sha256": "ff287bf52e9366f6c7c6fe1b031a686fe111d199b7b81761f38a157646ad9b67",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/B7.mp3"
+  },
+  {
+    "path": "samples/piano/C1.mp3",
+    "bytes": 279228,
+    "sha256": "3aebce904022cc99ebd5a58248e9944ce76a9ef39ae726a48658663e902bef1d",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/C1.mp3"
+  },
+  {
+    "path": "samples/piano/C2.mp3",
+    "bytes": 429468,
+    "sha256": "4fb4d2a432deb5355f62a29b87087f7f1cdd2ca4885016c53d3a65c71b637935",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/C2.mp3"
+  },
+  {
+    "path": "samples/piano/C3.mp3",
+    "bytes": 262326,
+    "sha256": "277149247cbd666ce256689369e5f501bafdb68d027d866178b7944820f8ebc6",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/C3.mp3"
+  },
+  {
+    "path": "samples/piano/C4.mp3",
+    "bytes": 239164,
+    "sha256": "a265c8cfd4140cf27b55054b4953b6c691fce3523530ca8ae0faed5e4cd39063",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/C4.mp3"
+  },
+  {
+    "path": "samples/piano/C5.mp3",
+    "bytes": 177190,
+    "sha256": "54a9304d2c609328580c0e06a394670559fe5f594f643d5d12c6dae158051b4a",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/C5.mp3"
+  },
+  {
+    "path": "samples/piano/C6.mp3",
+    "bytes": 100192,
+    "sha256": "c3c9ee316e7b98a07d89be2340c2382aa689826b50db9080dab7f6e23ebc3d7c",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/C6.mp3"
+  },
+  {
+    "path": "samples/piano/C7.mp3",
+    "bytes": 58876,
+    "sha256": "438e3aa98531a783bd02aab4ee0e848b3185b67039868a6876ac839c7b044e96",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/C7.mp3"
+  },
+  {
+    "path": "samples/piano/C8.mp3",
+    "bytes": 42600,
+    "sha256": "e6d37a743a7db98c789e6113fea67b47fddbb1193e5473d1d4fe19eef8babd11",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/C8.mp3"
+  },
+  {
+    "path": "samples/piano/Cs1.mp3",
+    "bytes": 382518,
+    "sha256": "d427483459853e0f360c40b2bbe07ae908611284ee37b083bc3a59a98d0048bf",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Cs1.mp3"
+  },
+  {
+    "path": "samples/piano/Cs2.mp3",
+    "bytes": 295504,
+    "sha256": "1a98ce3c661cbab86b97ed54eedb43843106225a171f0c83c52e4ccb69e1a9bb",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Cs2.mp3"
+  },
+  {
+    "path": "samples/piano/Cs3.mp3",
+    "bytes": 267334,
+    "sha256": "1754a8d6a17a1bf65499cd59310fc6e9e333a8d864de098ec55451915d2c5c0e",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Cs3.mp3"
+  },
+  {
+    "path": "samples/piano/Cs4.mp3",
+    "bytes": 199100,
+    "sha256": "9251957ed2fa36b31d65e806e9cfcbffab7cd1eca6f2d5692147d357735e8333",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Cs4.mp3"
+  },
+  {
+    "path": "samples/piano/Cs5.mp3",
+    "bytes": 83290,
+    "sha256": "01282fcba42ab561fb13e120cffd01bf6c5b457dd5ea4f401b52467b97882852",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Cs5.mp3"
+  },
+  {
+    "path": "samples/piano/Cs6.mp3",
+    "bytes": 85168,
+    "sha256": "05d9362fc1dfac2a9f67bf5a0207fd292d91ab3783daa6d09d68ee0ee1ed893e",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Cs6.mp3"
+  },
+  {
+    "path": "samples/piano/Cs7.mp3",
+    "bytes": 83290,
+    "sha256": "445290b81600e7d701842ba31830d903aa73670f546a69b6988528e74e8352e7",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Cs7.mp3"
+  },
+  {
+    "path": "samples/piano/D1.mp3",
+    "bytes": 275472,
+    "sha256": "53ead9409903cb084d76fbc954f6b12b588b634750901e8ebfd9960d8744e02e",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/D1.mp3"
+  },
+  {
+    "path": "samples/piano/D2.mp3",
+    "bytes": 341202,
+    "sha256": "84ab98ee014d0f3d90c6e7869b78d1d5fd48fc322e1c2a887ddfbe3a0b780266",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/D2.mp3"
+  },
+  {
+    "path": "samples/piano/D3.mp3",
+    "bytes": 218506,
+    "sha256": "b92043c1178c9761b95ecd0ad09ba020f8b3e7ffad2a30a48b14b7fab65d9b91",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/D3.mp3"
+  },
+  {
+    "path": "samples/piano/D4.mp3",
+    "bytes": 251058,
+    "sha256": "ef93e9d80d65ac23084aebc0216d0078ffe85bd62cf21167f5e84f2d4d1e180d",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/D4.mp3"
+  },
+  {
+    "path": "samples/piano/D5.mp3",
+    "bytes": 153402,
+    "sha256": "f5ff366d560563e2ec296dbc48feb5f011b99967a0014836ad479185b7456c2c",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/D5.mp3"
+  },
+  {
+    "path": "samples/piano/D6.mp3",
+    "bytes": 94558,
+    "sha256": "4a26c1bc801ab7168b7f3f6f6335e3a2a0ff5593b8f686c5a0107d721a039fdf",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/D6.mp3"
+  },
+  {
+    "path": "samples/piano/D7.mp3",
+    "bytes": 58876,
+    "sha256": "d9ba854e41cef54d775eb74b2c7b36b2c25a041961f53bfcba4fb13bc2c78a54",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/D7.mp3"
+  },
+  {
+    "path": "samples/piano/Ds1.mp3",
+    "bytes": 312406,
+    "sha256": "77e8cfdd2e7e9ad5ea0e4e6e6872fd80b9a5f548d5d49d76e63e70b20653223a",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Ds1.mp3"
+  },
+  {
+    "path": "samples/piano/Ds2.mp3",
+    "bytes": 374380,
+    "sha256": "c8432e4de05016cd12534c0a584e6f26cd1b9b197fa96a6cba10507e9e96741f",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Ds2.mp3"
+  },
+  {
+    "path": "samples/piano/Ds3.mp3",
+    "bytes": 186580,
+    "sha256": "357ee7ef1c13fd4a0a1f2bd565179234aa59ed1dbc68b749c8349a349410322f",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Ds3.mp3"
+  },
+  {
+    "path": "samples/piano/Ds4.mp3",
+    "bytes": 209742,
+    "sha256": "981383275cc1021b425f5c3e4fab8e9ee4385e4023e82993e04140ad325d0f08",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Ds4.mp3"
+  },
+  {
+    "path": "samples/piano/Ds5.mp3",
+    "bytes": 135874,
+    "sha256": "30f6a5ba2494603fb7c1cbb43c50769858f252a1a2111e1bd8c02d358513e2cd",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Ds5.mp3"
+  },
+  {
+    "path": "samples/piano/Ds6.mp3",
+    "bytes": 107704,
+    "sha256": "be47d97fc376dfed90bfdcd462370bda30abffc537a4971bde71be2502bfc876",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Ds6.mp3"
+  },
+  {
+    "path": "samples/piano/Ds7.mp3",
+    "bytes": 70144,
+    "sha256": "413ab3b2c4966e7c977123206dde7daeceb09d96adc40a1d16e2a2e2fe750160",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Ds7.mp3"
+  },
+  {
+    "path": "samples/piano/E1.mp3",
+    "bytes": 395664,
+    "sha256": "e965b7ea38a3dcababb9d9be22e5c2705ba84fc3b3d82ea4e515d36063a2dd63",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/E1.mp3"
+  },
+  {
+    "path": "samples/piano/E2.mp3",
+    "bytes": 237912,
+    "sha256": "004576505f0d669209689a205f10efdae52888cc6dfef5dedb8dea0ba9637fe3",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/E2.mp3"
+  },
+  {
+    "path": "samples/piano/E3.mp3",
+    "bytes": 185328,
+    "sha256": "5ad7bfd3c592bf43aed2a6d8dc12d5b3fd94d920e40276ee8dc86aba72e2c8a4",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/E3.mp3"
+  },
+  {
+    "path": "samples/piano/E4.mp3",
+    "bytes": 140882,
+    "sha256": "79ae781dab4cfba9f08215336cee7e0cf2ba91cd4f8d5b723f62260358858953",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/E4.mp3"
+  },
+  {
+    "path": "samples/piano/E5.mp3",
+    "bytes": 128988,
+    "sha256": "54886fbf11c8f767a361200f70c5ea06c21b70dfc2c37f16d238b07be16d489a",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/E5.mp3"
+  },
+  {
+    "path": "samples/piano/E6.mp3",
+    "bytes": 94558,
+    "sha256": "c755c14af5d1ee1bacd91684ee5432e75428d94ec8a2cee34aa0dcb7b82aa16e",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/E6.mp3"
+  },
+  {
+    "path": "samples/piano/E7.mp3",
+    "bytes": 63884,
+    "sha256": "e4512c9ee68299f2c625fe18877056d181469db3971f4fcff2d9fbdabb7491b5",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/E7.mp3"
+  },
+  {
+    "path": "samples/piano/F1.mp3",
+    "bytes": 277976,
+    "sha256": "b7e5be489f3f0c8004e5743bdfa8b19012a860dd2ead91d6b7c1d8406e025d29",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/F1.mp3"
+  },
+  {
+    "path": "samples/piano/F2.mp3",
+    "bytes": 288618,
+    "sha256": "ce8e7d4027102dc7d26d02a1c6ea2295adccddeb762c4a649b6119ca98e88e96",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/F2.mp3"
+  },
+  {
+    "path": "samples/piano/F3.mp3",
+    "bytes": 175938,
+    "sha256": "dd80c7cdeb3568f79061e2d8e24f02507a618815b6ff11368b2ff1cbc4e04da3",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/F3.mp3"
+  },
+  {
+    "path": "samples/piano/F4.mp3",
+    "bytes": 193466,
+    "sha256": "9b705bc7498780be5a509e94e4ef4cdd0911fe970d60f0781636ebe95d655e0b",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/F4.mp3"
+  },
+  {
+    "path": "samples/piano/F5.mp3",
+    "bytes": 158410,
+    "sha256": "df514d683645777d5cd74c81f62b509db48d065ad67cd5ccc3e83353208353af",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/F5.mp3"
+  },
+  {
+    "path": "samples/piano/F6.mp3",
+    "bytes": 74526,
+    "sha256": "fbc80a25f83bce3d414d95a92e2e7fe6de0bcd7b04d2eceb03869d033233af80",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/F6.mp3"
+  },
+  {
+    "path": "samples/piano/F7.mp3",
+    "bytes": 58876,
+    "sha256": "1981a6e8a399c282cb2e9e14a920d81043f0bf342fa7047f2616da8b95b25309",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/F7.mp3"
+  },
+  {
+    "path": "samples/piano/Fs1.mp3",
+    "bytes": 389404,
+    "sha256": "7428040c4bbc5c9460f117ca0de6fd01ff1194b27adf48ffb3155d612f75818c",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Fs1.mp3"
+  },
+  {
+    "path": "samples/piano/Fs2.mp3",
+    "bytes": 309902,
+    "sha256": "131eed911369b4a0bdc52addd38dec2abbeeaf68499991c1fc46aa4ec38ded6a",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Fs2.mp3"
+  },
+  {
+    "path": "samples/piano/Fs3.mp3",
+    "bytes": 233530,
+    "sha256": "d43f583706a2e6a1803e2360a79248b2f1aa9b3d1f8e5f04f5f9027d2b1afda7",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Fs3.mp3"
+  },
+  {
+    "path": "samples/piano/Fs4.mp3",
+    "bytes": 161540,
+    "sha256": "0b23feb9c67e409aa18b7bd2b1897f198e5914121a709e4dfd9996af4f0a15b4",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Fs4.mp3"
+  },
+  {
+    "path": "samples/piano/Fs5.mp3",
+    "bytes": 169052,
+    "sha256": "2ed25faa160029fcd28071ffa98f9504588511b2cb2179f74d7da00284f1bc33",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Fs5.mp3"
+  },
+  {
+    "path": "samples/piano/Fs6.mp3",
+    "bytes": 60128,
+    "sha256": "10630698ae014d406def4a7578720ad55b86ef3baedfbdaec71efa5d4b05abd2",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Fs6.mp3"
+  },
+  {
+    "path": "samples/piano/Fs7.mp3",
+    "bytes": 54494,
+    "sha256": "0f9755cfd99edb2771c0d9ce5c5867367055aceb9705f6555fde05fdbd155cfe",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Fs7.mp3"
+  },
+  {
+    "path": "samples/piano/G1.mp3",
+    "bytes": 351218,
+    "sha256": "088ac0560671d8f4abc35fcac003889b6dd6163b3f5e9f02789b457776355c02",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/G1.mp3"
+  },
+  {
+    "path": "samples/piano/G2.mp3",
+    "bytes": 259196,
+    "sha256": "78731f008c58577f8804e5615306d7d46594887c62bf6181d370485f7646b858",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/G2.mp3"
+  },
+  {
+    "path": "samples/piano/G3.mp3",
+    "bytes": 202230,
+    "sha256": "715aac658317a8d90816d93d43b30221ffbb4f5abb7c6d1e2d072460e2fdec3f",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/G3.mp3"
+  },
+  {
+    "path": "samples/piano/G4.mp3",
+    "bytes": 112086,
+    "sha256": "88dbfa25dc4f225f7b5c430855e68daaea9661380725837ddfe06eaf132c1e56",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/G4.mp3"
+  },
+  {
+    "path": "samples/piano/G5.mp3",
+    "bytes": 116468,
+    "sha256": "05f848a51be9302ac8195c4875c432cc95fccb09d3d38aab6103ddf88720d835",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/G5.mp3"
+  },
+  {
+    "path": "samples/piano/G6.mp3",
+    "bytes": 100818,
+    "sha256": "482d7ae9a8eb0c522325d384ce4eaf7de769f382eca361c38a563622cdcce479",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/G6.mp3"
+  },
+  {
+    "path": "samples/piano/G7.mp3",
+    "bytes": 61380,
+    "sha256": "16a8e983ac8b24e06c681d99181e55adc2e85b1f6c39b4b0b391b0822ac58c3b",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/G7.mp3"
+  },
+  {
+    "path": "samples/piano/Gs1.mp3",
+    "bytes": 351218,
+    "sha256": "31d76900f9780661ad5be0bae5f0c44982dcd5342e10a41a0b467cb73250658d",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Gs1.mp3"
+  },
+  {
+    "path": "samples/piano/Gs2.mp3",
+    "bytes": 257944,
+    "sha256": "27995cdb8c55adaa5a65025099df08bbe38b48c1227f3163f27d410bebf867f8",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Gs2.mp3"
+  },
+  {
+    "path": "samples/piano/Gs3.mp3",
+    "bytes": 222262,
+    "sha256": "f82a08ce29f7fc2a1bfd2ffcb6846956f5cb1fbde1d6480e8f11912f120140de",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Gs3.mp3"
+  },
+  {
+    "path": "samples/piano/Gs4.mp3",
+    "bytes": 144638,
+    "sha256": "bf091bd271cdb1439085a3e30aeb27082041a18fba242525bc9666e46328c905",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Gs4.mp3"
+  },
+  {
+    "path": "samples/piano/Gs5.mp3",
+    "bytes": 107078,
+    "sha256": "b838fda771eff292741c4292c7da669258253a0db46fa0fc466788e075118df1",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Gs5.mp3"
+  },
+  {
+    "path": "samples/piano/Gs6.mp3",
+    "bytes": 78908,
+    "sha256": "7009c362fefa26acab23d517399f8754bd9eb6a284d1a6217fbae27959634b79",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Gs6.mp3"
+  },
+  {
+    "path": "samples/piano/Gs7.mp3",
+    "bytes": 47608,
+    "sha256": "0eb80e4a7da5475909829ca5a6231e37f6f17283d86b1ae1977ede9131858bc2",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano/Gs7.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/A2.mp3",
+    "bytes": 276724,
+    "sha256": "43e339bcd75f5f26336be8e1e59b131a0bf06dbf66f588f1c59a8d9faf53613f",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/A2.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/A3.mp3",
+    "bytes": 105200,
+    "sha256": "025dbfd0aa2be101518bbf4587bbf0d81b96f6f9d01880287af749dc28201551",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/A3.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/A4.mp3",
+    "bytes": 97688,
+    "sha256": "1f8263f10e24509d8d0bb82c7dd873bfe7da5354ba0333f23ebfc0f02076361a",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/A4.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/As2.mp3",
+    "bytes": 267334,
+    "sha256": "c18a73a24012b54144ce69e1671a2bae927b20c5f5f6963802b718f3b15fd7d4",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/As2.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/As3.mp3",
+    "bytes": 105200,
+    "sha256": "fa417b5b5d84d7808dded5922dbd5222b67f6724a2a35b4b05cb1990a500c6c6",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/As3.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/As4.mp3",
+    "bytes": 97688,
+    "sha256": "ccd50d5271ac5b47b3bb422d10386d60a6ddaac6972085414eb2f1ab98137e23",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/As4.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/B2.mp3",
+    "bytes": 343706,
+    "sha256": "b3bfb6e236d6b4680971eccad3be0042f1b3f7fb86fd1593b3817d92c461391a",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/B2.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/B3.mp3",
+    "bytes": 120850,
+    "sha256": "2ab73ca750ca539a76c7ddaf7a3be2aac1436cd59ffc65525bf4adbb47c56488",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/B3.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/B4.mp3",
+    "bytes": 95810,
+    "sha256": "7b523e73ba05e35f630ea756f33ae9c7497f64510c4b06544d43bcd37acadf0d",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/B4.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/C3.mp3",
+    "bytes": 331812,
+    "sha256": "b9533ea5477879ddb9e1742c29f9084488ef70beee50a6fb44429d5b9a994e99",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/C3.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/C4.mp3",
+    "bytes": 83916,
+    "sha256": "594c98aa8f9d1a426078e91899525f143e0bc82218b7b2c3f4cea2c54c181925",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/C4.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/C5.mp3",
+    "bytes": 82664,
+    "sha256": "bed99fde143232c3a33847b82cf3e07c5d5e47b56d584d3d829d01deb9defbab",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/C5.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/Cs3.mp3",
+    "bytes": 303642,
+    "sha256": "fa6ba9fe6a9671166a6e64464c1697a567145aecc0c9e5dea4f0dbb07cc8bb50",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Cs3.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/Cs4.mp3",
+    "bytes": 103322,
+    "sha256": "220a4f2b31b1e5bd12cbbbc8d4e91d6e95d24ea62a5c3eabbd323c059c2aff7d",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Cs4.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/Cs5.mp3",
+    "bytes": 86420,
+    "sha256": "43cf3fff34e85cf21ada6f9f93fc2841a5b2e0cb716fcc1ddc013a762d6981a9",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Cs5.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/D2.mp3",
+    "bytes": 279228,
+    "sha256": "d005117a278f3b3ac5f6b7048f7d6d94315b85afa281140cc1a4264dd2f62483",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/D2.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/D3.mp3",
+    "bytes": 308024,
+    "sha256": "861b74a32a9159eea675ebd6ba0e5d3fa331b2c744dddd9ca1151073a3974fc0",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/D3.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/D4.mp3",
+    "bytes": 80786,
+    "sha256": "3572050294e58aae62d7fcaaf2d9a66a4f880bf2fb74e89160a1f6d069d516f2",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/D4.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/D5.mp3",
+    "bytes": 78282,
+    "sha256": "c9d74d19e672780b7b6e9eb4468b31b5fee6642f20df724198b232f7c78af4f1",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/D5.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/Ds2.mp3",
+    "bytes": 265456,
+    "sha256": "18f6ac5cb150aa737573adb761b77e2078d02f6cd8592dee746cba508ec88577",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Ds2.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/Ds3.mp3",
+    "bytes": 279854,
+    "sha256": "87580a3fad8132d7f3e202af2b5f26277c7ef8f46ac7ac2de4e661b1c8959e15",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Ds3.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/Ds4.mp3",
+    "bytes": 110208,
+    "sha256": "cf43f70485f77a9a064c2455c6d9ed9eaa4decdeaf77139247bd666feabf65cd",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Ds4.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/E2.mp3",
+    "bytes": 260448,
+    "sha256": "917820984d1bb0b7712b4f2c42a9694efbb2479ccede45aa78af73811fc6818d",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/E2.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/E3.mp3",
+    "bytes": 246050,
+    "sha256": "ffd6add4d02e0c9e45af59db231af77274b83602762878a9b1945210ae04bef5",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/E3.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/E4.mp3",
+    "bytes": 109582,
+    "sha256": "3b02f5448695ac92f257ea9e36ba77be1b1b4a08f62a549b95c7ea9f5303ce14",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/E4.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/F2.mp3",
+    "bytes": 371876,
+    "sha256": "eb7d6ccb9163aca6b70a0788de96ea20dd0bdca15db9015c5453c261e3982223",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/F2.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/F3.mp3",
+    "bytes": 219758,
+    "sha256": "98b1a5e1e442752aba163e5fc4410fc8fdddafac4c920a0dd22991387b46e66e",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/F3.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/F4.mp3",
+    "bytes": 113964,
+    "sha256": "f1d2f58575ac5cc666942c6f084d0328c2ceb28f485d315f41f66d9eafd33a05",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/F4.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/Fs2.mp3",
+    "bytes": 358104,
+    "sha256": "13f9060f1e0ae773ca49b9b90e622417275e29e3fb11a103cb3dd759ccdad12e",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Fs2.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/Fs3.mp3",
+    "bytes": 234782,
+    "sha256": "fbead0c33ab6e7ad2345be84c286f185f8a760149e848b711758606c6f55a12c",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Fs3.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/Fs4.mp3",
+    "bytes": 113964,
+    "sha256": "51a5d7eab58e82579f9ae23daa73bae57561af96498eb39f73662e578d00fd9b",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Fs4.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/G2.mp3",
+    "bytes": 332438,
+    "sha256": "9be6ff1387ec947afedb80244ae9321ca9606ce57c2671c3f50a07f6bdcd4f73",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/G2.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/G3.mp3",
+    "bytes": 137752,
+    "sha256": "8a8ddf06e2d4824f5086e6ad0cf32371da6afc594bf2efd9bb5ec9a2dfe9c040",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/G3.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/G4.mp3",
+    "bytes": 102696,
+    "sha256": "f26371971ba4e34431a709985b3d09ef74be441a6c49612e085f7f8eaf825ef4",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/G4.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/Gs2.mp3",
+    "bytes": 243546,
+    "sha256": "ec5fb51c6829a900c5f4073fd97ad617dd53a821e505143cea8c6f45253b3a37",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Gs2.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/Gs3.mp3",
+    "bytes": 120850,
+    "sha256": "b010d4622fefd06fc21063deece0b8f7141605a23331b10fa4385c3179a8d0ea",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Gs3.mp3"
+  },
+  {
+    "path": "samples/guitar-acoustic/Gs4.mp3",
+    "bytes": 104574,
+    "sha256": "811da762dcd6caa70f1b8e60a92a406bd9665ffa5e7c42e52861526c1b6f9078",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Gs4.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/A2.mp3",
+    "bytes": 126484,
+    "sha256": "0e20a4c2cb8451919121c19815f8fe9b2a3003ee823a26a55790dd16bd640ea8",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/A2.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/A3.mp3",
+    "bytes": 76404,
+    "sha256": "a4b25e648ce07f79ecb0c00f8a788add2a77e19163cd656ca48e10713854a5ea",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/A3.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/A4.mp3",
+    "bytes": 76404,
+    "sha256": "3436e55cf99281a40467dce558ea3009b929080d837193492fb110b7afd348e7",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/A4.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/A5.mp3",
+    "bytes": 38844,
+    "sha256": "b64c9c52964afcf1749c0c79cab1e035083a9caade9f604a618c36830a3f24d2",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/A5.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/As5.mp3",
+    "bytes": 38844,
+    "sha256": "8b58374042aa47d7aef055afca8492a0e25faeecee9ac44fb098afff53e6cb97",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/As5.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/B1.mp3",
+    "bytes": 126484,
+    "sha256": "6b5d9372206002e834c42db4968c679f1a8d265edcf4123923edccfc9c4a4887",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/B1.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/B2.mp3",
+    "bytes": 126484,
+    "sha256": "f96606207e6f0fb28947f29270c04998686d0146798d893f456e07026f20e680",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/B2.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/B3.mp3",
+    "bytes": 76404,
+    "sha256": "9e4b3df9cda03761dc093b910000bfc68083d9ce40605fdd2af370140521f2cd",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/B3.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/B4.mp3",
+    "bytes": 76404,
+    "sha256": "74cbac2107e258ff27198e87081a76677ca8820e0b257db004eb979429f47469",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/B4.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/Cs3.mp3",
+    "bytes": 126484,
+    "sha256": "3bcf1b9606d17e4c9e1eb67c71ccea4e7332477e009cb8ddabc68fe81b0351c6",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/Cs3.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/Cs4.mp3",
+    "bytes": 76404,
+    "sha256": "a4cc76204d938edb2190d70a16d916bdbc1db12ec751fe9b5f1edb38dd0e0527",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/Cs4.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/Cs5.mp3",
+    "bytes": 38844,
+    "sha256": "a8c85d0ea7188ed1f7794a7ce96c462824f89f5b2f153052f9b9c438e4c2b2e5",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/Cs5.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/D2.mp3",
+    "bytes": 126484,
+    "sha256": "3bc63f909bfb14394df455c0406f61e365a10f95cd6825f88e09bb4171f4331e",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/D2.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/D3.mp3",
+    "bytes": 126484,
+    "sha256": "aaeb2afa295e5d1733fe5b475851d590b56d7dfe26d841cb56272cd6867716c6",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/D3.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/D5.mp3",
+    "bytes": 44478,
+    "sha256": "b14bda1a35b55008042de4d1443f8dc585fd990133b07d81d233dfe9f6f29570",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/D5.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/Ds4.mp3",
+    "bytes": 76404,
+    "sha256": "05cbeaf46e110136346e855eb3a94d2db6756e5903b74de2e78eca58c8a6e77b",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/Ds4.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/E2.mp3",
+    "bytes": 126484,
+    "sha256": "af94c24ff1726e3dfb6edb3459ece1332820f32db1554e0509a9c5c815e93a35",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/E2.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/E3.mp3",
+    "bytes": 101444,
+    "sha256": "4e0b483c3ab384af8dd90824a04db68e382240c484c3ab10803ba7863f6aed87",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/E3.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/E4.mp3",
+    "bytes": 76404,
+    "sha256": "3f95d206021f8935d79da1f1b5bffe45c17f8dbfb598148e6a3ac4999cb0fa0b",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/E4.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/E5.mp3",
+    "bytes": 36340,
+    "sha256": "9ab5b711d43f7bd0cf5a7ec2c5d5a382c701b0258341a0a4483ccb377c4fd63c",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/E5.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/Fs2.mp3",
+    "bytes": 101444,
+    "sha256": "24892219c3c5aecd8add54ef8ada0d82b431e65f84254002395a24332ee7341b",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/Fs2.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/Fs3.mp3",
+    "bytes": 126484,
+    "sha256": "e4a4e8b9f961c8669910948ddf43b9c4027ee1623b37c558185e5421af3c7691",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/Fs3.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/Fs4.mp3",
+    "bytes": 76404,
+    "sha256": "33a2f0b2ccee800cae58bfdbbd2680fdabd866548efbb9e2696a5462a0e433c5",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/Fs4.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/Fs5.mp3",
+    "bytes": 38844,
+    "sha256": "259a7b727dce9d31e12316dff887148360de02aec774ea999d47bd399388f0fe",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/Fs5.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/G3.mp3",
+    "bytes": 76404,
+    "sha256": "85cbc7aeb84956c5b30333d73fedb57f1c393d04302684566ca77523015a6449",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/G3.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/G5.mp3",
+    "bytes": 38844,
+    "sha256": "2c0c12ebead537d4ea4b259c8dacbccb18bb1c8c978d424a11e51ff68587d1b0",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/G5.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/Gs2.mp3",
+    "bytes": 126484,
+    "sha256": "f5cdf638690910f68acd5f90491bcba00200f9041137060d3a26bef4a254f31a",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/Gs2.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/Gs4.mp3",
+    "bytes": 38844,
+    "sha256": "3310492adef184214d85d87e4d30ace28c6f5274a5883fb85db4bb730135dd4c",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/Gs4.mp3"
+  },
+  {
+    "path": "samples/guitar-nylon/Gs5.mp3",
+    "bytes": 38844,
+    "sha256": "3714d1e2cd35be502a8b522db02207031b37d1495c6608548c31f1402532db3a",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/Gs5.mp3"
+  },
+  {
+    "path": "samples/guitar-electric/A2.mp3",
+    "bytes": 102696,
+    "sha256": "cef8d3fe2cb17c36e4e9a96a002613aac15fe6224ef3d09e91ba23cc3555b910",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/A2.mp3"
+  },
+  {
+    "path": "samples/guitar-electric/A3.mp3",
+    "bytes": 102696,
+    "sha256": "b840f271794efc3efcce886d71d1ee57cf6d524b6da1be15b1429f6bc8fe2f45",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/A3.mp3"
+  },
+  {
+    "path": "samples/guitar-electric/A4.mp3",
+    "bytes": 102696,
+    "sha256": "a817ca1ebdbdc32d0011044c41d906438cc1b0358a0adb6373f2f26d140e5cb2",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/A4.mp3"
+  },
+  {
+    "path": "samples/guitar-electric/A5.mp3",
+    "bytes": 102696,
+    "sha256": "19756be9ea1b21ced2d519886a4d812665855b4f0a56509535ecc3bedebeb2c8",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/A5.mp3"
+  },
+  {
+    "path": "samples/guitar-electric/C3.mp3",
+    "bytes": 102696,
+    "sha256": "4859bcaf12f9bf953bdcdbfbbbac18c86516b3f0566b8ea0a2b195ba7beb09a9",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/C3.mp3"
+  },
+  {
+    "path": "samples/guitar-electric/C4.mp3",
+    "bytes": 102696,
+    "sha256": "b2252b95bbea34faba9d7800c1ab1c819d548d18d0cbada7882395fdc34e2617",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/C4.mp3"
+  },
+  {
+    "path": "samples/guitar-electric/C5.mp3",
+    "bytes": 102696,
+    "sha256": "6b0671195f6d82b2fdf8afab8d1883554d2c0fb7d99cc935adc609c2816397f3",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/C5.mp3"
+  },
+  {
+    "path": "samples/guitar-electric/C6.mp3",
+    "bytes": 102696,
+    "sha256": "0d170c00a32045de1a7e71ea6c14cfb78cb16cebe7706066b0cf5c4f45797415",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/C6.mp3"
+  },
+  {
+    "path": "samples/guitar-electric/Cs2.mp3",
+    "bytes": 102696,
+    "sha256": "2c1117ca8e5ac7d2b10df5363978326d86cd79ec70f99b652fdbcc48fcf65d4c",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/Cs2.mp3"
+  },
+  {
+    "path": "samples/guitar-electric/Ds3.mp3",
+    "bytes": 102696,
+    "sha256": "0b6e69576b898eb61460a4b2b32ba4bcd4943a95035ba5794c19abdffc0208a0",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/Ds3.mp3"
+  },
+  {
+    "path": "samples/guitar-electric/Ds4.mp3",
+    "bytes": 102696,
+    "sha256": "0d9d732faa3ec958c9e537a8bcc4421077150362617266636407ee7a93ca11eb",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/Ds4.mp3"
+  },
+  {
+    "path": "samples/guitar-electric/Ds5.mp3",
+    "bytes": 102696,
+    "sha256": "f8c690e0fa3fd235196673e6ef32a5929534c70bc9eaaa5a7632e39cca263cf4",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/Ds5.mp3"
+  },
+  {
+    "path": "samples/guitar-electric/E2.mp3",
+    "bytes": 102696,
+    "sha256": "7dd2be5de9d91dcd7f525ef8e1bfc8d77ffc27ac98faeb61e5eea0357ce42b75",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/E2.mp3"
+  },
+  {
+    "path": "samples/guitar-electric/Fs2.mp3",
+    "bytes": 102696,
+    "sha256": "217477bb8e08f0f8e6f8d4fc8d660cf22e0538425ae0172b6d023e3bd853d869",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/Fs2.mp3"
+  },
+  {
+    "path": "samples/guitar-electric/Fs3.mp3",
+    "bytes": 102696,
+    "sha256": "c8ac921a460d64d162a79e0c7174ddabec7b7d501ddcf875efe81c84ae160b8e",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/Fs3.mp3"
+  },
+  {
+    "path": "samples/guitar-electric/Fs4.mp3",
+    "bytes": 102696,
+    "sha256": "ff8045e8c863e3cad7a6094f32b672893ddc98a00de88460ef114d99f3e7c016",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/Fs4.mp3"
+  },
+  {
+    "path": "samples/guitar-electric/Fs5.mp3",
+    "bytes": 102696,
+    "sha256": "ded100a22902ef51c6ef634dfcefdedd278b96322f5d7b31dd8d2f400b78d0ba",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/Fs5.mp3"
+  },
+  {
+    "path": "samples/bass-electric/As1.mp3",
+    "bytes": 405680,
+    "sha256": "45bdecf48711f9f0455b2256d1b1b3bfa41a1950d70eab64ef2a28da6c2e605b",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/As1.mp3"
+  },
+  {
+    "path": "samples/bass-electric/As2.mp3",
+    "bytes": 316162,
+    "sha256": "c6f79e3e05bad4e41e2858b3acbd3edbee4e399529a7a97b9ade411080eac4b4",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/As2.mp3"
+  },
+  {
+    "path": "samples/bass-electric/As3.mp3",
+    "bytes": 248554,
+    "sha256": "72bf18ddd24a9d52663ada69249880946fb6d62cae5e14158750f438db2a176d",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/As3.mp3"
+  },
+  {
+    "path": "samples/bass-electric/As4.mp3",
+    "bytes": 181572,
+    "sha256": "b9dac9a326747e0a7be7659aed435c3de2f23d62b15d3e80bb58193126482105",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/As4.mp3"
+  },
+  {
+    "path": "samples/bass-electric/Cs1.mp3",
+    "bytes": 450752,
+    "sha256": "3c7dc5f53979a45faa710133cda695f3d68fa7b79b80f42b6a15c8bb3f6526b8",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/Cs1.mp3"
+  },
+  {
+    "path": "samples/bass-electric/Cs2.mp3",
+    "bytes": 361234,
+    "sha256": "7558885c23cf0a313c9651b7b2e11fd297902bb063db6b003748156ca9c07e9f",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/Cs2.mp3"
+  },
+  {
+    "path": "samples/bass-electric/Cs3.mp3",
+    "bytes": 316162,
+    "sha256": "5bd48a1633be2aae2d1032e7c304afa98568d947dc0bc0efa630bc2569a4dc7d",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/Cs3.mp3"
+  },
+  {
+    "path": "samples/bass-electric/Cs4.mp3",
+    "bytes": 248554,
+    "sha256": "2d72028b1af2ed42783f9cb905c5f5ec8b211032350c1c27c771bd4beaf04d16",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/Cs4.mp3"
+  },
+  {
+    "path": "samples/bass-electric/Cs5.mp3",
+    "bytes": 147768,
+    "sha256": "4e1e04e57451980846266c232d0a817b6020cd201d9f7e07f6295dfd7ee451db",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/Cs5.mp3"
+  },
+  {
+    "path": "samples/bass-electric/E1.mp3",
+    "bytes": 450752,
+    "sha256": "41fd91721398a47c6afa030feb324a1cd981ffac7da9bd313b775ad4f7b1a24c",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/E1.mp3"
+  },
+  {
+    "path": "samples/bass-electric/E2.mp3",
+    "bytes": 316162,
+    "sha256": "6a3c12185068beb22fc3225e1f2216f1f7440f4ba32a97dc8476c068df8307e8",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/E2.mp3"
+  },
+  {
+    "path": "samples/bass-electric/E3.mp3",
+    "bytes": 248554,
+    "sha256": "489482662d6fe265fb306f0acbad35ad775c699c7d7ae5485c3b3f583234d4a7",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/E3.mp3"
+  },
+  {
+    "path": "samples/bass-electric/E4.mp3",
+    "bytes": 181572,
+    "sha256": "59cdf868d2707b91946996e505b7311c6091c22b97aa170f316aa4156280d19d",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/E4.mp3"
+  },
+  {
+    "path": "samples/bass-electric/G1.mp3",
+    "bytes": 428216,
+    "sha256": "fd14e6e099056b6f0ff4433ef1d86358bffe7916f90c7ed2c6a7e2b0b4186cc6",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/G1.mp3"
+  },
+  {
+    "path": "samples/bass-electric/G2.mp3",
+    "bytes": 316162,
+    "sha256": "b5990f64a7094c946b0e88a47280649bab1ea0bff8f1ae1c420a97c1c2996cd2",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/G2.mp3"
+  },
+  {
+    "path": "samples/bass-electric/G3.mp3",
+    "bytes": 248554,
+    "sha256": "4c2f27ab0836f56e239fe30cca70e5c182157a5ff7b658bc19eb1169aeaf0a2e",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/G3.mp3"
+  },
+  {
+    "path": "samples/bass-electric/G4.mp3",
+    "bytes": 181572,
+    "sha256": "24c0d0ec8411e62e090c3e37b90e30d213e42897f728c810841cd2ede6d31a62",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/G4.mp3"
+  },
+  {
+    "path": "samples/contrabass/A2.mp3",
+    "bytes": 291122,
+    "sha256": "fa6497b23b2de54fe3da42a9f562d011fd4cbca9950e2e0f388333c98cfdf5b0",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/A2.mp3"
+  },
+  {
+    "path": "samples/contrabass/As1.mp3",
+    "bytes": 183450,
+    "sha256": "2c127fcb089171643987a3c894224450f8c4e53e4602a3b1f93b87e8c1c846f3",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/As1.mp3"
+  },
+  {
+    "path": "samples/contrabass/B3.mp3",
+    "bytes": 170930,
+    "sha256": "7487224e1df0d5bc136b47e3316ba03252bae78fa7d4514554386d06e075139c",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/B3.mp3"
+  },
+  {
+    "path": "samples/contrabass/C2.mp3",
+    "bytes": 251058,
+    "sha256": "29909070468832bd40184a3add476c73df42412e03b5e31d33828f7a2ab40fd4",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/C2.mp3"
+  },
+  {
+    "path": "samples/contrabass/Cs3.mp3",
+    "bytes": 184702,
+    "sha256": "09977ba5b668236a2d5817ae5d5ee9d824a15d8c67b8c6bbbc8a637c5ad39993",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/Cs3.mp3"
+  },
+  {
+    "path": "samples/contrabass/D2.mp3",
+    "bytes": 416948,
+    "sha256": "97da6ece5288497b06cc6c43bb83434662714f30bbe17e976f2ed4bf99b23e50",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/D2.mp3"
+  },
+  {
+    "path": "samples/contrabass/E2.mp3",
+    "bytes": 331812,
+    "sha256": "c476fb11b33bbf5f04db2ce7489aab9ff34790b3c4897bbad56e4cdb66d9fb4c",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/E2.mp3"
+  },
+  {
+    "path": "samples/contrabass/E3.mp3",
+    "bytes": 209742,
+    "sha256": "6784609dd58ce6808cd4a42215e4f39b663267f0c888ccb47cdf2ecbba3d0418",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/E3.mp3"
+  },
+  {
+    "path": "samples/contrabass/Fs1.mp3",
+    "bytes": 218506,
+    "sha256": "a48f4b515fb1b2ed116942b376ab603140f9606fce6f9293ed86620af5639af9",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/Fs1.mp3"
+  },
+  {
+    "path": "samples/contrabass/Fs2.mp3",
+    "bytes": 158410,
+    "sha256": "92e6283bee964da8b2783c37233b2ed37a1559df1276c310b69ec3d71c6441cd",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/Fs2.mp3"
+  },
+  {
+    "path": "samples/contrabass/G1.mp3",
+    "bytes": 216628,
+    "sha256": "2522bea8ab6b7ab1b0434cea3ff5ab97e645ea8ca103fd9f72fe6986d8c918be",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/G1.mp3"
+  },
+  {
+    "path": "samples/contrabass/Gs2.mp3",
+    "bytes": 172182,
+    "sha256": "826a77734baa60275322c89576f776fedd6d7fdd1121b356cbfd249f37dcbbda",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/Gs2.mp3"
+  },
+  {
+    "path": "samples/contrabass/Gs3.mp3",
+    "bytes": 185328,
+    "sha256": "74d47abe60df69c2132e340ab883cf0888edac275ebb61ebad279891c81f7c5e",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/Gs3.mp3"
+  },
+  {
+    "path": "samples/flute/A4.mp3",
+    "bytes": 193466,
+    "sha256": "615376784bd2a716baa8c7b1c57a3d55048a62cf89b313ed005d85da06a1d918",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/A4.mp3"
+  },
+  {
+    "path": "samples/flute/A5.mp3",
+    "bytes": 177190,
+    "sha256": "0735eccfb744176f253d1f715f7a70cf045694cce1da99d934e52a3a3544f968",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/A5.mp3"
+  },
+  {
+    "path": "samples/flute/A6.mp3",
+    "bytes": 133370,
+    "sha256": "1d67a54c3a8e8d28e21194cec6cbcbf1af60ec226f568b11723057b08abfd2c8",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/A6.mp3"
+  },
+  {
+    "path": "samples/flute/C4.mp3",
+    "bytes": 190962,
+    "sha256": "d6837b9e7c524e7b733a11530d930316d85a91cd80dbba38a497047624bb63e3",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/C4.mp3"
+  },
+  {
+    "path": "samples/flute/C5.mp3",
+    "bytes": 183450,
+    "sha256": "1b6ec4d5bf2caeca80da4c53f6d9f09eb3a49e8de04588965c55ca8f00ff296d",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/C5.mp3"
+  },
+  {
+    "path": "samples/flute/C6.mp3",
+    "bytes": 176564,
+    "sha256": "535d1fbfaddbdb7f91c415708470f0860669c08733823212e81e98909afc9a64",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/C6.mp3"
+  },
+  {
+    "path": "samples/flute/C7.mp3",
+    "bytes": 115842,
+    "sha256": "3f19353492d8c293b5e3f6f21c7773355565bb2056a1300b28b33d5e990e8962",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/C7.mp3"
+  },
+  {
+    "path": "samples/flute/E4.mp3",
+    "bytes": 255440,
+    "sha256": "39fa9c7004bc2d168c98839475cc52448abdfb43486a11cf076b72dfcfa2b1d3",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/E4.mp3"
+  },
+  {
+    "path": "samples/flute/E5.mp3",
+    "bytes": 195970,
+    "sha256": "2d024d4cd56412bcb8cc3ecbce0736b63c9ba1d77de2e9601ba4efeda559a157",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/E5.mp3"
+  },
+  {
+    "path": "samples/flute/E6.mp3",
+    "bytes": 145264,
+    "sha256": "1074929c56bcd342cd0678390c02db730a924c5b42feae2921cb08f432768e53",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/E6.mp3"
+  },
+  {
+    "path": "samples/violin/A3.mp3",
+    "bytes": 390656,
+    "sha256": "22573e45ae1dd09043c4456ccb9835a067fee8222e7170b5d3d4c564562b98b1",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/A3.mp3"
+  },
+  {
+    "path": "samples/violin/A4.mp3",
+    "bytes": 339950,
+    "sha256": "b51bab05788a078a1ab8480acae9aa96bf2072aafe237991e414759fb0005243",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/A4.mp3"
+  },
+  {
+    "path": "samples/violin/A5.mp3",
+    "bytes": 271716,
+    "sha256": "d7649681176736f820a3ff460fbfb1656922b4da0150ec7df4527b01c9bd8ffe",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/A5.mp3"
+  },
+  {
+    "path": "samples/violin/A6.mp3",
+    "bytes": 280480,
+    "sha256": "c33528ac62990bb91da223dded7301cf9d843ebd69e9c570bcfd06a597cfc093",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/A6.mp3"
+  },
+  {
+    "path": "samples/violin/C4.mp3",
+    "bytes": 318666,
+    "sha256": "47a86f01f5a9f978e3328d72ecc3d12ad72cc18852676f655090e68c34b87d8c",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/C4.mp3"
+  },
+  {
+    "path": "samples/violin/C5.mp3",
+    "bytes": 341202,
+    "sha256": "51315c5bce2c5186d0ac5bd69b72d632bc6188c9401a19212998fcd11ba2934a",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/C5.mp3"
+  },
+  {
+    "path": "samples/violin/C6.mp3",
+    "bytes": 295504,
+    "sha256": "85c103492bd20f3bcf8eab6fd3de5f41853c98259b7d92a6a2ca169861d21f7c",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/C6.mp3"
+  },
+  {
+    "path": "samples/violin/C7.mp3",
+    "bytes": 297382,
+    "sha256": "9a3fbfbd8c61dcdf886d204613049ae9ffc79a46009c9d925ea69962573ea4eb",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/C7.mp3"
+  },
+  {
+    "path": "samples/violin/E4.mp3",
+    "bytes": 329934,
+    "sha256": "5dad3626ee3654e79cfdb9cdb769658b5c4b3da4c62d8cb08a2a88323b9d267a",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/E4.mp3"
+  },
+  {
+    "path": "samples/violin/E5.mp3",
+    "bytes": 323048,
+    "sha256": "65ece2416a99a1e415286e75897dcc71f4a675e744bd9caf2a06ac75c8636d12",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/E5.mp3"
+  },
+  {
+    "path": "samples/violin/E6.mp3",
+    "bytes": 322422,
+    "sha256": "0c86d3d9169a6f026fed1d1716441120ec0bb93a199f37431bb98f6e9f91887e",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/E6.mp3"
+  },
+  {
+    "path": "samples/violin/G3.mp3",
+    "bytes": 400672,
+    "sha256": "4425d83aa3e497c3a38aba0d81821fa253b4d7ba5bc99ee51932f3af7587406b",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/G3.mp3"
+  },
+  {
+    "path": "samples/violin/G4.mp3",
+    "bytes": 323048,
+    "sha256": "37ea8621e0217d18c832864913a5a4615208733b38c7c5fcfcb347e40c16fe67",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/G4.mp3"
+  },
+  {
+    "path": "samples/violin/G5.mp3",
+    "bytes": 303642,
+    "sha256": "9de7664fafe3f81d2db6007d1ff19b0223afbfe3fe6c6dac8ad74be00105d1ec",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/G5.mp3"
+  },
+  {
+    "path": "samples/violin/G6.mp3",
+    "bytes": 295504,
+    "sha256": "d3ea04ed0d8315dc53dddce930603e76bad9431d772c94bce7e736a95ca719e4",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/G6.mp3"
+  },
+  {
+    "path": "samples/cello/A2.mp3",
+    "bytes": 99566,
+    "sha256": "5edbdf136a4b2faba3185e7fb2b2053a801e81a0611faa4fa01519fb4ce36345",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/A2.mp3"
+  },
+  {
+    "path": "samples/cello/A3.mp3",
+    "bytes": 73274,
+    "sha256": "9738de0733f9e321b2cd0212d4ef6f00da8b3c2a6d7cb787f51a65515fd8fd8f",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/A3.mp3"
+  },
+  {
+    "path": "samples/cello/A4.mp3",
+    "bytes": 60754,
+    "sha256": "6540d5e465b28ca2529cf2d6f552e16463efd61dfe5213a60156ca7cf3194503",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/A4.mp3"
+  },
+  {
+    "path": "samples/cello/As2.mp3",
+    "bytes": 92054,
+    "sha256": "1c311e556291f4f7d24acaaee3049fb6dd6848f59611fde0cec73526e7766d1a",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/As2.mp3"
+  },
+  {
+    "path": "samples/cello/As3.mp3",
+    "bytes": 67014,
+    "sha256": "af6a731b10fc95d6de3e5afd3a743a83d75f016190d97149327a5df0dfe3f29a",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/As3.mp3"
+  },
+  {
+    "path": "samples/cello/B2.mp3",
+    "bytes": 83916,
+    "sha256": "5b8bf3dad2d856efde566a04470587b83bd66e8eb8025556b135f58f21767cd7",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/B2.mp3"
+  },
+  {
+    "path": "samples/cello/B3.mp3",
+    "bytes": 83290,
+    "sha256": "3fc137e3f00b444e9fcdd662f4df4032050845b1803984ecae622e15c81900c0",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/B3.mp3"
+  },
+  {
+    "path": "samples/cello/B4.mp3",
+    "bytes": 63884,
+    "sha256": "f6f83735e5b108b78f79b438c8cfd0af8146fd435925c9e4aa2138f354d6e59e",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/B4.mp3"
+  },
+  {
+    "path": "samples/cello/C2.mp3",
+    "bytes": 93306,
+    "sha256": "800cd97bcffd99fc80680d39b73d5143f7ea3188b79244bc3f1bad4845d28fb4",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/C2.mp3"
+  },
+  {
+    "path": "samples/cello/C3.mp3",
+    "bytes": 75778,
+    "sha256": "bde16914903926f7b7924756e9e28617d9357fe1f7d7085b0d06cedeb527e62a",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/C3.mp3"
+  },
+  {
+    "path": "samples/cello/C4.mp3",
+    "bytes": 80160,
+    "sha256": "e652c5eafaec4fb339da2595daf5554005f39357fac3f6c093b0d0f594b1012b",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/C4.mp3"
+  },
+  {
+    "path": "samples/cello/C5.mp3",
+    "bytes": 81412,
+    "sha256": "d2f71abde898fc86c86a252fc1a6d7316bc4dd57bb2200eacdbc41cfca38c08e",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/C5.mp3"
+  },
+  {
+    "path": "samples/cello/Cs3.mp3",
+    "bytes": 77030,
+    "sha256": "455aef464028e2dd81b7563036142189d51a6f0f7b3741b6dab272bcab59a37b",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/Cs3.mp3"
+  },
+  {
+    "path": "samples/cello/Cs4.mp3",
+    "bytes": 66388,
+    "sha256": "5040644dfb1d867f314703ced1b33ee819f121864c06c4963fe029e73996d35d",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/Cs4.mp3"
+  },
+  {
+    "path": "samples/cello/D2.mp3",
+    "bytes": 102070,
+    "sha256": "7dc5bf69b46e09165d5856976066b9100818664f256a423d5018fa5df5a0b74f",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/D2.mp3"
+  },
+  {
+    "path": "samples/cello/D3.mp3",
+    "bytes": 81412,
+    "sha256": "0e43147624360217944e71cc5148f30ffa4b63b510dab280eab705a63d53b36b",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/D3.mp3"
+  },
+  {
+    "path": "samples/cello/D4.mp3",
+    "bytes": 66388,
+    "sha256": "ecc23a2a19a6fe8a5ce34f5705349bd5b5e1a4175fc2721efe53255ffda48e27",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/D4.mp3"
+  },
+  {
+    "path": "samples/cello/Ds2.mp3",
+    "bytes": 82664,
+    "sha256": "b0e8e07bc257b85c0fb4b205521d606656c1b51b26b14efddf0e59ac7f6257ca",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/Ds2.mp3"
+  },
+  {
+    "path": "samples/cello/Ds3.mp3",
+    "bytes": 65136,
+    "sha256": "8346c9e707e9328c82c5025d80381a335f38b968cf2058cf0e3e93898d2573d7",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/Ds3.mp3"
+  },
+  {
+    "path": "samples/cello/Ds4.mp3",
+    "bytes": 71396,
+    "sha256": "979ee68789a9a9c58285df1fd5e175ece5e6152c1deec67fb0dac4c058447df1",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/Ds4.mp3"
+  },
+  {
+    "path": "samples/cello/E2.mp3",
+    "bytes": 83290,
+    "sha256": "41dfb1778b1b856133e2c18ec49b3fbc42260f3d942ef4f9aa53e183da1b1dff",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/E2.mp3"
+  },
+  {
+    "path": "samples/cello/E3.mp3",
+    "bytes": 71396,
+    "sha256": "a231fee45696e44da85fa5886007b4b8c8ffd6129c39327ebfc3f2c964edc291",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/E3.mp3"
+  },
+  {
+    "path": "samples/cello/E4.mp3",
+    "bytes": 67640,
+    "sha256": "9850fba3cff43ccb3630184fbaa5c4a8d90c8b559c0e42d5ad9301a21e25c81d",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/E4.mp3"
+  },
+  {
+    "path": "samples/cello/F2.mp3",
+    "bytes": 95184,
+    "sha256": "8401dbde0540cad1e232251f82a400980a9962cac297549cd12aaaad2a8adcd9",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/F2.mp3"
+  },
+  {
+    "path": "samples/cello/F3.mp3",
+    "bytes": 71396,
+    "sha256": "0341e83cf9c9bf36d31cf7f6640eeba541c2d1ad0ed6565b39d91ba7720d25a4",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/F3.mp3"
+  },
+  {
+    "path": "samples/cello/F4.mp3",
+    "bytes": 71396,
+    "sha256": "6e34e2df73f83fe30a994f1aa4c00d9042522cddb57ef1cb0766edb2b9d800b8",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/F4.mp3"
+  },
+  {
+    "path": "samples/cello/Fs3.mp3",
+    "bytes": 63884,
+    "sha256": "2c122909c07f67dc1db6222a6302d827bd6cf07102739fa0c4237c542bef7526",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/Fs3.mp3"
+  },
+  {
+    "path": "samples/cello/Fs4.mp3",
+    "bytes": 60754,
+    "sha256": "b24296dcbc4ddd7e9f4d6fe785d28f2e92834f7fd0438f5f078b7c6413de36b6",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/Fs4.mp3"
+  },
+  {
+    "path": "samples/cello/G2.mp3",
+    "bytes": 93306,
+    "sha256": "4fc66a5348ab915c313d5607cbeecdf74a9196a35797db19387702e865ea6290",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/G2.mp3"
+  },
+  {
+    "path": "samples/cello/G3.mp3",
+    "bytes": 70770,
+    "sha256": "869683c073aa1264e5b2d2ec5f68818d20acea390d6926a728654a6d6a026169",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/G3.mp3"
+  },
+  {
+    "path": "samples/cello/G4.mp3",
+    "bytes": 62006,
+    "sha256": "9508f47315235b62bcf53498f2ec61555cdc121325b07e880b1484851f92e763",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/G4.mp3"
+  },
+  {
+    "path": "samples/cello/Gs2.mp3",
+    "bytes": 87046,
+    "sha256": "7c92de9a6c29c879f8f06ce5b328cd09d1081d40d9ff9cc839b66fb87f9b88c4",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/Gs2.mp3"
+  },
+  {
+    "path": "samples/cello/Gs3.mp3",
+    "bytes": 56998,
+    "sha256": "460c2b2b949546b70c4f9e5270b01067661d0915087499431330c30d984619f8",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/Gs3.mp3"
+  },
+  {
+    "path": "samples/cello/Gs4.mp3",
+    "bytes": 62006,
+    "sha256": "582eb8dc8cde54404a84a32a2c45e7299b44b96da4e0e6ef32335cdb3ccd77f0",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/Gs4.mp3"
+  },
+  {
+    "path": "samples/trumpet/A3.mp3",
+    "bytes": 113964,
+    "sha256": "7ca6423ec1f1f6e7fd427b30c7005490cd1ac2ddda2a1a7f304a6916b7a97f0c",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trumpet/A3.mp3"
+  },
+  {
+    "path": "samples/trumpet/A5.mp3",
+    "bytes": 171556,
+    "sha256": "ba3980bdba7cb41e06e29bca7750ecac0614c65d470c8282f3f01f8bc1af429d",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trumpet/A5.mp3"
+  },
+  {
+    "path": "samples/trumpet/As4.mp3",
+    "bytes": 154028,
+    "sha256": "eba51953a7588d2b7f11871aa2ab9984bd32ee8e21093878c498e496164ff498",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trumpet/As4.mp3"
+  },
+  {
+    "path": "samples/trumpet/C4.mp3",
+    "bytes": 112086,
+    "sha256": "9273c36ea31cf1d35e92da54b1c7515ccfb9a54a0f9057756ea5be2524fec9f9",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trumpet/C4.mp3"
+  },
+  {
+    "path": "samples/trumpet/C6.mp3",
+    "bytes": 150272,
+    "sha256": "f9508020cc26fcd443508dd5fa5eaa209328cfbd7653e8ddddb8aeadefa48bc9",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trumpet/C6.mp3"
+  },
+  {
+    "path": "samples/trumpet/D5.mp3",
+    "bytes": 136500,
+    "sha256": "1298bf78bb8613d9fcc6b87f414e28fb311689ab784267381f7af39f30ecb387",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trumpet/D5.mp3"
+  },
+  {
+    "path": "samples/trumpet/Ds4.mp3",
+    "bytes": 165922,
+    "sha256": "56a9e82ac71fdede979ba730762e7729e9af35ac1ed627e5cc734bff22c9638e",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trumpet/Ds4.mp3"
+  },
+  {
+    "path": "samples/trumpet/F3.mp3",
+    "bytes": 104574,
+    "sha256": "2068cc05c490441bf922c7d7786c4a3035d78ea1e3a9091c31410a2eed3399ca",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trumpet/F3.mp3"
+  },
+  {
+    "path": "samples/trumpet/F4.mp3",
+    "bytes": 134622,
+    "sha256": "9c6cd683952ce873491d0c01e377724ced4d909f23f64dfee7bd71c412238069",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trumpet/F4.mp3"
+  },
+  {
+    "path": "samples/trumpet/F5.mp3",
+    "bytes": 138378,
+    "sha256": "74fb543716686818236f968ee94d467b524d95c0a2fc4d21d38e688c62435168",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trumpet/F5.mp3"
+  },
+  {
+    "path": "samples/trumpet/G4.mp3",
+    "bytes": 174060,
+    "sha256": "ce84c9858174c51a7d1844377a0dd4c3e1523825656851006f953a74f28479f2",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trumpet/G4.mp3"
+  },
+  {
+    "path": "samples/saxophone/A4.mp3",
+    "bytes": 150898,
+    "sha256": "5b25b871bb52bd5b5c7aea79681cecc35d10820be107a37ddc290553b60fda35",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/A4.mp3"
+  },
+  {
+    "path": "samples/saxophone/A5.mp3",
+    "bytes": 146516,
+    "sha256": "95f6b32b092dffe53bf28380ec4168f4ec066db596017f55d5b4ccee71735c4e",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/A5.mp3"
+  },
+  {
+    "path": "samples/saxophone/As3.mp3",
+    "bytes": 131492,
+    "sha256": "5ceb14fa6814e308e151d637d623b9269f53e88c06a5dc50c1cdaf925b7fa578",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/As3.mp3"
+  },
+  {
+    "path": "samples/saxophone/As4.mp3",
+    "bytes": 128988,
+    "sha256": "aecf2bfe8289acaeb44492d074d5d221fd39c183e91d0ea92b3bfb983f19d97b",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/As4.mp3"
+  },
+  {
+    "path": "samples/saxophone/B3.mp3",
+    "bytes": 173434,
+    "sha256": "6690a0611bfe0ad3e391ee4f0dad262717cbbb69406ecf8b5f1187f68a5ad4c7",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/B3.mp3"
+  },
+  {
+    "path": "samples/saxophone/B4.mp3",
+    "bytes": 154028,
+    "sha256": "c0f64d7042e011c587ad7e4d1e43be6c5b26d510699e45c5f3a3f69dce32f199",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/B4.mp3"
+  },
+  {
+    "path": "samples/saxophone/C4.mp3",
+    "bytes": 150272,
+    "sha256": "151eb3f3142d10bdc188561870679b018fe6afddb157808bf5ccf75a5154d16a",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/C4.mp3"
+  },
+  {
+    "path": "samples/saxophone/C5.mp3",
+    "bytes": 144638,
+    "sha256": "4ac9089d8a86c4f9e85f1cfc63376f846d60cd5c9d69e714277057ba2307f38c",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/C5.mp3"
+  },
+  {
+    "path": "samples/saxophone/Cs3.mp3",
+    "bytes": 150272,
+    "sha256": "95f33777b647e8438ccea298c3fb4bf7dfdee43766a9db21475bd68c06fdd8ff",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Cs3.mp3"
+  },
+  {
+    "path": "samples/saxophone/Cs4.mp3",
+    "bytes": 161540,
+    "sha256": "14e5c29480bbefd140b841366930dc9130939c21ff3090e761dbacfa32314e11",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Cs4.mp3"
+  },
+  {
+    "path": "samples/saxophone/Cs5.mp3",
+    "bytes": 151524,
+    "sha256": "aeb628f29249ae69950c16cea67713b7d0e3bbd49f149e40d6eb582808f3bbee",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Cs5.mp3"
+  },
+  {
+    "path": "samples/saxophone/D3.mp3",
+    "bytes": 120850,
+    "sha256": "542c925e03078e7b34c84c9f2861230db906611291e79c8e352c03182df1033f",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/D3.mp3"
+  },
+  {
+    "path": "samples/saxophone/D4.mp3",
+    "bytes": 164670,
+    "sha256": "54c6383885001a330b68f966490c2244a0b3c7184483781ed5daf25f240051ae",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/D4.mp3"
+  },
+  {
+    "path": "samples/saxophone/D5.mp3",
+    "bytes": 162166,
+    "sha256": "94fe0add04ba49525af59f217065671f20e97fb47d3aa86b5992b2a4199c6cd1",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/D5.mp3"
+  },
+  {
+    "path": "samples/saxophone/Ds3.mp3",
+    "bytes": 140256,
+    "sha256": "6109b947cb2b44d57d98fd8a73ef923148b3def1b682b0959fd1e5ac03e42c9c",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Ds3.mp3"
+  },
+  {
+    "path": "samples/saxophone/Ds4.mp3",
+    "bytes": 139004,
+    "sha256": "346ea48e622e1941d256bc06a54e9ce24145bb30d13b94d8c1b69f43c13e7e7d",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Ds4.mp3"
+  },
+  {
+    "path": "samples/saxophone/Ds5.mp3",
+    "bytes": 128988,
+    "sha256": "e7f094f9f96e09dd9a92320f248d97f4ee484cf1e002a45032c02f6da3f8888d",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Ds5.mp3"
+  },
+  {
+    "path": "samples/saxophone/E3.mp3",
+    "bytes": 121476,
+    "sha256": "2a2d857fe95917ba0813b5949387b1aeaf2feb1963da1c1a1fe36c5585f5c5ed",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/E3.mp3"
+  },
+  {
+    "path": "samples/saxophone/E4.mp3",
+    "bytes": 165922,
+    "sha256": "7b1fd8af99567be67bd4515533b3b296583c14e4c78e98600dd1bcbcf821c15f",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/E4.mp3"
+  },
+  {
+    "path": "samples/saxophone/E5.mp3",
+    "bytes": 139630,
+    "sha256": "e7ba62d10701ad2656fbe6dc18b7c7676b8882f14549bb375ecc89312ddb8cd7",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/E5.mp3"
+  },
+  {
+    "path": "samples/saxophone/F3.mp3",
+    "bytes": 123354,
+    "sha256": "526ec8cd626825b95e84756ccb2c04e9b52f0365ee50eb951fe73894ef2ddf18",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/F3.mp3"
+  },
+  {
+    "path": "samples/saxophone/F4.mp3",
+    "bytes": 157158,
+    "sha256": "7306309825e2fe52ed48cf1fb1e140c14392cf8b0426d2ca2058b08e8f68f7cb",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/F4.mp3"
+  },
+  {
+    "path": "samples/saxophone/F5.mp3",
+    "bytes": 144638,
+    "sha256": "bdcd560c229a2561ce6e389d72c74978120f1473819bbf4f564de2309eb5aad2",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/F5.mp3"
+  },
+  {
+    "path": "samples/saxophone/Fs3.mp3",
+    "bytes": 128988,
+    "sha256": "0f932610d44ec1a660f60a4381898ebf4ab4d830abcaf1161bf118ac6708d50c",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Fs3.mp3"
+  },
+  {
+    "path": "samples/saxophone/Fs4.mp3",
+    "bytes": 145264,
+    "sha256": "15ea65b0d17862414140d4401f3ac39678fb6abfe0b18a8878a2391dd1ddaba4",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Fs4.mp3"
+  },
+  {
+    "path": "samples/saxophone/Fs5.mp3",
+    "bytes": 146516,
+    "sha256": "30224fa4167bf521339eaf9ed7dfefda66e13990d98604c7c3d106b014a226e5",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Fs5.mp3"
+  },
+  {
+    "path": "samples/saxophone/G3.mp3",
+    "bytes": 108956,
+    "sha256": "a7d39d740e03a8235dcde94779c24aa83397b329a9a9124517d36a9d3f56252f",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/G3.mp3"
+  },
+  {
+    "path": "samples/saxophone/G4.mp3",
+    "bytes": 146516,
+    "sha256": "1ed186ef9ff8c23095fb481aeac12b1279643ca1a1cfc82c13e8e800d3a007f0",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/G4.mp3"
+  },
+  {
+    "path": "samples/saxophone/G5.mp3",
+    "bytes": 159036,
+    "sha256": "9a230ce81da6ea57b879ae38874ecb1dbc1b32ce1ac630c93f7e5b3685384e00",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/G5.mp3"
+  },
+  {
+    "path": "samples/saxophone/Gs3.mp3",
+    "bytes": 161540,
+    "sha256": "0d35670a741dde227191a9c392692924aadbda4317e817b6b10661dfc7a57120",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Gs3.mp3"
+  },
+  {
+    "path": "samples/saxophone/Gs4.mp3",
+    "bytes": 169052,
+    "sha256": "fdd17a012b8db67cc1f9466fcc2fea91a2a19f89f18df87b6f7a7d928d7b0a96",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Gs4.mp3"
+  },
+  {
+    "path": "samples/saxophone/Gs5.mp3",
+    "bytes": 140882,
+    "sha256": "0bd078eeab288c244b25da1fcac48849087bdc1e3dbc6753b6d6b2bc8b11a9de",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Gs5.mp3"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/21.mp3",
+    "bytes": 25585,
+    "sha256": "367ee4c2ae9dacdb05fdb4d5a8b1073fda787f547ed6e525de331f4b951e7948",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "A0"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/22.mp3",
+    "bytes": 25585,
+    "sha256": "c231f7377ae7826f6b7f6172e5359d13716c0e60fe874f926140211288ade457",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Bb0"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/23.mp3",
+    "bytes": 25585,
+    "sha256": "8d1beacda33310dbbd15258ffbaf3e7bd9d3e27d1ba197775ba5cbfe18fbfcae",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "B0"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/24.mp3",
+    "bytes": 25585,
+    "sha256": "c5f312bf989554ca50454ba1f15e4ba17d2c049edb15cadb506c7a560aac8b1b",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "C1"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/25.mp3",
+    "bytes": 25585,
+    "sha256": "59384624bb80499290b832d7ae459c1e4ecc0713a7837e3c3d02a0405ad3a8d0",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Db1"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/26.mp3",
+    "bytes": 25585,
+    "sha256": "86b093c0c577099fc73ce33a61bc41fe5a91406519dfba631a07c664a4e43695",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "D1"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/27.mp3",
+    "bytes": 25585,
+    "sha256": "45179497b6c0ff13983339ccecd956d994c76ec869be5fd1c332e57f6cdf1247",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Eb1"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/28.mp3",
+    "bytes": 25585,
+    "sha256": "826bd1022b1b6de38d360caba6b8a7f32f0b9da8e08742335cc655dc56578624",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "E1"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/29.mp3",
+    "bytes": 25585,
+    "sha256": "8c2d5d6016213f6bdcf96b5a025b18c65bcc9637bc41cea7da4362fce3d1cdd1",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "F1"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/30.mp3",
+    "bytes": 25585,
+    "sha256": "b7977dc6a30f2e40c3476b52b983a4d3e367492f4b0563f11cf467a7531d281e",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Gb1"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/31.mp3",
+    "bytes": 25585,
+    "sha256": "29b604ba22895ad378a923f53371e88f24bb5eb47bfca27a908563a72922a75c",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "G1"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/32.mp3",
+    "bytes": 25585,
+    "sha256": "42142ae783b8f6f3527f3e8d6a179221e7474534d60caa593c85fc6410e25bb1",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Ab1"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/33.mp3",
+    "bytes": 25585,
+    "sha256": "2d8c5c7cc948e52154db9f95a0295c7d299e7b798419b9b1170ac38ff4b47c99",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "A1"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/34.mp3",
+    "bytes": 25585,
+    "sha256": "65da0cced82b6b04ead2e68125e9fe3074d9d2d46c98cf3c6cf48b37759d7369",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Bb1"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/35.mp3",
+    "bytes": 25585,
+    "sha256": "eb7feaca726fcdab504f4cf13be5ce0494a162b5d7e2ae74b0a533d56d80365a",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "B1"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/36.mp3",
+    "bytes": 25585,
+    "sha256": "3bf31eeca8d7c1a1c42cfd454e2bc1757eb98f7238171d30f6af690d416e4fd5",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "C2"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/37.mp3",
+    "bytes": 25585,
+    "sha256": "e02c711a559240b841b37591e3f533813d4135ce7f4111b2dac591aed13d512a",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Db2"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/38.mp3",
+    "bytes": 25585,
+    "sha256": "77c18c703f45bada90fc507e41196f1a66baffdcd7208edb0315991ddba402db",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "D2"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/39.mp3",
+    "bytes": 25585,
+    "sha256": "f82c7657063e64fd3ffe6b1f418f5d4be42c4dae01a7f5f7beda948526ccb5f2",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Eb2"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/40.mp3",
+    "bytes": 25585,
+    "sha256": "ee89e60141d730190f6f87f2c10b25ad958957025b73bf4049dcf91ede6b5fda",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "E2"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/41.mp3",
+    "bytes": 25585,
+    "sha256": "f4113410738429f0ba1a670906dec0925955d101be25f7c6f88de14110068186",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "F2"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/42.mp3",
+    "bytes": 25585,
+    "sha256": "d1d51d56ba208891b7bd864d843ec1d2651a336bd2ff16f771abbdb563b11cde",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Gb2"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/43.mp3",
+    "bytes": 25585,
+    "sha256": "871d1982fa91543bb5ee8d78ea166b946c0f0c03f7495118a592c8f228b43793",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "G2"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/44.mp3",
+    "bytes": 25585,
+    "sha256": "a3490d87c9640281acee556205e801cddee283b175bbe26b3b02c4bdd465e35c",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Ab2"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/45.mp3",
+    "bytes": 25585,
+    "sha256": "4d16c91a90ea8f2657a4c7edea7f0dadf04aa94bf2168bf0034339bb346abf00",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "A2"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/46.mp3",
+    "bytes": 25585,
+    "sha256": "292949fd0af97f698636c1ea4e545438ebabfa94193bd6c34ccb123d347bb487",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Bb2"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/47.mp3",
+    "bytes": 25585,
+    "sha256": "84a2cf7510337201fc8dbd5272c9ddfd2b3c4a12cc6303ac8eff4aa387b362e3",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "B2"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/48.mp3",
+    "bytes": 25585,
+    "sha256": "989e9d454d0427f6e6a9995ba66413575c59bb6b1a0692e40fc71d03e54f50e9",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "C3"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/49.mp3",
+    "bytes": 25585,
+    "sha256": "0fe3feb4afd4d8ed367347c374ad1a690b02ea00b7b017438a0f02213a75a66a",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Db3"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/50.mp3",
+    "bytes": 25585,
+    "sha256": "a96245e7da1496483e11deff511afddb3a990988d5aeba41d84db916257bdaed",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "D3"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/51.mp3",
+    "bytes": 25585,
+    "sha256": "f36d5fe0b84a55ce8610483c6ed8b45e62080d1a23033efeaf9276095350c87e",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Eb3"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/52.mp3",
+    "bytes": 25585,
+    "sha256": "dc9516f4d7cefc777ddbd30ffce8726cda48fb904a0f78425c85282c2110663d",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "E3"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/53.mp3",
+    "bytes": 25585,
+    "sha256": "8eaeaf55ebebe4bbcf13ae2f8cb55b9fbe7ec8e15c045a3ecc3286277c2ec2e6",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "F3"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/54.mp3",
+    "bytes": 25585,
+    "sha256": "27421825e02675099adeb22c51e27900756f4d225cfad2cc7148456319f0df77",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Gb3"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/55.mp3",
+    "bytes": 25585,
+    "sha256": "b81a6f7df78e05f92f56436a4e9645998ac1a088288d70b6a16356f29076c54b",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "G3"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/56.mp3",
+    "bytes": 25585,
+    "sha256": "43206d27e1651eb2cd8cb3cb3ebff824f0e79d9dd349bec865f0e762478575d4",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Ab3"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/57.mp3",
+    "bytes": 25585,
+    "sha256": "ec81cee47c5f1bcea222149c141a10bc04128d87a05443190675e0c6b3cb6b50",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "A3"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/58.mp3",
+    "bytes": 25585,
+    "sha256": "9836255fb0854f5e38b5812f34084eff22a05cff5266cda498e26d2ea285f7ee",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Bb3"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/59.mp3",
+    "bytes": 25585,
+    "sha256": "494f9fc85d3fdef9337ddef4d1a4aee44e3e781d337e3d321923d3dd3bfe71a1",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "B3"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/60.mp3",
+    "bytes": 25585,
+    "sha256": "24e3f97c803ac3e00076444add1abb0d80358c55cb6555be8fc9bb1f460af211",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "C4"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/61.mp3",
+    "bytes": 25585,
+    "sha256": "1b5bdcad07772b25cd7d1a26489237398613f729baee4ccb56ceed37df171116",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Db4"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/62.mp3",
+    "bytes": 25585,
+    "sha256": "4d6d96c6bad1738fab36c8c164725014e501ec36a9ac187fc46395a421f9abfb",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "D4"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/63.mp3",
+    "bytes": 25585,
+    "sha256": "b024f94fd60ea41a0411adf9864b8ae3c486f082ecb77ff2258abff39bce77fd",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Eb4"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/64.mp3",
+    "bytes": 25585,
+    "sha256": "2d2f783f98a8e1e30e95bb19ec0b78ddd4df5cd7e362708902c3ce30d852d239",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "E4"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/65.mp3",
+    "bytes": 25585,
+    "sha256": "1e175328c0fddc23c4ebecd458d837135397af211f0b08b58e8b0c2e3716c4f6",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "F4"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/66.mp3",
+    "bytes": 25585,
+    "sha256": "0ca6adf9c151d554890ec56bd3309a185753f6613be3ed0d905df7c5714890b2",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Gb4"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/67.mp3",
+    "bytes": 25585,
+    "sha256": "5b4a054254621ab46d52457ddae9e110a6f2bae596f4873c9075338d4dcbbfac",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "G4"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/68.mp3",
+    "bytes": 25585,
+    "sha256": "c852db02ae685d0462265cd01124fc2c578bdfe367eec24a8373ec0d8ab64089",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Ab4"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/69.mp3",
+    "bytes": 25585,
+    "sha256": "269d6be7f8d17da2d15bdafdb6187cfd1caa81de616f8907fbd8a994c1b210a1",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "A4"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/70.mp3",
+    "bytes": 25585,
+    "sha256": "8e4be81982543c8755d2def13822127e5e6e424c421dc8fddcf74d88ef042f57",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Bb4"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/71.mp3",
+    "bytes": 25585,
+    "sha256": "b5e479c0ee625bd5226dfee5d17bac8d266c2397145058dfae1d5f4b9f1b9944",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "B4"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/72.mp3",
+    "bytes": 25585,
+    "sha256": "536167bacbde081c2cb685843cafa82ac1c714470b9e5d86527b6304dcbfc4fc",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "C5"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/73.mp3",
+    "bytes": 25585,
+    "sha256": "5502cff7104615a4a24512f7726e10d7f2f54f46914d7bfbd9ded53503fecce7",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Db5"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/74.mp3",
+    "bytes": 25585,
+    "sha256": "e4f8d17823a6a46ece416f5e4ce3f2023a090625f64e68460c694853b2bdf837",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "D5"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/75.mp3",
+    "bytes": 24779,
+    "sha256": "fae199d6f9a1e7e46666f691c8f653209c5d627a8a630ee013e4dfe70e3388a7",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Eb5"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/76.mp3",
+    "bytes": 25117,
+    "sha256": "d4e8d7e60b1c93a26a18a8c2e2a53a6dc73079a919cbce61a987a82c57da1c5d",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "E5"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/77.mp3",
+    "bytes": 24779,
+    "sha256": "8e046054a017f6847ff315c3504aa84d8a180488b30eb6ec064f2dd067018227",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "F5"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/78.mp3",
+    "bytes": 24701,
+    "sha256": "25ad52a3297d93afafe502af2676b12648f6acb29e7a98c9e64c358a8306141e",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Gb5"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/79.mp3",
+    "bytes": 19865,
+    "sha256": "3c4b25ad04f11a05a6a7cc45df17fcd7734c98eefaae4c9dd20571d869d14cf5",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "G5"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/80.mp3",
+    "bytes": 20281,
+    "sha256": "8957e4099e36b8f91c066696e098c79d76c3a55746f6c664ff4e58c76136661e",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Ab5"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/81.mp3",
+    "bytes": 18903,
+    "sha256": "a1c62b11dc3688b9f80331139d4d7d39f6e83c06c4ebeda9b774798371d5a58c",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "A5"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/82.mp3",
+    "bytes": 19579,
+    "sha256": "a4cf43163537ce3263ca3e86fdc88783a5456a41200a5c3beab935b18638f6ff",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Bb5"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/83.mp3",
+    "bytes": 19267,
+    "sha256": "2124da3736b41ddd33538c705f81537886cbccda2d4278ebb8709187d75d8779",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "B5"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/84.mp3",
+    "bytes": 19267,
+    "sha256": "023120e49cff69d318108e5f2d0e85fd3547ceabc638670812f09accd6a705f9",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "C6"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/85.mp3",
+    "bytes": 17161,
+    "sha256": "da7a6a8b13da5e6eff1ec31c37c50a1cc01f7119eb409c6cf589ff992d3a9214",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Db6"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/86.mp3",
+    "bytes": 17681,
+    "sha256": "0a3fad9f23b612340195c1a255eec22274197e240da08ce360a4180a57de948c",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "D6"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/87.mp3",
+    "bytes": 17863,
+    "sha256": "fe4cc98b8c9d01e8b30ad0fca16b1ab30a2f67b446d5acdf046392d7780d6f19",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Eb6"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/88.mp3",
+    "bytes": 17733,
+    "sha256": "78762e1dc9e5b9c918740ae04b4fc50e65d1e9bc4193875679bb747b2469327a",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "E6"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/89.mp3",
+    "bytes": 17239,
+    "sha256": "c206de4d5fb0c50be83ae97331cf40794ec6f961ecde840831cad36fdb0e7da4",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "F6"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/90.mp3",
+    "bytes": 17265,
+    "sha256": "02d0ad88ebc866057da57187512118445bc6dd0ae8b658ec8793993b74b0a5a4",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Gb6"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/91.mp3",
+    "bytes": 15679,
+    "sha256": "63883a31b5e631e29cb86934f939b96f1332b6ead852f7a5f549f6ddc4dea7ef",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "G6"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/92.mp3",
+    "bytes": 15835,
+    "sha256": "82d27d3a5e93da16a0ac0bb5e4ca89409e1d4a69336be02f22fae662f059d055",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Ab6"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/93.mp3",
+    "bytes": 15419,
+    "sha256": "5d9380fe8c89c6632c217607737438a7b581c73e8679129faf6fe7510c494056",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "A6"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/94.mp3",
+    "bytes": 15315,
+    "sha256": "c41c10151b222f89852b961e1689e569fe08d7b8be4447a1360df321bb113b9d",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Bb6"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/95.mp3",
+    "bytes": 15081,
+    "sha256": "4c5a1e2dfa7294602562819435af3b123f6364bf08fa3505e65ec8e0293b7998",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "B6"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/96.mp3",
+    "bytes": 14977,
+    "sha256": "27b9eec53afc74f82eff984029bcaddc16f145d3e8b5cef265681e1ecd93ff71",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "C7"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/97.mp3",
+    "bytes": 14977,
+    "sha256": "4c13420cc7ca3e8d5c0110230dcf8c40d470bc1e8deea2a4100eea68723dd879",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Db7"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/98.mp3",
+    "bytes": 14873,
+    "sha256": "283c63ade3084a1ed10646134633ed56fa4aa1e2cc458126b85cd7b3f431cfb5",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "D7"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/99.mp3",
+    "bytes": 14951,
+    "sha256": "a9619c720e74a1f70bc1fba6b121014a355853fff3b72ef8b2b78e9c5226601f",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Eb7"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/100.mp3",
+    "bytes": 14899,
+    "sha256": "2f00719eaf7c6f647561a56cf8e36fe1e908b0660997166f8445953f62814d2e",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "E7"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/101.mp3",
+    "bytes": 14769,
+    "sha256": "a88f3f93d5764844764e3eece3a2da8b162e975f5f6693fc198b3f56186e170c",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "F7"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/102.mp3",
+    "bytes": 14717,
+    "sha256": "f55b5920e68995f56c3ef9e5d8627d51ee77ff8763bccc60deac12af580c28ab",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Gb7"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/103.mp3",
+    "bytes": 14613,
+    "sha256": "6023191f70da4fe1a984df24ee23c63a8b8fa4bf28f2421141e23708df75c820",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "G7"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/104.mp3",
+    "bytes": 14743,
+    "sha256": "33de9801e6f75fac05ef05a4cc998c72806910ff9fc91641da4bf28085432a8f",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Ab7"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/105.mp3",
+    "bytes": 14587,
+    "sha256": "e6f63d2b33d5f28c83652432cb83edc708e9e9117a42b28966138f4a45bbcb23",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "A7"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/106.mp3",
+    "bytes": 14457,
+    "sha256": "989f78e2f44b5f05b352dd19365556754304dd25d7cfd97e715a64df1977d1b3",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "Bb7"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/107.mp3",
+    "bytes": 14509,
+    "sha256": "cac57263ce4b596672e8d4fef752d784b063657f1b2450f4e32cb833ce430384",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "B7"
+  },
+  {
+    "path": "samples/fluid-bright_acoustic_piano/108.mp3",
+    "bytes": 14353,
+    "sha256": "9799ff27747da79f9e7827bdd6b5ebf0347e4e486d93656760ca75de5bb551d8",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/bright_acoustic_piano-mp3.js",
+    "note": "C8"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/21.mp3",
+    "bytes": 21009,
+    "sha256": "9343266dd39d72715c8c35e058763620bd1a63e28f7810f2e0da3a72d9abd61c",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "A0"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/22.mp3",
+    "bytes": 21451,
+    "sha256": "6afbbd09c61d473ee0b0fb0f461cecb48145ae16bcdec8a0df918971b1c87f18",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Bb0"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/23.mp3",
+    "bytes": 21581,
+    "sha256": "616684fb6943c6698bde598d8ad64812a015b95b8df1f182e816ae637d3079c2",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "B0"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/24.mp3",
+    "bytes": 21893,
+    "sha256": "c50b21961b8b6c414bc7ae5237cf629b7bbfcd692a435a4c8a39632c47acea27",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "C1"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/25.mp3",
+    "bytes": 21815,
+    "sha256": "e34f56f856711ffff0bed4e0e5f6fdfce9480e4a670c89f62bdddeb3ebb8760f",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Db1"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/26.mp3",
+    "bytes": 21893,
+    "sha256": "f1f58a62cc7168d7e2c1416e79f2dd4f489814d1a1fa91ac14c943ce1b8ce5f1",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "D1"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/27.mp3",
+    "bytes": 21685,
+    "sha256": "f60a9f60d09da300182765c90cbcc60e9273d203d19c029ef693dd8bc9172058",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Eb1"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/28.mp3",
+    "bytes": 22881,
+    "sha256": "180655a673ef53703b9b4f5da49c13b0d09f52a96295d200f80272b0e9dfbac9",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "E1"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/29.mp3",
+    "bytes": 22829,
+    "sha256": "d0fbcd1e4f81aba050bd518cc7f0478ee1a675db9f165a21a194410695ed1334",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "F1"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/30.mp3",
+    "bytes": 22829,
+    "sha256": "c4a79ebea6ef6d2d9996ee67407fda904a5eb97520ba6159cdf8463862e9dbbf",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Gb1"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/31.mp3",
+    "bytes": 22881,
+    "sha256": "a38c311f8293d19830b882094361b5e235a254101f6ee57ecb921f1de7eea801",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "G1"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/32.mp3",
+    "bytes": 22933,
+    "sha256": "8dadd25f06007ea888ae3a621863c8c01c1f68d450cef589e3ff0a70cce8a798",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Ab1"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/33.mp3",
+    "bytes": 22829,
+    "sha256": "a873f976f357f8c747f632de3ff204f22d41d6cb393f9a165ceb77b5d2517b51",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "A1"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/34.mp3",
+    "bytes": 22465,
+    "sha256": "b359bf632f2792bdf1de09687f9b0fdc417d9d86b61170d33680bcbc86a8f55f",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Bb1"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/35.mp3",
+    "bytes": 22439,
+    "sha256": "a3fce2b08f0e6cca7a3f4657ccbcab45a82429c53b98f35fb919019307f84a48",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "B1"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/36.mp3",
+    "bytes": 22309,
+    "sha256": "f65168930ab68381c487c065490e8d56d016cd607ea9e47c9bdeedf01498088b",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "C2"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/37.mp3",
+    "bytes": 21763,
+    "sha256": "2f8a6b596f75289e21fa9b46d975094f58e1da3bb701fde076b9e36ff61b6402",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Db2"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/38.mp3",
+    "bytes": 22127,
+    "sha256": "0dbcd918187e06554f76f16b0e22e38fcad666125f939d03f3498406677d503e",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "D2"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/39.mp3",
+    "bytes": 21711,
+    "sha256": "c4bbad56ce1635c09b8a94fb2198e2652248200440d910d7b8afcbcdb65425c8",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Eb2"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/40.mp3",
+    "bytes": 21243,
+    "sha256": "14aefebe61bb555c5fedbf674455b06d1393a77ea291e466a37b359e8c7a0c4d",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "E2"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/41.mp3",
+    "bytes": 21113,
+    "sha256": "26c7f2268ac8ae28da49e8eeafaecca42ac7b447d5ef0ac3019a79adf8b6bdeb",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "F2"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/42.mp3",
+    "bytes": 20879,
+    "sha256": "3fd127c4e33275a44aa8c85ead2b91bb720c5ef01779d9ae6564421396beeb99",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Gb2"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/43.mp3",
+    "bytes": 20645,
+    "sha256": "06d0c21da5d4bb72e0c0f19ffa1c48157d0711ccbdd1ad3d532d8fa5634a2a2b",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "G2"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/44.mp3",
+    "bytes": 20879,
+    "sha256": "7f585a5f8f665ee84358d24a977cd3ee3ea5c4e421c0e036e94be4c95763ce6b",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Ab2"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/45.mp3",
+    "bytes": 20697,
+    "sha256": "6909423acd147b82978bb6e94cbd6e7a83b1a70dfd28950cdd6bf030fb5f12bb",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "A2"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/46.mp3",
+    "bytes": 19969,
+    "sha256": "2323282f1bdd9ed5add71a29ab0d6107491c9d143c65862c08a156809bca17d2",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Bb2"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/47.mp3",
+    "bytes": 20203,
+    "sha256": "eed0dc528afe799ff747e6674953e01ba16fba6e1ab3d15926a542a34349985e",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "B2"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/48.mp3",
+    "bytes": 20437,
+    "sha256": "3173362ab63be26db5ea64c35c171299e9836296b3023adb249e2809d20d8cd9",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "C3"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/49.mp3",
+    "bytes": 20385,
+    "sha256": "2bb60ec1d0feb53fe8107917504551dc86cfc2961d9a47ef688b352a5edd4b9c",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Db3"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/50.mp3",
+    "bytes": 20385,
+    "sha256": "86482b62afb3fa7eb6a187a5a41be1c609d8a30166c62cac045d8ce65e8ea2fa",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "D3"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/51.mp3",
+    "bytes": 20333,
+    "sha256": "37548da76846d6c34e784470214956b582ad687aaff476331cc188ff775c8677",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Eb3"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/52.mp3",
+    "bytes": 20229,
+    "sha256": "b45782ad1a8982fab7848527ec26f5d031b1ace910f00fb4bcee313e39c0a2b9",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "E3"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/53.mp3",
+    "bytes": 21633,
+    "sha256": "57becf3b525185065fde065eb43a6f249cea0d6f0bbe83af18621a73373dda60",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "F3"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/54.mp3",
+    "bytes": 21893,
+    "sha256": "baeba58701c701eff069a79a4f6b15bd5d98e6bcaa909fd526dbc12f3ddd3e65",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Gb3"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/55.mp3",
+    "bytes": 23011,
+    "sha256": "a7efc5cb372ba3e0be607aac3a7eafe7f01e9b201ed5f35d02fdb7bd0ff15cbe",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "G3"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/56.mp3",
+    "bytes": 22881,
+    "sha256": "e319e2b16149fba5ba27722fa4b7bee7ab2876cb3d1eff8668963c3a6d6b7939",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Ab3"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/57.mp3",
+    "bytes": 23765,
+    "sha256": "0dc407415e2f76e385eb4b1dda91a6defad0f19abb63882da2bfeefa7586dfd4",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "A3"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/58.mp3",
+    "bytes": 19111,
+    "sha256": "c24632762e25afd929e7d01119fc24d9135e3d6a9f49fde6e6f1e484fd731ad3",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Bb3"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/59.mp3",
+    "bytes": 19579,
+    "sha256": "7b805325e9474751b4917ebc9ea14390360d4140429e9e9f300b12d8e741eecf",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "B3"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/60.mp3",
+    "bytes": 19553,
+    "sha256": "096c7cdb68e9a0cb645a932eea80562a5c7d43f17dd94d231135f883e860048d",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "C4"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/61.mp3",
+    "bytes": 20229,
+    "sha256": "2e885cfc80e58eb1cd84aeda1a8e4f0bb7b0113c136762d04953c40ef3470b5b",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Db4"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/62.mp3",
+    "bytes": 20489,
+    "sha256": "7cf0fa4d0f5bb7093f89d7cfe49a8a2c55663bc6a374bbf7445d4dec0b040ef8",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "D4"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/63.mp3",
+    "bytes": 20385,
+    "sha256": "013ed2db02a3de23c57b4062dfcc55d41a6e7326b365abdf9f5ce9b3d7361eb5",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Eb4"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/64.mp3",
+    "bytes": 16719,
+    "sha256": "ebf55c7bae15c252bb6cf5f039f4b06c8a689ee731384065cb802079375456c7",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "E4"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/65.mp3",
+    "bytes": 16927,
+    "sha256": "7831735eedc47609aced05cda5f21966fc5a9d84b6b7d633e3e00923188281be",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "F4"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/66.mp3",
+    "bytes": 17083,
+    "sha256": "3c67f551169df15889408caf6c54e17f500787908cc857603d49965a7b0e750a",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Gb4"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/67.mp3",
+    "bytes": 17447,
+    "sha256": "22d9a79792c6edcbac7daf3b9da84df2734a1e58ca8d8de0c204806713c5fe9a",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "G4"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/68.mp3",
+    "bytes": 17759,
+    "sha256": "f95b896b8e9d62b0e2afdaf88852fec9b8c4686f7872b9d5548b49242098762c",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Ab4"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/69.mp3",
+    "bytes": 18539,
+    "sha256": "01a2dfb73f7b2a2d36400fbd30203eb5d2750c0e8006907bd16d6d25dbf9534f",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "A4"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/70.mp3",
+    "bytes": 18929,
+    "sha256": "17fe158412a889c71cc4afda0a99819767b39914839881a897e525d8a23c81f6",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Bb4"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/71.mp3",
+    "bytes": 19137,
+    "sha256": "4727cfa0db7c58fa969dd0a15c71d321908b2543add74c34d9a4b269cdd1acc1",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "B4"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/72.mp3",
+    "bytes": 19761,
+    "sha256": "a4f7ce39ade2b62dde4c4283ae202dd729433d54630e25b8d055afcfb9fda019",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "C5"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/73.mp3",
+    "bytes": 19839,
+    "sha256": "ac14d17349ef39ca684356d77edc00a3e662272afaf411876c2f85b16c9aca2e",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Db5"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/74.mp3",
+    "bytes": 20047,
+    "sha256": "0af7df3c244a404675e8eebd1a7d48778e0ecba00bc04b10ca39d0a0bfad9a55",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "D5"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/75.mp3",
+    "bytes": 19943,
+    "sha256": "a39799194dd472b197b6240b980c1c878662588acb860f5203ae7f69c06d0183",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Eb5"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/76.mp3",
+    "bytes": 19631,
+    "sha256": "05620dc5c954056e3ff54452da16c259a6b48777d21e934c9419b4bf9cefb14a",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "E5"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/77.mp3",
+    "bytes": 19631,
+    "sha256": "876fe1b0a7c153c081d9344ba032524b67882ea3cb10a82f79d3190e21c016c6",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "F5"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/78.mp3",
+    "bytes": 19605,
+    "sha256": "514dbdd5f3a1106a9c4463ee564386ef625bbad623df05b589e9256d307b758b",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Gb5"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/79.mp3",
+    "bytes": 20385,
+    "sha256": "c4586172bf617438deeb19c7b658e5c36010a3b928f98d1fad2e85f05bdab832",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "G5"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/80.mp3",
+    "bytes": 20619,
+    "sha256": "77cac43947ed4d1e3e7bc4b061d5853f133a364053b738106e636d2548d9b4a3",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Ab5"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/81.mp3",
+    "bytes": 17421,
+    "sha256": "cb240e65d7937fa15887e76c17e6a7dcbac5a8df50a30b33674028eee2855c07",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "A5"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/82.mp3",
+    "bytes": 18175,
+    "sha256": "06002cf99b2502f89ec63cef726b71b9908dc6315925b0fd3b68851f1745ca35",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Bb5"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/83.mp3",
+    "bytes": 17681,
+    "sha256": "a5228a7f448b830ec221e6948f634b9866ad6287597b82567e6cda83c7aa3e7e",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "B5"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/84.mp3",
+    "bytes": 17837,
+    "sha256": "a199829f5b6d6bbcd266fbd48a3309fd5ff42322e0ff001524a66550cace8384",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "C6"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/85.mp3",
+    "bytes": 15653,
+    "sha256": "bdf774f20b923e9c384a1f8d3f4b282466ec60607a0e7ebaa32c8047fd99cb3b",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Db6"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/86.mp3",
+    "bytes": 17291,
+    "sha256": "f4118bb9528b3f40976fa75ab367e3777541e91d9fd6942373f107a0c63477e0",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "D6"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/87.mp3",
+    "bytes": 17343,
+    "sha256": "d85ccffb9bb7996ef7febedc58ce1f4613d5f8d472af785ca32ce7b7798b65fc",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Eb6"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/88.mp3",
+    "bytes": 16069,
+    "sha256": "0ea0f39f19079fd8e9ad568ae327907144d9ea665f0c8803c834a1449a8aa57a",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "E6"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/89.mp3",
+    "bytes": 15731,
+    "sha256": "a3a0d4e2d0bbb8138ba8297f24dc1389f273336508eee5b19163f598eb33c9e7",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "F6"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/90.mp3",
+    "bytes": 15991,
+    "sha256": "4fa90a1c1f17275c30a9b734f5e70613521aba20fef26eaa389945ed053114c9",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Gb6"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/91.mp3",
+    "bytes": 15133,
+    "sha256": "959a455f6c53325c01bdb56235894058657d982b1ec6a9881de226e0e43abf73",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "G6"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/92.mp3",
+    "bytes": 15523,
+    "sha256": "67f9a95a0e81c85ab64af5c25e91d2f3c91a0ce0a3017bb6702b18b4653ea81f",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Ab6"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/93.mp3",
+    "bytes": 14717,
+    "sha256": "abe8bee47c45ff5f795127389757bb735d0468c12c1e9485aed319c47ef69d58",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "A6"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/94.mp3",
+    "bytes": 14873,
+    "sha256": "2bf3ba905ef9450680b13f3014526a8eb991427bbea9210031ead4c8339ea4a2",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Bb6"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/95.mp3",
+    "bytes": 14925,
+    "sha256": "c2e992c190b41a6d7cdb6854f94535205685fad2b98c9a3a1e0d270bac838306",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "B6"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/96.mp3",
+    "bytes": 14743,
+    "sha256": "c2fd88b6409d639a325338a35497452c485f6a7946be1f3fdae260d9cb09adda",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "C7"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/97.mp3",
+    "bytes": 13989,
+    "sha256": "bf26f89e70ebccec2ea555f4f299ffa37899e56d2dc8dc34deb0913302a63f77",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Db7"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/98.mp3",
+    "bytes": 14431,
+    "sha256": "0cf22ef15af004ab2638b2693316b9bea54ec9f63afc29501b38531c49a0d1f4",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "D7"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/99.mp3",
+    "bytes": 14405,
+    "sha256": "0ea5b68c754fdf87516242949bba68a2951b663e4bf95055eed7bd0ee8490577",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Eb7"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/100.mp3",
+    "bytes": 13833,
+    "sha256": "2cbe55ca3fe7bfadc9ee74472ffcbc2cdbf896d7166acc66226a93b2af84c6fc",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "E7"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/101.mp3",
+    "bytes": 14119,
+    "sha256": "beb681df3857396482e43713c5d857491497050add86b3b165225b3d8b73153b",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "F7"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/102.mp3",
+    "bytes": 14353,
+    "sha256": "1cdb06c8935b5c3a7c72eef148d8b7ac014d49761391dd7c68d99c7a4899373f",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Gb7"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/103.mp3",
+    "bytes": 13937,
+    "sha256": "21e4e1cd91cdbdd2db76510a80fcb5955f2b5de5273a2428232c6522a48ed67b",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "G7"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/104.mp3",
+    "bytes": 14197,
+    "sha256": "8ca701b2f6f7fe18ae155a56abceb3ba25fbe654883be5860312088ffcec49ee",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Ab7"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/105.mp3",
+    "bytes": 13911,
+    "sha256": "7305cf91ba68c7fd3af3d68a1429561a5c4bd1cbeb40948131fe367fdad55667",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "A7"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/106.mp3",
+    "bytes": 14275,
+    "sha256": "e519664a7efca8fa75837fb1805382ebc8493387e9f5661611e932ad052cbbc6",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "Bb7"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/107.mp3",
+    "bytes": 14431,
+    "sha256": "4e53c76d8a87021bf1de21c52dc69958ffca01d5691c8f5f011b13d0c30bacee",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "B7"
+  },
+  {
+    "path": "samples/fluid-electric_piano_1/108.mp3",
+    "bytes": 13937,
+    "sha256": "d1c5a9ae716135b7fa45b13f6aea6516b54176eee49642746a43731c9837e067",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_1-mp3.js",
+    "note": "C8"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/21.mp3",
+    "bytes": 23297,
+    "sha256": "74c7a21d43674a64cb77ee0e363c0b5b0c4a7a399dad1ace613e414a35a9fe52",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "A0"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/22.mp3",
+    "bytes": 22803,
+    "sha256": "f62c5f35fbb3f15502ab1e254b561b49f87fff45a6a8ac79b045d6c952794b6e",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Bb0"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/23.mp3",
+    "bytes": 22231,
+    "sha256": "5ed8dccb93f51ca8550e23c90d406e2088523c8d4ebcb4ac7e47aaf21793b5e1",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "B0"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/24.mp3",
+    "bytes": 22907,
+    "sha256": "1a3cf83ba8a484e20e12da48b9e79b43b394f92d3d37ca0149dc71ba2a762d7a",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "C1"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/25.mp3",
+    "bytes": 23141,
+    "sha256": "8e528001d819f06f5a7c2e9f614ebfe0d1964a5c0accd7e0e59c9b648675aba4",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Db1"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/26.mp3",
+    "bytes": 22829,
+    "sha256": "57519a3f6564b549b465c5452e2f8ca3768a0ba005aaa0953489d06ff3561e49",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "D1"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/27.mp3",
+    "bytes": 22257,
+    "sha256": "ca6dca25ec062de7607646d4e70abe977b3bac0bca23b72b0f9c882c359e8745",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Eb1"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/28.mp3",
+    "bytes": 22101,
+    "sha256": "39980d467fb3e5b3aa47928da5e2e2ff7c0bed6ee04bc9e85ba1d866224b5b06",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "E1"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/29.mp3",
+    "bytes": 21867,
+    "sha256": "90595dab7509f6d6dc4d59f3a90ce036fa204de897fbea3c2b9758c2df42a72b",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "F1"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/30.mp3",
+    "bytes": 22023,
+    "sha256": "a7c38b920fe070f650b722106180b6bd96088703772726fe9ab0b6221efc1c83",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Gb1"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/31.mp3",
+    "bytes": 22101,
+    "sha256": "e81cfe2f826ebfaa2623cec88067d013e930a54e9b6b71486362fd6b0fa1a7a9",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "G1"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/32.mp3",
+    "bytes": 22153,
+    "sha256": "31d7e2c94a1e042f9c89a6c3d886b53342b3562f978650d48b6ecff8ca5db0dc",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Ab1"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/33.mp3",
+    "bytes": 22153,
+    "sha256": "1aa40f20718d1764d07de6db9e45d7e3bc2caba02130d7c547c450a0d95cd714",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "A1"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/34.mp3",
+    "bytes": 21815,
+    "sha256": "e9ebaed1b6aabce10c38e6486dfa3f9593c3fd4429791cc0c0897219d0137e66",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Bb1"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/35.mp3",
+    "bytes": 21789,
+    "sha256": "9af131220dd60e317bb1c11c1b3834a6f34faf0d3d7fcabe8c95b3ef0f2a7823",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "B1"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/36.mp3",
+    "bytes": 21971,
+    "sha256": "665679c8b3a4df2305ba543bb1ab9dd499ca5c2a6d7ab3aa8144b4a5fa2cb411",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "C2"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/37.mp3",
+    "bytes": 21893,
+    "sha256": "aff868f2fd5d33913ecd34564a6a3634e234820f7f4a5f40685c57afa32c91b9",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Db2"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/38.mp3",
+    "bytes": 21139,
+    "sha256": "f487539121facfdc563eea72dedc04a5be6d979fa9216de86eececd4b086ae53",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "D2"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/39.mp3",
+    "bytes": 21165,
+    "sha256": "003a30206c2bd8673311ce3e21ed9c13ba6dad8a37cb440b988dae12833b2563",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Eb2"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/40.mp3",
+    "bytes": 21269,
+    "sha256": "7b16918005ad94ba91b32a91665868afce3da514bd5ee73ad7d2903f264558dd",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "E2"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/41.mp3",
+    "bytes": 21217,
+    "sha256": "682731e9db82dbbb383c8ada15852a87a861d51dd21ddac11ed11f8705cccb3b",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "F2"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/42.mp3",
+    "bytes": 22049,
+    "sha256": "c4eacdce22e70dadac124d456432485894bcf6934e4e5ca99a4318b14d6aef78",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Gb2"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/43.mp3",
+    "bytes": 21971,
+    "sha256": "b97d8ede0d7d8251d70db46d9359ebd6ee543e1c3a1eb151f68aa820d4b0502b",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "G2"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/44.mp3",
+    "bytes": 21919,
+    "sha256": "821310121a64ac7712f5907c0d721486866e492623539730709649e15bbe7de2",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Ab2"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/45.mp3",
+    "bytes": 22205,
+    "sha256": "a1d46928ba7be420aa50de5f0e181148aba00bf73a9ef6540cac0783e8e404fe",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "A2"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/46.mp3",
+    "bytes": 21971,
+    "sha256": "f22b1fedb820f3f602511bc78c0cd28ad092f7e1ab36371e2147553bc3ca8208",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Bb2"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/47.mp3",
+    "bytes": 22309,
+    "sha256": "652c5712b55e989701291422b268f82a9ddc7955e3f7b4c31c440d82615d8c97",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "B2"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/48.mp3",
+    "bytes": 22413,
+    "sha256": "1d964429333599a7fbcaa58d1de512ca7f5d4b0c3ac17fabedacef0495513e8a",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "C3"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/49.mp3",
+    "bytes": 22829,
+    "sha256": "46755192139ffd239376a4d49669ce8f72d17efa74c3e97d57bb063eed4d696d",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Db3"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/50.mp3",
+    "bytes": 22855,
+    "sha256": "b59ae7cf6864eac849d3b151fbec97dc7b3b8cb783543d482ff614122e8b27c3",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "D3"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/51.mp3",
+    "bytes": 23271,
+    "sha256": "842527e48d73cd94d1898b26c4334365385c2f3f573bce77f44e88bd253a61b6",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Eb3"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/52.mp3",
+    "bytes": 22829,
+    "sha256": "f96594121e57319060f9c2bad18164544070f504e01f02d81e4851095db29749",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "E3"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/53.mp3",
+    "bytes": 23505,
+    "sha256": "53d385bbea4863bddeebd18d9922aa843c95026135268f375ccf5d1940046e67",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "F3"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/54.mp3",
+    "bytes": 23167,
+    "sha256": "04c63d42e8b77683d684270c136398fe07e7d9a7a8e1120820fb2735571a9249",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Gb3"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/55.mp3",
+    "bytes": 23323,
+    "sha256": "a1cb8d7b2abb236f20d3449aa1bda6c23a6f1b510d5a2454db77cd7bfff2a565",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "G3"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/56.mp3",
+    "bytes": 23323,
+    "sha256": "64b9fba666794decc0aabb44b94cc1d660dd4804c36102f6d827a1b8188983da",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Ab3"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/57.mp3",
+    "bytes": 23713,
+    "sha256": "5fe1ce42db669d593dbefaedb8ad4babc23888e297c3b16ed5bf13219c25c1a4",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "A3"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/58.mp3",
+    "bytes": 23869,
+    "sha256": "384d5683bec02cb2168d00e4c719f7a6582749ea3751364ac9245f7cc70b2768",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Bb3"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/59.mp3",
+    "bytes": 23973,
+    "sha256": "38e4f23fd09eabd22e429b871b059aa2aa0453382ed77158a3d9c9599bd06a9f",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "B3"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/60.mp3",
+    "bytes": 22985,
+    "sha256": "a6ebc762641c33f5821c6c228f6b1629075e503b3a715296e59a5d62208b6268",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "C4"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/61.mp3",
+    "bytes": 23089,
+    "sha256": "4b6a855e3e18a2af78afc7bac8b5ead4350d6f9e07bc7220418f6364ce1e7720",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Db4"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/62.mp3",
+    "bytes": 23115,
+    "sha256": "ee387583ec1f44d53044d8292aba060e20f0b3b740015600f37f5f2a5ea86c32",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "D4"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/63.mp3",
+    "bytes": 22777,
+    "sha256": "171b148dcb731566e638d7c327245cf04994b0960b7bab0759cc0f3ad003fcbf",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Eb4"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/64.mp3",
+    "bytes": 23167,
+    "sha256": "e18bd31127f493e75f99fa58f5344fb61be337137ecbb099c85e319d99c02ca7",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "E4"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/65.mp3",
+    "bytes": 23635,
+    "sha256": "3eec3400facb081d83eca93bca0288acb34740247758f6a76b92085a6b0811da",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "F4"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/66.mp3",
+    "bytes": 23219,
+    "sha256": "5b10cb5e53372409210315f989c2cdde9d099d61cde2734379c98c2f03474317",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Gb4"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/67.mp3",
+    "bytes": 23687,
+    "sha256": "150e405921c496febea5309f083b91233cacefa40cba9ecfecbf8b3cd623ca28",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "G4"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/68.mp3",
+    "bytes": 23505,
+    "sha256": "6b1edee3054545261c42aa38047a3560de55d6998305a5ad6ff24b9bc96bd44b",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Ab4"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/69.mp3",
+    "bytes": 24103,
+    "sha256": "7e9c28a36d0a8ab17be40dd46c5c9b7570a73b73ac1d3834eb7b3b51218fa543",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "A4"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/70.mp3",
+    "bytes": 23089,
+    "sha256": "01d6f828dfb2a46ca292b3fdc7ece534967816f4c2c985a570a79c9bc94a1772",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Bb4"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/71.mp3",
+    "bytes": 24155,
+    "sha256": "de3e928c71a10813b0b1250595d6f98cf4fae6209213575c61221f66c7a925cf",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "B4"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/72.mp3",
+    "bytes": 25325,
+    "sha256": "1c1753dae48d7deba61b176e506ed63729eb61d0e3d14a40e412611acba70177",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "C5"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/73.mp3",
+    "bytes": 25039,
+    "sha256": "2a4df0666579144dd7881a348f1227222505013cea01f52a7973b33855f3cf7c",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Db5"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/74.mp3",
+    "bytes": 25377,
+    "sha256": "9c1567fd58711918632ee5929831a2408371927051d2de849c049192617e464e",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "D5"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/75.mp3",
+    "bytes": 25247,
+    "sha256": "50657157e3c910127b48cf2752c100456ef238b9f0b41e7b41aa161185aa0e24",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Eb5"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/76.mp3",
+    "bytes": 25273,
+    "sha256": "f7b9ef059ed992d652d4dee9b5c5902070de7efce70fd50ec931322d5d30ff75",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "E5"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/77.mp3",
+    "bytes": 24623,
+    "sha256": "c0b0584d426c22d17217e00d18e6cc39382cf069fc7e78b24b7249f3faab6910",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "F5"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/78.mp3",
+    "bytes": 23609,
+    "sha256": "8e5d73829c4a9dcc2199a2397d92ea78179ec9c97682dec89f65e27bc4b7c5d4",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Gb5"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/79.mp3",
+    "bytes": 23115,
+    "sha256": "df1f21af1bbca2c1e0a2bab8a4eb08973f5669fc98ed388602e26e49dc5fd9da",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "G5"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/80.mp3",
+    "bytes": 23609,
+    "sha256": "cd5eb99ae54ce19f09d02de504c8c64b00865ef59350e356a32ee543c3106898",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Ab5"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/81.mp3",
+    "bytes": 21165,
+    "sha256": "68e0ff33375109033748f3245781fed1d82db4d2239b082646848aec5a3c5fd1",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "A5"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/82.mp3",
+    "bytes": 22985,
+    "sha256": "8188106f7a9b3dbe76fe0417c94c0aa4761b87cba6194f42312fa04ca27f7267",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Bb5"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/83.mp3",
+    "bytes": 23037,
+    "sha256": "05a3c7538247997c9762a64d572d0f453ad547416beffda8d9c76301c95a59be",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "B5"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/84.mp3",
+    "bytes": 21165,
+    "sha256": "399fa50846d2fb686f0be74f95732e227156eff00e3ef51f018999b0a80fe4c9",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "C6"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/85.mp3",
+    "bytes": 18929,
+    "sha256": "eba6ed77c14c42362524abbf25148afde7e7869d074d54950fd5896fa9af1587",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Db6"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/86.mp3",
+    "bytes": 20827,
+    "sha256": "87365986f31ebc5212f708b3b2e084bc81d4618c957b5e4497f2b82c8584016a",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "D6"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/87.mp3",
+    "bytes": 20463,
+    "sha256": "37e49aa2aa0e7f9dfef31655f5a23dd84ff9a266a916e30ce11c4bfb87af12c8",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Eb6"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/88.mp3",
+    "bytes": 20151,
+    "sha256": "ac2ee023d7c36e536198df49256e533cf9bc3561e49981e20ccf2ba7dd7d1205",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "E6"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/89.mp3",
+    "bytes": 19397,
+    "sha256": "83de75795233729556ce3172d25b8241af0768096dec5bb7591937c7b660e920",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "F6"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/90.mp3",
+    "bytes": 18617,
+    "sha256": "26e8723e8662eed86281b2bd273a4743d54a974bcbfece3f895434d30521b40d",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Gb6"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/91.mp3",
+    "bytes": 16719,
+    "sha256": "525ce03af9c127c3dd555d776fe2e1d6de612976db08962f3c80db8dd952a50a",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "G6"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/92.mp3",
+    "bytes": 18045,
+    "sha256": "aa3e0f44621c5503546391e20f78b8a6a5e57958d69d80afa0f1829f2af7a47d",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Ab6"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/93.mp3",
+    "bytes": 16277,
+    "sha256": "8c16f97a2d98b5441ffcd5d6c19ad42b4730d0469e5190aaf60aaed0ed6ef4a2",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "A6"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/94.mp3",
+    "bytes": 17395,
+    "sha256": "50840a01abff332dea03aeeeb9470a6203bbd27ee5dfc83cc0db028873f243ce",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Bb6"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/95.mp3",
+    "bytes": 17447,
+    "sha256": "ca2edd166b16a6e9e7b1d0e276578c2dde50c3bbe78ccdec587ad3af91c459c0",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "B6"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/96.mp3",
+    "bytes": 17083,
+    "sha256": "6a8269d2648da2ebb70c68a987763ed16c88cddb850845e4b2193458bce94c4c",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "C7"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/97.mp3",
+    "bytes": 15939,
+    "sha256": "d9e97a3d1687ee7bed32b84d677eb54a6c35b247867bbf9a88feacc5c47cd29c",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Db7"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/98.mp3",
+    "bytes": 16485,
+    "sha256": "75037586101c7f65e3a80c65d4b31ada6a429b687424d12b2031ba26834c84ab",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "D7"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/99.mp3",
+    "bytes": 15835,
+    "sha256": "72f7fff84e4fe0a61c7f1303c7a3278e00a072ff4adc48c9295e985508ebd600",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Eb7"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/100.mp3",
+    "bytes": 15445,
+    "sha256": "3526db15f82a4389e357c7491f8a310ae8c5ce54fd505a9a207b4b35615eaed9",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "E7"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/101.mp3",
+    "bytes": 15965,
+    "sha256": "8940d1786141beead2b0abbb89ad21c3444794a328c8d57f7d6168b296c7e612",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "F7"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/102.mp3",
+    "bytes": 16043,
+    "sha256": "028f81634bfbd612c7b258b02d72da418087f7e8f0626fa2ec64388f7372f35d",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Gb7"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/103.mp3",
+    "bytes": 15185,
+    "sha256": "1f817027257f97139aa99611831b125bf1790b8e8ec2c8c856ddf77139d05dc9",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "G7"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/104.mp3",
+    "bytes": 16173,
+    "sha256": "89f8e2a837ce7afd9bc68e8cb6ffd8247a13a8c60332970c7210ce4be16bd0e2",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Ab7"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/105.mp3",
+    "bytes": 15575,
+    "sha256": "d3b0de920216cfc31eda40b6a0d8410882725a887dd723119c738d922cd88433",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "A7"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/106.mp3",
+    "bytes": 15757,
+    "sha256": "a998bdaf95e9838fdf62a018869f7cfcb7ee0631be5c6ecec5fdf2fb45a3892f",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "Bb7"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/107.mp3",
+    "bytes": 16797,
+    "sha256": "3e3829a7298aed5fd8bf406e73bca30e2212d1709da2b4970d0bd0644e1c025d",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "B7"
+  },
+  {
+    "path": "samples/fluid-electric_piano_2/108.mp3",
+    "bytes": 16693,
+    "sha256": "bc9c464c897b6b1108df87940b1f97a65ed6ab25d4dbecca5ba3712d6212d4d8",
+    "source": "https://raw.githubusercontent.com/gleitz/midi-js-soundfonts/044fab8e1456bfafc5776e86dfd6bb8697149aef/FluidR3_GM/electric_piano_2-mp3.js",
+    "note": "C8"
+  }
+]

@@ -20,10 +20,11 @@
   }
   function sources(context,graph,data,input,loop=false){
     const s=core.settings(input),sources=[],gains={},pans={};let duration;
-    const entries=data.imported?[['file',data.imported]]:Object.entries(data.tracks).map(([name,samples])=>[name,buffer(context,[samples],data.sampleRate)]);
+    const entries=data.imported?[['file',data.imported]]:Object.entries(data.tracks).map(([name,samples])=>[name,buffer(context,Array.isArray(samples)?samples:[samples],data.sampleRate)]);
     const level=(name,v)=>name==='file'?1:v[name+'Mute']||(v.solo!=='none'&&v.solo!==name)?0:v[name];
-    for(const [name,audio] of entries){const source=context.createBufferSource(),gain=context.createGain(),pan=context.createStereoPanner();source.buffer=audio;source.loop=loop;gain.gain.value=level(name,s);pan.pan.value=name==='file'?0:s[name+'Pan'];source.connect(gain);gain.connect(pan);pan.connect(graph.input);sources.push(source);gains[name]=gain;pans[name]=pan;duration=audio.duration;}
-    return{duration,start(when){sources.forEach(source=>source.start(when));},update(v){for(const [name,gain] of Object.entries(gains)){gain.gain.setTargetAtTime(level(name,v),context.currentTime,.015);pans[name].pan.setTargetAtTime(name==='file'?0:v[name+'Pan'],context.currentTime,.015);}},stop(){sources.forEach(source=>{try{source.stop();}catch{}try{source.disconnect();}catch{}});Object.values(gains).forEach(gain=>gain.disconnect());Object.values(pans).forEach(pan=>pan.disconnect());}};
+    function position(node,name,v){const id=name==='file'?'keys':name;if(node.positionX){const xyz=core.spatialPoint(v[id+'Az'],v.elevation,v.distance);for(const [i,p] of [node.positionX,node.positionY,node.positionZ].entries())p.setTargetAtTime(xyz[i],context.currentTime,.02);}else node.pan.setTargetAtTime(name==='file'?0:v[name+'Pan'],context.currentTime,.015);}
+    for(const [name,audio] of entries){const source=context.createBufferSource(),gain=context.createGain(),pan=s.spatial==='binaural'?context.createPanner():context.createStereoPanner();if(s.spatial==='binaural'){pan.panningModel='HRTF';pan.distanceModel='inverse';pan.refDistance=1;pan.maxDistance=20;pan.rolloffFactor=.5;}position(pan,name,s);source.buffer=audio;source.loop=loop;gain.gain.value=level(name,s);source.connect(gain);gain.connect(pan);pan.connect(graph.input);sources.push(source);gains[name]=gain;pans[name]=pan;duration=audio.duration;}
+    return{duration,start(when){sources.forEach(source=>source.start(when));},update(v){for(const [name,gain] of Object.entries(gains)){gain.gain.setTargetAtTime(level(name,v),context.currentTime,.015);position(pans[name],name,v);}},stop(){sources.forEach(source=>{try{source.stop();}catch{}try{source.disconnect();}catch{}});Object.values(gains).forEach(gain=>gain.disconnect());Object.values(pans).forEach(pan=>pan.disconnect());}};
   }
   root.WalamortProductionAudio={graph,sources,buffer};
 })(window);
