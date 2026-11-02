@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "title": "Acordes con séptimas e inversiones",
+  "key": "C",
+  "tempo": 90,
+  "instrument": "piano",
+  "melody": [
+    64,
+    67,
+    71,
+    null,
+    65,
+    69,
+    72,
+    null,
+    67,
+    71,
+    74,
+    null,
+    64,
+    62,
+    60,
+    null
+  ],
+  "chords": [
+    {
+      "degree": 0,
+      "seventh": true,
+      "inversion": 0
+    },
+    {
+      "degree": 3,
+      "seventh": true,
+      "inversion": 1
+    },
+    {
+      "degree": 4,
+      "seventh": true,
+      "inversion": 2
+    },
+    {
+      "degree": 0,
+      "seventh": true,
+      "inversion": 0
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "title": "Motivo y repetición",
+  "key": "C",
+  "tempo": 90,
+  "instrument": "piano",
+  "melody": [
+    60,
+    62,
+    64,
+    null,
+    60,
+    62,
+    67,
+    null,
+    64,
+    62,
+    60,
+    null,
+    62,
+    64,
+    60,
+    null
+  ],
+  "chords": [
+    {
+      "degree": 0,
+      "seventh": false,
+      "inversion": 0
+    },
+    {
+      "degree": 3,
+      "seventh": false,
+      "inversion": 0
+    },
+    {
+      "degree": 4,
+      "seventh": false,
+      "inversion": 0
+    },
+    {
+      "degree": 0,
+      "seventh": false,
+      "inversion": 0
+    }
+  ]
+}

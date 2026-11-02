@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "title": "Una idea en La menor",
+  "key": "Am",
+  "tempo": 90,
+  "instrument": "piano",
+  "melody": [
+    69,
+    71,
+    72,
+    null,
+    76,
+    74,
+    72,
+    null,
+    71,
+    69,
+    67,
+    null,
+    71,
+    72,
+    69,
+    null
+  ],
+  "chords": [
+    {
+      "degree": 0,
+      "seventh": false,
+      "inversion": 0
+    },
+    {
+      "degree": 3,
+      "seventh": false,
+      "inversion": 0
+    },
+    {
+      "degree": 4,
+      "seventh": false,
+      "inversion": 0
+    },
+    {
+      "degree": 0,
+      "seventh": false,
+      "inversion": 0
+    }
+  ]
+}

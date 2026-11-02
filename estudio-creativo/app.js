@@ -66,6 +66,7 @@
   $('load').onchange=async()=>{const file=$('load').files[0];if(!file)return;try{if(file.size>65536)throw Error('size');const loaded=C.validate(JSON.parse(await file.text()));P.stop();remember();project=loaded;selected=0;render();tell(L.imported)}catch{tell(L.invalid)}finally{$('load').value=''}};
   $('clear').onclick=()=>{if(window.confirm(L.confirm)){change(()=>{project=C.blank();selected=0});tell(L.ready)}};
   $('print').onclick=()=>{render();window.print()};
+  $('toProduction').onclick=()=>{try{const base=new URL('../',document.querySelector('script[src^="core.js"],script[src*="estudio-creativo/core.js"]').src),key='walamort-transfer-v1:'+base.pathname;localStorage.setItem(key,JSON.stringify(window.WalamortMusicBridge.packet(C.validate(project))));window.location.assign($('toProduction').dataset.destination);}catch{tell(en?'Could not transfer. Download the creative JSON and import it in the lab.':'No se pudo transferir. Descarga el JSON creativo e impórtalo en el laboratorio.');}};
   const date=new Date(),day=date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate(),challenge=C.challenge(day);
   $('challengeTitle').textContent=L.challengeTitles[challenge];$('challengeText').textContent=L.challengeTexts[challenge];
   render();$('stop').disabled=true;tell(L.ready);

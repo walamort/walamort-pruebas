@@ -13,7 +13,7 @@
     place:t('Indica la ciudad para consultar una actividad presencial.','Enter the city for an in-person inquiry.'),
     objective:t('Describe tu objetivo con al menos 12 caracteres.','Describe your goal using at least 12 characters.')
   };
-  function languageLink(){const p=new URLSearchParams({service:$('service').value,topic:$('topic').value});$('language').href=document.body.dataset.base+(en?'':'en/')+'servicios-musicales/?'+p;}
+  function languageLink(){const p=new URLSearchParams({service:$('service').value,topic:$('topic').value});if($('language'))$('language').href=document.body.dataset.base+(en?'':'en/')+'servicios-musicales/?'+p;}
   function invalidate(){
     $('requestResult').hidden=true;$('whatsapp').removeAttribute('href');$('email').removeAttribute('href');$('message').textContent='';$('requestStatus').textContent='';$('requestError').textContent='';languageLink();
   }

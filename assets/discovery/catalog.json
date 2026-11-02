@@ -452,7 +452,7 @@
       "title": "Guitar and bass fretboard",
       "description": "Explore fretboard notes, scales and positions."
     },
-    "tags": "guitarra bajo notas digitacion fretboard guitar bass violao afinacao amostras gravar violao afinacao amostras gravar",
+    "tags": "guitarra bajo notas digitacion fretboard guitar bass violao afinacao amostras gravar violao afinacao amostras gravar violao afinacao amostras gravar",
     "pt": {
       "title": "Braço de guitarra e baixo",
       "description": "Explore notas, escalas e posições no braço."
@@ -492,7 +492,7 @@
       "title": "Instrument sound bank",
       "description": "14 variants and 564 samples with notes and credits."
     },
-    "tags": "muestras samples piano guitarra violin flauta sonidos sound bank violao afinacao amostras gravar violao afinacao amostras gravar",
+    "tags": "muestras samples piano guitarra violin flauta sonidos sound bank violao afinacao amostras gravar violao afinacao amostras gravar violao afinacao amostras gravar",
     "pt": {
       "title": "Banco de sons de instrumentos",
       "description": "14 variantes e 564 amostras com notas e créditos."
@@ -998,5 +998,85 @@
       "description": "Descubra o tongue drum e como começar."
     },
     "portuguese": null
+  },
+  {
+    "id": "50",
+    "group": "academia",
+    "path": "formacion-musical/",
+    "english": "en/formacion-musical/",
+    "portuguese": "pt/formacion-musical/",
+    "es": {
+      "title": "Ruta de siete sesiones",
+      "description": "Fundamentos, dictado, armonía, creación y comparación de 3/4 con 6/8."
+    },
+    "en": {
+      "title": "Seven-session learning path",
+      "description": "Foundations, dictation, harmony, creation and 3/4 versus 6/8."
+    },
+    "pt": {
+      "title": "Percurso de sete sessões",
+      "description": "Fundamentos, ditado, harmonia, criação e comparação de 3/4 com 6/8."
+    },
+    "tags": "curso ruta formacion aprendizaje universidad compas compuesto 6/8 3/4 learning course"
+  },
+  {
+    "id": "51",
+    "group": "academia",
+    "path": "mi-progreso/",
+    "english": "en/mi-progreso/",
+    "portuguese": "pt/mi-progreso/",
+    "es": {
+      "title": "Mi progreso y copias de seguridad",
+      "description": "Consulta resultados, exporta historial e importa copias sin duplicados."
+    },
+    "en": {
+      "title": "My progress and backups",
+      "description": "Review results, export history and merge backups without duplicates."
+    },
+    "pt": {
+      "title": "Meu progresso e cópias de segurança",
+      "description": "Confira resultados, exporte o histórico e combine cópias sem duplicatas."
+    },
+    "tags": "progreso seguimiento historial resultados backup progress exportar"
+  },
+  {
+    "id": "52",
+    "group": "academia",
+    "path": "mi-progreso/#teacherPanel",
+    "english": "en/mi-progreso/#teacherPanel",
+    "portuguese": "pt/mi-progreso/#teacherPanel",
+    "es": {
+      "title": "Resultados para docentes",
+      "description": "Reúne informes locales por código y exporta la tabla de clase."
+    },
+    "en": {
+      "title": "Teacher results",
+      "description": "Collect local reports by code and export a class table."
+    },
+    "pt": {
+      "title": "Resultados para professores",
+      "description": "Reúna relatórios locais por código e exporte a tabela da turma."
+    },
+    "tags": "profesores grupos aula estudiantes docentes informes teacher classroom reports"
+  },
+  {
+    "id": "53",
+    "group": "servicios",
+    "path": "formacion-musical/#session5",
+    "english": "en/formacion-musical/#session5",
+    "portuguese": "pt/formacion-musical/#session5",
+    "es": {
+      "title": "Reto creativo compartible",
+      "description": "Crea una pieza y comparte el proyecto y tu reflexión manualmente."
+    },
+    "en": {
+      "title": "Shareable creative challenge",
+      "description": "Create a piece and manually share your project and reflection."
+    },
+    "pt": {
+      "title": "Desafio criativo compartilhável",
+      "description": "Crie uma peça e compartilhe manualmente o projeto e sua reflexão."
+    },
+    "tags": "comunidad reto compartir challenge community creative"
   }
 ]

@@ -7,7 +7,7 @@
  function fold(note,range){let n=note;while(n<range[0])n+=12;while(n>range[1])n-=12;return n;}
  async function render(settings,custom=null,onProgress=()=>{}){
   const core=root.WalamortProduction,s=core.settings(settings),plan=core.plan(s),data=core.synth(s,44100);if(s.soundMode==='synth'&&!custom)return data;
-  const events=plan.events.filter(event=>s.soundMode==='samples'||(custom&&event.track==='keys')).map(event=>{const id=event.track==='bass'?s.bassBank:s.keysBank,b=bank(id),note=fold(event.note,b.range);return {...event,id,note};}),needed=[...new Map(events.filter(e=>!custom||e.track!=='keys').map(e=>[e.id+':'+e.note,e])).values()],loaded=new Map();let done=0;
+  const events=plan.events.filter(event=>s.soundMode==='samples'||(custom&&event.track==='keys')).map(event=>{const id=event.track==='bass'?s.bassBank:s.keysBank,b=bank(id),note=s.composition?event.note:fold(event.note,b.range);return {...event,id,note};}),needed=[...new Map(events.filter(e=>!custom||e.track!=='keys').map(e=>[e.id+':'+e.note,e])).values()],loaded=new Map();let done=0;
   // Bound concurrent network/decode work, including on slower mobile devices.
   const queue=[...needed];await Promise.all(Array.from({length:Math.min(4,queue.length)},async()=>{while(queue.length){const e=queue.shift();loaded.set(e.id+':'+e.note,await load(e.id,e.note));onProgress(++done,needed.length);}}));
   const length=Math.round(plan.duration*data.sampleRate);if(s.soundMode==='samples')data.tracks.bass=[new Float32Array(length),new Float32Array(length)];data.tracks.keys=[new Float32Array(length),new Float32Array(length)];
