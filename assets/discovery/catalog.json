@@ -12,7 +12,12 @@
       "title": "Sound museum",
       "description": "Instrument stories, families and heritage."
     },
-    "tags": "historia patrimonio instrumentos mundo museum history"
+    "tags": "historia patrimonio instrumentos mundo museum history",
+    "pt": {
+      "title": "Museu de instrumentos",
+      "description": "Histórias, famílias e patrimônio musical."
+    },
+    "portuguese": null
   },
   {
     "id": "1",
@@ -27,7 +32,12 @@
       "title": "Sound journeys",
       "description": "Explore music from Colombia and Latin America."
     },
-    "tags": "colombia latinoamerica cultura cultural"
+    "tags": "colombia latinoamerica cultura cultural",
+    "pt": {
+      "title": "Percursos sonoros",
+      "description": "Explore músicas da Colômbia e da América Latina."
+    },
+    "portuguese": null
   },
   {
     "id": "2",
@@ -42,7 +52,12 @@
       "title": "Compare instruments",
       "description": "Compare features and playing approaches."
     },
-    "tags": "comparador familias comparar"
+    "tags": "comparador familias comparar",
+    "pt": {
+      "title": "Comparar instrumentos",
+      "description": "Compare características e maneiras de tocar."
+    },
+    "portuguese": null
   },
   {
     "id": "3",
@@ -57,7 +72,12 @@
       "title": "Walamort Academy",
       "description": "Explore music learning paths and resources."
     },
-    "tags": "academia cursos aprender principiantes beginner courses"
+    "tags": "academia cursos aprender principiantes beginner courses",
+    "pt": {
+      "title": "Walamort Academy",
+      "description": "Conheça caminhos e recursos para aprender música."
+    },
+    "portuguese": null
   },
   {
     "id": "4",
@@ -72,7 +92,12 @@
       "title": "Practice center",
       "description": "Browse interactive musical exercises."
     },
-    "tags": "ejercicios actividades practicar exercises practice"
+    "tags": "ejercicios actividades practicar exercises practice",
+    "pt": {
+      "title": "Central de prática",
+      "description": "Explore os exercícios musicais interativos."
+    },
+    "portuguese": null
   },
   {
     "id": "5",
@@ -87,7 +112,12 @@
       "title": "My learning path",
       "description": "Diagnostic, routine and progress in this browser."
     },
-    "tags": "progreso diagnostico rutina seguimiento progress routine"
+    "tags": "progreso diagnostico rutina seguimiento progress routine",
+    "pt": {
+      "title": "Meu percurso de aprendizagem",
+      "description": "Diagnóstico, rotina e progresso neste navegador."
+    },
+    "portuguese": null
   },
   {
     "id": "6",
@@ -102,7 +132,12 @@
       "title": "Music school preparation",
       "description": "Build fundamentals for music school entry."
     },
-    "tags": "preparatorio universidad admision ingreso university admission"
+    "tags": "preparatorio universidad admision ingreso university admission",
+    "pt": {
+      "title": "Preparação para a faculdade de música",
+      "description": "Desenvolva fundamentos para o processo de ingresso."
+    },
+    "portuguese": null
   },
   {
     "id": "7",
@@ -117,7 +152,12 @@
       "title": "University classroom",
       "description": "Study theory, aural skills and harmony by level."
     },
-    "tags": "universidad formacion avanzado university advanced"
+    "tags": "universidad formacion avanzado university advanced",
+    "pt": {
+      "title": "Sala universitária",
+      "description": "Estude teoria, percepção e harmonia por níveis."
+    },
+    "portuguese": null
   },
   {
     "id": "8",
@@ -132,7 +172,12 @@
       "title": "Staff reading and musical hand",
       "description": "Practice notes in treble, bass and alto clefs."
     },
-    "tags": "solfeo mano notas clefs hand staff reading"
+    "tags": "solfeo mano notas clefs hand staff reading",
+    "pt": {
+      "title": "Leitura de partitura e mão musical",
+      "description": "Pratique notas nas claves de sol, fá e dó."
+    },
+    "portuguese": null
   },
   {
     "id": "9",
@@ -147,7 +192,12 @@
       "title": "Sight-reading",
       "description": "Practice pitches and rhythm reading."
     },
-    "tags": "solfeo ritmo primera vista sight reading"
+    "tags": "solfeo ritmo primera vista sight reading",
+    "pt": {
+      "title": "Leitura à primeira vista",
+      "description": "Pratique notas e leitura rítmica."
+    },
+    "portuguese": null
   },
   {
     "id": "10",
@@ -162,7 +212,12 @@
       "title": "Melodic dictation",
       "description": "Listen and answer using an interactive keyboard."
     },
-    "tags": "oido auditivo melodia teclado ear melody dictation"
+    "tags": "oido auditivo melodia teclado ear melody dictation",
+    "pt": {
+      "title": "Ditado melódico",
+      "description": "Ouça e responda usando um teclado interativo."
+    },
+    "portuguese": null
   },
   {
     "id": "11",
@@ -177,7 +232,12 @@
       "title": "Staff dictation",
       "description": "Write pitches, durations and rests."
     },
-    "tags": "oido transcripcion notacion duracion dictation notation"
+    "tags": "oido transcripcion notacion duracion dictation notation",
+    "pt": {
+      "title": "Ditado na pauta",
+      "description": "Escreva alturas, durações e pausas."
+    },
+    "portuguese": null
   },
   {
     "id": "12",
@@ -192,7 +252,12 @@
       "title": "Ear training",
       "description": "Develop musical listening and perception."
     },
-    "tags": "oido percepcion intervalos ear training intervals"
+    "tags": "oido percepcion intervalos ear training intervals",
+    "pt": {
+      "title": "Treinamento auditivo",
+      "description": "Desenvolva a escuta e a percepção musical."
+    },
+    "portuguese": null
   },
   {
     "id": "13",
@@ -207,7 +272,12 @@
       "title": "Rhythm practice",
       "description": "Tap patterns and review timing accuracy."
     },
-    "tags": "ritmo precision pulso metronomo rhythm timing tapping"
+    "tags": "ritmo precision pulso metronomo rhythm timing tapping",
+    "pt": {
+      "title": "Prática rítmica",
+      "description": "Reproduza padrões e confira sua precisão."
+    },
+    "portuguese": null
   },
   {
     "id": "14",
@@ -222,7 +292,12 @@
       "title": "Harmony lab",
       "description": "Build chords and inversions."
     },
-    "tags": "armonia acordes inversiones harmony chords inversions"
+    "tags": "armonia acordes inversiones harmony chords inversions",
+    "pt": {
+      "title": "Laboratório de harmonia",
+      "description": "Monte acordes e explore inversões."
+    },
+    "portuguese": null
   },
   {
     "id": "15",
@@ -237,7 +312,12 @@
       "title": "Circle of fifths",
       "description": "Explore keys and key signatures."
     },
-    "tags": "armonia sostenidos bemoles circle fifths keys"
+    "tags": "armonia sostenidos bemoles circle fifths keys",
+    "pt": {
+      "title": "Círculo das quintas",
+      "description": "Explore tonalidades e armaduras de clave."
+    },
+    "portuguese": null
   },
   {
     "id": "16",
@@ -252,7 +332,12 @@
       "title": "Music mock assessment",
       "description": "Review your knowledge before an assessment."
     },
-    "tags": "examen admision prueba mock assessment exam"
+    "tags": "examen admision prueba mock assessment exam",
+    "pt": {
+      "title": "Simulado musical",
+      "description": "Revise seus conhecimentos antes de uma avaliação."
+    },
+    "portuguese": null
   },
   {
     "id": "17",
@@ -267,7 +352,12 @@
       "title": "Teacher classroom",
       "description": "Prepare and share lesson plans."
     },
-    "tags": "profesores docente clase grupos teacher lessons"
+    "tags": "profesores docente clase grupos teacher lessons",
+    "pt": {
+      "title": "Sala dos professores",
+      "description": "Prepare e compartilhe planos de aula."
+    },
+    "portuguese": null
   },
   {
     "id": "18",
@@ -282,7 +372,12 @@
       "title": "Virtual instruments",
       "description": "Play and explore instruments in your browser."
     },
-    "tags": "piano instrumentos tocar online virtual instruments"
+    "tags": "piano instrumentos tocar online virtual instruments",
+    "pt": {
+      "title": "Instrumentos virtuais",
+      "description": "Toque e explore instrumentos pelo navegador."
+    },
+    "portuguese": null
   },
   {
     "id": "19",
@@ -297,7 +392,12 @@
       "title": "Virtual kalimba",
       "description": "Explore kalimba notes and sounds."
     },
-    "tags": "kalimba lenguetas laminas"
+    "tags": "kalimba lenguetas laminas",
+    "pt": {
+      "title": "Kalimba virtual",
+      "description": "Explore notas e sons da kalimba."
+    },
+    "portuguese": null
   },
   {
     "id": "20",
@@ -312,7 +412,12 @@
       "title": "Virtual handpan",
       "description": "Experiment with melodic percussion."
     },
-    "tags": "handpan hang percusion"
+    "tags": "handpan hang percusion",
+    "pt": {
+      "title": "Handpan virtual",
+      "description": "Experimente a percussão melódica."
+    },
+    "portuguese": null
   },
   {
     "id": "21",
@@ -327,7 +432,12 @@
       "title": "Virtual tongue drum",
       "description": "Play and create melodic percussion patterns."
     },
-    "tags": "tongue drum tambor percusion"
+    "tags": "tongue drum tambor percusion",
+    "pt": {
+      "title": "Tongue drum virtual",
+      "description": "Toque e crie padrões de percussão melódica."
+    },
+    "portuguese": null
   },
   {
     "id": "22",
@@ -342,7 +452,12 @@
       "title": "Guitar and bass fretboard",
       "description": "Explore fretboard notes, scales and positions."
     },
-    "tags": "guitarra bajo notas digitacion fretboard guitar bass"
+    "tags": "guitarra bajo notas digitacion fretboard guitar bass violao afinacao amostras gravar",
+    "pt": {
+      "title": "Braço de guitarra e baixo",
+      "description": "Explore notas, escalas e posições no braço."
+    },
+    "portuguese": null
   },
   {
     "id": "23",
@@ -357,7 +472,12 @@
       "title": "Tuner and intonation",
       "description": "Tune with a microphone or a reference tone."
     },
-    "tags": "afinacion tono microfono tuner pitch intonation"
+    "tags": "afinacion tono microfono tuner pitch intonation",
+    "pt": {
+      "title": "Afinador e entonação",
+      "description": "Afinação com microfone ou uma referência sonora."
+    },
+    "portuguese": null
   },
   {
     "id": "24",
@@ -372,7 +492,12 @@
       "title": "Instrument sound bank",
       "description": "14 variants and 564 samples with notes and credits."
     },
-    "tags": "muestras samples piano guitarra violin flauta sonidos sound bank"
+    "tags": "muestras samples piano guitarra violin flauta sonidos sound bank violao afinacao amostras gravar",
+    "pt": {
+      "title": "Banco de sons de instrumentos",
+      "description": "14 variantes e 564 amostras com notas e créditos."
+    },
+    "portuguese": null
   },
   {
     "id": "25",
@@ -387,7 +512,12 @@
       "title": "Find your instrument",
       "description": "Explore options based on your preferences."
     },
-    "tags": "test instrumento descubrir elegir quiz"
+    "tags": "test instrumento descubrir elegir quiz",
+    "pt": {
+      "title": "Encontre seu instrumento",
+      "description": "Explore opções de acordo com suas preferências."
+    },
+    "portuguese": null
   },
   {
     "id": "26",
@@ -402,7 +532,12 @@
       "title": "Production and mixing lab",
       "description": "Mix instruments and experiment with effects."
     },
-    "tags": "produccion mezcla compresor ecualizador eq reverb delay audio daw mixing effects grabar grabadora grabacion subir importar audio propio recorder upload recording efectos compresion ecualizacion"
+    "tags": "produccion mezcla compresor ecualizador eq reverb delay audio daw mixing effects grabar grabadora grabacion subir importar audio propio recorder upload recording efectos compresion ecualizacion",
+    "pt": {
+      "title": "Laboratório de produção e mixagem",
+      "description": "Misture instrumentos e experimente efeitos."
+    },
+    "portuguese": null
   },
   {
     "id": "27",
@@ -417,7 +552,12 @@
       "title": "Arrangements and backing tracks",
       "description": "Create sections with chords, grooves and intensity."
     },
-    "tags": "acompanamiento backing track cancion secuencia arreglo arrangement song"
+    "tags": "acompanamiento backing track cancion secuencia arreglo arrangement song",
+    "pt": {
+      "title": "Arranjos e bases de acompanhamento",
+      "description": "Crie seções com acordes, ritmos e intensidade."
+    },
+    "portuguese": null
   },
   {
     "id": "28",
@@ -432,7 +572,12 @@
       "title": "Grooves and sequencer",
       "description": "Edit drum patterns and swing."
     },
-    "tags": "bateria secuenciador beats drum machine groove sequencer"
+    "tags": "bateria secuenciador beats drum machine groove sequencer",
+    "pt": {
+      "title": "Ritmos e sequenciador",
+      "description": "Edite padrões de bateria e swing."
+    },
+    "portuguese": null
   },
   {
     "id": "29",
@@ -447,7 +592,12 @@
       "title": "Export separate WAV stems",
       "description": "Prepare drums, bass and chords for your DAW."
     },
-    "tags": "exportar stems grabacion pistas wav daw tracks recording"
+    "tags": "exportar stems grabacion pistas wav daw tracks recording",
+    "pt": {
+      "title": "Exportar pistas WAV separadas",
+      "description": "Prepare bateria, baixo e acordes para sua DAW."
+    },
+    "portuguese": null
   },
   {
     "id": "30",
@@ -462,7 +612,12 @@
       "title": "Binaural and 5.1 distribution",
       "description": "Explore source positions and dry multichannel export."
     },
-    "tags": "espacial surround hrtf binaural auriculares 5.1 spatial headphones"
+    "tags": "espacial surround hrtf binaural auriculares 5.1 spatial headphones",
+    "pt": {
+      "title": "Binaural e distribuição 5.1",
+      "description": "Explore posições e exportação multicanal sem efeitos."
+    },
+    "portuguese": null
   },
   {
     "id": "31",
@@ -477,7 +632,12 @@
       "title": "Composition and creative studio",
       "description": "Create melodies and export an idea as MIDI."
     },
-    "tags": "composicion componer partituras midi crear songwriting composition"
+    "tags": "composicion componer partituras midi crear songwriting composition",
+    "pt": {
+      "title": "Composição e estúdio criativo",
+      "description": "Crie melodias e exporte uma ideia em MIDI."
+    },
+    "portuguese": null
   },
   {
     "id": "32",
@@ -492,7 +652,12 @@
       "title": "Walamort methods and workbooks",
       "description": "Samples on harmony, composition, improvisation and production."
     },
-    "tags": "metodos cuadernos pdf improvisacion aprender methods workbooks"
+    "tags": "metodos cuadernos pdf improvisacion aprender methods workbooks",
+    "pt": {
+      "title": "Métodos e cadernos Walamort",
+      "description": "Amostras sobre harmonia, composição, improvisação e produção."
+    },
+    "portuguese": null
   },
   {
     "id": "33",
@@ -507,7 +672,12 @@
       "title": "Library and printable materials",
       "description": "Prepare worksheets, scores and practice sheets."
     },
-    "tags": "biblioteca partituras fichas descargar imprimir library printable scores"
+    "tags": "biblioteca partituras fichas descargar imprimir library printable scores",
+    "pt": {
+      "title": "Biblioteca e materiais para imprimir",
+      "description": "Prepare fichas, partituras e folhas de estudo."
+    },
+    "portuguese": null
   },
   {
     "id": "34",
@@ -522,7 +692,12 @@
       "title": "Instrument method shop",
       "description": "Browse available instrument learning materials."
     },
-    "tags": "tienda comprar productos kalimba handpan tongue drum shop products"
+    "tags": "tienda comprar productos kalimba handpan tongue drum shop products",
+    "pt": {
+      "title": "Loja de métodos por instrumento",
+      "description": "Consulte os materiais disponíveis por instrumento."
+    },
+    "portuguese": null
   },
   {
     "id": "35",
@@ -537,7 +712,12 @@
       "title": "Music services",
       "description": "Enquire about lessons, workshops and musical projects."
     },
-    "tags": "servicios contratacion cotizacion clases servicios services quote lessons"
+    "tags": "servicios contratacion cotizacion clases servicios services quote lessons",
+    "pt": {
+      "title": "Serviços musicais",
+      "description": "Consulte aulas, oficinas e projetos musicais."
+    },
+    "portuguese": null
   },
   {
     "id": "36",
@@ -552,7 +732,12 @@
       "title": "Lessons with Walter",
       "description": "Explore guided musical learning options."
     },
-    "tags": "profesor docente clases particulares lessons teacher"
+    "tags": "profesor docente clases particulares lessons teacher",
+    "pt": {
+      "title": "Aulas com Walter",
+      "description": "Conheça as opções de acompanhamento musical."
+    },
+    "portuguese": null
   },
   {
     "id": "37",
@@ -567,7 +752,12 @@
       "title": "Music workshops",
       "description": "Explore musical learning experiences."
     },
-    "tags": "talleres grupos eventos workshops groups events"
+    "tags": "talleres grupos eventos workshops groups events",
+    "pt": {
+      "title": "Oficinas musicais",
+      "description": "Explore experiências de aprendizagem musical."
+    },
+    "portuguese": null
   },
   {
     "id": "38",
@@ -582,7 +772,12 @@
       "title": "Contact",
       "description": "Discuss your musical project or learning goals."
     },
-    "tags": "contactar contacto correo whatsapp hablar contact email"
+    "tags": "contactar contacto correo whatsapp hablar contact email",
+    "pt": {
+      "title": "Contato",
+      "description": "Converse sobre seu projeto ou seus estudos de música."
+    },
+    "portuguese": null
   },
   {
     "id": "39",
@@ -597,7 +792,12 @@
       "title": "Meet Walamort",
       "description": "Walter Agudelo Múnera: musician, producer and educator."
     },
-    "tags": "walter walamort biografia sobre nosotros about biography"
+    "tags": "walter walamort biografia sobre nosotros about biography",
+    "pt": {
+      "title": "Conheça Walamort",
+      "description": "Walter Agudelo Múnera: músico, produtor e professor."
+    },
+    "portuguese": null
   },
   {
     "id": "40",
@@ -612,7 +812,12 @@
       "title": "Aural chord recognition",
       "description": "Listen and identify chord types."
     },
-    "tags": "oido acordes reconocimiento auditivo chords ear recognition"
+    "tags": "oido acordes reconocimiento auditivo chords ear recognition",
+    "pt": {
+      "title": "Reconhecimento auditivo de acordes",
+      "description": "Ouça e identifique diferentes tipos de acordes."
+    },
+    "portuguese": null
   },
   {
     "id": "41",
@@ -627,7 +832,12 @@
       "title": "Aural scales and modes",
       "description": "Listen and identify scales and modes."
     },
-    "tags": "oido escalas modos scales modes ear"
+    "tags": "oido escalas modos scales modes ear",
+    "pt": {
+      "title": "Escalas e modos pelo ouvido",
+      "description": "Ouça e reconheça escalas e modos."
+    },
+    "portuguese": null
   },
   {
     "id": "42",
@@ -642,7 +852,12 @@
       "title": "Step-by-step harmony",
       "description": "Explore harmony fundamentals and progression."
     },
-    "tags": "armonia teoria acordes harmony theory"
+    "tags": "armonia teoria acordes harmony theory",
+    "pt": {
+      "title": "Harmonia passo a passo",
+      "description": "Explore os fundamentos e a progressão em harmonia."
+    },
+    "portuguese": null
   },
   {
     "id": "43",
@@ -657,7 +872,12 @@
       "title": "World instruments series",
       "description": "Explore the musical series and its instruments."
     },
-    "tags": "serie videos instrumentos historia world series videos history"
+    "tags": "serie videos instrumentos historia world series videos history",
+    "pt": {
+      "title": "Série Instrumentos do mundo",
+      "description": "Explore a série musical e seus instrumentos."
+    },
+    "portuguese": null
   },
   {
     "id": "44",
@@ -672,7 +892,12 @@
       "title": "Sound laboratory",
       "description": "Experiment with sound tools."
     },
-    "tags": "laboratorio sonido experimentos sound laboratory experiments"
+    "tags": "laboratorio sonido experimentos sound laboratory experiments",
+    "pt": {
+      "title": "Laboratório de som",
+      "description": "Experimente ferramentas sonoras."
+    },
+    "portuguese": null
   },
   {
     "id": "45",
@@ -687,7 +912,12 @@
       "title": "Rhythms and metronome",
       "description": "Explore patterns and tap along."
     },
-    "tags": "metronomo pulso ritmo ritmos percusion metronome rhythm pulse"
+    "tags": "metronomo pulso ritmo ritmos percusion metronome rhythm pulse",
+    "pt": {
+      "title": "Ritmos e metrônomo",
+      "description": "Explore padrões e acompanhe a pulsação."
+    },
+    "portuguese": null
   },
   {
     "id": "46",
@@ -702,7 +932,12 @@
       "title": "Instrument buying guides",
       "description": "Explore features to help choose an instrument."
     },
-    "tags": "guias compra elegir instrumento recomendaciones buying guides choose"
+    "tags": "guias compra elegir instrumento recomendaciones buying guides choose",
+    "pt": {
+      "title": "Guias para escolher instrumentos",
+      "description": "Conheça características para escolher seu instrumento."
+    },
+    "portuguese": null
   },
   {
     "id": "47",
@@ -717,7 +952,12 @@
       "title": "Kalimba: history and guide",
       "description": "Discover the kalimba and its first notes."
     },
-    "tags": "kalimba historia guia aprender instrumento history guide"
+    "tags": "kalimba historia guia aprender instrumento history guide",
+    "pt": {
+      "title": "Kalimba: história e guia",
+      "description": "Conheça a kalimba e suas primeiras notas."
+    },
+    "portuguese": null
   },
   {
     "id": "48",
@@ -732,7 +972,12 @@
       "title": "Handpan: history and guide",
       "description": "Explore the handpan and its sound."
     },
-    "tags": "handpan historia guia aprender instrumento history guide"
+    "tags": "handpan historia guia aprender instrumento history guide",
+    "pt": {
+      "title": "Handpan: história e guia",
+      "description": "Explore o handpan e seu som."
+    },
+    "portuguese": null
   },
   {
     "id": "49",
@@ -747,6 +992,11 @@
       "title": "Tongue drum: history and guide",
       "description": "Discover the tongue drum and how to start."
     },
-    "tags": "tongue drum historia guia aprender instrumento history guide"
+    "tags": "tongue drum historia guia aprender instrumento history guide",
+    "pt": {
+      "title": "Tongue drum: história e guia",
+      "description": "Descubra o tongue drum e como começar."
+    },
+    "portuguese": null
   }
 ]

@@ -14,6 +14,6 @@ for(const file of files){const html=fs.readFileSync(file,'utf8');if(!html.includ
  for(const match of nav.matchAll(/href="([^"]*)"/g)){const [url,fragment]=match[1].split('#');let target=path.resolve(path.dirname(file),url);if(fs.existsSync(target)&&fs.statSync(target).isDirectory())target=path.join(target,'index.html');assert(fs.existsSync(target),'Missing '+target);if(fragment)assert(new RegExp('id=["\']'+fragment+'["\']').test(fs.readFileSync(target,'utf8')),'Missing anchor '+match[1]);}
  for(const match of html.matchAll(/(?:src|href)="([^"]*(?:discovery\/|portfolio-v2\/)[^"]*)"/g)){const clean=match[1].split('?')[0],target=path.resolve(path.dirname(file),clean);assert(fs.existsSync(target),'Missing asset '+target);if(clean.endsWith('.webp'))images.add(path.basename(clean).replace(/-1280\.webp$/,''));}
 }
-assert.equal(surfaces,57);assert.equal(images.size,12);
+assert.equal(surfaces,59);assert.equal(images.size,12);
 for(const entry of catalog){let target=path.join(root,entry.path.split('#')[0]);if(fs.statSync(target).isDirectory())target=path.join(target,'index.html');assert(fs.existsSync(target));if(entry.english)assert(fs.existsSync(path.join(root,entry.english.split('#')[0],'index.html')));}
-console.log('PASS: accented/bilingual/category search, safe empty states, 50 destinations, 57 six-menu surfaces, deep links, language fallbacks and all 12 responsive editorial images.');
+console.log('PASS: accented/bilingual/category search, safe empty states, 50 destinations, 59 six-menu surfaces, deep links, language fallbacks and all 12 responsive editorial images.');

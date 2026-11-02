@@ -8,3 +8,5 @@
 .experience .production-photo{position:relative}.wm-photo-credit{position:absolute;bottom:16px;left:16px;right:16px;color:#fbefd9;background:#210b12bd;padding:7px 10px;font:11px system-ui}.experience .museum-object img{width:100%;object-fit:cover;border-radius:12px}.experience .world img{filter:brightness(.8)}
 
 #songEditor,#stemExport,#groovePanel,#spatialPanel{scroll-margin-top:calc(var(--wm-nav-offset,0px) + 180px)}@media(max-width:700px){#songEditor,#stemExport,#groovePanel,#spatialPanel{scroll-margin-top:10px}}
+
+.wm-locale{position:relative;padding:0;margin:0;border:0;background:none}.wm-locale>summary{list-style:none;cursor:pointer;font:600 12px system-ui;padding:10px;color:#fbefd9}.wm-locale>summary::-webkit-details-marker{display:none}.wm-locale>div{position:absolute;right:0;top:100%;background:#2e141e;border:1px solid #996858;padding:9px;min-width:190px;box-shadow:0 12px 25px #0008}.wm-global-nav .wm-locale a{display:block;padding:10px;font:14px system-ui}.wm-locale a[aria-current]{color:#ffb16d}.wm-global-nav .wm-locale a:hover{background:#532936}
