@@ -27,6 +27,8 @@ vm.runInContext(read('produccion-musical/studio.js'),scope);const Recorder=scope
  await samples.load('piano',60);await samples.load('piano',60);assert.equal(fetches,1);
  const data=await samples.render({...s,tempo:180});assert.equal(data.sampleRate,44100);assert.equal(data.tracks.keys.length,2);assert(core.metrics(data.tracks.keys).rms>0);
  const custom=await samples.render({...s,soundMode:'synth'},audio);assert.equal(custom.tracks.keys.length,2);assert(core.metrics(custom.tracks.keys).rms>0);
+ const part={name:'verse',repeats:1,groove:'inherit',energy:1,drums:true,bass:true,keys:true,chords:[0,5,3,4]};
+ const song=await samples.render({...s,tempo:180,arrangement:[{...part,name:'intro',bass:false},part]});assert.equal(song.duration,32*60/180);const edge=Math.round(16*60/180*44100);assert.equal(core.metrics(song.tracks.bass.map(c=>c.slice(0,edge))).peak,0);assert(core.metrics(song.tracks.bass.map(c=>c.slice(edge))).rms>0);
  let resolve,stopped=0,states=[],ready=0,cancelled=0;
  const stream={getTracks:()=>[{stop(){stopped++}}]};
  class FakeRecorder{static isTypeSupported(){return true}constructor(){this.state='inactive';this.mimeType='audio/webm'}start(){this.state='recording'}stop(){this.state='inactive';this.ondataavailable({data:new Blob(['audio'])});this.onstop();}}
