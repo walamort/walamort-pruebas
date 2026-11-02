@@ -8,7 +8,7 @@
  function validateBackup(raw){if(!raw||raw.kind!=='walamort-progress-backup'||raw.version!==1)throw Error('backup');return backup(raw.rows);}
  function report(raw,alias,group){alias=clean(alias,60);if(!alias)throw Error('alias');return {kind:'walamort-progress-report',version:1,alias,group:clean(group,40),createdAt:new Date().toISOString(),notice:'Local practice records; identity and file contents are not independently verified.',rows:rows(raw)};}
  function validateReport(raw){if(!raw||raw.kind!=='walamort-progress-report'||raw.version!==1||!Number.isFinite(Date.parse(raw.createdAt)))throw Error('report');const r=report(raw.rows,raw.alias,raw.group);r.createdAt=new Date(raw.createdAt).toISOString();return r;}
- function cell(v){let text=String(v);if(/^[=+\-@]/.test(text))text="'"+text;return '"'+text.replace(/"/g,'""')+'"';}
+ function cell(v){let text=String(v);if(/^[\s\uFEFF]*[=+\-@]/.test(text))text="'"+text;return '"'+text.replace(/"/g,'""')+'"';}
  function csv(reports){return '\ufeff'+[['Alias','Group','Activity','Attempts','Mean','Best','Last'],...reports.map(validateReport).flatMap(r=>summary(r.rows).map(s=>[r.alias,r.group,s.activity,s.count,s.mean,s.best,s.last]))].map(row=>row.map(cell).join(',')).join('\r\n');}
  const api={clean,rows,merge,summary,backup,validateBackup,report,validateReport,csv};if(typeof module==='object'&&module.exports)module.exports=api;else root.WalamortTracking=api;
 })(typeof window==='object'?window:globalThis);
