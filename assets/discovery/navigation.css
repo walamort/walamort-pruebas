@@ -10,3 +10,12 @@
 #songEditor,#stemExport,#groovePanel,#spatialPanel{scroll-margin-top:calc(var(--wm-nav-offset,0px) + 180px)}@media(max-width:700px){#songEditor,#stemExport,#groovePanel,#spatialPanel{scroll-margin-top:10px}}
 
 .wm-locale{position:relative;padding:0;margin:0;border:0;background:none}.wm-locale>summary{list-style:none;cursor:pointer;font:600 12px system-ui;padding:10px;color:#fbefd9}.wm-locale>summary::-webkit-details-marker{display:none}.wm-locale>div{position:absolute;right:0;top:100%;background:#2e141e;border:1px solid #996858;padding:9px;min-width:190px;box-shadow:0 12px 25px #0008}.wm-global-nav .wm-locale a{display:block;padding:10px;font:14px system-ui}.wm-locale a[aria-current]{color:#ffb16d}.wm-global-nav .wm-locale a:hover{background:#532936}
+
+/* Pulso · identidad aprobada, noviembre 2026 */
+.wm-global-nav .wm-wordmark{display:flex;align-items:center;gap:11px;letter-spacing:-1px;min-width:0}
+.wm-global-nav .wm-pulso{display:block;width:56px;height:56px;flex:0 0 56px;object-fit:contain;border:0;border-radius:0;margin:0;box-shadow:none;background:none}
+.wm-global-nav .wm-brand-name{display:block;font:inherit;color:#FFF0D2}
+.wm-global-nav .wm-brand-name>span{color:#FFF0D2}
+@media(max-width:1100px){.wm-global-nav .wm-pulso{width:46px;height:46px;flex-basis:46px}}
+@media(max-width:540px){.wm-global-nav .wm-wordmark{gap:7px;font-size:23px}.wm-global-nav .wm-pulso{width:38px;height:38px;flex-basis:38px}}
+@media(max-width:370px){.wm-global-nav .wm-wordmark{font-size:20px}.wm-global-inner{column-gap:7px}.wm-global-nav .wm-search-trigger{padding:9px 7px}.wm-global-nav .wm-nav-toggle{padding:9px 7px}}
