@@ -61,3 +61,7 @@ Colores y estilo Walamort; archivos propios procesados localmente; sin mensajes 
 3. Ampliar editor de audio a varias regiones/pistas sin perder originales y con presupuesto de memoria explícito.
 4. Backend: elegir servicio/titularidad y probar permisos por propietario/grupo antes de habilitar registros. Propuesta en outputs/ARQUITECTURA-CUENTAS-Y-COMUNIDAD.md, fuera de la web pública.
 5. Lanzamiento comercial: revisar piloto, fijar precio/condiciones y comprobar entrega. Propuesta en outputs/kit-lanzamiento-produccion/PLAN-COMERCIAL.md; no se ha contratado ni vendido nada automáticamente.
+
+## Hecho: traducción de los métodos de instrumento
+
+Inglés y portugués de Brasil completados para las 15 ediciones aportadas. Archivos añadidos a los 12 productos existentes de Hotmart; catálogo y guías gratuitos en los tres idiomas. Permanecen pendientes las traducciones de los cuadernos creativos piloto y de las herramientas antiguas que todavía se identifican como españolas. No confundir esas traducciones pendientes con los métodos instrumentales ya disponibles.
