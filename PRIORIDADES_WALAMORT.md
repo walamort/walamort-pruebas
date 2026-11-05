@@ -56,6 +56,9 @@ Colores y estilo Walamort; archivos propios procesados localmente; sin mensajes 
 
 ## Próximo bloque técnico concreto
 
+Mejora terminada (5 de noviembre): repaso por compases del dictado en ES/EN/PT, comparación del modelo con el intento evaluado y conteos de errores por altura, duración y ataques adicionales. La práctica posterior no altera la puntuación guardada.
+
+
 1. Completado: lectura y mano musical, y dictado en pentagrama en portugués; nombres naturales/cromáticos y enlace de ejercicio reproducible.
 2. Añadir compases compuestos y ligaduras a los generadores y al corrector de dictados; el metrónomo exploratorio ya compara 3/4 y 6/8.
 3. Ampliar editor de audio a varias regiones/pistas sin perder originales y con presupuesto de memoria explícito.
