@@ -25,7 +25,7 @@ function harness(lang='pt-BR',reading=false,query='?seed=123&key=G&level=advance
   const playback=h.calls.find(c=>c.items);assert.equal(playback.beats,12);assert(playback.items.slice(0,4).every(i=>i.instrument==='flute'));assert(playback.items.slice(4).every(i=>i.instrument==='guitar'));
  }
  const fallback=harness();vm.runInContext(fs.readFileSync(path.join(root,'dictado-pentagrama/app.js'),'utf8'),fallback.context);fallback.context.navigator.clipboard.writeText=async()=>{throw Error('denied')};await fallback.el('copyExercise').onclick();assert(fallback.el('exerciseLink').selected);assert.equal(fallback.el('status').textContent,'Copie manualmente o link exibido.');
- const reading=harness('pt-BR',true,'');vm.runInContext(fs.readFileSync(path.join(root,'pt/lectura-musical/app.js'),'utf8'),reading.context);
+ const reading=harness('pt-BR',true,'');vm.runInContext(fs.readFileSync(path.join(root,'pt/lectura-musical/app.js'),'utf8'),reading.context);assert.equal((reading.el('staff').innerHTML.match(/<line /g)||[]).length,5);assert(!reading.el('staff').innerHTML.includes('<linha'));
  for(const [clef,low,center,high] of [['treble','Mi4','Si4','Fá5'],['bass','Sol2','Ré3','Lá3'],['alto','Fá3','Dó4','Sol4']]){
   reading.el('handClef').value=clef;reading.el('handClef').onchange();const list=reading.el('handList').children;assert.equal(list.length,9);assert.equal(list[8].textContent,'Linha 1 · '+low);assert.equal(list[4].textContent,'Linha 3 · '+center);assert.equal(list[0].textContent,'Linha 5 · '+high);await list[4].onclick();assert(reading.el('handFeedback').textContent.includes(center));
  }
