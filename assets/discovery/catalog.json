@@ -172,12 +172,12 @@
       "title": "Staff reading and musical hand",
       "description": "Practice notes in treble, bass and alto clefs."
     },
-    "tags": "solfeo mano notas clefs hand staff reading",
+    "tags": "solfeo mano notas clefs hand staff reading portugues pentagrama clave leitura ditado",
     "pt": {
       "title": "Leitura de partitura e mão musical",
       "description": "Pratique notas nas claves de sol, fá e dó."
     },
-    "portuguese": null
+    "portuguese": "pt/lectura-musical/"
   },
   {
     "id": "9",
@@ -232,12 +232,12 @@
       "title": "Staff dictation",
       "description": "Write pitches, durations and rests."
     },
-    "tags": "oido transcripcion notacion duracion dictation notation",
+    "tags": "oido transcripcion notacion duracion dictation notation portugues pentagrama clave leitura ditado",
     "pt": {
       "title": "Ditado na pauta",
       "description": "Escreva alturas, durações e pausas."
     },
-    "portuguese": null
+    "portuguese": "pt/dictado-pentagrama/"
   },
   {
     "id": "12",

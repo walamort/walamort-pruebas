@@ -21,10 +21,10 @@
     const denom=Math.max(expected.length,actual.length,1);return {score:Math.round(correct/denom*100),pitch:Math.round(pitch/denom*100),rhythm:Math.round(rhythm/denom*100),details,extra:answer.filter(a=>!target.some(e=>e.beat===a.beat)).length};
   }
   function spelling(note,flat=false){const sharp=[[0,0],[0,1],[1,0],[1,1],[2,0],[3,0],[3,1],[4,0],[4,1],[5,0],[5,1],[6,0]],flats=[[0,0],[1,-1],[1,0],[2,-1],[2,0],[3,0],[4,-1],[4,0],[5,-1],[5,0],[6,-1],[6,0]];const [letter,accidental]=(flat?flats:sharp)[note%12];return {letter,accidental,octave:Math.floor(note/12)-1}}
-  function name(note,lang='es',key='C'){if(note===null)return lang==='en'?'Rest':'Silencio';const s=spelling(note,keys[key]?.flat),letters=lang==='en'?['C','D','E','F','G','A','B']:['Do','Re','Mi','Fa','Sol','La','Si'];return letters[s.letter]+(s.accidental===1?'♯':s.accidental===-1?'♭':'')+s.octave}
+  function name(note,lang='es',key='C'){if(note===null)return lang==='en'?'Rest':lang==='pt'?'Pausa':'Silencio';const s=spelling(note,keys[key]?.flat),letters=lang==='en'?['C','D','E','F','G','A','B']:lang==='pt'?['Dó','Ré','Mi','Fá','Sol','Lá','Si']:['Do','Re','Mi','Fa','Sol','La','Si'];return letters[s.letter]+(s.accidental===1?'♯':s.accidental===-1?'♭':'')+s.octave}
   function escape(text){return String(text).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
   function score(events,key='C',lang='es',blank=false){
-    const k=keys[key]||keys.C;let svg='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 240" class="notation-score" role="img" aria-label="'+(lang==='en'?'Two bars in treble clef, 4/4':'Dos compases en clave de sol, 4/4')+'">';
+    const k=keys[key]||keys.C;let svg='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 240" class="notation-score" role="img" aria-label="'+(lang==='en'?'Two bars in treble clef, 4/4':lang==='pt'?'Dois compassos na clave de sol, 4/4':'Dos compases en clave de sol, 4/4')+'">';
     svg+='<rect width="880" height="240" rx="12" fill="#fff6e8"/>';
     for(let i=0;i<5;i++)svg+='<line x1="24" x2="856" y1="'+(150-i*20)+'" y2="'+(150-i*20)+'" stroke="#321722" stroke-width="1.5"/>';
     svg+='<text x="29" y="146" font-size="86" fill="#321722">𝄞</text><text x="110" y="107" font-size="26" fill="#321722">4</text><text x="110" y="137" font-size="26" fill="#321722">4</text>';
