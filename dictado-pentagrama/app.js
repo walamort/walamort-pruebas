@@ -1,6 +1,6 @@
 (() => {
   'use strict';
-  const $=id=>document.getElementById(id),lang=document.documentElement.lang==='en'?'en':'es',N=window.WalamortNotation,L=window.WalamortNotationCopy[lang],P=window.WalamortCreativePlayer;
+  const $=id=>document.getElementById(id),lang=document.documentElement.lang.toLowerCase().startsWith('pt')?'pt':document.documentElement.lang==='en'?'en':'es',N=window.WalamortNotation,L=window.WalamortNotationCopy[lang],P=window.WalamortCreativePlayer;
   const params=new URLSearchParams(window.location.search);
   if(N.keys[params.get('key')])$('key').value=params.get('key');
   if(['easy','medium','advanced'].includes(params.get('level')))$('level').value=params.get('level');
@@ -8,7 +8,7 @@
   function tell(text){$('status').textContent=text}
   function element(tag,text){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;return n}
   function option(value,text){const o=element('option',text);o.value=value;return o}
-  function description(event){return N.name(event.note,lang,$('key').value)+' · '+event.duration+' '+(lang==='en'?(event.duration===1?'beat':'beats'):(event.duration===1?'pulso':'pulsos'))}
+  function description(event){return N.name(event.note,lang,$('key').value)+' · '+event.duration+' '+(lang==='en'?(event.duration===1?'beat':'beats'):lang==='pt'?(event.duration===1?'tempo':'tempos'):(event.duration===1?'pulso':'pulsos'))}
   function draw(){
     $('answerScore').innerHTML=N.score(answer,$('key').value,lang);
     $('answerCount').textContent=N.total(answer)+' '+L.beats;
@@ -22,6 +22,7 @@
     $('pitch').replaceChildren(option('rest',L.rest),...Array.from({length:25},(_,i)=>option(String(60+i),N.name(60+i,lang,$('key').value))));$('pitch').value=String(N.keys[$('key').value].root);
     $('keyboard').replaceChildren(...N.scale($('key').value).map(note=>{const b=element('button',N.name(note,lang,$('key').value));b.type='button';b.onclick=()=>{$('pitch').value=String(note);add()};return b}));
     const url=new URL(window.location.href);url.search='';url.searchParams.set('seed',String(exerciseSeed));url.searchParams.set('key',$('key').value);url.searchParams.set('level',$('level').value);$('exerciseLink').value=url.href;
+    for(const a of document.querySelectorAll?.('.wm-locale a')||[]){const next=new URL(a.href,window.location.href);if(next.pathname.includes('/dictado-pentagrama/')){next.search=url.search;a.href=next.href;}}
     draw();tell(L.ready+' '+N.name(target[0].note,lang,$('key').value)+'. '+L.listenHelp);
   }
   function add(){
@@ -54,5 +55,6 @@
     $('feedback').replaceChildren(element('p',L.result+': '+result.score+'% · '+L.pitch+': '+result.pitch+'% · '+L.rhythm+': '+result.rhythm+'%'),...result.details.map(row=>element('p',L.beat+' '+(row.beat+1)+' · '+(row.pitchOK&&row.rhythmOK?L.correct:L.incorrect)+' — '+L.expected+': '+description(row.expected)+' | '+L.yours+': '+(row.actual?description(row.actual):L.missing))),element('p',L.extra+': '+result.extra),element('p',L.guidance));
     if(!recorded){recorded=true;const ok=window.WalamortProgress.save('Dictado en pentagrama',$('level').value,result.score);tell((ok?L.saved:L.notSaved)+' '+L.retry)}else tell(L.retry);
   };
+  $('copyExercise').onclick=async()=>{try{await navigator.clipboard.writeText($('exerciseLink').value);tell(L.copied)}catch{$('exerciseLink').focus();$('exerciseLink').select();tell(L.copyFallback)}};
   fresh(false);
 })();
