@@ -526,13 +526,13 @@
     "english": "en/produccion-musical/",
     "es": {
       "title": "Laboratorio de producción y mezcla",
-      "description": "Mezcla instrumentos y experimenta con efectos."
+      "description": "Ritmos, mezcla, efectos y montaje local de regiones de audio."
     },
     "en": {
       "title": "Production and mixing lab",
-      "description": "Mix instruments and experiment with effects."
+      "description": "Grooves, mixing, effects and local audio region montage."
     },
-    "tags": "produccion mezcla compresor ecualizador eq reverb delay audio daw mixing effects grabar grabadora grabacion subir importar audio propio recorder upload recording efectos compresion ecualizacion",
+    "tags": "produccion mezcla compresor ecualizador eq reverb delay audio daw mixing effects grabar grabadora grabacion subir importar propio recorder upload recording efectos compresion ecualizacion regiones montaje montajes fragmentos region regions montage splice cortes editar",
     "pt": {
       "title": "Laboratório de produção e mixagem",
       "description": "Misture instrumentos e experimente efeitos."
