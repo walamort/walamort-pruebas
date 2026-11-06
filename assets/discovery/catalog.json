@@ -1138,5 +1138,25 @@
       "description": "Ouça três finais originais com piano gravado, leia o pentagrama e edite o projeto de composição."
     },
     "tags": "motivo motivos finais finales endings melody melodia partitura piano composicion composition composicao samples ejemplos examples exemplos variacion variation variacao"
+  },
+  {
+    "id": "57",
+    "group": "instrumentos",
+    "path": "teclado-midi/",
+    "english": "en/teclado-midi/",
+    "portuguese": "pt/teclado-midi/",
+    "es": {
+      "title": "Tu teclado, tu práctica",
+      "description": "Explora notas con entrada MIDI opcional y practica lectura con un teclado en pantalla."
+    },
+    "en": {
+      "title": "Your keyboard, your practice",
+      "description": "Explore notes with optional MIDI input and practice staff reading with an on-screen keyboard."
+    },
+    "pt": {
+      "title": "Seu teclado, sua prática",
+      "description": "Explore notas com entrada MIDI opcional e pratique leitura com um teclado na tela."
+    },
+    "tags": "MIDI USB teclado keyboard lectura reading notas notes touch keys controlador controller claves clefs leitura notas teclas controlador"
   }
 ]

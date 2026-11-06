@@ -1,0 +1,16 @@
+(function(root){'use strict';
+ const clefs={treble:{base:30,start:60,symbol:'𝄞'},bass:{base:18,start:36,symbol:'𝄢'},alto:{base:24,start:48,symbol:'𝄡'}},natural=[0,2,4,5,7,9,11];
+ function midi(step){return (Math.floor(step/7)+1)*12+natural[((step%7)+7)%7];}
+ function name(note,lang='es'){const names=lang==='en'?['C','C♯','D','D♯','E','F','F♯','G','G♯','A','A♯','B']:lang==='pt'?['Dó','Dó♯','Ré','Ré♯','Mi','Fá','Fá♯','Sol','Sol♯','Lá','Lá♯','Si']:['Do','Do♯','Re','Re♯','Mi','Fa','Fa♯','Sol','Sol♯','La','La♯','Si'];return names[note%12]+(Math.floor(note/12)-1);}
+ function target(clef,index){if(!clefs[clef]||!Number.isInteger(index)||index<0||index>9)throw Error('target');const step=[0,4,1,7,3,8,2,6,5,0][index],diatonic=clefs[clef].base+step;return {step,note:midi(diatonic)};}
+ function parse(data){if(!data||data.length!==3||!Array.from(data).every(Number.isInteger)||data[0]<128||data[0]>239||data[1]<0||data[1]>127||data[2]<0||data[2]>127)return null;const type=data[0]&240,channel=(data[0]&15)+1;if(type===144)return {type:data[2]?'on':'off',note:data[1],velocity:data[2],channel};if(type===128)return {type:'off',note:data[1],velocity:data[2],channel};if(type===176&&[120,123].includes(data[1]))return {type:'panic',channel};return null;}
+ class Input{
+ constructor({request,secure=true,onPorts=()=>{},onEvent=()=>{},onStatus=()=>{}}){Object.assign(this,{request,secure,onPorts,onEvent,onStatus});this.access=null;this.port=null;this.pendingPort=null;this.token=0;}
+ async connect(){this.disconnect();if(!this.secure){this.onStatus('insecure');return;}if(typeof this.request!=='function'){this.onStatus('unsupported');return;}const token=++this.token;this.onStatus('requesting');try{const access=await this.request({sysex:false});if(token!==this.token)return;this.access=access;access.onstatechange=()=>this.refresh();this.refresh();}catch{if(token===this.token)this.onStatus('denied');}}
+ refresh(){if(!this.access)return;const ports=Array.from(this.access.inputs.values()).filter(p=>p.state==='connected');if(this.port&&!ports.some(p=>p.id===this.port.id))this.release();this.onPorts(ports.map(p=>({id:p.id,name:p.name||'MIDI'})));this.onStatus(ports.length?'ready':'empty');}
+ release(){if(this.port){this.port.onmidimessage=null;try{Promise.resolve(this.port.close()).catch(()=>{});}catch{}}this.port=null;this.pendingPort=null;this.onEvent({type:'panic'});}
+ async choose(id){const token=++this.token;this.release();const port=this.access?.inputs.get(id);if(!port||port.state!=='connected')return;this.pendingPort=port;try{await port.open();if(token!==this.token){if(this.port!==port&&this.pendingPort!==port)Promise.resolve(port.close()).catch(()=>{});return;}this.pendingPort=null;this.port=port;port.onmidimessage=e=>{if(this.port!==port)return;const value=parse(e.data);if(value)this.onEvent(value);};this.onStatus('connected');}catch{if(token===this.token)this.onStatus('denied');}}
+ disconnect(){this.token++;this.release();if(this.access)this.access.onstatechange=null;this.access=null;this.onPorts([]);this.onStatus('disconnected');}
+ }
+ const api={clefs,midi,name,target,parse,Input};if(typeof module==='object'&&module.exports)module.exports=api;else root.WalamortMIDI=api;
+})(typeof window==='object'?window:globalThis);
