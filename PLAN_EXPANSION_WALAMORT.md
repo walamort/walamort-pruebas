@@ -6,7 +6,7 @@ Actualizado: 6 de noviembre de 2026. Cada bloque requiere comprobar su funcionam
 |---|---|
 | Entrada por objetivos | Implementado: cuatro recorridos de cuatro sesiones en ES/EN/PT, marcas locales y copia/recuperación. Conectado con búsqueda, portadas y menú Academia. |
 | Curso piloto de producción | Estructura de autoestudio disponible en el recorrido Producir: guía, comparación, montaje y recuperación. Pendiente validarlo con estudiantes y registrar dificultades. No es una certificación ni un curso tutorizado anunciado a la venta. |
-| Ejemplos de métodos | Pendiente: elegir un cuaderno, crear grabaciones originales que coincidan con la partitura y verificar título, tempo, versión y licencia. |
+| Ejemplos de métodos | Primer ejercicio de composición publicado como recurso independiente: motivo y tres finales con piano muestreado, partitura y proyecto. Pendiente: elegir un cuaderno, crear grabaciones originales que coincidan con la partitura y verificar título, tempo, versión y licencia. |
 | Idiomas | Guía y orientación trilingües. Traducción íntegra de producción y otras herramientas antiguas al portugués pendiente. |
 | Instrumentos MIDI | Pendiente: prototipo con entrada de notas, permiso explícito, prueba de dispositivos y alternativa táctil. No se anuncia compatibilidad universal. |
 | Producción multipista | Pendiente: diseñar varias fuentes simultáneas, sincronía, memoria y proyectos; empezar por dos pistas con pruebas de render antes de automatización o más pistas. |

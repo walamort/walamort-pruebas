@@ -1118,5 +1118,25 @@
       "description": "Escolha um objetivo e encontre a primeira prática: aprender, preparar uma seleção, criar ou produzir."
     },
     "tags": "empezar inicio objetivos recorrido aprender admision componer producir start beginner onboarding goals learn admission compose produce comecar inicio objetivos aprender vestibular compor produzir"
+  },
+  {
+    "id": "56",
+    "group": "estudio",
+    "path": "ejemplos-composicion/",
+    "english": "en/ejemplos-composicion/",
+    "portuguese": "pt/ejemplos-composicion/",
+    "es": {
+      "title": "Un motivo, tres finales",
+      "description": "Escucha tres finales originales con piano grabado, lee el pentagrama y modifica el proyecto de composición."
+    },
+    "en": {
+      "title": "One motif, three endings",
+      "description": "Hear three original endings with recorded piano, read the staff and edit the composition project."
+    },
+    "pt": {
+      "title": "Um motivo, três finais",
+      "description": "Ouça três finais originais com piano gravado, leia o pentagrama e edite o projeto de composição."
+    },
+    "tags": "motivo motivos finais finales endings melody melodia partitura piano composicion composition composicao samples ejemplos examples exemplos variacion variation variacao"
   }
 ]
