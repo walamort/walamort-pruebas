@@ -1,0 +1,9 @@
+Melody, variations and assembly: Walamort, edition 1.0, 2026-11-06.
+Recorded piano samples: VSCO2 / Versilian Studios.
+Distribution and mapping: Tone.js Instruments by Nicholaus P. Brosowsky.
+Source: https://github.com/nbrosowsky/tonejs-instruments/tree/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/piano
+Sample license: CC BY 3.0 https://creativecommons.org/licenses/by/3.0/
+Adaptations: notes C4/D4/E4/F4/G4 cropped to quarter-note duration at 90 BPM, gain 0.3, 8 ms edge fades. Melody only. Same gain in all versions. No effects or per-version normalization.
+C major, 4/4, 16 beats, 10.666667 s. Stereo PCM16, 44.1 kHz.
+The corresponding creative JSON includes an editable C-F-G-C accompaniment; it is not present in these reference WAVs.
+Keep attribution when sharing these sample-based audio adaptations. Full bank attribution: ../banco-sonoro/ATTRIBUTION.md

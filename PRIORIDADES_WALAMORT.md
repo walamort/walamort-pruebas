@@ -62,6 +62,10 @@ Terminada: tres prácticas guiadas (EQ, compresión y espacio) en ES/EN/PT-BR, c
 
 Implementada: Empieza aquí en ES/EN/PT-BR, cuatro recorridos de cuatro sesiones con enlaces existentes, registro personal local, copia/recuperación y acceso desde portadas, búsqueda y Academia. Producción incluye un curso piloto de autoestudio; validación con estudiantes pendiente. Plan ampliado y dependencias en PLAN_EXPANSION_WALAMORT.md.
 
+## Primer ejemplo sonoro de composición
+
+Disponible: Un motivo, tres finales, edición 1.0, ES/EN/PT-BR. Tres audios de melodía con muestras de piano acreditadas, pentagrama generado desde las notas, tabla accesible y JSON creativo. Es una actividad nueva y verificable; no se declara completada la grabación de todos los ejemplos de los métodos.
+
 ## Próximo bloque técnico concreto
 
 Mejora terminada (5 de noviembre): repaso por compases del dictado en ES/EN/PT, comparación del modelo con el intento evaluado y conteos de errores por altura, duración y ataques adicionales. La práctica posterior no altera la puntuación guardada.
