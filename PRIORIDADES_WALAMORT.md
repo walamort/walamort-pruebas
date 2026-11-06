@@ -68,7 +68,7 @@ Disponible: Un motivo, tres finales, edición 1.0, ES/EN/PT-BR. Tres audios de m
 
 ## Prototipo MIDI y lectura
 
-Implementado: entrada MIDI opcional, selección de puerto/canal, teclado en pantalla, audio sintético activado aparte y diez preguntas de altura/octava en Sol/Fa/Do. ES/EN/PT-BR. Flujo MIDI validado con dispositivos simulados; compatibilidad con un teclado físico concreto pendiente. Sin SysEx, salidas MIDI, micrófono ni almacenamiento de dispositivos. No evalúa ritmo, técnica ni pedal.
+Implementado: entrada MIDI opcional, selección de puerto/canal, teclado en pantalla, audio sintético activado aparte y diez preguntas de altura/octava en Sol/Fa/Do. ES/EN/PT-BR. Flujo MIDI validado con dispositivos simulados; compatibilidad con un teclado físico concreto pendiente. Sin SysEx, salidas MIDI, micrófono ni almacenamiento de dispositivos. No evalúa ritmo, técnica ni pedal. Se añade revisión final de las diez respuestas y descarga explícita JSON/CSV, sin datos de dispositivo ni guardado automático; no acredita identidad ni supervisión.
 
 ## Próximo bloque técnico concreto
 
