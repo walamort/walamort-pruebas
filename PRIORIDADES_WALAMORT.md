@@ -66,6 +66,10 @@ Implementada: Empieza aquí en ES/EN/PT-BR, cuatro recorridos de cuatro sesiones
 
 Disponible: Un motivo, tres finales, edición 1.0, ES/EN/PT-BR. Tres audios de melodía con muestras de piano acreditadas, pentagrama generado desde las notas, tabla accesible y JSON creativo. Es una actividad nueva y verificable; no se declara completada la grabación de todos los ejemplos de los métodos.
 
+## Prototipo MIDI y lectura
+
+Implementado: entrada MIDI opcional, selección de puerto/canal, teclado en pantalla, audio sintético activado aparte y diez preguntas de altura/octava en Sol/Fa/Do. ES/EN/PT-BR. Flujo MIDI validado con dispositivos simulados; compatibilidad con un teclado físico concreto pendiente. Sin SysEx, salidas MIDI, micrófono ni almacenamiento de dispositivos. No evalúa ritmo, técnica ni pedal.
+
 ## Próximo bloque técnico concreto
 
 Mejora terminada (5 de noviembre): repaso por compases del dictado en ES/EN/PT, comparación del modelo con el intento evaluado y conteos de errores por altura, duración y ataques adicionales. La práctica posterior no altera la puntuación guardada.
