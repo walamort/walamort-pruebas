@@ -1,6 +1,6 @@
 # Walamort · Prioridades de desarrollo y lanzamiento
 
-Actualizado: 5 de noviembre de 2026.
+Actualizado: 6 de noviembre de 2026.
 
 ## Confirmado y terminado
 
@@ -32,7 +32,7 @@ No se han fijado nuevos precios, fechas de curso, cupos ni reservas automáticas
 |---|---|---|
 | Alta | Audio original de ejemplos de los métodos | Cada ejemplo tiene título, tempo, versión y permiso de uso; coincide con las notas y duraciones impresas |
 | Hecho | Puente entre estudio creativo y producción | Notas, silencios, acordes, inversiones y tempo conservados; JSON y envío local, render verificado |
-| Alta | A/B con comparación de nivel más cómoda | El usuario entiende la diferencia entre ajustar volumen y medir sonoridad; no se etiqueta RMS como LUFS |
+| Hecho | A/B con comparación de nivel más cómoda | Estimación RMS offline del mismo fragmento, atenuación de escucha hasta 18 dB sin amplificar, invalidación al editar; no se etiqueta como LUFS ni se exporta |
 | Hecho | Recorte y selección del fragmento de audio | Original conservado, selección 0,1–12 s y WAV seco; verificación real de límites |
 | Media | Lectura y dictado más completos | Altura y ritmo juntos, compases compuestos y ligaduras, con evaluación y ejemplos verificables |
 | Hecho local | Seguimiento y aula por archivos | ES/EN/PT, copia/recuperación, resúmenes e informes/CSV; sincronización pendiente de backend |
