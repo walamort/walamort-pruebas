@@ -54,6 +54,10 @@ Preguntar a quienes consultan qué actividad o material les interesó y qué dif
 
 Colores y estilo Walamort; archivos propios procesados localmente; sin mensajes automáticos a terceros; sin rastreadores añadidos; muestras gratuitas separadas de ediciones completas. La publicación en main de producción está autorizada explícitamente desde el lanzamiento; comprobar cambios y conservar el sitio de pruebas.
 
+## Guía de iniciación a producción
+
+Terminada: tres prácticas guiadas (EQ, compresión y espacio) en ES/EN/PT-BR, con bitácora local, copia/recuperación JSON y acceso al laboratorio. Las marcas son declaradas por el estudiante, no una evaluación automática. El laboratorio completo sigue en ES/EN; su traducción portuguesa continúa pendiente.
+
 ## Próximo bloque técnico concreto
 
 Mejora terminada (5 de noviembre): repaso por compases del dictado en ES/EN/PT, comparación del modelo con el intento evaluado y conteos de errores por altura, duración y ataques adicionales. La práctica posterior no altera la puntuación guardada.
