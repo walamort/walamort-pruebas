@@ -58,6 +58,10 @@ Colores y estilo Walamort; archivos propios procesados localmente; sin mensajes 
 
 Terminada: tres prácticas guiadas (EQ, compresión y espacio) en ES/EN/PT-BR, con bitácora local, copia/recuperación JSON y acceso al laboratorio. Las marcas son declaradas por el estudiante, no una evaluación automática. El laboratorio completo sigue en ES/EN; su traducción portuguesa continúa pendiente.
 
+## Entrada por objetivos
+
+Implementada: Empieza aquí en ES/EN/PT-BR, cuatro recorridos de cuatro sesiones con enlaces existentes, registro personal local, copia/recuperación y acceso desde portadas, búsqueda y Academia. Producción incluye un curso piloto de autoestudio; validación con estudiantes pendiente. Plan ampliado y dependencias en PLAN_EXPANSION_WALAMORT.md.
+
 ## Próximo bloque técnico concreto
 
 Mejora terminada (5 de noviembre): repaso por compases del dictado en ES/EN/PT, comparación del modelo con el intento evaluado y conteos de errores por altura, duración y ataques adicionales. La práctica posterior no altera la puntuación guardada.

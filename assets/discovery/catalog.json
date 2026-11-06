@@ -1098,5 +1098,25 @@
       "description": "Três práticas guiadas de equalização, compressão e espaço, com um diário privado de escuta."
     },
     "tags": "bitacora diario journal beginner iniciante principiante guia guide mixing mixagem equalizacao compressao escuta listening reflexion"
+  },
+  {
+    "id": "55",
+    "group": "academia",
+    "path": "empieza-aqui/",
+    "english": "en/empieza-aqui/",
+    "portuguese": "pt/empieza-aqui/",
+    "es": {
+      "title": "Empieza aquí",
+      "description": "Elige tu objetivo y encuentra una primera práctica: aprender, preparar admisión, crear o producir."
+    },
+    "en": {
+      "title": "Start here",
+      "description": "Choose a goal and find your first practice: learn, prepare for admission, create or produce."
+    },
+    "pt": {
+      "title": "Comece aqui",
+      "description": "Escolha um objetivo e encontre a primeira prática: aprender, preparar uma seleção, criar ou produzir."
+    },
+    "tags": "empezar inicio objetivos recorrido aprender admision componer producir start beginner onboarding goals learn admission compose produce comecar inicio objetivos aprender vestibular compor produzir"
   }
 ]
