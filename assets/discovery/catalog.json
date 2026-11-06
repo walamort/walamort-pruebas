@@ -532,7 +532,7 @@
       "title": "Production and mixing lab",
       "description": "Grooves, mixing, effects and local audio region montage."
     },
-    "tags": "produccion mezcla compresor ecualizador eq reverb delay audio daw mixing effects grabar grabadora grabacion subir importar propio recorder upload recording efectos compresion ecualizacion regiones montaje montajes fragmentos region regions montage splice cortes editar RMS A/B compensacion comparacion energia level match listening gain",
+    "tags": "produccion mezcla compresor ecualizador eq reverb delay audio daw mixing effects grabar grabadora grabacion subir importar propio recorder upload recording efectos compresion ecualizacion regiones montaje montajes fragmentos region regions montage splice cortes editar RMS A/B compensacion comparacion energia level match listening gain guardar recuperar proyecto JSON original save restore project source",
     "pt": {
       "title": "Laboratório de produção e mixagem",
       "description": "Misture instrumentos e experimente efeitos."

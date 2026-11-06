@@ -61,7 +61,7 @@ Mejora terminada (5 de noviembre): repaso por compases del dictado en ES/EN/PT, 
 
 1. Completado: lectura y mano musical, y dictado en pentagrama en portugués; nombres naturales/cromáticos y enlace de ejercicio reproducible.
 2. Completado: dictado 6/8 en ES/EN/PT con tempo de negra con puntillo, dos pulsos de cuenta previa, evaluación, repaso y enlaces que conservan el compás. Completado: ligaduras de prolongación opcionales, continuidad sonora, evaluación por ataques sostenidos y repaso aislado explícito en ES/EN/PT. Siguen pendientes otros compases compuestos; el metrónomo exploratorio ya compara 3/4 y 6/8.
-3. Completado: montaje secuencial de hasta ocho regiones y 12 s, duplicación/orden/volumen/fundidos, deshacer, aplicación al laboratorio y WAV seco; original conservado y presupuesto PCM explícito. Siguen pendientes varias pistas simultáneas, superposición y archivos distintos.
+3. Completado: montaje secuencial de hasta ocho regiones y 12 s, duplicación/orden/volumen/fundidos, deshacer, aplicación al laboratorio y WAV seco; original conservado y presupuesto PCM explícito. Se añade proyecto JSON de regiones y ajustes con verificación SHA-256 del archivo original, sin incluir audio, y recuperación en ES/EN. Siguen pendientes varias pistas simultáneas, superposición y archivos distintos.
 4. Backend: elegir servicio/titularidad y probar permisos por propietario/grupo antes de habilitar registros. Propuesta en outputs/ARQUITECTURA-CUENTAS-Y-COMUNIDAD.md, fuera de la web pública.
 5. Lanzamiento comercial: revisar piloto, fijar precio/condiciones y comprobar entrega. Propuesta en outputs/kit-lanzamiento-produccion/PLAN-COMERCIAL.md; no se ha contratado ni vendido nada automáticamente.
 
