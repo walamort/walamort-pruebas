@@ -226,16 +226,16 @@
     "english": "en/dictado-pentagrama/",
     "es": {
       "title": "Dictado en pentagrama",
-      "description": "Escribe alturas, figuras y silencios."
+      "description": "Escribe alturas, figuras, silencios y ligaduras en 4/4 o 6/8."
     },
     "en": {
       "title": "Staff dictation",
-      "description": "Write pitches, durations and rests."
+      "description": "Write pitches, durations, rests and ties in 4/4 or 6/8."
     },
-    "tags": "oido transcripcion notacion duracion dictation notation portugues pentagrama clave leitura ditado",
+    "tags": "oido transcripcion notacion duracion dictation notation portugues pentagrama clave leitura ditado ligadura ligaduras tie ties sustentacao sustentação 4/4 6/8 compas compuesto compound meter",
     "pt": {
       "title": "Ditado na pauta",
-      "description": "Escreva alturas, durações e pausas."
+      "description": "Escreva alturas, durações, pausas e ligaduras em 4/4 ou 6/8."
     },
     "portuguese": "pt/dictado-pentagrama/"
   },
