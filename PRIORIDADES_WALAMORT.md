@@ -1,6 +1,6 @@
 # Walamort · Prioridades de desarrollo y lanzamiento
 
-Actualizado: 6 de noviembre de 2026.
+Actualizado: 7 de noviembre de 2026.
 
 ## Confirmado y terminado
 
@@ -84,3 +84,6 @@ Mejora terminada (5 de noviembre): repaso por compases del dictado en ES/EN/PT, 
 ## Hecho: traducción de los métodos de instrumento
 
 Inglés y portugués de Brasil completados para las 15 ediciones aportadas. Archivos añadidos a los 12 productos existentes de Hotmart; catálogo y guías gratuitos en los tres idiomas. Permanecen pendientes las traducciones de los cuadernos creativos piloto y de las herramientas antiguas que todavía se identifican como españolas. No confundir esas traducciones pendientes con los métodos instrumentales ya disponibles.
+
+
+Revisión docente de lectura (7 de noviembre): panel local para reunir informes MIDI/pantalla, códigos/grupos, filtros de clave, conteos por nota y confusiones, CSV y copia JSON con deshacer. Sin cuentas, envío ni calificación oficial; prueba docente con usuarios reales pendiente.

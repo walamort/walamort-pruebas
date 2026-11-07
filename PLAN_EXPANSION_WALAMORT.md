@@ -1,6 +1,6 @@
 # Walamort · Plan de ampliación
 
-Actualizado: 6 de noviembre de 2026. Cada bloque requiere comprobar su funcionamiento antes de anunciarlo disponible.
+Actualizado: 7 de noviembre de 2026. Cada bloque requiere comprobar su funcionamiento antes de anunciarlo disponible.
 
 | Bloque | Estado y siguiente entrega verificable |
 |---|---|
@@ -19,3 +19,6 @@ Actualizado: 6 de noviembre de 2026. Cada bloque requiere comprobar su funcionam
 | Accesibilidad y rendimiento | Comprobaciones de teclado, foco, contraste, lector de pantalla y dispositivos reales por recorridos; no declarar conformidad completa sin auditoría. |
 
 Orden recomendado tras la entrada: prueba con principiantes → ejemplos sonoros de un método → oferta concreta → idiomas → prototipo MIDI/multipista → backend y aula conectada → comunidad. Las marcas de recorridos son autodeclaradas y no sustituyen una evaluación del desempeño.
+
+
+Revisión docente de lectura (7 de noviembre): panel local para reunir informes MIDI/pantalla, códigos/grupos, filtros de clave, conteos por nota y confusiones, CSV y copia JSON con deshacer. Sin cuentas, envío ni calificación oficial; prueba docente con usuarios reales pendiente.
