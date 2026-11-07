@@ -24,3 +24,5 @@ Orden recomendado tras la entrada: prueba con principiantes → ejemplos sonoros
 Revisión docente de lectura (7 de noviembre): panel local para reunir informes MIDI/pantalla, códigos/grupos, filtros de clave, conteos por nota y confusiones, CSV y copia JSON con deshacer. Sin cuentas, envío ni calificación oficial; prueba docente con usuarios reales pendiente.
 
 Lectura MIDI (7 de noviembre): sesiones de diez preguntas con las nueve posiciones del pentagrama barajadas y una pregunta adicional sin repetición inmediata. Informes versión 2 conservan el orden; versiones anteriores siguen admitidas en revisión docente y copias JSON. No se amplía la evaluación a ritmo o técnica.
+
+Repaso de lectura: al terminar una sesión, las respuestas incorrectas se pueden practicar de nuevo con pantalla o MIDI, sin modificar puntuación ni informe. Controles junto al pentagrama; ES/EN/PT-BR. Prueba real en navegador con respuestas corregidas y resultado original conservado; teclado físico pendiente.
