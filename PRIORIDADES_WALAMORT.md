@@ -101,3 +101,5 @@ Entrenamiento introductorio de frecuencias: ronda manual de seis tonos, todas la
 Rutinas por objetivo y tiempo: en Empieza aquí, 15/30/45/60 min para aprender, admisión, creación y producción. Tres bloques orientativos con enlaces verificados, marcas solo en memoria, TXT y enlace reproducible por parámetros permitidos. ES/EN/PT-BR con herramientas inglesas identificadas cuando corresponde. No altera las 16 sesiones ni evalúa automáticamente.
 
 Armonía: comparación de I–IV–V–I / i–iv–v–i en tríadas, posición fundamental frente a disposiciones de menor movimiento dentro de Do3–Do6. Tabla de notas, inversiones y desplazamientos por voz, misma tonalidad/instrumento y reproducción manual con bloqueo compartido. ES/EN en el laboratorio existente; no evalúa SATB ni calidad musical.
+
+Laboratório de harmonia em português de Brasil: nova página completa com nomes de notas locais, acordes/sétimas/inversões, reprodução, comparação de vozes, busca e navegação. Estúdio criativo e círculo de quintas continuam em inglês para este percurso, com aviso explícito.

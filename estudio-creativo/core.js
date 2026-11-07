@@ -8,7 +8,7 @@
   const scales = {major: [0,2,4,5,7,9,11], minor: [0,2,3,5,7,8,10]};
   const instruments = ['piano','guitar','flute','violin'];
   function noteName(midi, lang='es', flat=false) {
-    const names = lang==='en' ? (flat ? ['C','D♭','D','E♭','E','F','G♭','G','A♭','A','B♭','B'] : ['C','C♯','D','D♯','E','F','F♯','G','G♯','A','A♯','B']) : (flat ? ['Do','Re♭','Re','Mi♭','Mi','Fa','Sol♭','Sol','La♭','La','Si♭','Si'] : ['Do','Do♯','Re','Re♯','Mi','Fa','Fa♯','Sol','Sol♯','La','La♯','Si']);
+    const names = lang==='pt' ? (flat ? ['Dó','Ré♭','Ré','Mi♭','Mi','Fá','Sol♭','Sol','Lá♭','Lá','Si♭','Si'] : ['Dó','Dó♯','Ré','Ré♯','Mi','Fá','Fá♯','Sol','Sol♯','Lá','Lá♯','Si']) : lang==='en' ? (flat ? ['C','D♭','D','E♭','E','F','G♭','G','A♭','A','B♭','B'] : ['C','C♯','D','D♯','E','F','F♯','G','G♯','A','A♯','B']) : (flat ? ['Do','Re♭','Re','Mi♭','Mi','Fa','Sol♭','Sol','La♭','La','Si♭','Si'] : ['Do','Do♯','Re','Re♯','Mi','Fa','Fa♯','Sol','Sol♯','La','La♯','Si']);
     return names[((midi%12)+12)%12] + (Math.floor(midi/12)-1);
   }
   function scale(key) { const k=KEYS[key]||KEYS.C;return scales[k.mode].map(n=>(n+k.root)%12); }
