@@ -19,7 +19,7 @@
     $('formula').textContent=L.formula+': '+rootChord.notes.map(n=>n-rootChord.root).join(' – ');
     $('minorNote').hidden=C.KEYS[key].mode!=='minor';
     $('keyboard').replaceChildren(...Array.from({length:37},(_,i)=>48+i).map(n=>{const b=document.createElement('button');b.type='button';b.textContent=C.noteName(n,lang,C.KEYS[key].flat);b.className='chord-key'+(c.notes.includes(n)?' active':'');b.setAttribute('aria-pressed',String(c.notes.includes(n)));b.onclick=()=>hear([n]);return b}));
-    const url=new URL(lang==='pt'?'../../en/estudio-creativo/':'../estudio-creativo/',window.location.href);url.searchParams.set('key',key);url.searchParams.set('degree',$('degree').value);url.searchParams.set('seventh',seventh?'1':'0');url.searchParams.set('inversion',$('inversion').value);$('create').href=url.pathname+url.search;
+    const url=new URL('../estudio-creativo/',window.location.href);url.searchParams.set('key',key);url.searchParams.set('degree',$('degree').value);url.searchParams.set('seventh',seventh?'1':'0');url.searchParams.set('inversion',$('inversion').value);$('create').href=url.pathname+url.search;
   }
   $('instrument').addEventListener('change',()=>P.stop());
   for(const id of ['key','degree','seventh','inversion'])$(id).onchange=()=>{P.stop();render()};

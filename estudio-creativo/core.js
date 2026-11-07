@@ -29,7 +29,7 @@
     return {notes,root,quality,roman,suffix,inversion:inv};
   }
   function validate(raw) {
-    if(!raw||raw.version!==1||!KEYS[raw.key]||!instruments.includes(raw.instrument))throw Error('project');
+    if(!raw||raw.version!==1||!Object.hasOwn(KEYS,raw.key)||!instruments.includes(raw.instrument))throw Error('project');
     if(typeof raw.title!=='string'||raw.title.length>100||!Number.isInteger(raw.tempo)||raw.tempo<45||raw.tempo>160)throw Error('project');
     if(!Array.isArray(raw.melody)||raw.melody.length!==16||!raw.melody.every(n=>n===null||(Number.isInteger(n)&&n>=48&&n<=84)))throw Error('project');
     if(!Array.isArray(raw.chords)||raw.chords.length!==4||!raw.chords.every(c=>c&&Number.isInteger(c.degree)&&c.degree>=0&&c.degree<=6&&typeof c.seventh==='boolean'&&Number.isInteger(c.inversion)&&c.inversion>=0&&c.inversion<=(c.seventh?3:2)))throw Error('project');
