@@ -1158,5 +1158,25 @@
       "description": "Explore notas com entrada MIDI opcional e pratique leitura com um teclado na tela."
     },
     "tags": "MIDI USB teclado keyboard lectura reading notas notes touch keys controlador controller claves clefs leitura notas teclas controlador"
+  },
+  {
+    "id": "58",
+    "group": "academia",
+    "path": "mi-progreso/#midiClassPanel",
+    "english": "en/mi-progreso/#midiClassPanel",
+    "portuguese": "pt/mi-progreso/#midiClassPanel",
+    "es": {
+      "title": "Revisar sesiones de lectura MIDI y pantalla",
+      "description": "Reúne informes por archivo, asigna códigos y revisa confusiones de notas sin cuentas."
+    },
+    "en": {
+      "title": "Review MIDI and on-screen reading sessions",
+      "description": "Collect file reports, assign codes and review note confusions without accounts."
+    },
+    "pt": {
+      "title": "Revisar sessões de leitura MIDI e na tela",
+      "description": "Reúna relatórios por arquivo, atribua códigos e revise confusões de notas sem contas."
+    },
+    "tags": "docente profesor teacher classroom MIDI resultados informes clase class review errors lectura reading leitura professor relatorios turma erros CSV notas note confusion"
   }
 ]
