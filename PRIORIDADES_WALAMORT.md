@@ -109,3 +109,5 @@ Círculo de quintas em português de Brasil: escala, armadura, relativos, tríad
 Estúdio criativo em português de Brasil: editor, desafios, observações, rascunho/JSON/MIDI e ficha localizados, projetos v1 compatíveis. Percursos, exemplos, laboratório harmônico e rotinas agora abrem o editor PT; produção continua em inglês com aviso. Validação de chaves de projeto e parâmetros rejeita nomes de protótipo.
 
 Partitura MusicXML do estudo criativo: exportação de quatro compassos em duas pautas, preservando notas, pausas, tríades/sétimas/inversões, tempo e armadura; interface ES/EN/PT. Não inclui áudio, efeitos ou importação genérica de partituras.
+
+Revisão docente: filtro de código exato e resumo por código/turma/clave com contagem, média, mínimo/máximo e intervalo de datas declaradas; CSV filtrado. ES/EN/PT, sem contas ou persistência nova. As mesmas marcas de código permitem reunir sessões; não verifica identidade nem comprova progresso por si só.
