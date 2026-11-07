@@ -103,3 +103,5 @@ Rutinas por objetivo y tiempo: en Empieza aquí, 15/30/45/60 min para aprender, 
 Armonía: comparación de I–IV–V–I / i–iv–v–i en tríadas, posición fundamental frente a disposiciones de menor movimiento dentro de Do3–Do6. Tabla de notas, inversiones y desplazamientos por voz, misma tonalidad/instrumento y reproducción manual con bloqueo compartido. ES/EN en el laboratorio existente; no evalúa SATB ni calidad musical.
 
 Laboratório de harmonia em português de Brasil: nova página completa com nomes de notas locais, acordes/sétimas/inversões, reprodução, comparação de vozes, busca e navegação. Estúdio criativo e círculo de quintas continuam em inglês para este percurso, com aviso explícito.
+
+Círculo de quintas em português de Brasil: escala, armadura, relativos, tríades, reprodução e referência HTML offline localizadas. Troca de idioma conserva tonalidade/modo; busca, menus, percurso e laboratório apontam à versão PT. Leitura e diapasão continuam em inglês neste acesso, com aviso.
