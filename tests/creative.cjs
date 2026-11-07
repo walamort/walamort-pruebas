@@ -22,7 +22,7 @@ function harness(lang='es'){
  const context={window,document:{documentElement:{lang},getElementById:el,createElement:make,body:make(),addEventListener(){}},localStorage:{getItem:k=>data[k]||null,setItem:(k,v)=>data[k]=v},URLSearchParams,URL,Blob,Uint8Array,console,setTimeout,clearTimeout};vm.createContext(context);vm.runInContext(fs.readFileSync('estudio-creativo/copy.js','utf8'),context);return {context,el,data,calls};
 }
 (async()=>{
- for(const lang of ['es','en']){
+ for(const lang of ['es','en','pt']){
   const h=harness(lang);vm.runInContext(fs.readFileSync('estudio-creativo/app.js','utf8'),h.context);
   assert.equal(h.el('steps').children.length,4);assert.equal(h.el('bars').children.length,4);
   h.el('title').value='My musical idea';h.el('title').oninput();h.el('example').onclick();h.el('save').onclick();assert.equal(JSON.parse(Object.values(h.data)[0]).title,'My musical idea');let saved=C.validate(JSON.parse(Object.values(h.data)[0]));assert.equal(saved.melody.filter(n=>n!==null).length,15);
@@ -35,5 +35,5 @@ function harness(lang='es'){
   const lab=harness(lang);vm.runInContext(fs.readFileSync('estudio-creativo/harmony.js','utf8'),lab.context);lab.el('seventh').checked=true;lab.el('seventh').onchange();lab.el('inversion').value='3';lab.el('inversion').onchange();assert.equal(lab.el('inversion').children.length,4);assert(lab.el('create').href.includes('inversion=3'));lab.el('seventh').checked=false;lab.el('seventh').onchange();assert.equal(lab.el('inversion').value,'2');
  }
  for(const file of ['estudio-creativo/index.html','laboratorio-armonico/index.html','en/estudio-creativo/index.html','en/laboratorio-armonico/index.html']){const html=fs.readFileSync(file,'utf8');for(const match of html.matchAll(/(?:href|src)="([^"#]+)"/g)){if(/^https?:/.test(match[1]))continue;assert(fs.existsSync(path.resolve(path.dirname(file),match[1].split('?')[0])),file+' -> '+match[1])}}
- console.log('PASS: diatonic triads/sevenths/inversions across five keys, project validation, note observations, MIDI timing and balanced notes, bilingual editing/undo/import, playback locks, harmony bridge and local assets.');
+ console.log('PASS: diatonic triads/sevenths/inversions across five keys, project validation, note observations, MIDI timing and balanced notes, trilingual editing/undo/import, playback locks, harmony bridge and local assets.');
 })().catch(e=>{console.error(e);process.exitCode=1});

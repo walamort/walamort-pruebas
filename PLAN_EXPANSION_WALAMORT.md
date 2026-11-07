@@ -40,3 +40,5 @@ Armonía: comparación de I–IV–V–I / i–iv–v–i en tríadas, posición
 Laboratório de harmonia em português de Brasil: nova página completa com nomes de notas locais, acordes/sétimas/inversões, reprodução, comparação de vozes, busca e navegação. Estúdio criativo e círculo de quintas continuam em inglês para este percurso, com aviso explícito.
 
 Círculo de quintas em português de Brasil: escala, armadura, relativos, tríades, reprodução e referência HTML offline localizadas. Troca de idioma conserva tonalidade/modo; busca, menus, percurso e laboratório apontam à versão PT. Leitura e diapasão continuam em inglês neste acesso, com aviso.
+
+Estúdio criativo em português de Brasil: editor, desafios, observações, rascunho/JSON/MIDI e ficha localizados, projetos v1 compatíveis. Percursos, exemplos, laboratório harmônico e rotinas agora abrem o editor PT; produção continua em inglês com aviso. Validação de chaves de projeto e parâmetros rejeita nomes de protótipo.

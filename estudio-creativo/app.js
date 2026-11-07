@@ -1,12 +1,12 @@
 (() => {
   'use strict';
-  const $=id=>document.getElementById(id),en=document.documentElement.lang==='en',lang=en?'en':'es';
+  const $=id=>document.getElementById(id),en=document.documentElement.lang==='en',lang=document.documentElement.lang.startsWith('pt')?'pt':en?'en':'es';
   const C=window.WalamortCreative,L=window.WalamortCreativeCopy[lang],P=window.WalamortCreativePlayer;
   const storage='walamort-creative-v1:'+(window.location.pathname.includes('/walamort-pruebas/')?'preview':'site');
   let project=C.blank(),selected=0,history=[],playing=false;project.instrument=window.WalamortSound.instrument();
   try {const raw=localStorage.getItem(storage);if(raw)project=C.validate(JSON.parse(raw))}catch{}
   const params=new URLSearchParams(window.location.search);
-  if(C.KEYS[params.get('key')]&&/^[0-6]$/.test(params.get('degree')||'')) {
+  if(Object.hasOwn(C.KEYS,params.get('key'))&&/^[0-6]$/.test(params.get('degree')||'')) {
     project.key=params.get('key');project.chords[0]={degree:Number(params.get('degree')),seventh:params.get('seventh')==='1',inversion:0};
     const inv=Number(params.get('inversion'));if(Number.isInteger(inv)&&inv>=0&&inv<=(project.chords[0].seventh?3:2))project.chords[0].inversion=inv;
   }
@@ -66,7 +66,7 @@
   $('load').onchange=async()=>{const file=$('load').files[0];if(!file)return;try{if(file.size>65536)throw Error('size');const loaded=C.validate(JSON.parse(await file.text()));P.stop();remember();project=loaded;selected=0;render();tell(L.imported)}catch{tell(L.invalid)}finally{$('load').value=''}};
   $('clear').onclick=()=>{if(window.confirm(L.confirm)){change(()=>{project=C.blank();selected=0});tell(L.ready)}};
   $('print').onclick=()=>{render();window.print()};
-  $('toProduction').onclick=()=>{try{const base=new URL('../',document.querySelector('script[src^="core.js"],script[src*="estudio-creativo/core.js"]').src),key='walamort-transfer-v1:'+base.pathname;localStorage.setItem(key,JSON.stringify(window.WalamortMusicBridge.packet(C.validate(project))));window.location.assign($('toProduction').dataset.destination);}catch{tell(en?'Could not transfer. Download the creative JSON and import it in the lab.':'No se pudo transferir. Descarga el JSON creativo e impórtalo en el laboratorio.');}};
+  $('toProduction').onclick=()=>{try{const base=new URL('../',document.querySelector('script[src^="core.js"],script[src*="estudio-creativo/core.js"]').src),key='walamort-transfer-v1:'+base.pathname;localStorage.setItem(key,JSON.stringify(window.WalamortMusicBridge.packet(C.validate(project))));window.location.assign($('toProduction').dataset.destination);}catch{tell(lang==='pt'?'Não foi possível transferir. Baixe o JSON criativo e importe-o no laboratório.':en?'Could not transfer. Download the creative JSON and import it in the lab.':'No se pudo transferir. Descarga el JSON creativo e impórtalo en el laboratorio.');}};
   const date=new Date(),day=date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate(),challenge=C.challenge(day);
   $('challengeTitle').textContent=L.challengeTitles[challenge];$('challengeText').textContent=L.challengeTexts[challenge];
   render();$('stop').disabled=true;tell(L.ready);
