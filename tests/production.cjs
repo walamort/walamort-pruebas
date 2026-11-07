@@ -19,7 +19,7 @@ function mockContext(rate){
 const scope={window:{WalamortProduction:core}};vm.createContext(scope);vm.runInContext(fs.readFileSync('produccion-musical/engine.js','utf8'),scope);
 for(const rate of [44100,48000]){
  const {ctx,nodes}=mockContext(rate),engine=scope.window.WalamortProductionAudio,graph=engine.graph(ctx,core.settings({volume:0}),false);
- const convolver=nodes.find(n=>n.name==='createConvolver');assert.equal(convolver.buffer.sampleRate,rate,'Convolution requires the context sample rate.');const guard=nodes.filter(n=>n.name==='createDynamicsCompressor').find(n=>n.ratio.value===20),comparison=guard.edges[0];assert.equal(comparison.name,'createGain');assert.equal(comparison.edges[0].name,'createAnalyser');graph.setComparisonGain(.25);assert.equal(comparison.gain.value,.25);graph.setComparisonGain(2);assert.equal(comparison.gain.value,1);graph.setComparisonGain(NaN);assert.equal(comparison.gain.value,1);assert(nodes.filter(n=>n.name==='createDynamicsCompressor').some(n=>n.ratio.value===20));
+ const convolver=nodes.find(n=>n.name==='createConvolver');assert.equal(convolver.buffer.sampleRate,rate,'Convolution requires the context sample rate.');const guard=nodes.filter(n=>n.name==='createDynamicsCompressor').find(n=>n.ratio.value===20),comparison=guard.edges[0];assert.equal(comparison.name,'createGain');assert.equal(comparison.edges[0].name,'createGain');assert.equal(comparison.edges[0].edges[0].name,'createChannelSplitter');graph.setComparisonGain(.25);assert.equal(comparison.gain.value,.25);graph.setComparisonGain(2);assert.equal(comparison.gain.value,1);graph.setComparisonGain(NaN);assert.equal(comparison.gain.value,1);assert(nodes.filter(n=>n.name==='createDynamicsCompressor').some(n=>n.ratio.value===20));
  const data=core.synth(),sources=engine.sources(ctx,graph,data,core.settings(),true);sources.start(.1);const sourceNodes=nodes.filter(n=>n.name==='createBufferSource');assert.equal(sourceNodes.length,3);assert(sourceNodes.every(n=>n.loop&&n.started===.1));
  graph.update(core.preset('space'),true);sources.update(core.settings({drums:0}));sources.stop();graph.dispose();assert(sourceNodes.every(n=>n.stopped&&n.disconnected));assert(nodes.every(n=>n.disconnected),'All processors and source gain nodes must disconnect.');
  const second=mockContext(rate),g=engine.graph(second.ctx,core.settings()),file=engine.buffer(second.ctx,[new Float32Array(4410)],44100),one=engine.sources(second.ctx,g,{imported:file},core.settings());assert.equal(second.nodes.filter(n=>n.name==='createBufferSource').length,1);assert.equal(one.duration,.1);one.stop();g.dispose();
@@ -36,7 +36,7 @@ const silent=Object.fromEntries(core.lanes.map(l=>[l,Array(16).fill(0)]));assert
 assert.equal(core.delaySeconds(core.settings({tempo:120,delaySync:'quarter'})),.5);assert.equal(core.delaySeconds(core.settings({tempo:60,delaySync:'quarter'})),1);const curve=core.curve(12);assert(curve.every(x=>Number.isFinite(x)&&Math.abs(x)<=1));assert.equal(curve[Math.floor(curve.length/2)],0);console.log('PASS: six distinct grooves, empty sequencer, pattern/enumeration bounds, synchronized delay and bounded saturation.');
 
 for(const [width,expected] of [[0,[.5,.5]],[1,[1,0]],[1.5,[1.25,-.25]]]){
- const {ctx,nodes}=mockContext(48000),g=scope.window.WalamortProductionAudio.graph(ctx,core.settings({width})),split=nodes.find(n=>n.name==='createChannelSplitter'),merge=nodes.find(n=>n.name==='createChannelMerger'),output=[0,0];
+ const {ctx,nodes}=mockContext(48000),g=scope.window.WalamortProductionAudio.graph(ctx,core.settings({width})),merge=nodes.find(n=>n.name==='createChannelMerger'&&n.edges[0]?.name==='createStereoPanner'),split=nodes.find(n=>n.name==='createChannelSplitter'&&n.routes.some(r=>r.to.routes?.some(o=>o.to===merge))),output=[0,0];
  for(const route of split.routes){const input=route.ports[0]===0?1:0;for(const onward of route.to.routes||[])if(onward.to===merge)output[onward.ports[1]]+=input*route.to.gain.value;}
  assert.deepEqual(output,expected);g.dispose();
 }
@@ -49,3 +49,11 @@ const copied=core.settings({groove:'house'});copied.pattern.kick[0]=0;assert.equ
  const project=core.project({kind:'walamort-production',version:1,settings:{...s,keysBank:'guitar-nylon',key:2,chords:[0,1,3,0],backingStyle:'random'}});assert.equal(project.settings.keysBank,'guitar-nylon');assert.deepEqual(project.settings.chords,[0,1,3,0]);
  console.log('PASS: HRTF positions/update/cleanup and new backing/sample project fields.');
 }
+
+for(const rate of [44100,48000])for(const [mode,matrix] of Object.entries({stereo:[1,0,0,1],mono:[.5,.5,.5,.5],left:[1,0,1,0],right:[0,1,0,1],side:[.5,-.5,.5,-.5]})){
+ const {ctx,nodes}=mockContext(rate),engine=scope.window.WalamortProductionAudio,g=engine.graph(ctx,core.settings(),false,1,mode),split=nodes.find(n=>n.name==='createChannelSplitter'&&n.routes.length===4),merge=nodes.find(n=>n.name==='createChannelMerger'&&n.edges[0]?.name==='createAnalyser');
+ assert.deepEqual(Array.from(engine.monitorMatrix(mode)),matrix);
+ for(const [left,right] of [[1,1],[1,-1],[1,0],[0,1],[.25,-.75]]){const out=[0,0];for(const route of split.routes)for(const onward of route.to.routes||[])if(onward.to===merge)out[onward.ports[1]]+=(route.ports[0]===0?left:right)*route.to.gain.value;assert.deepEqual(out,[matrix[0]*left+matrix[1]*right,matrix[2]*left+matrix[3]*right]);assert(out.every(x=>Math.abs(x)<=1));}
+ g.setMonitorMode('mono');assert.deepEqual(split.routes.map(r=>r.to.gain.value),[.5,.5,.5,.5]);g.setMonitorMode('__proto__');assert.deepEqual(split.routes.map(r=>r.to.gain.value),[1,0,0,1]);g.dispose();assert(nodes.every(n=>n.disconnected));
+}
+console.log('PASS: stereo/mono/left/right/side monitor routing, in-phase and antiphase signals, 44.1/48 kHz, bounded gains, live updates, invalid mode fallback and graph cleanup.');
