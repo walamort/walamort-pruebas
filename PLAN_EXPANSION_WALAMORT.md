@@ -30,3 +30,5 @@ Repaso de lectura: al terminar una sesión, las respuestas incorrectas se pueden
 Referencia sonora de repaso: escuchar por separado la nota esperada y la respuesta original mediante el timbre sintético elegido, activación explícita de audio y duración breve. No reproduce grabaciones del instrumento ni modifica respuestas/puntuación. ES/EN/PT-BR.
 
 Guía de producción: explorador de frecuencias 40 Hz–10 kHz, seis referencias, escala logarítmica y tonos puros breves bajo activación explícita. ES/EN/PT-BR; relación introductoria con EQ, sin evaluación auditiva ni prescripción de mezcla.
+
+Entrenamiento introductorio de frecuencias: ronda manual de seis tonos, todas las referencias una vez en orden variable, repetición de escucha, primer intento y resumen. ES/EN/PT-BR. Sin guardar resultados ni presentarlo como evaluación de audición o competencia de mezcla; se permite comparar referencias.
