@@ -8,7 +8,7 @@
   $('articulation').value=params.get('ties')==='1'?'ties':'separate';
   const meter=()=>N.meters[$('meter').value]||N.meters['4/4'];
   const compound=()=>meter().pulse===1.5;
-  let exerciseSeed=params.has('seed')?N.seed(params.get('seed')):N.seed(NaN),target=[],answer=[],heard=false,recorded=false,practiceButtons=[];
+  let exerciseSeed=params.has('seed')?N.seed(params.get('seed')):N.seed(NaN),target=[],answer=[],heard=false,recorded=false,practiceButtons=[],evaluated=null,exportURL=null;
   function tell(text){$('status').textContent=text}
   function element(tag,text){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;return n}
   function option(value,text){const o=element('option',text);o.value=value;return o}
@@ -18,6 +18,8 @@
   }
 
   function draw(){
+    if(evaluated&&JSON.stringify(answer)!==JSON.stringify(evaluated.actual))evaluated=null;
+    $('exportMusicXML').disabled=!evaluated;
     $('answerScore').innerHTML=N.score(answer,$('key').value,lang,false,$('meter').value);
     $('answerCount').textContent=compound()?(N.total(answer)*2)+' / '+(meter().total*2)+' · '+meterCopy.eighths:N.total(answer)+' '+L.beats;
     $('answerList').replaceChildren(...answer.map((event,i)=>element('li',description(event))));
@@ -26,7 +28,7 @@
     $('tie').disabled=!answer.length||answer[answer.length-1].note===null;if($('tie').disabled)$('tie').checked=false;
   }
   function fresh(newSeed=true){
-    P.stop();if(newSeed)exerciseSeed=N.seed(NaN);target=N.generate(exerciseSeed,$('key').value,$('level').value,$('meter').value,$('articulation').value==='ties');answer=[];heard=false;recorded=false;
+    P.stop();if(newSeed)exerciseSeed=N.seed(NaN);target=N.generate(exerciseSeed,$('key').value,$('level').value,$('meter').value,$('articulation').value==='ties');answer=[];heard=false;recorded=false;evaluated=null;
     practiceButtons=[];$('tie').checked=false;$('solution').hidden=true;$('feedback').textContent=L.resultNone;
     $('pitch').replaceChildren(option('rest',L.rest),...Array.from({length:25},(_,i)=>option(String(60+i),N.name(60+i,lang,$('key').value))));$('pitch').value=String(N.keys[$('key').value].root);
     $('keyboard').replaceChildren(...N.scale($('key').value).map(note=>{const b=element('button',N.name(note,lang,$('key').value));b.type='button';b.onclick=()=>{$('pitch').value=String(note);add()};return b}));
@@ -58,12 +60,13 @@
   $('hearAnswer').onclick=()=>{if(answer.length)play(answer)};
   $('add').onclick=add;$('undo').onclick=()=>{answer.pop();draw()};$('clear').onclick=()=>{answer=[];draw()};
   $('fresh').onclick=()=>fresh();['key','level','meter','articulation'].forEach(id=>$(id).onchange=()=>fresh());
-  $('tempo').onchange=()=>{P.stop();bpm();heard=false;tell(L.heardFirst)};
+  $('tempo').onchange=()=>{P.stop();bpm();heard=false;evaluated=null;$('exportMusicXML').disabled=true;tell(L.heardFirst)};
   $('evaluate').onclick=()=>{
     if(!heard)return tell(L.heardFirst);if(N.total(answer)!==meter().total)return tell(compound()?meterCopy.fill:L.fill);
     const result=N.evaluate(target,answer);$('solution').hidden=false;$('solutionScore').innerHTML=N.score(target,$('key').value,lang,false,$('meter').value);
     $('feedback').replaceChildren(element('p',L.result+': '+result.score+'% · '+L.pitch+': '+result.pitch+'% · '+L.rhythm+': '+result.rhythm+'%'),...result.details.map(row=>element('p',(compound()?meterCopy.position:L.beat)+' '+(row.beat*(compound()?2:1)+1)+' · '+(row.pitchOK&&row.rhythmOK?L.correct:L.incorrect)+' — '+L.expected+': '+description(row.expected)+' | '+L.yours+': '+(row.actual?description(row.actual):L.missing))),element('p',L.extra+': '+result.extra),element('p',L.guidance));
     practice(result);
+    evaluated={key:$('key').value,meter:$('meter').value,tempo:bpm(),seed:exerciseSeed,expected:target.map(e=>({...e})),actual:answer.map(e=>({...e}))};$('exportMusicXML').disabled=false;
     if(!recorded){recorded=true;const ok=window.WalamortProgress.save(['9/8','12/8'].includes($('meter').value)?'Dictado en pentagrama · '+$('meter').value:'Dictado en pentagrama',$('level').value,result.score);tell((ok?L.saved:L.notSaved)+' '+L.retry)}else tell(L.retry);
   };
   const tieCopy={
@@ -101,5 +104,7 @@
     $('feedback').append(panel);
   }
   $('copyExercise').onclick=async()=>{try{await navigator.clipboard.writeText($('exerciseLink').value);tell(L.copied)}catch{$('exerciseLink').focus();$('exerciseLink').select();tell(L.copyFallback)}};
+  $('exportMusicXML').onclick=()=>{if(!evaluated)return;const xml=window.WalamortDictationMusicXML.score(evaluated,lang);if(exportURL)URL.revokeObjectURL(exportURL);exportURL=URL.createObjectURL(new Blob([xml],{type:'application/vnd.recordare.musicxml+xml'}));const a=element('a');a.href=exportURL;a.download='walamort-dictation-'+evaluated.seed+'-'+evaluated.meter.replace('/','-')+'.musicxml';document.body.append(a);a.click();a.remove()};
+  window.addEventListener('pagehide',()=>{if(exportURL)URL.revokeObjectURL(exportURL)});
   fresh(false);
 })();
