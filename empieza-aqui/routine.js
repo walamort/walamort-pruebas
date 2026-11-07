@@ -1,0 +1,5 @@
+(function(root){'use strict';const goals=['learn','admission','create','produce'],times=[15,30,45,60],locales=['es','en','pt'];
+ const tools={learn:['lectura-musical/','teclado-midi/','mi-progreso/#midiClassPanel'],admission:['dictado-pentagrama/','lectura-primera-vista/','mi-progreso/'],create:['ejemplos-composicion/','estudio-creativo/','estudio-creativo/'],produce:['guia-produccion/#frequencyLab','produccion-musical/','guia-produccion/#journal']};
+ function plan(goal,minutes,lang){if(!goals.includes(goal)||!times.includes(minutes)||!locales.includes(lang))throw Error('plan');const prefix=lang==='es'?'':lang+'/';return {goal,minutes,lang,steps:tools[goal].map((tool,i)=>{const fallback=lang==='pt'&&['lectura-primera-vista/','estudio-creativo/','produccion-musical/'].includes(tool);return {index:i,minutes:minutes*(i===1?.6:.2),path:(fallback?'en/':prefix)+tool,fallback};})};}
+ const api={goals,times,locales,plan};if(typeof module==='object'&&module.exports)module.exports=api;else root.WalamortRoutine=api;
+})(typeof window==='object'?window:globalThis);

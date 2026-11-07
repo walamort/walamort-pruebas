@@ -97,3 +97,5 @@ Referencia sonora de repaso: escuchar por separado la nota esperada y la respues
 Guía de producción: explorador de frecuencias 40 Hz–10 kHz, seis referencias, escala logarítmica y tonos puros breves bajo activación explícita. ES/EN/PT-BR; relación introductoria con EQ, sin evaluación auditiva ni prescripción de mezcla.
 
 Entrenamiento introductorio de frecuencias: ronda manual de seis tonos, todas las referencias una vez en orden variable, repetición de escucha, primer intento y resumen. ES/EN/PT-BR. Sin guardar resultados ni presentarlo como evaluación de audición o competencia de mezcla; se permite comparar referencias.
+
+Rutinas por objetivo y tiempo: en Empieza aquí, 15/30/45/60 min para aprender, admisión, creación y producción. Tres bloques orientativos con enlaces verificados, marcas solo en memoria, TXT y enlace reproducible por parámetros permitidos. ES/EN/PT-BR con herramientas inglesas identificadas cuando corresponde. No altera las 16 sesiones ni evalúa automáticamente.
