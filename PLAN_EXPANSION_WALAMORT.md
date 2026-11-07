@@ -46,3 +46,5 @@ Estúdio criativo em português de Brasil: editor, desafios, observações, rasc
 Partitura MusicXML do estudo criativo: exportação de quatro compassos em duas pautas, preservando notas, pausas, tríades/sétimas/inversões, tempo e armadura; interface ES/EN/PT. Não inclui áudio, efeitos ou importação genérica de partituras.
 
 Revisão docente: filtro de código exato e resumo por código/turma/clave com contagem, média, mínimo/máximo e intervalo de datas declaradas; CSV filtrado. ES/EN/PT, sem contas ou persistência nova. As mesmas marcas de código permitem reunir sessões; não verifica identidade nem comprova progresso por si só.
+
+Dictados 9/8 e 12/8 em ES/EN/PT: duas barras, três/quatro pulsos de semínima pontuada, contagem inicial, notas/pausas/ligaduras, avaliação e revisão por compassos. Links conservam compasso e semente; sementes antigas 4/4 e 6/8 preservadas. Novos compassos registrados separadamente no histórico.
