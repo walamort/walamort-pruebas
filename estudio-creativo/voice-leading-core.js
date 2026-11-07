@@ -1,0 +1,7 @@
+(function(root){'use strict';const C=typeof module==='object'&&module.exports?require('./core.js'):root.WalamortCreative;
+ function movement(a,b){return b.map((n,i)=>n-a[i]);}
+ function cost(a,b){return movement(a,b).reduce((sum,n)=>sum+Math.abs(n),0);}
+ function candidates(key,degree){const values=[];for(let inversion=0;inversion<3;inversion++)for(const shift of [-24,-12,0,12,24]){const c=C.chord(key,degree,false,inversion),notes=c.notes.map(n=>n+shift);if(notes.every(n=>n>=48&&n<=84))values.push({degree,roman:c.roman,notes,inversion,shift});}return values;}
+ function compare(key){if(!Object.hasOwn(C.KEYS,key))throw Error('key');const degrees=[0,3,4,0],baseline=degrees.map(degree=>{const c=C.chord(key,degree,false,0);return {degree,roman:c.roman,notes:c.notes,inversion:0,shift:0};}),first=baseline[0];let best=null,bestCost=Infinity;for(const iv of candidates(key,3))for(const v of candidates(key,4)){const option=[first,iv,v,first],total=option.slice(1).reduce((sum,c,i)=>sum+cost(option[i].notes,c.notes),0);if(total<bestCost){bestCost=total;best=option;}}function result(chords){return {chords:chords.map((c,i)=>({...c,notes:[...c.notes],movement:i?movement(chords[i-1].notes,c.notes):[0,0,0]})),total:chords.slice(1).reduce((sum,c,i)=>sum+cost(chords[i].notes,c.notes),0)};}return {key,baseline:result(baseline),compact:result(best)};}
+ const api={movement,cost,candidates,compare};if(typeof module==='object'&&module.exports)module.exports=api;else root.WalamortVoiceLeading=api;
+})(typeof window==='object'?window:globalThis);
