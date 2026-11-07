@@ -93,3 +93,5 @@ Lectura MIDI (7 de noviembre): sesiones de diez preguntas con las nueve posicion
 Repaso de lectura: al terminar una sesión, las respuestas incorrectas se pueden practicar de nuevo con pantalla o MIDI, sin modificar puntuación ni informe. Controles junto al pentagrama; ES/EN/PT-BR. Prueba real en navegador con respuestas corregidas y resultado original conservado; teclado físico pendiente.
 
 Referencia sonora de repaso: escuchar por separado la nota esperada y la respuesta original mediante el timbre sintético elegido, activación explícita de audio y duración breve. No reproduce grabaciones del instrumento ni modifica respuestas/puntuación. ES/EN/PT-BR.
+
+Guía de producción: explorador de frecuencias 40 Hz–10 kHz, seis referencias, escala logarítmica y tonos puros breves bajo activación explícita. ES/EN/PT-BR; relación introductoria con EQ, sin evaluación auditiva ni prescripción de mezcla.
