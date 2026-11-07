@@ -107,3 +107,5 @@ Laboratório de harmonia em português de Brasil: nova página completa com nome
 Círculo de quintas em português de Brasil: escala, armadura, relativos, tríades, reprodução e referência HTML offline localizadas. Troca de idioma conserva tonalidade/modo; busca, menus, percurso e laboratório apontam à versão PT. Leitura e diapasão continuam em inglês neste acesso, com aviso.
 
 Estúdio criativo em português de Brasil: editor, desafios, observações, rascunho/JSON/MIDI e ficha localizados, projetos v1 compatíveis. Percursos, exemplos, laboratório harmônico e rotinas agora abrem o editor PT; produção continua em inglês com aviso. Validação de chaves de projeto e parâmetros rejeita nomes de protótipo.
+
+Partitura MusicXML do estudo criativo: exportação de quatro compassos em duas pautas, preservando notas, pausas, tríades/sétimas/inversões, tempo e armadura; interface ES/EN/PT. Não inclui áudio, efeitos ou importação genérica de partituras.

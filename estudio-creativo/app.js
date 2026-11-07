@@ -62,6 +62,7 @@
   $('save').onclick=()=>{try{localStorage.setItem(storage,JSON.stringify(C.validate(project)));tell(L.saved)}catch{tell(L.saveFailed)}};
   function download(data,type,extension){const blob=new Blob([data],{type}),url=URL.createObjectURL(blob),link=node('a');link.href=url;link.download=(project.title||'walamort').normalize('NFKD').replace(/[^a-zA-Z0-9_-]/g,'-').slice(0,60)+extension;document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);tell(L.downloaded)}
   $('json').onclick=()=>download(JSON.stringify(C.validate(project),null,2),'application/json','.json');
+  $('musicxml').onclick=()=>download(window.WalamortMusicXML.score(project,lang),'application/vnd.recordare.musicxml+xml','.musicxml');
   $('midi').onclick=()=>download(C.midi(project),'audio/midi','.mid');
   $('load').onchange=async()=>{const file=$('load').files[0];if(!file)return;try{if(file.size>65536)throw Error('size');const loaded=C.validate(JSON.parse(await file.text()));P.stop();remember();project=loaded;selected=0;render();tell(L.imported)}catch{tell(L.invalid)}finally{$('load').value=''}};
   $('clear').onclick=()=>{if(window.confirm(L.confirm)){change(()=>{project=C.blank();selected=0});tell(L.ready)}};
