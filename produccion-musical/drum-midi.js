@@ -4,8 +4,8 @@
   const s=C.settings(raw,true);if(!['pattern','arrangement'].includes(scope))throw Error('scope');
   const map=scope==='pattern'?{beats:4,cycles:[{beat:0,name:'pattern',repetition:0,index:0,drums:true,energy:1,groove:'inherit'}]}:C.timeline(s),hits=[],markers=[];
   for(const cycle of map.cycles){markers.push({tick:cycle.beat*ppq,text:cycle.name+' '+(cycle.index+1)+' / '+(cycle.repetition+1)});if(!cycle.drums||!cycle.energy||scope==='arrangement'&&s.composition&&!s.compositionDrums)continue;
-   const pattern=cycle.groove==='inherit'?s.pattern:C.pattern(cycle.groove),bars=scope==='pattern'?1:4;
-   for(let bar=0;bar<bars;bar++)for(let step=0;step<16;step++)for(const lane of C.lanes){const velocity=pattern[lane][step]*cycle.energy;if(!velocity)continue;hits.push({tick:Math.round((cycle.beat+bar*4+step/4+(step%2?s.swing/4:0))*ppq),note:notes[lane],velocity:Math.max(1,Math.round(velocity*100))});}
+   const chosen=C.rhythm(s,cycle),pattern=chosen.pattern,bars=scope==='pattern'?1:4;
+   for(let bar=0;bar<bars;bar++)for(let step=0;step<16;step++)for(const lane of C.lanes){const velocity=pattern[lane][step]*cycle.energy;if(!velocity)continue;hits.push({tick:Math.round((cycle.beat+bar*4+step/4+(step%2?chosen.swing/4:0))*ppq),note:notes[lane],velocity:Math.max(1,Math.round(velocity*100))});}
   }
   if(!hits.length)throw Error('empty');return {tempo:s.tempo,ticks:map.beats*ppq,bars:map.beats/4,hits,markers};
  }

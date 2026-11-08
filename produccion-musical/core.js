@@ -22,6 +22,10 @@
   function pattern(groove='rock'){const g=grooves[Object.hasOwn(grooves,groove)?groove:'rock'];return Object.fromEntries(lanes.map(lane=>[lane,hits(g[lane]).map((value,i)=>value&&g.soft?.[lane]?.includes(i)?0.5:value)]));}
   function delaySeconds(s){return s.delaySync==='free'?s.delayTime:60/s.tempo*({'quarter':1,'eighth':.5,'dotted':.75,'triplet':1/3}[s.delaySync]||.5);}
   function curve(drive){const a=10**(drive/20),n=4097,out=new Float32Array(n);for(let i=0;i<n;i++){const x=i/(n-1)*2-1;out[i]=drive===0?x:Math.tanh(a*x)/Math.tanh(a);}return out;}
+  const validPattern=p=>p&&typeof p==='object'&&lanes.every(l=>Array.isArray(p[l])&&p[l].length===16&&p[l].every(v=>typeof v==='number'&&Number.isFinite(v)&&v>=0&&v<=1));
+  const copyPattern=p=>Object.fromEntries(lanes.map(l=>[l,[...p[l]]]));
+  function validDrumOverride(x){const fields=['drumPattern','drumSwing','drumName'];if(fields.every(k=>x[k]===undefined))return true;return validPattern(x.drumPattern)&&typeof x.drumSwing==='number'&&Number.isFinite(x.drumSwing)&&x.drumSwing>=0&&x.drumSwing<=.6&&typeof x.drumName==='string'&&x.drumName.trim().length>0&&x.drumName.length<=60&&!/[\u0000-\u001f\u007f]/.test(x.drumName);}
+  function rhythm(s,section){return {pattern:section.drumPattern|| (section.groove==='inherit'?s.pattern:pattern(section.groove)),swing:section.drumPattern?section.drumSwing:s.swing};}
   function settings(input={},strict=false){
     if(!input||typeof input!=='object'||Array.isArray(input))throw Error('settings');
     const out={};for(const [key,[min,max,fallback]] of Object.entries(ranges)){
@@ -36,9 +40,9 @@
     for(const [key,allowed,fallback] of [['soundMode',['samples','synth'],'samples'],['keysBank',bankIds,'piano'],['bassBank',bankIds,'bass-electric'],['scaleMode',['major','minor'],'major'],['backingStyle',['arpeggio','block','pad','random'],'arpeggio'],['spatial',['stereo','binaural'],'stereo'],['fileMode',['clip','instrument'],'clip']]){if(strict&&input[key]!==undefined&&!allowed.includes(input[key]))throw Error(key);out[key]=allowed.includes(input[key])?input[key]:fallback;}
     if(strict&&input.key!==undefined&&(!Number.isInteger(input.key)||input.key<0||input.key>11))throw Error('key');out.key=Number.isInteger(input.key)&&input.key>=0&&input.key<=11?input.key:0;
     if(strict&&input.chords!==undefined&&(!Array.isArray(input.chords)||input.chords.length!==4||input.chords.some(v=>!Number.isInteger(v)||v<0||v>6)))throw Error('chords');out.chords=Array.isArray(input.chords)&&input.chords.length===4&&input.chords.every(v=>Number.isInteger(v)&&v>=0&&v<=6)?[...input.chords]:[0,5,3,4];
-    const validSection=x=>x&&typeof x==='object'&&!Array.isArray(x)&&['intro','verse','chorus','bridge','outro'].includes(x.name)&&Number.isInteger(x.repeats)&&x.repeats>=1&&x.repeats<=4&&['inherit',...Object.keys(grooves)].includes(x.groove)&&typeof x.energy==='number'&&Number.isFinite(x.energy)&&x.energy>=0&&x.energy<=1&&['drums','bass','keys'].every(k=>typeof x[k]==='boolean')&&Array.isArray(x.chords)&&x.chords.length===4&&x.chords.every(n=>Number.isInteger(n)&&n>=0&&n<=6);
+    const validSection=x=>x&&typeof x==='object'&&!Array.isArray(x)&&validDrumOverride(x)&&['intro','verse','chorus','bridge','outro'].includes(x.name)&&Number.isInteger(x.repeats)&&x.repeats>=1&&x.repeats<=4&&['inherit',...Object.keys(grooves)].includes(x.groove)&&typeof x.energy==='number'&&Number.isFinite(x.energy)&&x.energy>=0&&x.energy<=1&&['drums','bass','keys'].every(k=>typeof x[k]==='boolean')&&Array.isArray(x.chords)&&x.chords.length===4&&x.chords.every(n=>Number.isInteger(n)&&n>=0&&n<=6);
     const arrangement=input.arrangement===undefined?[]:input.arrangement,valid=Array.isArray(arrangement)&&arrangement.length<=4&&arrangement.every(validSection)&&arrangement.reduce((n,x)=>n+x.repeats,0)<=4;
-    if(strict&&!valid)throw Error('arrangement');out.arrangement=valid?arrangement.map(x=>({name:x.name,repeats:x.repeats,groove:x.groove,energy:x.energy,drums:x.drums,bass:x.bass,keys:x.keys,chords:[...x.chords]})):[];
+    if(strict&&!valid)throw Error('arrangement');out.arrangement=valid?arrangement.map(x=>({name:x.name,repeats:x.repeats,groove:x.groove,energy:x.energy,drums:x.drums,bass:x.bass,keys:x.keys,chords:[...x.chords],...(x.drumPattern?{drumPattern:copyPattern(x.drumPattern),drumSwing:x.drumSwing,drumName:x.drumName}:{})})):[];
     out.composition=null;if(input.composition!==undefined&&input.composition!==null){try{out.composition=creative.validate(input.composition);}catch{if(strict)throw Error('composition');}}if(out.composition&&out.arrangement.length){if(strict)throw Error('composition-arrangement');out.arrangement=[];}
     out.pattern=pattern(out.groove);
     if(input.pattern!==undefined){if(!input.pattern||typeof input.pattern!=='object'||lanes.some(l=>!Array.isArray(input.pattern[l])||input.pattern[l].length!==16||input.pattern[l].some(v=>typeof v!=='number'||!Number.isFinite(v)||v<0||v>1))){if(strict)throw Error('pattern');}else out.pattern=Object.fromEntries(lanes.map(l=>[l,[...input.pattern[l]]]));}
@@ -58,8 +62,8 @@
     const noise=random(9123),freq=m=>440*2**((m-69)/12);
     function add(track,start,seconds,fn){const from=Math.round(start*sampleRate),n=Math.min(Math.round(seconds*sampleRate),length-from);for(let j=0;j<n;j++)track[from+j]+=fn(j/sampleRate,j/n);}
     for(const cycle of timeline(s).cycles)for(let bar=0;bar<4;bar++)for(let step=0;step<16;step++){
-      if(!cycle.drums||(s.composition&&!s.compositionDrums))continue;const selected=cycle.groove==='inherit'?s.pattern:pattern(cycle.groove);
-      const start=(cycle.beat+bar*4+step/4+(step%2?s.swing/4:0))*beat;
+      if(!cycle.drums||(s.composition&&!s.compositionDrums))continue;const chosen=rhythm(s,cycle),selected=chosen.pattern;
+      const start=(cycle.beat+bar*4+step/4+(step%2?chosen.swing/4:0))*beat;
       for(const lane of lanes){const velocity=selected[lane][step]*cycle.energy;if(!velocity)continue;
         if(lane==='kick')add(tracks.drums,start,.25,t=>velocity*.55*Math.sin(2*Math.PI*(48*t+75*.035*(1-Math.exp(-t/.035))))*Math.exp(-t*22));
         if(lane==='snare')add(tracks.drums,start,.16,t=>velocity*(noise()*.18+Math.sin(2*Math.PI*180*t)*.07)*Math.exp(-t*30));
@@ -81,5 +85,5 @@
   }
   function spatialPoint(az,elevation,distance){const a=az*Math.PI/180,e=elevation*Math.PI/180;return [Math.sin(a)*Math.cos(e)*distance,Math.sin(e)*distance,-Math.cos(a)*Math.cos(e)*distance];}
   function surroundGains(az){const speakers=[[-110,4],[-30,0],[0,2],[30,1],[110,5]],a=((az+180)%360+360)%360-180;for(let i=0;i<speakers.length;i++){const left=speakers[i],right=i===speakers.length-1?[speakers[0][0]+360,speakers[0][1]]:speakers[i+1],angle=a<left[0]?a+360:a;if(angle>=left[0]&&angle<=right[0]){const t=(angle-left[0])/(right[0]-left[0]),g=Array(6).fill(0);g[left[1]]=Math.cos(t*Math.PI/2);g[right[1]]=Math.sin(t*Math.PI/2);return g;}}throw Error('azimuth');}
-  const api={ranges,patches,bankIds,flags,lanes,grooves,pattern,delaySeconds,curve,settings,project,preset,random,harmony,timeline,plan,variation,drumVariation,synth,impulse,metrics,wav,spatialPoint,surroundGains};if(typeof module==='object'&&module.exports)module.exports=api;else root.WalamortProduction=api;
+  const api={ranges,patches,bankIds,flags,lanes,grooves,pattern,delaySeconds,curve,settings,project,preset,random,harmony,timeline,plan,variation,drumVariation,rhythm,synth,impulse,metrics,wav,spatialPoint,surroundGains};if(typeof module==='object'&&module.exports)module.exports=api;else root.WalamortProduction=api;
 })(typeof window==='object'?window:this);
