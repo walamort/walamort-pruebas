@@ -1,0 +1,7 @@
+(function(){'use strict';const N=window.WalamortLabNavigation,$=id=>document.getElementById(id),lang=document.documentElement.lang==='en'?'en':'es',panel=$('labTools'),items=[...$('labToolList').children];
+ function filter(){const ids=new Set(N.search($('labToolQuery').value,$('labToolCategory').value,lang));for(const item of items)item.hidden=!ids.has(item.dataset.labTool);$('labToolCount').textContent=ids.size+(lang==='en'?(ids.size===1?' tool':' tools'):(ids.size===1?' herramienta':' herramientas'));$('labToolEmpty').hidden=ids.size>0;}
+ function reveal(id){if(!N.entries.some(e=>e.id===id))return;const target=$(id);if(!target)return;for(let parent=target;parent;parent=parent.parentElement)if(parent.tagName==='DETAILS')parent.open=true;if(!['INPUT','SELECT','BUTTON','A'].includes(target.tagName))target.setAttribute('tabindex','-1');target.focus({preventScroll:true});}
+ $('labToolQuery').oninput=filter;$('labToolCategory').onchange=filter;$('labToolQuery').onkeydown=event=>{if(event.key==='Escape'){$('labToolQuery').value='';filter();}};
+ $('labToolsJump').onclick=()=>{panel.open=true;$('labToolQuery').focus({preventScroll:true});};for(const item of items)item.querySelector('a').addEventListener('click',()=>reveal(item.dataset.labTool));
+ window.addEventListener('hashchange',()=>{if(window.location.hash==='#labTools')panel.open=true;else reveal(window.location.hash.slice(1));});if(window.location.hash==='#labTools')panel.open=true;else reveal(window.location.hash.slice(1));$('labToolFilters').hidden=false;filter();
+})();
