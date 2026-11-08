@@ -30,10 +30,10 @@ for(const file of ['produccion-musical/index.html','en/produccion-musical/index.
 assert(!fs.readdirSync('descargas').some(n=>n==='Walamort-Produccion-Cuaderno-01-Piloto.pdf'));
 console.log('PASS: strict project bounds, deterministic stems/timbres, impulse rates, PCM encoding/clipping, live/offline graph controls, imported single source, cleanup, bilingual assets and private full workbook.');
 
-const rhythmHashes=Object.keys(core.grooves).map(groove=>Buffer.from(core.synth({groove,pattern:core.pattern(groove)}).tracks.drums.buffer).toString('base64'));assert.equal(new Set(rhythmHashes).size,6);
+const rhythmHashes=Object.keys(core.grooves).map(groove=>Buffer.from(core.synth({groove,pattern:core.pattern(groove)}).tracks.drums.buffer).toString('base64'));assert.equal(new Set(rhythmHashes).size,12);
 for(const bad of [{pattern:{kick:[]}},{groove:'unknown'},{solo:'everything'},{delaySync:'never'},{width:2},{drive:100}])assert.throws(()=>core.project({kind:'walamort-production',version:1,settings:bad}));
 const silent=Object.fromEntries(core.lanes.map(l=>[l,Array(16).fill(0)]));assert.equal(core.metrics([core.synth({pattern:silent}).tracks.drums]).peak,0);
-assert.equal(core.delaySeconds(core.settings({tempo:120,delaySync:'quarter'})),.5);assert.equal(core.delaySeconds(core.settings({tempo:60,delaySync:'quarter'})),1);const curve=core.curve(12);assert(curve.every(x=>Number.isFinite(x)&&Math.abs(x)<=1));assert.equal(curve[Math.floor(curve.length/2)],0);console.log('PASS: six distinct grooves, empty sequencer, pattern/enumeration bounds, synchronized delay and bounded saturation.');
+assert.equal(core.delaySeconds(core.settings({tempo:120,delaySync:'quarter'})),.5);assert.equal(core.delaySeconds(core.settings({tempo:60,delaySync:'quarter'})),1);const curve=core.curve(12);assert(curve.every(x=>Number.isFinite(x)&&Math.abs(x)<=1));assert.equal(curve[Math.floor(curve.length/2)],0);console.log('PASS: twelve distinct grooves, empty sequencer, pattern/enumeration bounds, synchronized delay and bounded saturation.');
 
 for(const [width,expected] of [[0,[.5,.5]],[1,[1,0]],[1.5,[1.25,-.25]]]){
  const {ctx,nodes}=mockContext(48000),g=scope.window.WalamortProductionAudio.graph(ctx,core.settings({width})),merge=nodes.find(n=>n.name==='createChannelMerger'&&n.edges[0]?.name==='createStereoPanner'),split=nodes.find(n=>n.name==='createChannelSplitter'&&n.routes.some(r=>r.to.routes?.some(o=>o.to===merge))),output=[0,0];
