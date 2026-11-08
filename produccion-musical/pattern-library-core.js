@@ -7,5 +7,6 @@
  function add(raw,label,state){const library=validate(raw);if(library.patterns.length>=maxItems)throw Error('full');return validate({...library,patterns:[...library.patterns,record({...C.settings(state,true),name:label})]});}
  function merge(raw,incoming){const library=validate(raw),other=validate(incoming),names=new Set(library.patterns.map(p=>p.name.toLowerCase())),fresh=other.patterns.filter(p=>!names.has(p.name.toLowerCase()));return {library:validate({...library,patterns:[...library.patterns,...fresh]}),added:fresh.length,skipped:other.patterns.length-fresh.length};}
  function apply(raw,current,tempo=false){const p=record(raw),state=C.settings(current,true);return C.settings({...state,groove:p.groove,pattern:p.pattern,swing:p.swing,seed:p.seed,...(tempo?{tempo:p.tempo}:{})},true);}
- const api={maxItems,maxBytes,blank,validate,add,merge,apply};if(typeof module==='object'&&module.exports)module.exports=api;else root.WalamortPatternLibrary=api;
+ function applyToSection(raw,current,index){const p=record(raw),s=C.settings(current,true);if(!Number.isInteger(index)||index<0||index>=s.arrangement.length)throw Error('section');s.arrangement[index]={...s.arrangement[index],drumName:p.name,drumPattern:p.pattern,drumSwing:p.swing};return C.settings(s,true);}
+ const api={maxItems,maxBytes,blank,validate,add,merge,apply,applyToSection};if(typeof module==='object'&&module.exports)module.exports=api;else root.WalamortPatternLibrary=api;
 })(typeof window==='object'?window:globalThis);
