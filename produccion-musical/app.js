@@ -55,7 +55,7 @@
   document.addEventListener('visibilitychange',()=>{if(document.hidden)stop(false);});window.addEventListener('pagehide',()=>{stop(false);invalidateWav();if(context)context.close().catch(()=>{});context=null;});
 
   window.WalamortProductionApp={
-    getSourceRevision:()=>sourceRevision,getBypass:()=>bypass,
+    getClipDuration:()=>imported?imported.duration:null,getSourceRevision:()=>sourceRevision,getBypass:()=>bypass,
     setComparisonGain(value){comparisonGain=Number.isFinite(value)?Math.max(0,Math.min(1,value)):1;if(graph)graph.setComparisonGain(comparisonGain);},
     getState:()=>core.settings(state),getAudioSource:()=>originalAudio?{audio:originalAudio,label:originalLabel,identity:originalIdentity?{...originalIdentity}:null,range:{...trimRange},workingBytes:workingBytes()}:null,applyTrim,applyRegions,isBusy:()=>busy,hasAudio:()=>Boolean(imported),isPlaying:()=>playing,
     stop:()=>stop(false),notice,sourceData,
