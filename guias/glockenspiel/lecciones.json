@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "Basico",
+    "title": "Primeras melodías",
+    "subtitle": "Método básico de glockenspiel",
+    "goal": "Orientarte, alternar dos manos y tocar una melodía sencilla con pulso estable.",
+    "lessons": [
+      [
+        "1. Conoce tu instrumento",
+        "El glockenspiel produce su sonido con láminas metálicas. No es un xilófono de madera. En el instrumento cromático, la fila inferior reúne las notas naturales y la superior contiene los sostenidos y bemoles, como las dos filas del piano. Observa los grupos de dos y tres alteraciones para orientarte. En el simulador las etiquetas nombran la altura que suena: Do5 a Do7. No necesitas tocar fuerte para obtener un sonido claro.",
+        "Localiza Do5, Re5 y Mi5 sin tocar todavía. Después toca cada una una vez y deja que termine su resonancia. Repite con Fa5 y Sol5.",
+        "Do5 – Re5 – Mi5 – Re5 | Do5 – silencio – Do5 – silencio",
+        "Una nota o un silencio por pulso. Cuenta 1, 2, 3, 4 por cada grupo.",
+        "¿Qué material distingue al glockenspiel del xilófono? Respuesta: las láminas metálicas. Encuentra Do mirando el espacio anterior al grupo de dos alteraciones."
+      ],
+      [
+        "2. Dos manos, un movimiento cómodo",
+        "En un instrumento físico, sujeta las baquetas con comodidad y permite que la cabeza rebote después del golpe. Mantén las muñecas libres y toca suavemente cerca de la zona central de la lámina, sin golpear los apoyos. D significa derecha e I significa izquierda. Primero busca un sonido regular; la velocidad viene después. En pantalla puedes alternar dos dedos, aunque esto no reproduce la técnica de baquetas.",
+        "Toca ocho veces Do5: D I D I D I D I. Luego mueve ambas manos a Re5. Repite tres veces a 60 BPM. Descansa entre repeticiones y escucha si todos los ataques son parecidos.",
+        "Do5 Do5 Re5 Re5 | Mi5 Mi5 Re5 Re5",
+        "Cuenta cuatro pulsos por grupo; alterna D I D I.",
+        "Haz una repetición empezando con I. Debe conservar el mismo orden de notas. No aprietes para compensar una nota que sale más débil."
+      ],
+      [
+        "3. El silencio también se toca",
+        "Un pulso es una referencia regular. Una negra ocupa un pulso en el 4/4 usado aquí. Un silencio de negra ocupa el mismo tiempo, sin un ataque nuevo. Dejar de golpear no apaga automáticamente una lámina: puede seguir resonando. Diferencia el silencio escrito de la extinción del sonido. El botón Detener corta la síntesis; no simula una técnica de apagado con la mano.",
+        "A 60 BPM, cuenta dos compases en voz alta. Toca solo en 1 y 3. Después toca en 1, 2 y 4. Mantén la cuenta durante los silencios.",
+        "Do5 silencio Mi5 silencio | Re5 Re5 silencio Do5",
+        "Cada palabra o nota ocupa un pulso. No acortes el compás para evitar esperar.",
+        "¿Cuánto dura cada compás? Cuatro pulsos. ¿Cuántos ataques tiene el primero? Dos."
+      ],
+      [
+        "4. Tu primera frase",
+        "Una frase puede tener una pequeña pregunta y una respuesta. La primera parte puede quedarse abierta; la segunda puede regresar a Do. Toca sin correr al acercarte al final. Antes de usar el modo Practicar, lee los nombres una vez. Ese modo verifica el orden, pero no mide tu ritmo, postura o calidad de sonido.",
+        "Toca la siguiente frase tres veces: primero leyendo, luego mirando las láminas y finalmente con los nombres ocultos. Si te equivocas, trabaja solo el grupo que te cuesta.",
+        "Do5 Re5 Mi5 Sol5 | Fa5 Mi5 Re5 Do5",
+        "Una negra por nota a 60–72 BPM. Repite sin añadir golpes al final.",
+        "Puedes pasar al nivel intermedio cuando completes tres repeticiones cómodas, conservando cuatro pulsos por compás y explicando dónde están los silencios."
+      ]
+    ]
+  },
+  {
+    "slug": "Intermedio",
+    "title": "Escalas, saltos y frases",
+    "subtitle": "Método intermedio de glockenspiel",
+    "goal": "Relacionar escalas e intervalos, leer subdivisiones y construir frases propias.",
+    "lessons": [
+      [
+        "1. La escala como mapa",
+        "En Do mayor usas Do, Re, Mi, Fa, Sol, La y Si. Los pasos Mi–Fa y Si–Do son semitonos; los demás pasos consecutivos de esa escala son tonos. Una escala es un mapa de relaciones, no solo una carrera de notas. El sostenido sube un semitono. En el teclado cromático Do sostenido y Re bemol comparten altura en la afinación temperada del simulador.",
+        "Sube Do5–Do6 y baja. Luego toca únicamente Mi5–Fa5 y Si5–Do6. Compara la cercanía de esos pares con Do5–Re5.",
+        "Do5 Re5 Mi5 Fa5 | Sol5 La5 Si5 Do6",
+        "Una negra por nota, 60 BPM. Baja repitiendo el orden inverso.",
+        "¿Cuántos sonidos cromáticos diferentes hay antes de volver al siguiente Do? Doce. ¿Qué nota está entre Do y Re? Do sostenido, también Re bemol."
+      ],
+      [
+        "2. Saltos con un punto de llegada",
+        "Para tocar un salto con seguridad, mira la nota de llegada antes de mover la baqueta. Una tercera abarca tres nombres de nota contando origen y destino: Do–Mi. No confundas los nombres contados con la cantidad de semitonos. Alterna las manos y busca recorridos cómodos; adapta la mano inicial si una repetición te obliga a cruzarlas.",
+        "Practica cada pareja cuatro veces: Do5–Mi5, Re5–Fa5, Mi5–Sol5. Después une las parejas. Mantén un pulso lento y una altura de golpe similar.",
+        "Do5 Mi5 Re5 Fa5 | Mi5 Sol5 Fa5 La5",
+        "Una negra por nota. Comienza a 60 BPM y sube solo después de tres repeticiones limpias.",
+        "Señala las terceras del ejercicio. Cuenta nombres: Re–Mi–Fa es una tercera aunque su distancia en semitonos no sea igual a Do–Mi."
+      ],
+      [
+        "3. Dos corcheas dentro de un pulso",
+        "Dos corcheas iguales ocupan un pulso de negra. Puedes decir «1 y 2 y 3 y 4 y». La primera sílaba marca el pulso; «y» cae a mitad de camino. La negra con puntillo dura un pulso y medio. Una corchea añadida completa los dos pulsos. No uses el rebote como excusa para perder la subdivisión.",
+        "Toca ocho corcheas en Do5 contando 1 y 2 y 3 y 4 y. Luego usa las notas de la primera línea. Para el puntillo, cuenta tres mitades sostenidas y coloca Re en la cuarta mitad.",
+        "Corcheas: Do5 Re5 Mi5 Re5 Do5 Re5 Mi5 Sol5 | Puntillo: Do5 (1,5 pulsos) Re5 (0,5) Mi5 (1) silencio (1)",
+        "Trabaja cada compás por separado a 60 BPM. Ambos suman cuatro pulsos.",
+        "Suma el segundo compás: 1,5 + 0,5 + 1 + 1 = 4. El modo de orden de notas no comprueba estas duraciones: cuéntalas tú."
+      ],
+      [
+        "4. Pregunta, respuesta y dinámica",
+        "La dinámica es el grado de intensidad. Una frase puede crecer hacia una nota importante y después relajarse. En el instrumento físico explora diferencias con movimientos controlados; el volumen global del simulador cambia toda la salida y no equivale a controlar cada golpe. Grábate con una herramienta externa si quieres revisar el resultado físico.",
+        "Escribe una pregunta de cuatro negras que termine en Sol5 y una respuesta que termine en Do5. Usa como máximo cinco notas diferentes. Toca la respuesta un poco más suave.",
+        "Pregunta: Do5 Mi5 Re5 Sol5 | Respuesta: Fa5 Mi5 Re5 Do5",
+        "Dos compases de 4/4. Escucha dónde respira la frase y repite con un silencio en el último pulso de la pregunta.",
+        "Describe qué cambiaste entre pregunta y respuesta. Comprueba que tu versión conserva cuatro pulsos por compás antes de aumentar el tempo."
+      ]
+    ]
+  },
+  {
+    "slug": "Avanzado",
+    "title": "Color, variación e improvisación",
+    "subtitle": "Método avanzado de glockenspiel",
+    "goal": "Organizar arpegios, transformar motivos y diseñar una miniatura original de ocho compases.",
+    "lessons": [
+      [
+        "1. Escuchar la armonía sin tocar todo",
+        "Un arpegio presenta las notas de un acorde sucesivamente. Do mayor contiene Do, Mi y Sol; La menor, La, Do y Mi. Añadir Si a Do mayor forma una séptima mayor: Do–Mi–Sol–Si. El brillo y la larga resonancia del glockenspiel pueden acumular sonidos; la densidad debe ser una decisión, no un accidente. Empieza con pocas notas antes de añadir adornos.",
+        "Alterna un compás de Do mayor y otro de La menor. Mantén cuatro negras por compás y termina cada uno en una nota del acorde. Después deja un silencio en el cuarto pulso.",
+        "Do5 Mi5 Sol5 Mi5 | La5 Do6 Mi6 Do6",
+        "Arpegios ascendentes y regreso. No confundas La menor con La mayor: aquí se usa Do natural.",
+        "Nombra las tres notas de cada acorde sin mirar. Diseña otra distribución de esas mismas notas y explica por qué sigue siendo el mismo acorde."
+      ],
+      [
+        "2. Un motivo, tres transformaciones",
+        "Un motivo es una idea breve reconocible. Puedes repetirlo, desplazar su ritmo o cambiar su dirección. Una variación debe conservar alguna característica para que el oyente reconozca la relación. Transponer significa conservar las distancias al comenzar desde otra altura. Al llevar una idea de Do mayor a Sol mayor puede aparecer Fa sostenido.",
+        "Usa Do5–Re5–Mi5–Sol5. Primero repítelo una octava arriba. Luego cambia las dos primeras negras por dos corcheas y un silencio de negra. Por último invierte el recorrido como ejercicio de dirección, sin llamarlo una transposición exacta.",
+        "Original: Do5 Re5 Mi5 Sol5 | En Sol mayor: Sol5 La5 Si5 Re6",
+        "Una negra por nota en la transposición. Comprueba que ambas frases conservan los mismos saltos.",
+        "Original: tono, tono y tercera menor. Transposición: Sol–La, La–Si y Si–Re conservan esas distancias. Una inversión del contorno es una transformación diferente."
+      ],
+      [
+        "3. Improvisar con restricciones útiles",
+        "Improvisar no exige usar todas las notas. Una restricción reduce decisiones y permite escuchar. Empieza con Do, Re, Mi, Sol y La: una colección pentatónica mayor. Elige una nota de llegada y deja silencios para dar espacio a la resonancia. El instrumento virtual permite ensayar alturas; no decide si una improvisación es expresiva.",
+        "Improvisa cuatro compases usando solo Do5, Re5, Mi5, Sol5 y La5. En el primero usa dos ataques; en el segundo, cuatro; en el tercero, una figura repetida; en el cuarto, termina en Do.",
+        "Plan: 2 ataques | 4 ataques | motivo repetido | llegada a Do5",
+        "Mantén cuatro pulsos por compás. Después repite la idea cambiando solo un elemento.",
+        "¿Se reconoce una idea que vuelve? ¿Hay un final? Anota qué elegiste conservar. No evalúes una toma solo por la cantidad de notas."
+      ],
+      [
+        "4. Diseña una miniatura de ocho compases",
+        "Una forma A–A–B–A puede construirse con cuatro frases de dos compases. A presenta la idea; su repetición puede cambiar la dinámica. B contrasta en registro o ritmo. El último A recupera la identidad y cierra. La notación orquestal del glockenspiel suele sonar dos octavas por encima de lo escrito: este cuaderno usa nombres de altura real del simulador para evitar mezclar convenciones.",
+        "Escribe ocho compases. Compases 1–2: motivo. 3–4: repetición con un cambio. 5–6: contraste. 7–8: regreso y final. Cuenta primero sin tocar y luego ensaya cada frase por separado.",
+        "A: Do5 Mi5 Re5 Sol5 | Fa5 Mi5 Re5 Do5. Usa esta idea solo como punto de partida; crea B y tu propio cierre.",
+        "Empieza a 60 BPM. Si aparece un error, vuelve a un fragmento de dos pulsos y reconstrúyelo.",
+        "Presenta tu miniatura y explica su forma. Revisa duración de los compases, intención de las dinámicas, claridad del motivo y comodidad del movimiento. Este nivel no sustituye una revisión técnica con profesor."
+      ]
+    ]
+  }
+]

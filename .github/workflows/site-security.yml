@@ -15,3 +15,4 @@ jobs:
       - run: python3 scripts/security-policy.py --check
       - run: python3 scripts/site-integrity.py
       - run: node tests/security.cjs
+      - run: node tests/glockenspiel.cjs
