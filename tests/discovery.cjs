@@ -4,7 +4,7 @@ const scope={window:{WalamortDiscoveryCatalog:catalog}};vm.createContext(scope);
 for(const [query,lang] of [['ligaduras','es'],['ties','en'],['ligaduras','pt'],['6/8','es']])assert(api.search(query,'all',lang).some(e=>e.path==='dictado-pentagrama/'));
 assert(api.search('regiones').some(e=>e.path==='produccion-musical/'));assert(api.search('montage','all','en').some(e=>e.path==='produccion-musical/'));
 assert(api.search('RMS').some(e=>e.path==='produccion-musical/'));
-assert.equal(catalog.length,59);assert.equal(api.search('').length,59);
+assert.equal(catalog.length,61);assert.equal(api.search('').length,61);
 assert.equal(api.search('diapason')[0].path,'diapason/');assert.equal(api.search('DIAPASÓN')[0].path,'diapason/');assert.equal(api.search('fretboard','all','en')[0].english,'en/diapason/');
 assert.equal(api.search('dictado melodico')[0].path,'dictado-melodico/');assert.equal(api.search('grabar')[0].path,'produccion-musical/');assert.equal(api.search('5.1')[0].path,'produccion-musical/#spatialPanel');
 assert(api.search('','estudio').every(e=>e.group==='estudio'));assert.equal(api.search('qwertyxyz').length,0);assert.equal(api.search('<img onerror=alert(1)>').length,0);
@@ -17,6 +17,8 @@ for(const file of files){const html=fs.readFileSync(file,'utf8');if(!html.includ
  for(const match of nav.matchAll(/href="([^"]*)"/g)){const [url,fragment]=match[1].split('#');let target=path.resolve(path.dirname(file),url);if(fs.existsSync(target)&&fs.statSync(target).isDirectory())target=path.join(target,'index.html');assert(fs.existsSync(target),'Missing '+target);if(fragment)assert(new RegExp('id=["\']'+fragment+'["\']').test(fs.readFileSync(target,'utf8')),'Missing anchor '+match[1]);}
  for(const match of html.matchAll(/(?:src|href)="([^"]*(?:discovery\/|portfolio-v2\/)[^"]*)"/g)){const clean=match[1].split('?')[0],target=path.resolve(path.dirname(file),clean);assert(fs.existsSync(target),'Missing asset '+target);if(clean.endsWith('.webp'))images.add(path.basename(clean).replace(/-1280\.webp$/,''));}
 }
-assert.equal(surfaces,88);assert(images.size>=10);const fresh=JSON.parse(read('assets/editorial/portfolio-v3/manifest.json'));assert.equal(fresh.length,10);for(const entry of fresh){for(const variant of entry.variants)assert(fs.existsSync(path.join(root,'assets/editorial/portfolio-v3',variant.file)));assert(files.some(file=>fs.readFileSync(file,'utf8').includes('portfolio-v3/'+entry.id+'-1280.webp')),'Unused new scene '+entry.id);}
+assert.equal(surfaces,97);assert(images.size>=10);const fresh=JSON.parse(read('assets/editorial/portfolio-v3/manifest.json'));assert.equal(fresh.length,10);for(const entry of fresh){for(const variant of entry.variants)assert(fs.existsSync(path.join(root,'assets/editorial/portfolio-v3',variant.file)));assert(files.some(file=>fs.readFileSync(file,'utf8').includes('portfolio-v3/'+entry.id+'-1280.webp')),'Unused new scene '+entry.id);}
 for(const entry of catalog){let target=path.join(root,entry.path.split('#')[0]);if(fs.statSync(target).isDirectory())target=path.join(target,'index.html');assert(fs.existsSync(target));if(entry.english)assert(fs.existsSync(path.join(root,entry.english.split('#')[0],'index.html')));}
-console.log('PASS: accented/bilingual/category search, safe empty states, 59 destinations, 88 six-menu surfaces, deep links, language fallbacks and responsive editorial assets.');
+console.log('PASS: accented/bilingual/category search, safe empty states, 61 destinations, 97 six-menu surfaces, deep links, language fallbacks and responsive editorial assets.');
+
+assert(api.search('glokenspiel').some(e=>e.path==='instrumentos/glockenspiel/studio/'));assert(api.search('glockenspiel metodo').some(e=>e.path==='guias/glockenspiel/'));

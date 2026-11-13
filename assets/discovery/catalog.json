@@ -1178,5 +1178,45 @@
       "description": "Reúna relatórios por arquivo, atribua códigos e revise confusões de notas sem contas."
     },
     "tags": "docente profesor teacher classroom MIDI resultados informes clase class review errors lectura reading leitura professor relatorios turma erros CSV notas note confusion"
+  },
+  {
+    "id": "59",
+    "group": "instrumentos",
+    "path": "instrumentos/glockenspiel/studio/",
+    "english": "en/instrumentos/glockenspiel/studio/",
+    "portuguese": "pt/instrumentos/glockenspiel/studio/",
+    "es": {
+      "title": "Glockenspiel virtual",
+      "description": "Instrumento de láminas metálicas, ejercicios y métodos originales."
+    },
+    "en": {
+      "title": "Virtual glockenspiel",
+      "description": "Metal-bar instrument, exercises and original methods."
+    },
+    "pt": {
+      "title": "Glockenspiel virtual",
+      "description": "Instrumento de lâminas metálicas, exercícios e métodos originais."
+    },
+    "tags": "glockenspiel glokenspiel metalofono metalofone bells laminas baquetas mallets chromatic cromatico"
+  },
+  {
+    "id": "60",
+    "group": "academia",
+    "path": "guias/glockenspiel/",
+    "english": "en/guias/glockenspiel/",
+    "portuguese": "pt/guias/glockenspiel/",
+    "es": {
+      "title": "Métodos de glockenspiel",
+      "description": "Instrumento de láminas metálicas, ejercicios y métodos originales."
+    },
+    "en": {
+      "title": "Glockenspiel methods",
+      "description": "Metal-bar instrument, exercises and original methods."
+    },
+    "pt": {
+      "title": "Métodos de glockenspiel",
+      "description": "Instrumento de lâminas metálicas, exercícios e métodos originais."
+    },
+    "tags": "glockenspiel glokenspiel metodo basico intermedio avanzado pdf guia caderno workbook"
   }
 ]
