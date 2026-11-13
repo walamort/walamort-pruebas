@@ -1,0 +1,33 @@
+{
+  "name": "VSCO 2 Community Edition \u00b7 Glock",
+  "license": "CC0-1.0",
+  "source": "https://github.com/sgossner/VSCO-2-CE/tree/master/Percussion/Glock",
+  "credits": "Versilian Studios / Sam Gossner; VSCO 2 CE",
+  "notes": "Original filenames use an octave convention different from MIDI scientific pitch notation. Root frequencies measured from the recording; playback retuned to A4=440 Hz. Four original stereo samples mapped across 25 pitches, not 25 separately recorded notes.",
+  "samples": [
+    {
+      "file": "glock_medium_G4.wav",
+      "rootMidi": 79,
+      "rootHz": 787.68987,
+      "sha256": "6c4649b13e24fa01e4634edad8fe8edf18aef33facc5d49fe53097b376bac4da"
+    },
+    {
+      "file": "glock_medium_C5.wav",
+      "rootMidi": 84,
+      "rootHz": 1053.61784,
+      "sha256": "635f898e0bcb6975b96b18efd9c896f6f1b97ff12174a339ada4814e49675660"
+    },
+    {
+      "file": "glock_medium_G5.wav",
+      "rootMidi": 91,
+      "rootHz": 1578.74359,
+      "sha256": "7045c0ef7260e2f1ad11a64406cf7575ed898d1207a91104d33d78caefac63e4"
+    },
+    {
+      "file": "glock_medium_C6.wav",
+      "rootMidi": 96,
+      "rootHz": 2111.61045,
+      "sha256": "e942cbf502cf6731df2925945fe3234c876cb63f047d91007b6929887f9e4904"
+    }
+  ]
+}
