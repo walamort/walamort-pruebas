@@ -1,6 +1,6 @@
 <!doctype html><html lang="es"><head><meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; object-src 'none'; script-src 'self' 'sha256-nPcwlxibvGlpHmK0XIl5C2wZRNhZrvHxCbwIwQbWbYo=' 'sha256-wpFMjkHo7o0I1KOYOWmCdfjE6AGqeTu+M08cPMVOYLY='; script-src-attr 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https://i.ytimg.com; media-src 'self' blob: data:; connect-src 'self' https://assets.mailerlite.com; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; form-action 'self' https://assets.mailerlite.com; worker-src 'none'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Walamort | Tongue Drum Studio Pro</title><meta name="theme-color" content="#210a0e"><meta name="description" content="Toca, graba y experimenta con el tongue drum virtual de Walamort."><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><link rel="manifest" href="./manifest.webmanifest">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"><style>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"><style>.studio-a11y-title{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 :root{--orange:#f58a3e;--cream:#fff1de;--gold:#e4b77b;--wine:#210a0e}*{box-sizing:border-box}body{margin:0;background:#17070c;color:var(--cream);font:14px system-ui,Segoe UI,sans-serif}button,select,input{font:inherit}button{cursor:pointer;color:inherit}button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #ffd189;outline-offset:2px}
 .app{max-width:1700px;margin:auto;padding:14px}.hero{position:relative;aspect-ratio:1672/941;overflow:hidden;border:1px solid #5a3329;border-radius:24px;background:#2d0b10}.scene,.drum-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;pointer-events:none}.scene{opacity:.98}.drum-photo{clip-path:circle(22.1% at 50% 48%);transition:filter .4s ease}.tint-warm{filter:none}.tint-bright{filter:grayscale(.75) sepia(.12) hue-rotate(165deg) saturate(.65) brightness(1.05)}.tint-deep{filter:grayscale(.88) brightness(.62) contrast(1.18)}
 /* Live controls replace the controls baked into the concept image */
@@ -144,7 +144,7 @@ button{touch-action:manipulation}
 .option.active{border-color:#F2762E}
 .setting input[type=range],.tempo input{accent-color:#F2762E}
 .shortcuts button.on{background:#F2762E;color:#2B0D14}
-</style><meta name="robots" content="noindex,nofollow"><link rel="canonical" href="https://walamort.com/walamort-pruebas/instrumentos/tongue-drum/studio/"><meta property="og:url" content="https://walamort.com/walamort-pruebas/instrumentos/tongue-drum/studio/"><link rel="alternate" hreflang="es" href="https://walamort.com/walamort-pruebas/instrumentos/tongue-drum/studio/"><link rel="alternate" hreflang="x-default" href="https://walamort.com/walamort-pruebas/instrumentos/tongue-drum/studio/"><link rel="icon" href="../../../favicon.svg?v=pulso-1" type="image/svg+xml"><link rel="apple-touch-icon" href="../../../assets/brand/apple-touch-icon.png"></head><body>
+</style><meta name="robots" content="noindex,nofollow"><link rel="canonical" href="https://walamort.com/walamort-pruebas/instrumentos/tongue-drum/studio/"><meta property="og:url" content="https://walamort.com/walamort-pruebas/instrumentos/tongue-drum/studio/"><link rel="alternate" hreflang="es" href="https://walamort.com/walamort-pruebas/instrumentos/tongue-drum/studio/"><link rel="alternate" hreflang="x-default" href="https://walamort.com/walamort-pruebas/instrumentos/tongue-drum/studio/"><link rel="icon" href="../../../favicon.svg?v=pulso-1" type="image/svg+xml"><link rel="apple-touch-icon" href="../../../assets/brand/apple-touch-icon.png"></head><body><h1 class="studio-a11y-title">Estudio virtual de tongue drum</h1>
 <div class="app"><div class="hero" id="hero">
 <img class="scene" id="scene" alt="Escena fotorrealista Walamort Tongue Drum Studio" src="./assets/material-1.png">
 
@@ -161,14 +161,14 @@ button{touch-action:manipulation}
 <button class="option" data-tech="hard"><span style="font-size:24px">╱</span><span><b>Baquetas duras</b><small>Marcado y brillante</small></span></button>
 </aside>
 <aside class="panel right"><div class="sect">SONIDO</div>
-<div class="setting"><label>Volumen <output id="volout">75%</output></label><input id="volume" type="range" min="0" max="100" value="75"></div>
-<div class="setting"><label>Resonancia <output id="decayout">68%</output></label><input id="decay" type="range" min="0" max="100" value="68"></div>
-<div class="setting"><label>Brillo <output id="brightout">50%</output></label><input id="bright" type="range" min="0" max="100" value="50"></div>
-<div class="setting"><label>Ambiente <output id="spaceout">28%</output></label><input id="space" type="range" min="0" max="100" value="28"></div>
-<div class="setting"><label>Reverb <output id="reverbout">24%</output></label><input id="reverb" type="range" min="0" max="100" value="24"></div>
-<div class="setting"><label>Delay <output id="delayout">0%</output></label><input id="delay" type="range" min="0" max="100" value="0"></div>
+<div class="setting"><label for="volume">Volumen <output id="volout">75%</output></label><input id="volume" type="range" min="0" max="100" value="75"></div>
+<div class="setting"><label for="decay">Resonancia <output id="decayout">68%</output></label><input id="decay" type="range" min="0" max="100" value="68"></div>
+<div class="setting"><label for="bright">Brillo <output id="brightout">50%</output></label><input id="bright" type="range" min="0" max="100" value="50"></div>
+<div class="setting"><label for="space">Ambiente <output id="spaceout">28%</output></label><input id="space" type="range" min="0" max="100" value="28"></div>
+<div class="setting"><label for="reverb">Reverb <output id="reverbout">24%</output></label><input id="reverb" type="range" min="0" max="100" value="24"></div>
+<div class="setting"><label for="delay">Delay <output id="delayout">0%</output></label><input id="delay" type="range" min="0" max="100" value="0"></div>
 <div class="divider"></div><div class="sect">ESCALA Y AFINACIÓN</div>
-<div class="setting scale-setting"><select id="scale" hidden aria-hidden="true"><option value="minor">Re menor</option><option value="major">Do mayor</option><option value="pent">Re pentatónica</option></select>
+<div class="setting scale-setting"><select id="scale" aria-label="Afinación" hidden aria-hidden="true"><option value="minor">Re menor</option><option value="major">Do mayor</option><option value="pent">Re pentatónica</option></select>
 <div class="scale-menu" id="scaleMenu"><button type="button" class="scale-trigger" id="scaleTrigger" aria-expanded="false" aria-controls="scaleChoices">Re menor <span aria-hidden="true">⌄</span></button>
 <div class="scale-choices" id="scaleChoices" hidden role="group" aria-label="Elegir escala musical">
 <button type="button" data-scale-choice="minor">Re menor <small>Re · Fa · Sol · La · Do</small></button>
@@ -178,7 +178,7 @@ button{touch-action:manipulation}
 <div class="setting"><label>Afinación A4</label><div class="tune"><button id="minus">−</button><output id="hz">432 Hz</output><button id="plus">+</button></div></div>
 
 </aside>
-<div class="bottom"><button id="record">● Grabar</button><button id="play">▶ Reproducir</button><button id="stop">■ Detener</button><div class="tempo"><label>Tempo <output id="bpm">90</output> BPM</label><input id="tempo" type="range" min="45" max="160" value="90"></div><button id="random" class="primary">⤨ Melodía aleatoria</button><button id="save" class="primary">◇ Guardar melodía</button><button id="more" title="Melodías guardadas">•••</button></div>
+<div class="bottom"><button id="record">● Grabar</button><button id="play">▶ Reproducir</button><button id="stop">■ Detener</button><div class="tempo"><label for="tempo">Tempo <output id="bpm">90</output> BPM</label><input id="tempo" type="range" min="45" max="160" value="90"></div><button id="random" class="primary">⤨ Melodía aleatoria</button><button id="save" class="primary">◇ Guardar melodía</button><button id="more" title="Melodías guardadas">•••</button></div>
 </div></div>
 <section class="keyboard-dock"><div><strong>TECLADO MUSICAL</strong><p>Usa estas teclas para tocar. Las notas aparecen con sus nombres en español.</p></div><div class="shortcuts" id="shortcuts"></div></section>
 <div class="status" id="status">Toca una lengüeta o pulsa A S D F G H J K · Audio disponible al interactuar</div>
