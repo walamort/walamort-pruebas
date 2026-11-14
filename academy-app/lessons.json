@@ -466,5 +466,325 @@
         "answer": 0
       }
     }
+  },
+  {
+    "id": "accidentals",
+    "minutes": 5,
+    "practice": "reading",
+    "text": {
+      "es": {
+        "title": "Alteraciones y enarmonía",
+        "body": "Un sostenido sube un semitono; un bemol baja uno. El becuadro cancela una alteración. En temperamento igual, Do sostenido y Re bemol comparten altura, pero su escritura explica funciones diferentes. Una alteración accidental afecta a la misma nota y octava hasta la barra de compás; una armadura actúa en todas las octavas.",
+        "practice": "Escribe Do–Re–Mi y después Do–Re bemol–Mi. Compara la segunda nota al escuchar. No confundas una tecla negra con una única forma de escribirla.",
+        "question": "¿Cuánto sube un sostenido?",
+        "options": [
+          "Un semitono",
+          "Dos tonos"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Accidentals and enharmonic spelling",
+        "body": "A sharp raises a note by one semitone; a flat lowers it by one. A natural cancels an accidental. In equal temperament, C sharp and D flat share a pitch, but their spelling describes different functions. An accidental applies to the same note and octave until the bar line; a key signature applies across octaves.",
+        "practice": "Write C–D–E, then C–D flat–E. Listen and compare the second note. A black key can have more than one spelling.",
+        "question": "How far does a sharp raise a note?",
+        "options": [
+          "One semitone",
+          "Two tones"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Alterações e enarmonia",
+        "body": "Um sustenido eleva um semitom; um bemol abaixa um. O bequadro cancela uma alteração. No temperamento igual, Dó sustenido e Ré bemol têm a mesma altura, mas a escrita explica funções diferentes. Uma alteração ocorrente vale para a mesma nota e oitava até a barra de compasso; a armadura vale em todas as oitavas.",
+        "practice": "Escreva Dó–Ré–Mi e depois Dó–Ré bemol–Mi. Ouça e compare a segunda nota. Uma tecla preta pode ter mais de um nome.",
+        "question": "Quanto um sustenido eleva a nota?",
+        "options": [
+          "Um semitom",
+          "Dois tons"
+        ],
+        "answer": 0
+      }
+    }
+  },
+  {
+    "id": "signatures",
+    "minutes": 5,
+    "practice": "keys",
+    "text": {
+      "es": {
+        "title": "Cómo leer una armadura",
+        "body": "La armadura reúne las alteraciones habituales de una tonalidad. Sol mayor tiene Fa sostenido; Fa mayor tiene Si bemol. El orden de sostenidos es Fa–Do–Sol–Re–La–Mi–Si y el de bemoles es el inverso. Una misma armadura también corresponde a una tonalidad menor relativa; la melodía y sus puntos de reposo ayudan a decidir el centro tonal.",
+        "practice": "Compara Do mayor, Sol mayor y Fa mayor. Canta la escala lentamente y localiza la única nota que cambia respecto a Do mayor.",
+        "question": "¿Qué alteración tiene Sol mayor?",
+        "options": [
+          "Fa sostenido",
+          "Si bemol"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Reading key signatures",
+        "body": "A key signature collects the usual accidentals of a key. G major has F sharp; F major has B flat. Sharps follow F–C–G–D–A–E–B; flats follow the reverse order. The same signature also belongs to a relative minor key. Melodic motion and points of rest help identify the tonal center.",
+        "practice": "Compare C, G and F major. Sing each scale slowly and find the note that changes from C major.",
+        "question": "Which accidental belongs to G major?",
+        "options": [
+          "F sharp",
+          "B flat"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Como ler uma armadura",
+        "body": "A armadura reúne as alterações habituais de uma tonalidade. Sol maior tem Fá sustenido; Fá maior tem Si bemol. Os sustenidos seguem Fá–Dó–Sol–Ré–Lá–Mi–Si e os bemóis seguem a ordem inversa. A mesma armadura também pertence a uma tonalidade menor relativa. O movimento da melodia e seus repousos ajudam a identificar o centro tonal.",
+        "practice": "Compare Dó, Sol e Fá maior. Cante devagar e encontre a nota que muda em relação a Dó maior.",
+        "question": "Qual alteração pertence a Sol maior?",
+        "options": [
+          "Fá sustenido",
+          "Si bemol"
+        ],
+        "answer": 0
+      }
+    }
+  },
+  {
+    "id": "dotted",
+    "minutes": 5,
+    "practice": "rhythmTheory",
+    "text": {
+      "es": {
+        "title": "Puntillos y silencios",
+        "body": "El puntillo añade la mitad del valor original: una negra con puntillo dura una negra más una corchea. Si la negra vale un pulso, el resultado es un pulso y medio. El silencio ocupa tiempo sin ataque sonoro; no es una pausa libre. Mantén la subdivisión interior durante el silencio para entrar a tiempo.",
+        "practice": "Marca cuatro pulsos. En cada pareja toca una negra con puntillo y una corchea: cuenta 1-y-2-y y toca en 1 y en el último y.",
+        "question": "Si la negra vale 1, ¿cuánto vale una negra con puntillo?",
+        "options": [
+          "1,5",
+          "2"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Dots and rests",
+        "body": "A dot adds half the original value: a dotted quarter lasts a quarter plus an eighth. If a quarter is one beat, the result is one and a half beats. A rest occupies measured time without a sound attack; it is not free waiting time. Keep the subdivision going internally through rests to enter on time.",
+        "practice": "Tap four beats. Play a dotted quarter and an eighth in each pair: count 1-and-2-and and play on 1 and the final and.",
+        "question": "If a quarter equals 1, what does a dotted quarter equal?",
+        "options": [
+          "1.5",
+          "2"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Pontos de aumento e pausas",
+        "body": "O ponto acrescenta metade do valor original: uma semínima pontuada dura uma semínima mais uma colcheia. Se a semínima vale um pulso, o resultado é um pulso e meio. A pausa ocupa tempo medido sem ataque sonoro; não é uma espera livre. Mantenha a subdivisão mental durante a pausa para entrar no momento certo.",
+        "practice": "Marque quatro pulsos. Toque uma semínima pontuada e uma colcheia em cada par: conte 1-e-2-e e toque em 1 e no último e.",
+        "question": "Se a semínima vale 1, quanto vale uma semínima pontuada?",
+        "options": [
+          "1,5",
+          "2"
+        ],
+        "answer": 0
+      }
+    },
+    "practiceLevel": 2
+  },
+  {
+    "id": "compound",
+    "minutes": 5,
+    "practice": "rhythm",
+    "text": {
+      "es": {
+        "title": "Compás simple y compuesto",
+        "body": "En un compás simple, el pulso se divide normalmente en dos partes iguales. En uno compuesto se divide en tres. En 6/8 suele haber dos pulsos de negra con puntillo, cada uno con tres corcheas. Contar seis corcheas no significa que los seis ataques tengan el mismo peso: los grupos principales comienzan en 1 y 4.",
+        "practice": "Da dos pasos lentos y divide cada paso en tres palmadas: 1-2-3, 4-5-6. Después compáralo con dos palmadas por paso. Este ejercicio corporal prepara el 6/8; el entrenador de patrones actual usa 4/4.",
+        "question": "¿Cuántos pulsos principales suele tener 6/8?",
+        "options": [
+          "Dos",
+          "Seis"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Simple and compound meter",
+        "body": "In simple meter a beat normally divides into two equal parts. In compound meter it divides into three. In 6/8 there are usually two dotted-quarter beats, each containing three eighths. Counting six eighths does not give every attack equal weight: the main groups begin on 1 and 4.",
+        "practice": "Take two slow steps and clap three times per step: 1-2-3, 4-5-6. Compare this with two claps per step. This physical task prepares 6/8; the current pattern trainer uses 4/4.",
+        "question": "How many main beats does 6/8 usually have?",
+        "options": [
+          "Two",
+          "Six"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Compasso simples e composto",
+        "body": "No compasso simples o pulso normalmente se divide em duas partes iguais. No composto se divide em três. Em 6/8 geralmente há dois pulsos de semínima pontuada, cada um com três colcheias. Contar seis colcheias não dá o mesmo peso a cada ataque: os grupos principais começam em 1 e 4.",
+        "practice": "Dê dois passos lentos e bata três palmas por passo: 1-2-3, 4-5-6. Compare com duas palmas por passo. Esta prática corporal prepara o 6/8; o treinador atual usa 4/4.",
+        "question": "Quantos pulsos principais costuma ter 6/8?",
+        "options": [
+          "Dois",
+          "Seis"
+        ],
+        "answer": 0
+      }
+    }
+  },
+  {
+    "id": "sevenths",
+    "minutes": 5,
+    "practice": "chordTheory",
+    "text": {
+      "es": {
+        "title": "Acordes de séptima",
+        "body": "Una tríada tiene fundamental, tercera y quinta. Al añadir una séptima aparece una cuarta nota. Do maj7 contiene Do–Mi–Sol–Si; Do7 contiene Do–Mi–Sol–Si bemol; Dom7 contiene Do–Mi bemol–Sol–Si bemol. La tercera define mayor o menor y la séptima distingue colores que una tríada no expresa.",
+        "practice": "Toca o escucha Do mayor y luego Do maj7. Conserva las tres notas iniciales y presta atención a la nota añadida. Después baja solo Si a Si bemol para obtener Do7.",
+        "question": "¿Qué notas forman Do7?",
+        "options": [
+          "Do–Mi–Sol–Si bemol",
+          "Do–Mi–Sol–Si"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Seventh chords",
+        "body": "A triad has a root, third and fifth. Adding a seventh creates a fourth note. Cmaj7 contains C–E–G–B; C7 contains C–E–G–B flat; Cm7 contains C–E flat–G–B flat. The third establishes major or minor quality, while the seventh adds colors that a triad cannot express.",
+        "practice": "Play or hear C major, then Cmaj7. Keep the first three notes and focus on the added note. Lower only B to B flat to obtain C7.",
+        "question": "Which notes form C7?",
+        "options": [
+          "C–E–G–B flat",
+          "C–E–G–B"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Acordes de sétima",
+        "body": "Uma tríade tem fundamental, terça e quinta. Acrescentar uma sétima cria uma quarta nota. Cmaj7 contém Dó–Mi–Sol–Si; C7 contém Dó–Mi–Sol–Si bemol; Cm7 contém Dó–Mi bemol–Sol–Si bemol. A terça define maior ou menor e a sétima acrescenta cores que uma tríade não expressa.",
+        "practice": "Toque ou ouça Dó maior e depois Cmaj7. Mantenha as três notas iniciais e observe a nota acrescentada. Abaixe apenas Si para Si bemol para obter C7.",
+        "question": "Quais notas formam C7?",
+        "options": [
+          "Dó–Mi–Sol–Si bemol",
+          "Dó–Mi–Sol–Si"
+        ],
+        "answer": 0
+      }
+    },
+    "practiceLevel": 3
+  },
+  {
+    "id": "cadences",
+    "minutes": 5,
+    "practice": "progression",
+    "text": {
+      "es": {
+        "title": "Funciones y cadencias",
+        "body": "En Do mayor, I es Do mayor, IV es Fa mayor y V es Sol mayor. La tónica funciona como reposo; la dominante suele generar dirección hacia ella. Una cadencia V–I puede sonar conclusiva, mientras terminar en V suele dejar expectativa. Son tendencias del lenguaje tonal, no reglas para toda música.",
+        "practice": "Escucha I–IV–V–I. Canta la fundamental de cada acorde. Detente después de V y observa la diferencia con terminar en I. Después compara I–V–vi–IV.",
+        "question": "¿Qué recorrido suele llevar de dominante a tónica?",
+        "options": [
+          "V–I",
+          "I–IV"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Functions and cadences",
+        "body": "In C major, I is C major, IV is F major and V is G major. The tonic offers rest; the dominant often directs motion toward it. A V–I cadence can sound conclusive, while ending on V often leaves expectation. These are tendencies of tonal music, not rules for every musical tradition.",
+        "practice": "Hear I–IV–V–I. Sing each root. Stop after V and compare that feeling with ending on I. Then compare I–V–vi–IV.",
+        "question": "Which motion usually leads from dominant to tonic?",
+        "options": [
+          "V–I",
+          "I–IV"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Funções e cadências",
+        "body": "Em Dó maior, I é Dó maior, IV é Fá maior e V é Sol maior. A tônica oferece repouso; a dominante costuma direcionar o movimento até ela. Uma cadência V–I pode soar conclusiva, enquanto terminar em V costuma deixar expectativa. São tendências da música tonal, não regras para toda tradição musical.",
+        "practice": "Ouça I–IV–V–I. Cante a fundamental de cada acorde. Pare depois de V e compare com terminar em I. Depois compare I–V–vi–IV.",
+        "question": "Qual movimento costuma levar da dominante à tônica?",
+        "options": [
+          "V–I",
+          "I–IV"
+        ],
+        "answer": 0
+      }
+    }
+  },
+  {
+    "id": "intonation-basics",
+    "minutes": 5,
+    "text": {
+      "es": {
+        "title": "Entonación: escuchar antes de cantar",
+        "body": "Entonar es producir una altura de forma intencional. Primero escucha una referencia, imagínala en silencio y después cántala con una vocal cómoda. Empieza con una sola nota y frases cortas; no hace falta cantar fuerte. El afinador mide frecuencia, pero no juzga respiración, expresión ni salud vocal. Si aparece molestia, detén la práctica y busca orientación docente.",
+        "practice": "Escucha una nota cómoda, deja terminar el sonido y cántala durante dos segundos. Descansa y repite. Después canta Do–Re–Mi–Re–Do lentamente. En el entrenador escoge un registro cómodo y usa auriculares para que el altavoz no entre al micrófono.",
+        "question": "¿Qué conviene hacer antes de cantar la referencia?",
+        "options": [
+          "Escuchar e imaginar la altura",
+          "Aumentar mucho el volumen"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Intonation: listen before singing",
+        "body": "Intonation means producing a pitch intentionally. First hear a reference, imagine it silently, then sing it on a comfortable vowel. Begin with one note and short phrases; loud singing is unnecessary. A tuner measures frequency but does not assess breathing, expression or vocal health. Stop if practice causes discomfort and seek teacher guidance.",
+        "practice": "Hear a comfortable note, let it finish, then sing it for two seconds. Rest and repeat. Next sing C–D–E–D–C slowly. Choose a comfortable register in the trainer and use headphones so speakers do not enter the microphone.",
+        "question": "What helps before singing the reference?",
+        "options": [
+          "Listen and imagine the pitch",
+          "Increase the volume greatly"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Entonação: ouvir antes de cantar",
+        "body": "Entonar é produzir uma altura de forma intencional. Primeiro ouça uma referência, imagine-a em silêncio e depois cante com uma vogal confortável. Comece com uma nota e frases curtas; não precisa cantar forte. O afinador mede frequência, mas não avalia respiração, expressão nem saúde vocal. Pare se houver desconforto e procure orientação docente.",
+        "practice": "Ouça uma nota confortável, deixe o som terminar e cante por dois segundos. Descanse e repita. Depois cante Dó–Ré–Mi–Ré–Dó lentamente. Escolha um registro confortável no treinador e use fones para que o alto-falante não entre no microfone.",
+        "question": "O que ajuda antes de cantar a referência?",
+        "options": [
+          "Ouvir e imaginar a altura",
+          "Aumentar muito o volume"
+        ],
+        "answer": 0
+      }
+    }
+  },
+  {
+    "id": "tuning-cents",
+    "minutes": 5,
+    "text": {
+      "es": {
+        "title": "Afinación y cents",
+        "body": "Un semitono de temperamento igual contiene 100 cents. Si el detector muestra +15 cents estás un poco por encima de la referencia; -15 significa por debajo. La nota más cercana puede cambiar al cruzar el punto medio entre dos notas. La4 = 440 Hz es una referencia frecuente, pero puedes elegir otra para trabajar con un instrumento o conjunto afinado de forma distinta.",
+        "practice": "Toca una nota sostenida sin vibrato e intenta acercar el indicador a cero con cambios pequeños. No persigas cada salto de lectura: espera una señal estable. El entrenamiento de entonación compara la octava exacta y solo permite guardar después de cinco segundos de señal válida.",
+        "question": "¿Qué significa una lectura de -20 cents?",
+        "options": [
+          "La altura está por debajo de la referencia",
+          "La altura está por encima"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Tuning and cents",
+        "body": "An equal-tempered semitone contains 100 cents. A reading of +15 cents is slightly above the reference; -15 is below. The nearest note can change when crossing the midpoint between two notes. A4 = 440 Hz is a common reference, but another value may match an instrument or ensemble tuned differently.",
+        "practice": "Play a steady note without vibrato and approach zero with small adjustments. Do not chase every jump: wait for a stable signal. Intonation training compares the exact octave and only allows saving after five seconds of valid signal.",
+        "question": "What does -20 cents mean?",
+        "options": [
+          "Pitch is below the reference",
+          "Pitch is above the reference"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Afinação e cents",
+        "body": "Um semitom do temperamento igual contém 100 cents. Uma leitura de +15 cents está um pouco acima da referência; -15 está abaixo. A nota mais próxima pode mudar ao cruzar o ponto médio entre duas notas. Lá4 = 440 Hz é uma referência comum, mas outro valor pode corresponder a um instrumento ou conjunto afinado de modo diferente.",
+        "practice": "Toque uma nota estável sem vibrato e aproxime o indicador de zero com ajustes pequenos. Não persiga cada salto: espere um sinal estável. O treino de entonação compara a oitava exata e só permite salvar após cinco segundos de sinal válido.",
+        "question": "O que significa -20 cents?",
+        "options": [
+          "A altura está abaixo da referência",
+          "A altura está acima da referência"
+        ],
+        "answer": 0
+      }
+    }
   }
 ]
