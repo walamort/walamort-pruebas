@@ -39,3 +39,28 @@
 .experience #clases .topics span{color:#dbc6b4}
 
 .experience :is(#clases,#preguntas) em.script{color:var(--brand-orange)}
+
+/* Unified wine palette: editorial sections use the same dark surfaces as the archive. */
+.experience{color-scheme:dark}
+.experience :is(.academy-scene,.virtual-scene,.services-scene,#sobre,#tienda){
+ --bg:var(--brand-wine);--surface:#34151d;--fg:var(--brand-cream);
+ --line:#79535c;--muted:#dbc6b4;--mustard:var(--brand-orange);--orange:var(--brand-orange);
+ background:var(--bg);color:var(--fg);color-scheme:dark;
+}
+.experience :is(.academy-links,.instrument-filters,.instrument-actions,.service-directory),
+.experience .service-directory a,.experience .academy-links a,
+.experience #tienda :is(.helper,.instabs){border-color:var(--line)}
+.experience .academy-links :is(span,small),.experience .service-directory a>span{color:var(--muted)}
+.experience .academy-layout figcaption{background:var(--surface);color:var(--fg)}
+.experience :is(.instrument-card,.card.star),.experience #tienda :is(.prod,.pack){background:var(--surface);color:var(--fg);border-color:var(--line)}
+.experience .instrument-actions a{color:#ffb77b}
+.experience .instrument-filters :is(input,select){background:var(--brand-wine);color:var(--fg);border-color:var(--line)}
+.experience .instrument-filters input::placeholder{color:var(--muted);opacity:1}
+.experience #instrument-empty{border-color:var(--line)}
+.experience #sobre .chips li{background:var(--surface);color:var(--fg);border-color:var(--line)}
+.experience #tienda .prod img{background:var(--brand-wine)}
+.experience #tienda .price,.experience .card.star .tag{color:var(--fg)}
+.experience #tienda .instabs button{color:var(--muted)}
+.experience #tienda .instabs button[aria-selected=true]{background:var(--brand-orange);color:var(--brand-wine)}
+.experience #tienda :is(.btn.solid,.pack .btn),.experience .card.star .btn{background:var(--brand-orange);color:var(--brand-wine);border-color:var(--brand-orange)}
+.experience #tienda :is(.btn.solid,.pack .btn):hover,.experience .card.star .btn:hover{background:#ffb377;border-color:#ffb377}
