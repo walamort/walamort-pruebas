@@ -67,3 +67,15 @@
 
 .experience #tienda .helper:hover{background:var(--surface);border-color:var(--brand-orange)}
 .experience :is(.academy-scene,.virtual-scene,.services-scene,#sobre,#tienda) :is(a,button,input,select,summary):focus-visible{outline-color:var(--brand-orange)}
+
+/* Complete nested shop contrast and inherit the established homepage typefaces. */
+.experience{--wine2:#34151d}
+.experience #tienda .instabs{background:var(--surface)}
+.experience #tienda .pack :is(p,.price small){color:var(--muted)}
+.experience #tienda .pack .eyebrow{color:var(--brand-orange)}
+.experience #tienda .pack h3,.experience #tienda .pack .price{color:var(--fg)}
+.experience .wm-find-start,.experience .wm-find-start :is(input,button,label,.wm-goal-grid span){font-family:var(--display)}
+.experience .wm-find-start h2{font-family:Georgia,'Times New Roman',serif}
+.experience .wm-find-start .wm-goal-grid strong{font-family:var(--display)}
+
+.experience #tienda .pack p.price{color:var(--fg)}
