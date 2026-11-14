@@ -17,7 +17,10 @@
       "title": "Museu de instrumentos",
       "description": "Histórias, famílias e patrimônio musical."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "explore"
+    ]
   },
   {
     "id": "1",
@@ -37,7 +40,10 @@
       "title": "Percursos sonoros",
       "description": "Explore músicas da Colômbia e da América Latina."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "explore"
+    ]
   },
   {
     "id": "2",
@@ -57,7 +63,11 @@
       "title": "Comparar instrumentos",
       "description": "Compare características e maneiras de tocar."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "play",
+      "explore"
+    ]
   },
   {
     "id": "3",
@@ -77,7 +87,10 @@
       "title": "Walamort Academy",
       "description": "Conheça caminhos e recursos para aprender música."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "learn"
+    ]
   },
   {
     "id": "4",
@@ -97,7 +110,10 @@
       "title": "Central de prática",
       "description": "Explore os exercícios musicais interativos."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "practice"
+    ]
   },
   {
     "id": "5",
@@ -117,7 +133,10 @@
       "title": "Meu percurso de aprendizagem",
       "description": "Diagnóstico, rotina e progresso neste navegador."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "learn"
+    ]
   },
   {
     "id": "6",
@@ -137,7 +156,10 @@
       "title": "Preparação para a faculdade de música",
       "description": "Desenvolva fundamentos para o processo de ingresso."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "learn"
+    ]
   },
   {
     "id": "7",
@@ -157,7 +179,10 @@
       "title": "Sala universitária",
       "description": "Estude teoria, percepção e harmonia por níveis."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "learn"
+    ]
   },
   {
     "id": "8",
@@ -177,7 +202,11 @@
       "title": "Leitura de partitura e mão musical",
       "description": "Pratique notas nas claves de sol, fá e dó."
     },
-    "portuguese": "pt/lectura-musical/"
+    "portuguese": "pt/lectura-musical/",
+    "goals": [
+      "learn",
+      "practice"
+    ]
   },
   {
     "id": "9",
@@ -197,7 +226,10 @@
       "title": "Leitura à primeira vista",
       "description": "Pratique notas e leitura rítmica."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "practice"
+    ]
   },
   {
     "id": "10",
@@ -217,7 +249,10 @@
       "title": "Ditado melódico",
       "description": "Ouça e responda usando um teclado interativo."
     },
-    "portuguese": "pt/dictado-melodico/"
+    "portuguese": "pt/dictado-melodico/",
+    "goals": [
+      "practice"
+    ]
   },
   {
     "id": "11",
@@ -237,7 +272,10 @@
       "title": "Ditado na pauta",
       "description": "Escreva alturas, durações, pausas e ligaduras em 4/4 ou 6/8."
     },
-    "portuguese": "pt/dictado-pentagrama/"
+    "portuguese": "pt/dictado-pentagrama/",
+    "goals": [
+      "practice"
+    ]
   },
   {
     "id": "12",
@@ -257,7 +295,10 @@
       "title": "Treinamento auditivo",
       "description": "Desenvolva a escuta e a percepção musical."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "practice"
+    ]
   },
   {
     "id": "13",
@@ -277,7 +318,10 @@
       "title": "Prática rítmica",
       "description": "Reproduza padrões e confira sua precisão."
     },
-    "portuguese": "pt/practica-ritmica/"
+    "portuguese": "pt/practica-ritmica/",
+    "goals": [
+      "practice"
+    ]
   },
   {
     "id": "14",
@@ -297,7 +341,10 @@
       "title": "Laboratório de harmonia",
       "description": "Monte acordes e explore inversões."
     },
-    "portuguese": "pt/laboratorio-armonico/"
+    "portuguese": "pt/laboratorio-armonico/",
+    "goals": [
+      "create"
+    ]
   },
   {
     "id": "15",
@@ -317,7 +364,10 @@
       "title": "Círculo das quintas",
       "description": "Explore tonalidades e armaduras de clave."
     },
-    "portuguese": "pt/circulo-quintas/"
+    "portuguese": "pt/circulo-quintas/",
+    "goals": [
+      "create"
+    ]
   },
   {
     "id": "16",
@@ -337,7 +387,10 @@
       "title": "Simulado musical",
       "description": "Revise seus conhecimentos antes de uma avaliação."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "learn"
+    ]
   },
   {
     "id": "17",
@@ -352,12 +405,15 @@
       "title": "Teacher classroom",
       "description": "Prepare and share lesson plans."
     },
-    "tags": "profesores docente clase grupos teacher lessons",
+    "tags": "profesores docente clase grupos teacher lessons profesor profesores docente docentes teacher teachers professor professores ensinar",
     "pt": {
       "title": "Sala dos professores",
       "description": "Prepare e compartilhe planos de aula."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "teach"
+    ]
   },
   {
     "id": "18",
@@ -377,7 +433,10 @@
       "title": "Instrumentos virtuais",
       "description": "Toque e explore instrumentos pelo navegador."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "play"
+    ]
   },
   {
     "id": "19",
@@ -397,7 +456,10 @@
       "title": "Kalimba virtual",
       "description": "Explore notas e sons da kalimba."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "play"
+    ]
   },
   {
     "id": "20",
@@ -417,7 +479,10 @@
       "title": "Handpan virtual",
       "description": "Experimente a percussão melódica."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "play"
+    ]
   },
   {
     "id": "21",
@@ -437,7 +502,10 @@
       "title": "Tongue drum virtual",
       "description": "Toque e crie padrões de percussão melódica."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "play"
+    ]
   },
   {
     "id": "22",
@@ -457,7 +525,10 @@
       "title": "Braço de guitarra e baixo",
       "description": "Explore notas, escalas e posições no braço."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "play"
+    ]
   },
   {
     "id": "23",
@@ -477,7 +548,10 @@
       "title": "Afinador e entonação",
       "description": "Afinação com microfone ou uma referência sonora."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "practice"
+    ]
   },
   {
     "id": "24",
@@ -497,7 +571,10 @@
       "title": "Banco de sons de instrumentos",
       "description": "14 variantes e 564 amostras com notas e créditos."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "play"
+    ]
   },
   {
     "id": "25",
@@ -517,7 +594,11 @@
       "title": "Encontre seu instrumento",
       "description": "Explore opções de acordo com suas preferências."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "play",
+      "explore"
+    ]
   },
   {
     "id": "26",
@@ -537,7 +618,10 @@
       "title": "Laboratório de produção e mixagem",
       "description": "Misture instrumentos e experimente efeitos."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "create"
+    ]
   },
   {
     "id": "27",
@@ -557,7 +641,10 @@
       "title": "Arranjos e bases de acompanhamento",
       "description": "Crie seções com acordes, ritmos e intensidade."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "create"
+    ]
   },
   {
     "id": "28",
@@ -577,7 +664,10 @@
       "title": "Ritmos e sequenciador",
       "description": "Edite padrões de bateria e swing."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "create"
+    ]
   },
   {
     "id": "29",
@@ -597,7 +687,10 @@
       "title": "Exportar pistas WAV separadas",
       "description": "Prepare bateria, baixo e acordes para sua DAW."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "create"
+    ]
   },
   {
     "id": "30",
@@ -617,7 +710,10 @@
       "title": "Binaural e distribuição 5.1",
       "description": "Explore posições e exportação multicanal sem efeitos."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "create"
+    ]
   },
   {
     "id": "31",
@@ -637,7 +733,10 @@
       "title": "Composição e estúdio criativo",
       "description": "Crie melodias e exporte uma ideia em MIDI."
     },
-    "portuguese": "pt/estudio-creativo/"
+    "portuguese": "pt/estudio-creativo/",
+    "goals": [
+      "create"
+    ]
   },
   {
     "id": "32",
@@ -657,7 +756,12 @@
       "title": "Métodos e cadernos Walamort",
       "description": "Métodos de kalimba, handpan e tongue drum em português, inglês e espanhol; guias gratuitos e cadernos criativos."
     },
-    "portuguese": "pt/metodos/"
+    "portuguese": "pt/metodos/",
+    "goals": [
+      "explore",
+      "learn",
+      "play"
+    ]
   },
   {
     "id": "33",
@@ -677,7 +781,10 @@
       "title": "Biblioteca e materiais para imprimir",
       "description": "Prepare fichas, partituras e folhas de estudo."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "teach"
+    ]
   },
   {
     "id": "34",
@@ -697,7 +804,10 @@
       "title": "Loja de métodos por instrumento",
       "description": "Consulte os materiais disponíveis por instrumento."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "explore"
+    ]
   },
   {
     "id": "35",
@@ -717,7 +827,11 @@
       "title": "Serviços musicais",
       "description": "Consulte aulas, oficinas e projetos musicais."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "teach",
+      "explore"
+    ]
   },
   {
     "id": "36",
@@ -737,7 +851,10 @@
       "title": "Aulas com Walter",
       "description": "Conheça as opções de acompanhamento musical."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "explore"
+    ]
   },
   {
     "id": "37",
@@ -757,7 +874,10 @@
       "title": "Oficinas musicais",
       "description": "Explore experiências de aprendizagem musical."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "teach"
+    ]
   },
   {
     "id": "38",
@@ -777,7 +897,10 @@
       "title": "Contato",
       "description": "Converse sobre seu projeto ou seus estudos de música."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "explore"
+    ]
   },
   {
     "id": "39",
@@ -797,7 +920,10 @@
       "title": "Conheça Walamort",
       "description": "Walter Agudelo Múnera: músico, produtor e professor."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "explore"
+    ]
   },
   {
     "id": "40",
@@ -817,7 +943,10 @@
       "title": "Reconhecimento auditivo de acordes",
       "description": "Ouça e identifique diferentes tipos de acordes."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "practice"
+    ]
   },
   {
     "id": "41",
@@ -837,7 +966,10 @@
       "title": "Escalas e modos pelo ouvido",
       "description": "Ouça e reconheça escalas e modos."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "practice"
+    ]
   },
   {
     "id": "42",
@@ -857,7 +989,11 @@
       "title": "Harmonia passo a passo",
       "description": "Explore os fundamentos e a progressão em harmonia."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "learn",
+      "create"
+    ]
   },
   {
     "id": "43",
@@ -877,7 +1013,10 @@
       "title": "Série Instrumentos do mundo",
       "description": "Explore a série musical e seus instrumentos."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "explore"
+    ]
   },
   {
     "id": "44",
@@ -897,7 +1036,10 @@
       "title": "Laboratório de som",
       "description": "Experimente ferramentas sonoras."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "create"
+    ]
   },
   {
     "id": "45",
@@ -917,7 +1059,10 @@
       "title": "Ritmos e metrônomo",
       "description": "Explore padrões e acompanhe a pulsação."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "practice"
+    ]
   },
   {
     "id": "46",
@@ -937,7 +1082,10 @@
       "title": "Guias para escolher instrumentos",
       "description": "Conheça características para escolher seu instrumento."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "explore"
+    ]
   },
   {
     "id": "47",
@@ -957,7 +1105,11 @@
       "title": "Kalimba: história e guia",
       "description": "Conheça a kalimba e suas primeiras notas."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "explore",
+      "play"
+    ]
   },
   {
     "id": "48",
@@ -977,7 +1129,11 @@
       "title": "Handpan: história e guia",
       "description": "Explore o handpan e seu som."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "explore",
+      "play"
+    ]
   },
   {
     "id": "49",
@@ -997,7 +1153,11 @@
       "title": "Tongue drum: história e guia",
       "description": "Descubra o tongue drum e como começar."
     },
-    "portuguese": null
+    "portuguese": null,
+    "goals": [
+      "explore",
+      "play"
+    ]
   },
   {
     "id": "50",
@@ -1017,7 +1177,11 @@
       "title": "Percurso de sete sessões",
       "description": "Fundamentos, ditado, harmonia, criação e comparação de 3/4 com 6/8."
     },
-    "tags": "curso ruta formacion aprendizaje universidad compas compuesto 6/8 3/4 learning course"
+    "tags": "curso ruta formacion aprendizaje universidad compas compuesto 6/8 3/4 learning course",
+    "goals": [
+      "learn",
+      "teach"
+    ]
   },
   {
     "id": "51",
@@ -1037,7 +1201,11 @@
       "title": "Meu progresso e cópias de segurança",
       "description": "Confira resultados, exporte o histórico e combine cópias sem duplicatas."
     },
-    "tags": "progreso seguimiento historial resultados backup progress exportar"
+    "tags": "progreso seguimiento historial resultados backup progress exportar",
+    "goals": [
+      "practice",
+      "teach"
+    ]
   },
   {
     "id": "52",
@@ -1057,7 +1225,11 @@
       "title": "Resultados para professores",
       "description": "Reúna relatórios locais por código e exporte a tabela da turma."
     },
-    "tags": "profesores grupos aula estudiantes docentes informes teacher classroom reports"
+    "tags": "profesores grupos aula estudiantes docentes informes teacher classroom reports",
+    "goals": [
+      "practice",
+      "teach"
+    ]
   },
   {
     "id": "53",
@@ -1077,7 +1249,11 @@
       "title": "Desafio criativo compartilhável",
       "description": "Crie uma peça e compartilhe manualmente o projeto e sua reflexão."
     },
-    "tags": "comunidad reto compartir challenge community creative"
+    "tags": "comunidad reto compartir challenge community creative",
+    "goals": [
+      "learn",
+      "teach"
+    ]
   },
   {
     "id": "54",
@@ -1097,7 +1273,10 @@
       "title": "Suas primeiras decisões de mixagem",
       "description": "Três práticas guiadas de equalização, compressão e espaço, com um diário privado de escuta."
     },
-    "tags": "bitacora diario journal beginner iniciante principiante guia guide mixing mixagem equalizacao compressao escuta listening reflexion"
+    "tags": "bitacora diario journal beginner iniciante principiante guia guide mixing mixagem equalizacao compressao escuta listening reflexion",
+    "goals": [
+      "create"
+    ]
   },
   {
     "id": "55",
@@ -1117,7 +1296,10 @@
       "title": "Comece aqui",
       "description": "Escolha um objetivo e encontre a primeira prática: aprender, preparar uma seleção, criar ou produzir."
     },
-    "tags": "empezar inicio objetivos recorrido aprender admision componer producir start beginner onboarding goals learn admission compose produce comecar inicio objetivos aprender vestibular compor produzir"
+    "tags": "empezar inicio objetivos recorrido aprender admision componer producir start beginner onboarding goals learn admission compose produce comecar inicio objetivos aprender vestibular compor produzir principiante principiantes empezar inicio desde cero beginner beginners start iniciante iniciantes comecar",
+    "goals": [
+      "learn"
+    ]
   },
   {
     "id": "56",
@@ -1137,7 +1319,10 @@
       "title": "Um motivo, três finais",
       "description": "Ouça três finais originais com piano gravado, leia o pentagrama e edite o projeto de composição."
     },
-    "tags": "motivo motivos finais finales endings melody melodia partitura piano composicion composition composicao samples ejemplos examples exemplos variacion variation variacao"
+    "tags": "motivo motivos finais finales endings melody melodia partitura piano composicion composition composicao samples ejemplos examples exemplos variacion variation variacao",
+    "goals": [
+      "create"
+    ]
   },
   {
     "id": "57",
@@ -1157,7 +1342,10 @@
       "title": "Seu teclado, sua prática",
       "description": "Explore notas com entrada MIDI opcional e pratique leitura com um teclado na tela."
     },
-    "tags": "MIDI USB teclado keyboard lectura reading notas notes touch keys controlador controller claves clefs leitura notas teclas controlador"
+    "tags": "MIDI USB teclado keyboard lectura reading notas notes touch keys controlador controller claves clefs leitura notas teclas controlador piano teclado keyboard controlador midi",
+    "goals": [
+      "practice"
+    ]
   },
   {
     "id": "58",
@@ -1177,7 +1365,11 @@
       "title": "Revisar sessões de leitura MIDI e na tela",
       "description": "Reúna relatórios por arquivo, atribua códigos e revise confusões de notas sem contas."
     },
-    "tags": "docente profesor teacher classroom MIDI resultados informes clase class review errors lectura reading leitura professor relatorios turma erros CSV notas note confusion"
+    "tags": "docente profesor teacher classroom MIDI resultados informes clase class review errors lectura reading leitura professor relatorios turma erros CSV notas note confusion",
+    "goals": [
+      "practice",
+      "teach"
+    ]
   },
   {
     "id": "59",
@@ -1197,7 +1389,10 @@
       "title": "Glockenspiel virtual",
       "description": "Instrumento de lâminas metálicas, exercícios e métodos originais."
     },
-    "tags": "glockenspiel glokenspiel metalofono metalofone bells laminas baquetas mallets chromatic cromatico"
+    "tags": "glockenspiel glokenspiel metalofono metalofone bells laminas baquetas mallets chromatic cromatico",
+    "goals": [
+      "play"
+    ]
   },
   {
     "id": "60",
@@ -1217,6 +1412,9 @@
       "title": "Métodos de glockenspiel",
       "description": "Instrumento de lâminas metálicas, exercícios e métodos originais."
     },
-    "tags": "glockenspiel glokenspiel metodo basico intermedio avanzado pdf guia caderno workbook"
+    "tags": "glockenspiel glokenspiel metodo basico intermedio avanzado pdf guia caderno workbook",
+    "goals": [
+      "explore"
+    ]
   }
 ]
