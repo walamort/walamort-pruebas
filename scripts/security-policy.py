@@ -12,7 +12,7 @@ def policy(source):
  for attrs,body in re.findall(r'<script\b([^>]*)>(.*?)</script\s*>',source,re.I|re.S):
   if not re.search(r'\bsrc\s*=',attrs,re.I):
    hashes.append("'sha256-"+base64.b64encode(hashlib.sha256(body.encode('utf-8')).digest()).decode()+"'")
- return "; ".join(["default-src 'self'","base-uri 'none'","object-src 'none'","script-src 'self'"+(' '+' '.join(sorted(set(hashes))) if hashes else ''),"script-src-attr 'none'","style-src 'self' 'unsafe-inline' https://fonts.googleapis.com","font-src 'self' https://fonts.gstatic.com","img-src 'self' data: blob: https://i.ytimg.com","media-src 'self' blob: data:","connect-src 'self' https://assets.mailerlite.com","frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com","form-action 'self' https://assets.mailerlite.com","worker-src 'none'","upgrade-insecure-requests"])
+ return "; ".join(["default-src 'self'","base-uri 'none'","object-src 'none'","script-src 'self'"+(' '+' '.join(sorted(set(hashes))) if hashes else ''),"script-src-attr 'none'","style-src 'self' 'unsafe-inline' https://fonts.googleapis.com","font-src 'self' https://fonts.gstatic.com","img-src 'self' data: blob: https://i.ytimg.com","media-src 'self' blob: data:","connect-src 'self' https://assets.mailerlite.com","frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com","form-action 'self' https://assets.mailerlite.com",("worker-src 'self'" if 'name="walamort-app"' in source else "worker-src 'none'"),"upgrade-insecure-requests"])
 
 def hardened(source):
  source=re.sub(r'<meta\b(?=[^>]*http-equiv=["\']Content-Security-Policy["\'])[^>]*>','',source,flags=re.I)

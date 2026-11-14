@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Walamort Academy</string>
+    <string name="title_activity_main">Walamort Academy</string>
+    <string name="package_name">com.walamort.academy</string>
+    <string name="custom_url_scheme">com.walamort.academy</string>
+</resources>

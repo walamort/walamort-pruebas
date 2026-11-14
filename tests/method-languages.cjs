@@ -4,9 +4,9 @@ const checkouts=new Set([...read('index.html').matchAll(/https:\/\/pay\.hotmart\
 assert.equal(checkouts.size,12);
 for(const folder of ['','en/','pt/']){
  const file=folder+'metodos/index.html',html=read(file),cards=[...html.matchAll(/<article\b[^>]*data-kind="instrument"[\s\S]*?<\/article>/g)].map(m=>m[0]);
- assert.equal(cards.length,12);assert(html.includes('id="method-languages"'));assert(html.includes('id="free-guides"'));
+ assert.equal(cards.length,16);const glock=cards.filter(c=>c.includes('data-topic="glockenspiel"'));assert.equal(glock.length,4);for(const c of glock){assert(!c.includes('ES · EN · PT-BR'));assert(!c.includes('pay.hotmart.com'));}assert(html.includes('id="method-languages"'));assert(html.includes('id="free-guides"'));
  assert.equal(new Set(cards.flatMap(c=>[...c.matchAll(/https:\/\/pay\.hotmart\.com\/[A-Z0-9]+/g)].map(m=>m[0]))).size,12);
- for(const card of cards){assert(card.includes('ES · EN · PT-BR'));for(const m of card.matchAll(/https:\/\/pay\.hotmart\.com\/[A-Z0-9]+/g))assert(checkouts.has(m[0]));}
+ for(const card of cards.filter(c=>!glock.includes(c))){assert(card.includes('ES · EN · PT-BR'));for(const m of card.matchAll(/https:\/\/pay\.hotmart\.com\/[A-Z0-9]+/g))assert(checkouts.has(m[0]));}
  for(const code of ['es','en','pt-BR'])assert(html.includes('hreflang="'+code+'"'));
  for(const m of html.matchAll(/(?:href|src)="([^"#]+)"/g)){if(/^(https?:|mailto:)/.test(m[1]))continue;assert(fs.existsSync(path.resolve(root,path.dirname(file),m[1].split(/[?#]/)[0])),file+' '+m[1]);}
 }
