@@ -22,3 +22,14 @@ for(const entry of catalog){let target=path.join(root,entry.path.split('#')[0]);
 console.log('PASS: accented/bilingual/category search, safe empty states, 61 destinations, 97 six-menu surfaces, deep links, language fallbacks and responsive editorial assets.');
 
 assert(api.search('glokenspiel').some(e=>e.path==='instrumentos/glockenspiel/studio/'));assert(api.search('glockenspiel metodo').some(e=>e.path==='guias/glockenspiel/'));
+
+const goals=['learn','practice','play','create','teach','explore'];
+for(const entry of catalog){assert(entry.goals.length>0);assert(entry.goals.every(g=>goals.includes(g)));}
+for(const goal of goals){const found=api.search('','all','es',goal);assert(found.length>0);assert(found.every(e=>e.goals.includes(goal)));}
+assert(api.search('dictado','all','es','practice').some(e=>e.path==='dictado-pentagrama/'));
+assert.equal(api.search('dictado','servicios','es','practice').length,0);
+assert(api.search('principiante').some(e=>e.path==='empieza-aqui/'));
+assert(api.search('piano').some(e=>e.path==='teclado-midi/'));
+assert(api.search('teachers','all','en','teach').some(e=>e.path==='aula-docente/'));
+for(const prefix of ['','en/','pt/']){const html=read(prefix+'buscar/index.html');for(const e of catalog){const dest=(prefix==='en/'?e.english:prefix==='pt/'?e.portuguese:e.path)||e.path;assert(html.includes(dest),'Missing static directory destination '+dest);}assert(html.includes('id="wm-page-goal"'));assert(read(prefix+'index.html').includes('id="wm-home-query"'));}
+console.log('PASS: six goals cover all resources, combined goal/area search, beginner/piano/teacher discovery and complete localized static directories.');
