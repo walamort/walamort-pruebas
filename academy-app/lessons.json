@@ -1,0 +1,470 @@
+[
+  {
+    "id": "pitch",
+    "minutes": 3,
+    "text": {
+      "es": {
+        "title": "Altura y octavas",
+        "body": "La altura indica si un sonido es grave o agudo. Al duplicar la frecuencia subes una octava: La4 = 440 Hz y La5 = 880 Hz. Los nombres se repiten, pero la octava identifica el registro. Do4 es el do central en esta app. Escucha una nota, cántala y compárala con la octava superior.",
+        "question": "¿Qué ocurre al pasar de 440 a 880 Hz?",
+        "options": [
+          "Sube una octava",
+          "Baja una octava",
+          "No cambia"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Pitch and octaves",
+        "body": "Pitch describes how low or high a sound is. Doubling its frequency raises it by one octave: A4 = 440 Hz and A5 = 880 Hz. Note names repeat, while octave numbers identify the register. C4 is middle C in this app. Listen, sing a note and compare it with the octave above.",
+        "question": "What happens from 440 to 880 Hz?",
+        "options": [
+          "It rises one octave",
+          "It falls one octave",
+          "It stays the same"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Altura e oitavas",
+        "body": "A altura indica se um som é grave ou agudo. Dobrar a frequência sobe uma oitava: Lá4 = 440 Hz e Lá5 = 880 Hz. Os nomes se repetem, mas a oitava identifica o registro. Dó4 é o dó central nesta app. Ouça, cante uma nota e compare com a oitava acima.",
+        "question": "O que acontece de 440 para 880 Hz?",
+        "options": [
+          "Sobe uma oitava",
+          "Desce uma oitava",
+          "Não muda"
+        ],
+        "answer": 0
+      }
+    }
+  },
+  {
+    "id": "staff",
+    "minutes": 3,
+    "text": {
+      "es": {
+        "title": "Pentagrama y claves",
+        "body": "El pentagrama tiene cinco líneas y cuatro espacios interiores. Se cuentan desde abajo. La clave de sol sitúa Sol4 en la segunda línea; la de fa, Fa3 en la cuarta; la de do en tercera, Do4 en la línea central. Cada línea o espacio consecutivo avanza un nombre natural. En clave de sol, las líneas son Mi4, Sol4, Si4, Re5 y Fa5.",
+        "question": "¿Qué nota fija la clave de do en tercera?",
+        "options": [
+          "Do4",
+          "Sol4",
+          "Fa3"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Staff and clefs",
+        "body": "A staff has five lines and four inner spaces, counted from the bottom. The treble clef places G4 on line two; the bass clef places F3 on line four; the alto clef places C4 on the middle line. Each adjacent line or space advances one natural note name. Treble lines are E4, G4, B4, D5 and F5.",
+        "question": "Which note does the alto clef mark on line three?",
+        "options": [
+          "C4",
+          "G4",
+          "F3"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Pentagrama e claves",
+        "body": "O pentagrama tem cinco linhas e quatro espaços internos, contados de baixo para cima. A clave de sol coloca Sol4 na segunda linha; a de fá, Fá3 na quarta; a de dó na terceira coloca Dó4 na linha central. Cada linha ou espaço seguinte avança um nome natural. As linhas em clave de sol são Mi4, Sol4, Si4, Ré5 e Fá5.",
+        "question": "Qual nota a clave de dó na terceira fixa?",
+        "options": [
+          "Dó4",
+          "Sol4",
+          "Fá3"
+        ],
+        "answer": 0
+      }
+    }
+  },
+  {
+    "id": "intervals",
+    "minutes": 3,
+    "text": {
+      "es": {
+        "title": "Intervalos",
+        "body": "Un intervalo es la distancia entre dos alturas. Un semitono es el paso más pequeño del piano habitual; un tono equivale a dos semitonos. Do–Mi tiene cuatro semitonos y es una tercera mayor. Do–Sol tiene siete: quinta justa. Escucha primero la dirección y luego el tamaño. Canta ambas notas antes de responder.",
+        "question": "¿Cuántos semitonos tiene una quinta justa?",
+        "options": [
+          "7",
+          "4",
+          "12"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Intervals",
+        "body": "An interval is the distance between two pitches. A semitone is the smallest step on a standard piano; a whole tone is two semitones. C–E spans four semitones: a major third. C–G spans seven: a perfect fifth. Listen to direction, then size. Sing both notes before answering.",
+        "question": "How many semitones are in a perfect fifth?",
+        "options": [
+          "7",
+          "4",
+          "12"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Intervalos",
+        "body": "Um intervalo é a distância entre duas alturas. Um semitom é o menor passo do piano habitual; um tom tem dois semitons. Dó–Mi tem quatro semitons: terça maior. Dó–Sol tem sete: quinta justa. Ouça a direção e depois o tamanho. Cante as duas notas antes de responder.",
+        "question": "Quantos semitons há em uma quinta justa?",
+        "options": [
+          "7",
+          "4",
+          "12"
+        ],
+        "answer": 0
+      }
+    }
+  },
+  {
+    "id": "scales",
+    "minutes": 3,
+    "text": {
+      "es": {
+        "title": "Escalas mayores y menores",
+        "body": "Una escala organiza alturas alrededor de una tónica. La mayor sigue 2–2–1–2–2–2–1 semitonos. La menor natural sigue 2–1–2–2–1–2–2. Do mayor y La menor natural comparten notas, pero tienen distinto centro. Canta la escala terminando en su tónica y escucha la sensación de llegada.",
+        "question": "¿Cuál es el patrón inicial de la escala mayor?",
+        "options": [
+          "2–2–1",
+          "2–1–2",
+          "1–1–1"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Major and minor scales",
+        "body": "A scale organizes pitches around a tonic. The major pattern is 2–2–1–2–2–2–1 semitones. Natural minor is 2–1–2–2–1–2–2. C major and A natural minor share notes but have different centers. Sing a scale ending on its tonic and listen for the arrival.",
+        "question": "How does the major scale begin?",
+        "options": [
+          "2–2–1",
+          "2–1–2",
+          "1–1–1"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Escalas maiores e menores",
+        "body": "Uma escala organiza alturas em torno da tônica. A maior segue 2–2–1–2–2–2–1 semitons. A menor natural segue 2–1–2–2–1–2–2. Dó maior e Lá menor natural compartilham notas, mas têm centros diferentes. Cante terminando na tônica e ouça a sensação de chegada.",
+        "question": "Como começa a escala maior?",
+        "options": [
+          "2–2–1",
+          "2–1–2",
+          "1–1–1"
+        ],
+        "answer": 0
+      }
+    }
+  },
+  {
+    "id": "pulse",
+    "minutes": 3,
+    "text": {
+      "es": {
+        "title": "Pulso y figuras",
+        "body": "El pulso es la referencia regular; el ritmo organiza ataques y duraciones sobre ella. Con negra como pulso, una blanca dura dos pulsos y una corchea medio pulso. El silencio también ocupa tiempo. Marca cuatro pulsos y alterna palmadas con silencios sin detener la cuenta.",
+        "question": "Con negra como pulso, ¿cuánto dura una corchea?",
+        "options": [
+          "Medio pulso",
+          "Dos pulsos",
+          "Cuatro pulsos"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Beat and note values",
+        "body": "The beat is a regular reference; rhythm organizes onsets and durations over it. With a quarter note as the beat, a half note lasts two beats and an eighth note half a beat. Rests also take time. Count four beats and alternate claps and rests without stopping the count.",
+        "question": "With a quarter-note beat, how long is an eighth note?",
+        "options": [
+          "Half a beat",
+          "Two beats",
+          "Four beats"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Pulso e figuras",
+        "body": "O pulso é a referência regular; o ritmo organiza ataques e durações sobre ela. Com semínima como pulso, uma mínima dura dois pulsos e uma colcheia meio pulso. A pausa também ocupa tempo. Marque quatro pulsos e alterne palmas e pausas sem parar a contagem.",
+        "question": "Com semínima como pulso, quanto dura uma colcheia?",
+        "options": [
+          "Meio pulso",
+          "Dois pulsos",
+          "Quatro pulsos"
+        ],
+        "answer": 0
+      }
+    }
+  },
+  {
+    "id": "meter",
+    "minutes": 3,
+    "text": {
+      "es": {
+        "title": "Compás y subdivisión",
+        "body": "En 4/4 hay cuatro negras por compás. En 6/8 caben seis corcheas, que habitualmente se agrupan en dos pulsos de tres corcheas. No son seis pulsos iguales a los cuatro de 4/4. Prueba contar 1-y-2-y-3-y-4-y y luego 1-la-li-2-la-li. La agrupación cambia la sensación rítmica.",
+        "question": "¿Cuántos pulsos compuestos suele tener 6/8?",
+        "options": [
+          "2",
+          "4",
+          "6"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Meter and subdivision",
+        "body": "A 4/4 bar contains four quarter notes. A 6/8 bar contains six eighth notes, usually grouped into two dotted-quarter beats of three eighths each. Try counting 1-and-2-and-3-and-4-and, then 1-la-li-2-la-li. Grouping changes the rhythmic feel.",
+        "question": "How many compound beats does 6/8 usually have?",
+        "options": [
+          "2",
+          "4",
+          "6"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Compasso e subdivisão",
+        "body": "Um compasso 4/4 contém quatro semínimas. Um 6/8 contém seis colcheias, normalmente agrupadas em dois pulsos de três colcheias. Conte 1-e-2-e-3-e-4-e e depois 1-la-li-2-la-li. O agrupamento muda a sensação rítmica.",
+        "question": "Quantos pulsos compostos o 6/8 costuma ter?",
+        "options": [
+          "2",
+          "4",
+          "6"
+        ],
+        "answer": 0
+      }
+    }
+  },
+  {
+    "id": "triads",
+    "minutes": 3,
+    "text": {
+      "es": {
+        "title": "Tríadas",
+        "body": "Una tríada superpone dos terceras. Desde la fundamental, la mayor tiene 0–4–7 semitonos y la menor 0–3–7. Do–Mi–Sol es mayor; Do–Mib–Sol es menor. La tercera distingue estos dos tipos. Toca o canta cada nota por separado y después escucha el conjunto.",
+        "question": "¿Qué estructura corresponde a una tríada menor?",
+        "options": [
+          "0–3–7",
+          "0–4–7",
+          "0–4–8"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Triads",
+        "body": "A triad stacks two thirds. From its root, a major triad has 0–4–7 semitones and a minor triad 0–3–7. C–E–G is major; C–E-flat–G is minor. The third distinguishes these two qualities. Sing each note, then hear the chord.",
+        "question": "Which structure is a minor triad?",
+        "options": [
+          "0–3–7",
+          "0–4–7",
+          "0–4–8"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Tríades",
+        "body": "Uma tríade empilha duas terças. A partir da fundamental, a maior tem 0–4–7 semitons e a menor 0–3–7. Dó–Mi–Sol é maior; Dó–Mib–Sol é menor. A terça distingue esses dois tipos. Cante cada nota e depois ouça o conjunto.",
+        "question": "Qual estrutura é uma tríade menor?",
+        "options": [
+          "0–3–7",
+          "0–4–7",
+          "0–4–8"
+        ],
+        "answer": 0
+      }
+    }
+  },
+  {
+    "id": "inversions",
+    "minutes": 3,
+    "text": {
+      "es": {
+        "title": "Inversiones y bajo",
+        "body": "Una inversión cambia la nota más grave de un acorde sin cambiar sus notas esenciales. Do–Mi–Sol está en estado fundamental con Do en el bajo. Mi–Sol–Do es primera inversión; Sol–Do–Mi, segunda. La inversión no convierte por sí sola un acorde mayor en menor. Escucha el bajo y luego las otras voces.",
+        "question": "En Mi–Sol–Do, ¿qué inversión de Do mayor escuchas?",
+        "options": [
+          "Primera",
+          "Segunda",
+          "Estado fundamental"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Inversions and bass",
+        "body": "An inversion changes the lowest note of a chord while keeping its essential notes. C–E–G is root position with C in the bass. E–G–C is first inversion; G–C–E is second. An inversion does not itself change major to minor. Listen to the bass, then the other voices.",
+        "question": "Which C-major inversion is E–G–C?",
+        "options": [
+          "First",
+          "Second",
+          "Root position"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Inversões e baixo",
+        "body": "Uma inversão muda a nota mais grave sem alterar as notas essenciais do acorde. Dó–Mi–Sol é estado fundamental, com Dó no baixo. Mi–Sol–Dó é primeira inversão; Sol–Dó–Mi é segunda. Inverter não transforma um acorde maior em menor. Ouça primeiro o baixo.",
+        "question": "Qual inversão de Dó maior é Mi–Sol–Dó?",
+        "options": [
+          "Primeira",
+          "Segunda",
+          "Estado fundamental"
+        ],
+        "answer": 0
+      }
+    }
+  },
+  {
+    "id": "harmony",
+    "minutes": 3,
+    "text": {
+      "es": {
+        "title": "Grados y progresiones",
+        "body": "Al construir tríadas con las notas de Do mayor aparecen Do, Rem, Mim, Fa, Sol, Lam y Sidim. Los grados I, IV y V ofrecen un recorrido básico de salida y regreso. I–IV–V–I es una posibilidad, no una regla para todas las músicas. Escucha qué cambia al terminar en V en lugar de I.",
+        "question": "¿Cuál es el acorde del grado V en Do mayor?",
+        "options": [
+          "Sol mayor",
+          "Fa menor",
+          "La menor"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Degrees and progressions",
+        "body": "Triads from the notes of C major are C, Dm, Em, F, G, Am and B diminished. I, IV and V offer a basic departure-and-return route. I–IV–V–I is one possibility, not a rule for all music. Compare ending on V with ending on I.",
+        "question": "What is the V chord in C major?",
+        "options": [
+          "G major",
+          "F minor",
+          "A minor"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Graus e progressões",
+        "body": "As tríades das notas de Dó maior são Dó, Rém, Mim, Fá, Sol, Lám e Sidim. I, IV e V oferecem um caminho básico de saída e retorno. I–IV–V–I é uma possibilidade, não uma regra para todas as músicas. Compare terminar em V com terminar em I.",
+        "question": "Qual é o acorde do grau V em Dó maior?",
+        "options": [
+          "Sol maior",
+          "Fá menor",
+          "Lá menor"
+        ],
+        "answer": 0
+      }
+    }
+  },
+  {
+    "id": "dictation",
+    "minutes": 3,
+    "text": {
+      "es": {
+        "title": "Escuchar y transcribir",
+        "body": "Escucha primero la frase completa. Encuentra la nota de llegada, la dirección y las repeticiones. Divide después en grupos pequeños. No pulses notas al azar: canta una posibilidad y compruébala. El dictado de esta app trabaja alturas; sus notas tienen duración uniforme y no evalúa escritura rítmica.",
+        "question": "¿Qué evalúa el dictado de esta app?",
+        "options": [
+          "El orden de las alturas",
+          "La técnica física",
+          "Una partitura completa"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Listen and transcribe",
+        "body": "Listen to the whole phrase first. Notice its arrival, direction and repeated notes. Then divide it into small groups. Sing a candidate before checking it rather than guessing random keys. This app’s dictation trains pitch sequences with uniform note lengths; it does not assess rhythmic notation.",
+        "question": "What does this app’s dictation assess?",
+        "options": [
+          "Pitch order",
+          "Physical technique",
+          "A full score"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Ouvir e transcrever",
+        "body": "Ouça primeiro a frase inteira. Perceba a chegada, a direção e as repetições. Depois divida em grupos pequenos. Cante uma hipótese antes de conferir, em vez de apertar teclas ao acaso. O ditado desta app trabalha alturas com durações uniformes; não avalia escrita rítmica.",
+        "question": "O que o ditado desta app avalia?",
+        "options": [
+          "A ordem das alturas",
+          "A técnica física",
+          "Uma partitura completa"
+        ],
+        "answer": 0
+      }
+    }
+  },
+  {
+    "id": "motifs",
+    "minutes": 3,
+    "text": {
+      "es": {
+        "title": "Motivos y creación",
+        "body": "Un motivo es una idea breve reconocible por su ritmo, alturas o ambos. Repite una idea de tres notas y cambia solo el final. Luego conserva el ritmo y cambia la altura inicial. Comparar una sola modificación facilita escuchar su efecto. En composición hay varias respuestas válidas: explica tu intención y escucha el resultado.",
+        "question": "Para comparar una variación, conviene…",
+        "options": [
+          "Cambiar un elemento a la vez",
+          "Cambiar todo sin escuchar",
+          "Evitar repetir"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Motifs and creation",
+        "body": "A motif is a short idea recognized by rhythm, pitch or both. Repeat three notes and change only the ending. Then keep the rhythm and change the starting pitch. Changing one element makes its effect easier to hear. Composition allows many valid answers: explain your intention and listen to the result.",
+        "question": "To compare a variation, try…",
+        "options": [
+          "Changing one element at a time",
+          "Changing everything without listening",
+          "Never repeating"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Motivos e criação",
+        "body": "Um motivo é uma ideia curta reconhecida pelo ritmo, pelas alturas ou por ambos. Repita três notas e mude apenas o final. Depois mantenha o ritmo e mude a altura inicial. Alterar um elemento facilita ouvir o efeito. A composição admite várias respostas: explique sua intenção e ouça o resultado.",
+        "question": "Para comparar uma variação, tente…",
+        "options": [
+          "Mudar um elemento por vez",
+          "Mudar tudo sem ouvir",
+          "Nunca repetir"
+        ],
+        "answer": 0
+      }
+    }
+  },
+  {
+    "id": "study",
+    "minutes": 3,
+    "text": {
+      "es": {
+        "title": "Una rutina sostenible",
+        "body": "Practica unos minutos con una meta concreta: por ejemplo, distinguir terceras o leer una clave. Alterna escuchar, responder y explicar el error. El porcentaje de una sesión orienta tu práctica; no equivale a una nota universitaria ni certifica dominio. Repite otro día y conserva una copia de tu progreso antes de cambiar de dispositivo.",
+        "question": "¿Dónde se guarda tu progreso sin exportar?",
+        "options": [
+          "En este dispositivo",
+          "En una cuenta en la nube",
+          "En Hotmart"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "A sustainable routine",
+        "body": "Practice for a few minutes with a specific goal, such as distinguishing thirds or reading one clef. Alternate listening, answering and explaining mistakes. A session percentage guides practice; it is not a university grade or proof of mastery. Return another day and back up progress before changing devices.",
+        "question": "Where is progress stored before export?",
+        "options": [
+          "On this device",
+          "In a cloud account",
+          "On Hotmart"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Uma rotina sustentável",
+        "body": "Pratique alguns minutos com uma meta concreta, como distinguir terças ou ler uma clave. Alterne ouvir, responder e explicar os erros. A porcentagem orienta a prática; não é nota universitária nem certifica domínio. Volte em outro dia e faça uma cópia do progresso antes de trocar de dispositivo.",
+        "question": "Onde o progresso fica antes de exportar?",
+        "options": [
+          "Neste dispositivo",
+          "Em uma conta na nuvem",
+          "Na Hotmart"
+        ],
+        "answer": 0
+      }
+    }
+  }
+]

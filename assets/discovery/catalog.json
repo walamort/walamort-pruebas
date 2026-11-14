@@ -1416,5 +1416,29 @@
     "goals": [
       "explore"
     ]
+  },
+  {
+    "id": "61",
+    "group": "academia",
+    "path": "academy-app/",
+    "english": "academy-app/?lang=en",
+    "portuguese": "academy-app/?lang=pt",
+    "goals": [
+      "learn",
+      "practice"
+    ],
+    "es": {
+      "title": "Walamort Academy · app móvil",
+      "description": "Instala la app de teoría, lectura, oído y ritmo. Progreso local y núcleo sin conexión."
+    },
+    "en": {
+      "title": "Walamort Academy · mobile app",
+      "description": "Install theory, reading, ear and rhythm training. Local progress and offline core."
+    },
+    "pt": {
+      "title": "Walamort Academy · app móvel",
+      "description": "Instale teoria, leitura, ouvido e ritmo. Progresso local e núcleo off-line."
+    },
+    "tags": "app aplicacion application instalar install android iphone offline sin conexion celular mobile teoria practice free gratis"
   }
 ]
