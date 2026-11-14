@@ -16,6 +16,23 @@
   function closeMenu(focus=false){closeGroups();menu.classList.remove('is-open');toggle.setAttribute('aria-expanded','false');if(focus)toggle.focus();}
   toggle.onclick=()=>{const open=!menu.classList.contains('is-open');menu.classList.toggle('is-open',open);toggle.setAttribute('aria-expanded',String(open));if(!open)closeGroups();};
   groups.forEach(group=>group.addEventListener('toggle',()=>{if(group.open)closeGroups(group);}));locale?.addEventListener('toggle',()=>{if(locale.open)closeGroups(locale);});
+  // Hover is an enhancement for desktop mice; touch and keyboard retain native details controls.
+  const hoverEnabled=()=>!mobile()&&root.matchMedia('(hover: hover) and (pointer: fine)').matches;
+  [...groups,...(locale?[locale]:[])].forEach(group=>{
+   let closeTimer;
+   const cancelClose=()=>{clearTimeout(closeTimer);};
+   group.addEventListener('pointerenter',event=>{
+    cancelClose();
+    if(event.pointerType==='mouse'&&hoverEnabled()){closeGroups(group);group.open=true;}
+   });
+   group.addEventListener('pointerleave',event=>{
+    cancelClose();
+    if(event.pointerType==='mouse'&&hoverEnabled())closeTimer=setTimeout(()=>{
+     if(!group.contains(doc.activeElement))group.open=false;
+    },180);
+   });
+   group.addEventListener('focusin',cancelClose);
+  });
   nav.addEventListener('click',event=>{if(event.target.closest('.wm-dropdown a'))closeMenu();});
   doc.addEventListener('click',event=>{if(!nav.contains(event.target))closeMenu();});
   nav.addEventListener('keydown',event=>{if(event.key==='Escape'){const group=groups.find(g=>g.open)||(locale?.open?locale:null);if(group){group.open=false;group.querySelector('summary').focus();}else closeMenu(true);event.preventDefault();}});
