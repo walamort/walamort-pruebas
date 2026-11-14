@@ -64,3 +64,6 @@
 .experience #tienda .instabs button[aria-selected=true]{background:var(--brand-orange);color:var(--brand-wine)}
 .experience #tienda :is(.btn.solid,.pack .btn),.experience .card.star .btn{background:var(--brand-orange);color:var(--brand-wine);border-color:var(--brand-orange)}
 .experience #tienda :is(.btn.solid,.pack .btn):hover,.experience .card.star .btn:hover{background:#ffb377;border-color:#ffb377}
+
+.experience #tienda .helper:hover{background:var(--surface);border-color:var(--brand-orange)}
+.experience :is(.academy-scene,.virtual-scene,.services-scene,#sobre,#tienda) :is(a,button,input,select,summary):focus-visible{outline-color:var(--brand-orange)}
