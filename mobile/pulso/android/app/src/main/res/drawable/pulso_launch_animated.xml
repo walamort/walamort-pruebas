@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/pulso_launch_static"><target android:name="pulsoLine" android:animation="@animator/pulso_draw"/><target android:name="pulseGroup" android:animation="@animator/pulso_entry"/></animated-vector>
