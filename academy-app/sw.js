@@ -1,4 +1,4 @@
-const VERSION='v1.3.0';
+const VERSION='v1.3.1';
 const PREFIX='walamort-academy:'+self.registration.scope+':';
 const CACHE=PREFIX+VERSION;
 const FILES=['./','index.html','app.css','app.js','core.js','notation.js','pitch.js','voice.js','dictionary.js','lessons.json','manifest.webmanifest','icon-192.png','icon-512.png','icon-maskable.png'];
