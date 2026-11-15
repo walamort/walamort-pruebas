@@ -1,7 +1,7 @@
 [
   {
     "id": "pitch",
-    "minutes": 3,
+    "minutes": 7,
     "text": {
       "es": {
         "title": "Altura y octavas",
@@ -12,7 +12,23 @@
           "Baja una octava",
           "No cambia"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "En detalle",
+            "body": "Altura y volumen son distintos: una nota grave puede ser suave y una aguda fuerte. El timbre distingue instrumentos que producen la misma altura."
+          },
+          {
+            "heading": "Ejemplo y errores frecuentes",
+            "body": "Do central y el siguiente Do comparten nombre, pero no registro. Al subir una octava, la frecuencia se duplica. Cantar más fuerte no corrige la altura."
+          }
+        ],
+        "steps": [
+          "Escucha el ejemplo.",
+          "Encuentra dos Do en el teclado.",
+          "Canta una nota cómoda y compárala con la referencia."
+        ],
+        "why": "Do central y el siguiente Do comparten nombre, pero no registro. Al subir una octava, la frecuencia se duplica. Cantar más fuerte no corrige la altura."
       },
       "en": {
         "title": "Pitch and octaves",
@@ -23,7 +39,23 @@
           "It falls one octave",
           "It stays the same"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "In detail",
+            "body": "Pitch and loudness differ: a low note can be quiet and a high note loud. Timbre distinguishes instruments producing the same pitch."
+          },
+          {
+            "heading": "Example and common mistakes",
+            "body": "Middle C and the next C share a name, not a register. An octave up doubles frequency. Singing louder does not correct pitch."
+          }
+        ],
+        "steps": [
+          "Hear the example.",
+          "Find two Cs on the keyboard.",
+          "Sing a comfortable note and compare it with a reference."
+        ],
+        "why": "Middle C and the next C share a name, not a register. An octave up doubles frequency. Singing louder does not correct pitch."
       },
       "pt": {
         "title": "Altura e oitavas",
@@ -34,130 +66,38 @@
           "Desce uma oitava",
           "Não muda"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "Em detalhe",
+            "body": "Altura e volume são diferentes: uma nota grave pode ser suave e uma aguda forte. O timbre distingue instrumentos que produzem a mesma altura."
+          },
+          {
+            "heading": "Exemplo e erros comuns",
+            "body": "O Dó central e o seguinte compartilham nome, não registro. Uma oitava acima dobra a frequência. Cantar mais forte não corrige a altura."
+          }
+        ],
+        "steps": [
+          "Ouça o exemplo.",
+          "Encontre dois Dós no teclado.",
+          "Cante uma nota confortável e compare com a referência."
+        ],
+        "why": "O Dó central e o seguinte compartilham nome, não registro. Uma oitava acima dobra a frequência. Cantar mais forte não corrige a altura."
       }
-    }
-  },
-  {
-    "id": "staff",
-    "minutes": 3,
-    "text": {
-      "es": {
-        "title": "Pentagrama y claves",
-        "body": "El pentagrama tiene cinco líneas y cuatro espacios interiores. Se cuentan desde abajo. La clave de sol sitúa Sol4 en la segunda línea; la de fa, Fa3 en la cuarta; la de do en tercera, Do4 en la línea central. Cada línea o espacio consecutivo avanza un nombre natural. En clave de sol, las líneas son Mi4, Sol4, Si4, Re5 y Fa5.",
-        "question": "¿Qué nota fija la clave de do en tercera?",
-        "options": [
-          "Do4",
-          "Sol4",
-          "Fa3"
-        ],
-        "answer": 0
-      },
-      "en": {
-        "title": "Staff and clefs",
-        "body": "A staff has five lines and four inner spaces, counted from the bottom. The treble clef places G4 on line two; the bass clef places F3 on line four; the alto clef places C4 on the middle line. Each adjacent line or space advances one natural note name. Treble lines are E4, G4, B4, D5 and F5.",
-        "question": "Which note does the alto clef mark on line three?",
-        "options": [
-          "C4",
-          "G4",
-          "F3"
-        ],
-        "answer": 0
-      },
-      "pt": {
-        "title": "Pentagrama e claves",
-        "body": "O pentagrama tem cinco linhas e quatro espaços internos, contados de baixo para cima. A clave de sol coloca Sol4 na segunda linha; a de fá, Fá3 na quarta; a de dó na terceira coloca Dó4 na linha central. Cada linha ou espaço seguinte avança um nome natural. As linhas em clave de sol são Mi4, Sol4, Si4, Ré5 e Fá5.",
-        "question": "Qual nota a clave de dó na terceira fixa?",
-        "options": [
-          "Dó4",
-          "Sol4",
-          "Fá3"
-        ],
-        "answer": 0
-      }
-    }
-  },
-  {
-    "id": "intervals",
-    "minutes": 3,
-    "text": {
-      "es": {
-        "title": "Intervalos",
-        "body": "Un intervalo es la distancia entre dos alturas. Un semitono es el paso más pequeño del piano habitual; un tono equivale a dos semitonos. Do–Mi tiene cuatro semitonos y es una tercera mayor. Do–Sol tiene siete: quinta justa. Escucha primero la dirección y luego el tamaño. Canta ambas notas antes de responder.",
-        "question": "¿Cuántos semitonos tiene una quinta justa?",
-        "options": [
-          "7",
-          "4",
-          "12"
-        ],
-        "answer": 0
-      },
-      "en": {
-        "title": "Intervals",
-        "body": "An interval is the distance between two pitches. A semitone is the smallest step on a standard piano; a whole tone is two semitones. C–E spans four semitones: a major third. C–G spans seven: a perfect fifth. Listen to direction, then size. Sing both notes before answering.",
-        "question": "How many semitones are in a perfect fifth?",
-        "options": [
-          "7",
-          "4",
-          "12"
-        ],
-        "answer": 0
-      },
-      "pt": {
-        "title": "Intervalos",
-        "body": "Um intervalo é a distância entre duas alturas. Um semitom é o menor passo do piano habitual; um tom tem dois semitons. Dó–Mi tem quatro semitons: terça maior. Dó–Sol tem sete: quinta justa. Ouça a direção e depois o tamanho. Cante as duas notas antes de responder.",
-        "question": "Quantos semitons há em uma quinta justa?",
-        "options": [
-          "7",
-          "4",
-          "12"
-        ],
-        "answer": 0
-      }
-    }
-  },
-  {
-    "id": "scales",
-    "minutes": 3,
-    "text": {
-      "es": {
-        "title": "Escalas mayores y menores",
-        "body": "Una escala organiza alturas alrededor de una tónica. La mayor sigue 2–2–1–2–2–2–1 semitonos. La menor natural sigue 2–1–2–2–1–2–2. Do mayor y La menor natural comparten notas, pero tienen distinto centro. Canta la escala terminando en su tónica y escucha la sensación de llegada.",
-        "question": "¿Cuál es el patrón inicial de la escala mayor?",
-        "options": [
-          "2–2–1",
-          "2–1–2",
-          "1–1–1"
-        ],
-        "answer": 0
-      },
-      "en": {
-        "title": "Major and minor scales",
-        "body": "A scale organizes pitches around a tonic. The major pattern is 2–2–1–2–2–2–1 semitones. Natural minor is 2–1–2–2–1–2–2. C major and A natural minor share notes but have different centers. Sing a scale ending on its tonic and listen for the arrival.",
-        "question": "How does the major scale begin?",
-        "options": [
-          "2–2–1",
-          "2–1–2",
-          "1–1–1"
-        ],
-        "answer": 0
-      },
-      "pt": {
-        "title": "Escalas maiores e menores",
-        "body": "Uma escala organiza alturas em torno da tônica. A maior segue 2–2–1–2–2–2–1 semitons. A menor natural segue 2–1–2–2–1–2–2. Dó maior e Lá menor natural compartilham notas, mas têm centros diferentes. Cante terminando na tônica e ouça a sensação de chegada.",
-        "question": "Como começa a escala maior?",
-        "options": [
-          "2–2–1",
-          "2–1–2",
-          "1–1–1"
-        ],
-        "answer": 0
-      }
+    },
+    "level": 1,
+    "demo": {
+      "notes": [
+        60,
+        60,
+        60,
+        72
+      ]
     }
   },
   {
     "id": "pulse",
-    "minutes": 3,
+    "minutes": 7,
     "text": {
       "es": {
         "title": "Pulso y figuras",
@@ -168,7 +108,23 @@
           "Dos pulsos",
           "Cuatro pulsos"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "En detalle",
+            "body": "El pulso es una referencia regular; el ritmo organiza duraciones y ataques respecto a ella. El tempo indica pulsos por minuto. Las figuras expresan proporciones, no segundos fijos."
+          },
+          {
+            "heading": "Ejemplo y errores frecuentes",
+            "body": "Con negra = pulso a 60 BPM, una negra dura un segundo y una blanca dos. A 120 BPM ambas duran la mitad. Una redonda equivale a cuatro negras; no es la duración máxima posible."
+          }
+        ],
+        "steps": [
+          "Marca cuatro pulsos.",
+          "Toca una vez por pulso.",
+          "Después toca dos veces por pulso sin acelerar."
+        ],
+        "why": "Con negra = pulso a 60 BPM, una negra dura un segundo y una blanca dos. A 120 BPM ambas duran la mitad. Una redonda equivale a cuatro negras; no es la duración máxima posible."
       },
       "en": {
         "title": "Beat and note values",
@@ -179,7 +135,23 @@
           "Two beats",
           "Four beats"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "In detail",
+            "body": "Beat is a regular reference; rhythm organizes durations and attacks around it. Tempo indicates beats per minute. Note values express ratios, not fixed seconds."
+          },
+          {
+            "heading": "Example and common mistakes",
+            "body": "With quarter-note beats at 60 BPM a quarter lasts one second and a half note two. At 120 BPM both last half as long. A whole equals four quarters; it is not the longest possible duration."
+          }
+        ],
+        "steps": [
+          "Mark four beats.",
+          "Tap once per beat.",
+          "Then tap twice per beat without speeding up."
+        ],
+        "why": "With quarter-note beats at 60 BPM a quarter lasts one second and a half note two. At 120 BPM both last half as long. A whole equals four quarters; it is not the longest possible duration."
       },
       "pt": {
         "title": "Pulso e figuras",
@@ -190,13 +162,136 @@
           "Dois pulsos",
           "Quatro pulsos"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "Em detalhe",
+            "body": "O pulso é uma referência regular; o ritmo organiza durações e ataques. O andamento indica pulsos por minuto. As figuras expressam proporções, não segundos fixos."
+          },
+          {
+            "heading": "Exemplo e erros comuns",
+            "body": "Com semínima como pulso a 60 BPM, uma semínima dura um segundo e uma mínima dois. A 120 BPM duram a metade. A semibreve equivale a quatro semínimas; não é a maior duração possível."
+          }
+        ],
+        "steps": [
+          "Marque quatro pulsos.",
+          "Toque uma vez por pulso.",
+          "Depois toque duas vezes por pulso sem acelerar."
+        ],
+        "why": "Com semínima como pulso a 60 BPM, uma semínima dura um segundo e uma mínima dois. A 120 BPM duram a metade. A semibreve equivale a quatro semínimas; não é a maior duração possível."
       }
+    },
+    "level": 1,
+    "demo": {
+      "rhythm": [
+        1,
+        1,
+        0.5,
+        0.5,
+        1
+      ]
+    }
+  },
+  {
+    "id": "staff",
+    "minutes": 7,
+    "text": {
+      "es": {
+        "title": "Pentagrama y claves",
+        "body": "El pentagrama tiene cinco líneas y cuatro espacios interiores. Se cuentan desde abajo. La clave de sol sitúa Sol4 en la segunda línea; la de fa, Fa3 en la cuarta; la de do en tercera, Do4 en la línea central. Cada línea o espacio consecutivo avanza un nombre natural. En clave de sol, las líneas son Mi4, Sol4, Si4, Re5 y Fa5.",
+        "question": "¿Qué nota fija la clave de do en tercera?",
+        "options": [
+          "Do4",
+          "Sol4",
+          "Fa3"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "En detalle",
+            "body": "La clave asigna una referencia a las líneas y espacios. Las líneas adicionales amplían el registro sin cambiar el orden de notas."
+          },
+          {
+            "heading": "Ejemplo y errores frecuentes",
+            "body": "En sol, la segunda línea es Sol: el espacio superior es La y la línea siguiente Si. En fa, la cuarta línea es Fa. Una posición no tiene un nombre universal: depende de la clave."
+          }
+        ],
+        "steps": [
+          "Identifica la clave.",
+          "Encuentra su nota de referencia.",
+          "Lee las posiciones vecinas contando líneas y espacios."
+        ],
+        "why": "En sol, la segunda línea es Sol: el espacio superior es La y la línea siguiente Si. En fa, la cuarta línea es Fa. Una posición no tiene un nombre universal: depende de la clave."
+      },
+      "en": {
+        "title": "Staff and clefs",
+        "body": "A staff has five lines and four inner spaces, counted from the bottom. The treble clef places G4 on line two; the bass clef places F3 on line four; the alto clef places C4 on the middle line. Each adjacent line or space advances one natural note name. Treble lines are E4, G4, B4, D5 and F5.",
+        "question": "Which note does the alto clef mark on line three?",
+        "options": [
+          "C4",
+          "G4",
+          "F3"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "In detail",
+            "body": "A clef assigns a reference to lines and spaces. Ledger lines extend the register without changing note order."
+          },
+          {
+            "heading": "Example and common mistakes",
+            "body": "In treble clef line two is G: the space above is A and the next line B. In bass clef line four is F. A position has no universal name: it depends on the clef."
+          }
+        ],
+        "steps": [
+          "Identify the clef.",
+          "Find its reference note.",
+          "Read neighboring positions counting lines and spaces."
+        ],
+        "why": "In treble clef line two is G: the space above is A and the next line B. In bass clef line four is F. A position has no universal name: it depends on the clef."
+      },
+      "pt": {
+        "title": "Pentagrama e claves",
+        "body": "O pentagrama tem cinco linhas e quatro espaços internos, contados de baixo para cima. A clave de sol coloca Sol4 na segunda linha; a de fá, Fá3 na quarta; a de dó na terceira coloca Dó4 na linha central. Cada linha ou espaço seguinte avança um nome natural. As linhas em clave de sol são Mi4, Sol4, Si4, Ré5 e Fá5.",
+        "question": "Qual nota a clave de dó na terceira fixa?",
+        "options": [
+          "Dó4",
+          "Sol4",
+          "Fá3"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "Em detalhe",
+            "body": "A clave atribui uma referência às linhas e espaços. Linhas suplementares ampliam o registro sem mudar a ordem das notas."
+          },
+          {
+            "heading": "Exemplo e erros comuns",
+            "body": "Na clave de sol, a segunda linha é Sol: acima vem Lá e na linha seguinte Si. Na clave de fá, a quarta linha é Fá. Uma posição não tem nome universal: depende da clave."
+          }
+        ],
+        "steps": [
+          "Identifique a clave.",
+          "Encontre sua referência.",
+          "Leia posições vizinhas contando linhas e espaços."
+        ],
+        "why": "Na clave de sol, a segunda linha é Sol: acima vem Lá e na linha seguinte Si. Na clave de fá, a quarta linha é Fá. Uma posição não tem nome universal: depende da clave."
+      }
+    },
+    "level": 1,
+    "demo": {
+      "notes": [
+        64,
+        67,
+        71,
+        74,
+        77
+      ]
     }
   },
   {
     "id": "meter",
-    "minutes": 3,
+    "minutes": 7,
     "text": {
       "es": {
         "title": "Compás y subdivisión",
@@ -207,7 +302,23 @@
           "4",
           "6"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "En detalle",
+            "body": "El compás agrupa unidades y organiza acentos. El denominador identifica una figura: 4 es negra y 8 corchea. La sensación de pulso depende también de la agrupación y el tempo."
+          },
+          {
+            "heading": "Ejemplo y errores frecuentes",
+            "body": "3/4 contiene tres negras. 6/8 contiene seis corcheas, habitualmente agrupadas 3+3: dos pulsos de negra con puntillo. Pueden tener igual duración total y distintos acentos. No hay siempre seis pulsos principales en 6/8."
+          }
+        ],
+        "steps": [
+          "Cuenta tres pasos regulares.",
+          "Agrupa seis sílabas en dos pasos.",
+          "Compara los acentos manteniendo la subdivisión."
+        ],
+        "why": "3/4 contiene tres negras. 6/8 contiene seis corcheas, habitualmente agrupadas 3+3: dos pulsos de negra con puntillo. Pueden tener igual duración total y distintos acentos. No hay siempre seis pulsos principales en 6/8."
       },
       "en": {
         "title": "Meter and subdivision",
@@ -218,7 +329,23 @@
           "4",
           "6"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "In detail",
+            "body": "Meter groups units and accents. The denominator identifies a value: 4 means quarter and 8 eighth. Beat perception also depends on grouping and tempo."
+          },
+          {
+            "heading": "Example and common mistakes",
+            "body": "3/4 contains three quarters. 6/8 contains six eighths, usually grouped 3+3: two dotted-quarter beats. Their total duration can match while accents differ. 6/8 does not always have six main beats."
+          }
+        ],
+        "steps": [
+          "Count three regular steps.",
+          "Group six syllables into two steps.",
+          "Compare accents while maintaining subdivision."
+        ],
+        "why": "3/4 contains three quarters. 6/8 contains six eighths, usually grouped 3+3: two dotted-quarter beats. Their total duration can match while accents differ. 6/8 does not always have six main beats."
       },
       "pt": {
         "title": "Compasso e subdivisão",
@@ -229,247 +356,38 @@
           "4",
           "6"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "Em detalhe",
+            "body": "O compasso agrupa unidades e acentos. O denominador identifica uma figura: 4 é semínima e 8 colcheia. A percepção do pulso depende também do agrupamento e andamento."
+          },
+          {
+            "heading": "Exemplo e erros comuns",
+            "body": "3/4 contém três semínimas. 6/8 contém seis colcheias, geralmente em 3+3: dois pulsos de semínima pontuada. Podem ter duração total igual e acentos diferentes. 6/8 nem sempre tem seis pulsos principais."
+          }
+        ],
+        "steps": [
+          "Conte três passos regulares.",
+          "Agrupe seis sílabas em dois passos.",
+          "Compare os acentos mantendo a subdivisão."
+        ],
+        "why": "3/4 contém três semínimas. 6/8 contém seis colcheias, geralmente em 3+3: dois pulsos de semínima pontuada. Podem ter duração total igual e acentos diferentes. 6/8 nem sempre tem seis pulsos principais."
       }
-    }
-  },
-  {
-    "id": "triads",
-    "minutes": 3,
-    "text": {
-      "es": {
-        "title": "Tríadas",
-        "body": "Una tríada superpone dos terceras. Desde la fundamental, la mayor tiene 0–4–7 semitonos y la menor 0–3–7. Do–Mi–Sol es mayor; Do–Mib–Sol es menor. La tercera distingue estos dos tipos. Toca o canta cada nota por separado y después escucha el conjunto.",
-        "question": "¿Qué estructura corresponde a una tríada menor?",
-        "options": [
-          "0–3–7",
-          "0–4–7",
-          "0–4–8"
-        ],
-        "answer": 0
-      },
-      "en": {
-        "title": "Triads",
-        "body": "A triad stacks two thirds. From its root, a major triad has 0–4–7 semitones and a minor triad 0–3–7. C–E–G is major; C–E-flat–G is minor. The third distinguishes these two qualities. Sing each note, then hear the chord.",
-        "question": "Which structure is a minor triad?",
-        "options": [
-          "0–3–7",
-          "0–4–7",
-          "0–4–8"
-        ],
-        "answer": 0
-      },
-      "pt": {
-        "title": "Tríades",
-        "body": "Uma tríade empilha duas terças. A partir da fundamental, a maior tem 0–4–7 semitons e a menor 0–3–7. Dó–Mi–Sol é maior; Dó–Mib–Sol é menor. A terça distingue esses dois tipos. Cante cada nota e depois ouça o conjunto.",
-        "question": "Qual estrutura é uma tríade menor?",
-        "options": [
-          "0–3–7",
-          "0–4–7",
-          "0–4–8"
-        ],
-        "answer": 0
-      }
-    }
-  },
-  {
-    "id": "inversions",
-    "minutes": 3,
-    "text": {
-      "es": {
-        "title": "Inversiones y bajo",
-        "body": "Una inversión cambia la nota más grave de un acorde sin cambiar sus notas esenciales. Do–Mi–Sol está en estado fundamental con Do en el bajo. Mi–Sol–Do es primera inversión; Sol–Do–Mi, segunda. La inversión no convierte por sí sola un acorde mayor en menor. Escucha el bajo y luego las otras voces.",
-        "question": "En Mi–Sol–Do, ¿qué inversión de Do mayor escuchas?",
-        "options": [
-          "Primera",
-          "Segunda",
-          "Estado fundamental"
-        ],
-        "answer": 0
-      },
-      "en": {
-        "title": "Inversions and bass",
-        "body": "An inversion changes the lowest note of a chord while keeping its essential notes. C–E–G is root position with C in the bass. E–G–C is first inversion; G–C–E is second. An inversion does not itself change major to minor. Listen to the bass, then the other voices.",
-        "question": "Which C-major inversion is E–G–C?",
-        "options": [
-          "First",
-          "Second",
-          "Root position"
-        ],
-        "answer": 0
-      },
-      "pt": {
-        "title": "Inversões e baixo",
-        "body": "Uma inversão muda a nota mais grave sem alterar as notas essenciais do acorde. Dó–Mi–Sol é estado fundamental, com Dó no baixo. Mi–Sol–Dó é primeira inversão; Sol–Dó–Mi é segunda. Inverter não transforma um acorde maior em menor. Ouça primeiro o baixo.",
-        "question": "Qual inversão de Dó maior é Mi–Sol–Dó?",
-        "options": [
-          "Primeira",
-          "Segunda",
-          "Estado fundamental"
-        ],
-        "answer": 0
-      }
-    }
-  },
-  {
-    "id": "harmony",
-    "minutes": 3,
-    "text": {
-      "es": {
-        "title": "Grados y progresiones",
-        "body": "Al construir tríadas con las notas de Do mayor aparecen Do, Rem, Mim, Fa, Sol, Lam y Sidim. Los grados I, IV y V ofrecen un recorrido básico de salida y regreso. I–IV–V–I es una posibilidad, no una regla para todas las músicas. Escucha qué cambia al terminar en V en lugar de I.",
-        "question": "¿Cuál es el acorde del grado V en Do mayor?",
-        "options": [
-          "Sol mayor",
-          "Fa menor",
-          "La menor"
-        ],
-        "answer": 0
-      },
-      "en": {
-        "title": "Degrees and progressions",
-        "body": "Triads from the notes of C major are C, Dm, Em, F, G, Am and B diminished. I, IV and V offer a basic departure-and-return route. I–IV–V–I is one possibility, not a rule for all music. Compare ending on V with ending on I.",
-        "question": "What is the V chord in C major?",
-        "options": [
-          "G major",
-          "F minor",
-          "A minor"
-        ],
-        "answer": 0
-      },
-      "pt": {
-        "title": "Graus e progressões",
-        "body": "As tríades das notas de Dó maior são Dó, Rém, Mim, Fá, Sol, Lám e Sidim. I, IV e V oferecem um caminho básico de saída e retorno. I–IV–V–I é uma possibilidade, não uma regra para todas as músicas. Compare terminar em V com terminar em I.",
-        "question": "Qual é o acorde do grau V em Dó maior?",
-        "options": [
-          "Sol maior",
-          "Fá menor",
-          "Lá menor"
-        ],
-        "answer": 0
-      }
-    }
-  },
-  {
-    "id": "dictation",
-    "minutes": 3,
-    "text": {
-      "es": {
-        "title": "Escuchar y transcribir",
-        "body": "Escucha primero la frase completa. Encuentra la nota de llegada, la dirección y las repeticiones. Divide después en grupos pequeños. No pulses notas al azar: canta una posibilidad y compruébala. El dictado de esta app trabaja alturas; sus notas tienen duración uniforme y no evalúa escritura rítmica.",
-        "question": "¿Qué evalúa el dictado de esta app?",
-        "options": [
-          "El orden de las alturas",
-          "La técnica física",
-          "Una partitura completa"
-        ],
-        "answer": 0
-      },
-      "en": {
-        "title": "Listen and transcribe",
-        "body": "Listen to the whole phrase first. Notice its arrival, direction and repeated notes. Then divide it into small groups. Sing a candidate before checking it rather than guessing random keys. This app’s dictation trains pitch sequences with uniform note lengths; it does not assess rhythmic notation.",
-        "question": "What does this app’s dictation assess?",
-        "options": [
-          "Pitch order",
-          "Physical technique",
-          "A full score"
-        ],
-        "answer": 0
-      },
-      "pt": {
-        "title": "Ouvir e transcrever",
-        "body": "Ouça primeiro a frase inteira. Perceba a chegada, a direção e as repetições. Depois divida em grupos pequenos. Cante uma hipótese antes de conferir, em vez de apertar teclas ao acaso. O ditado desta app trabalha alturas com durações uniformes; não avalia escrita rítmica.",
-        "question": "O que o ditado desta app avalia?",
-        "options": [
-          "A ordem das alturas",
-          "A técnica física",
-          "Uma partitura completa"
-        ],
-        "answer": 0
-      }
-    }
-  },
-  {
-    "id": "motifs",
-    "minutes": 3,
-    "text": {
-      "es": {
-        "title": "Motivos y creación",
-        "body": "Un motivo es una idea breve reconocible por su ritmo, alturas o ambos. Repite una idea de tres notas y cambia solo el final. Luego conserva el ritmo y cambia la altura inicial. Comparar una sola modificación facilita escuchar su efecto. En composición hay varias respuestas válidas: explica tu intención y escucha el resultado.",
-        "question": "Para comparar una variación, conviene…",
-        "options": [
-          "Cambiar un elemento a la vez",
-          "Cambiar todo sin escuchar",
-          "Evitar repetir"
-        ],
-        "answer": 0
-      },
-      "en": {
-        "title": "Motifs and creation",
-        "body": "A motif is a short idea recognized by rhythm, pitch or both. Repeat three notes and change only the ending. Then keep the rhythm and change the starting pitch. Changing one element makes its effect easier to hear. Composition allows many valid answers: explain your intention and listen to the result.",
-        "question": "To compare a variation, try…",
-        "options": [
-          "Changing one element at a time",
-          "Changing everything without listening",
-          "Never repeating"
-        ],
-        "answer": 0
-      },
-      "pt": {
-        "title": "Motivos e criação",
-        "body": "Um motivo é uma ideia curta reconhecida pelo ritmo, pelas alturas ou por ambos. Repita três notas e mude apenas o final. Depois mantenha o ritmo e mude a altura inicial. Alterar um elemento facilita ouvir o efeito. A composição admite várias respostas: explique sua intenção e ouça o resultado.",
-        "question": "Para comparar uma variação, tente…",
-        "options": [
-          "Mudar um elemento por vez",
-          "Mudar tudo sem ouvir",
-          "Nunca repetir"
-        ],
-        "answer": 0
-      }
-    }
-  },
-  {
-    "id": "study",
-    "minutes": 3,
-    "text": {
-      "es": {
-        "title": "Una rutina sostenible",
-        "body": "Practica unos minutos con una meta concreta: por ejemplo, distinguir terceras o leer una clave. Alterna escuchar, responder y explicar el error. El porcentaje de una sesión orienta tu práctica; no equivale a una nota universitaria ni certifica dominio. Repite otro día y conserva una copia de tu progreso antes de cambiar de dispositivo.",
-        "question": "¿Dónde se guarda tu progreso sin exportar?",
-        "options": [
-          "En este dispositivo",
-          "En una cuenta en la nube",
-          "En Hotmart"
-        ],
-        "answer": 0
-      },
-      "en": {
-        "title": "A sustainable routine",
-        "body": "Practice for a few minutes with a specific goal, such as distinguishing thirds or reading one clef. Alternate listening, answering and explaining mistakes. A session percentage guides practice; it is not a university grade or proof of mastery. Return another day and back up progress before changing devices.",
-        "question": "Where is progress stored before export?",
-        "options": [
-          "On this device",
-          "In a cloud account",
-          "On Hotmart"
-        ],
-        "answer": 0
-      },
-      "pt": {
-        "title": "Uma rotina sustentável",
-        "body": "Pratique alguns minutos com uma meta concreta, como distinguir terças ou ler uma clave. Alterne ouvir, responder e explicar os erros. A porcentagem orienta a prática; não é nota universitária nem certifica domínio. Volte em outro dia e faça uma cópia do progresso antes de trocar de dispositivo.",
-        "question": "Onde o progresso fica antes de exportar?",
-        "options": [
-          "Neste dispositivo",
-          "Em uma conta na nuvem",
-          "Na Hotmart"
-        ],
-        "answer": 0
-      }
+    },
+    "level": 1,
+    "demo": {
+      "rhythm": [
+        1,
+        1,
+        1,
+        1
+      ]
     }
   },
   {
     "id": "accidentals",
-    "minutes": 5,
+    "minutes": 7,
     "practice": "reading",
     "text": {
       "es": {
@@ -481,7 +399,23 @@
           "Un semitono",
           "Dos tonos"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "En detalle",
+            "body": "La armadura fija alteraciones para la pieza o sección; una alteración accidental modifica una nota dentro del compás según las reglas de escritura."
+          },
+          {
+            "heading": "Ejemplo y errores frecuentes",
+            "body": "En Sol mayor, Fa es sostenido. Un Fa becuadro lo vuelve natural localmente; el compás siguiente restaura la armadura. Do sostenido y Re bemol pueden compartir tecla sin cumplir la misma función escrita."
+          }
+        ],
+        "steps": [
+          "Compara Do y Do sostenido.",
+          "Compara Do sostenido y Re bemol.",
+          "Explica por qué pueden sonar igual y escribirse distinto."
+        ],
+        "why": "En Sol mayor, Fa es sostenido. Un Fa becuadro lo vuelve natural localmente; el compás siguiente restaura la armadura. Do sostenido y Re bemol pueden compartir tecla sin cumplir la misma función escrita."
       },
       "en": {
         "title": "Accidentals and enharmonic spelling",
@@ -492,7 +426,23 @@
           "One semitone",
           "Two tones"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "In detail",
+            "body": "A signature establishes alterations for a piece or section; an accidental changes a note within a bar under notation rules."
+          },
+          {
+            "heading": "Example and common mistakes",
+            "body": "In G major F is sharp. An F natural cancels it locally; the next bar restores the signature. C sharp and D flat can share a key without the same written function."
+          }
+        ],
+        "steps": [
+          "Compare C and C sharp.",
+          "Compare C sharp and D flat.",
+          "Explain why equal pitches can be spelled differently."
+        ],
+        "why": "In G major F is sharp. An F natural cancels it locally; the next bar restores the signature. C sharp and D flat can share a key without the same written function."
       },
       "pt": {
         "title": "Alterações e enarmonia",
@@ -503,13 +453,524 @@
           "Um semitom",
           "Dois tons"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "Em detalhe",
+            "body": "A armadura estabelece alterações para a peça ou seção; a alteração ocorrente modifica uma nota dentro do compasso conforme a escrita."
+          },
+          {
+            "heading": "Exemplo e erros comuns",
+            "body": "Em Sol maior Fá é sustenido. Um Fá bequadro cancela localmente; o compasso seguinte restaura a armadura. Dó sustenido e Ré bemol podem compartilhar tecla sem a mesma função escrita."
+          }
+        ],
+        "steps": [
+          "Compare Dó e Dó sustenido.",
+          "Compare Dó sustenido e Ré bemol.",
+          "Explique por que alturas iguais têm escritas diferentes."
+        ],
+        "why": "Em Sol maior Fá é sustenido. Um Fá bequadro cancela localmente; o compasso seguinte restaura a armadura. Dó sustenido e Ré bemol podem compartilhar tecla sem a mesma função escrita."
       }
+    },
+    "level": 1,
+    "demo": {
+      "notes": [
+        60,
+        61,
+        61,
+        60
+      ]
     }
   },
   {
+    "id": "intervals",
+    "minutes": 7,
+    "text": {
+      "es": {
+        "title": "Intervalos",
+        "body": "Un intervalo es la distancia entre dos alturas. Un semitono es el paso más pequeño del piano habitual; un tono equivale a dos semitonos. Do–Mi tiene cuatro semitonos y es una tercera mayor. Do–Sol tiene siete: quinta justa. Escucha primero la dirección y luego el tamaño. Canta ambas notas antes de responder.",
+        "question": "¿Cuántos semitonos tiene una quinta justa?",
+        "options": [
+          "7",
+          "4",
+          "12"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "En detalle",
+            "body": "Cuenta los nombres de notas incluyendo ambos extremos para obtener el número. Después cuenta semitonos para determinar la calidad. Se pueden escuchar intervalos sucesivos o simultáneos."
+          },
+          {
+            "heading": "Ejemplo y errores frecuentes",
+            "body": "Do–Mi contiene tres nombres y cuatro semitonos: tercera mayor. Do–Mi bemol sigue siendo tercera, ahora menor, con tres semitonos. Tres nombres no significan tres semitonos."
+          }
+        ],
+        "steps": [
+          "Cuenta los nombres de Do a Mi.",
+          "Compara Mi con Mi bemol.",
+          "Repite ambos intervalos con otro instrumento."
+        ],
+        "why": "Do–Mi contiene tres nombres y cuatro semitonos: tercera mayor. Do–Mi bemol sigue siendo tercera, ahora menor, con tres semitonos. Tres nombres no significan tres semitonos."
+      },
+      "en": {
+        "title": "Intervals",
+        "body": "An interval is the distance between two pitches. A semitone is the smallest step on a standard piano; a whole tone is two semitones. C–E spans four semitones: a major third. C–G spans seven: a perfect fifth. Listen to direction, then size. Sing both notes before answering.",
+        "question": "How many semitones are in a perfect fifth?",
+        "options": [
+          "7",
+          "4",
+          "12"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "In detail",
+            "body": "Count note names including both endpoints to get the number, then semitones to determine quality. Intervals can sound successively or simultaneously."
+          },
+          {
+            "heading": "Example and common mistakes",
+            "body": "C–E spans three names and four semitones: a major third. C–E flat remains a third, now minor, with three semitones. Three names do not mean three semitones."
+          }
+        ],
+        "steps": [
+          "Count names from C to E.",
+          "Compare E with E flat.",
+          "Repeat both intervals using another instrument."
+        ],
+        "why": "C–E spans three names and four semitones: a major third. C–E flat remains a third, now minor, with three semitones. Three names do not mean three semitones."
+      },
+      "pt": {
+        "title": "Intervalos",
+        "body": "Um intervalo é a distância entre duas alturas. Um semitom é o menor passo do piano habitual; um tom tem dois semitons. Dó–Mi tem quatro semitons: terça maior. Dó–Sol tem sete: quinta justa. Ouça a direção e depois o tamanho. Cante as duas notas antes de responder.",
+        "question": "Quantos semitons há em uma quinta justa?",
+        "options": [
+          "7",
+          "4",
+          "12"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "Em detalhe",
+            "body": "Conte os nomes incluindo ambas as extremidades para obter o número; depois os semitons para determinar a qualidade. Intervalos podem soar sucessiva ou simultaneamente."
+          },
+          {
+            "heading": "Exemplo e erros comuns",
+            "body": "Dó–Mi tem três nomes e quatro semitons: terça maior. Dó–Mi bemol continua terça, agora menor, com três semitons. Três nomes não significam três semitons."
+          }
+        ],
+        "steps": [
+          "Conte os nomes de Dó a Mi.",
+          "Compare Mi com Mi bemol.",
+          "Repita os intervalos com outro instrumento."
+        ],
+        "why": "Dó–Mi tem três nomes e quatro semitons: terça maior. Dó–Mi bemol continua terça, agora menor, com três semitons. Três nomes não significam três semitons."
+      }
+    },
+    "level": 1,
+    "demo": {
+      "notes": [
+        60,
+        64,
+        60,
+        63
+      ]
+    }
+  },
+  {
+    "id": "scales",
+    "minutes": 7,
+    "text": {
+      "es": {
+        "title": "Escalas mayores y menores",
+        "body": "Una escala organiza alturas alrededor de una tónica. La mayor sigue 2–2–1–2–2–2–1 semitonos. La menor natural sigue 2–1–2–2–1–2–2. Do mayor y La menor natural comparten notas, pero tienen distinto centro. Canta la escala terminando en su tónica y escucha la sensación de llegada.",
+        "question": "¿Cuál es el patrón inicial de la escala mayor?",
+        "options": [
+          "2–2–1",
+          "2–1–2",
+          "1–1–1"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "En detalle",
+            "body": "Una escala organiza alturas alrededor de una tónica. La fórmula describe distancias, no una secuencia fija de teclas blancas. Cambiar la tónica conserva la fórmula y puede requerir alteraciones."
+          },
+          {
+            "heading": "Ejemplo y errores frecuentes",
+            "body": "Mayor: 2–2–1–2–2–2–1 semitonos. En Sol produce Sol–La–Si–Do–Re–Mi–Fa sostenido–Sol. Empezar en otra tecla blanca no produce siempre otra escala mayor."
+          }
+        ],
+        "steps": [
+          "Escucha Do mayor.",
+          "Cambia a Sol en el diccionario.",
+          "Localiza el Fa sostenido y compara las fórmulas."
+        ],
+        "why": "Mayor: 2–2–1–2–2–2–1 semitonos. En Sol produce Sol–La–Si–Do–Re–Mi–Fa sostenido–Sol. Empezar en otra tecla blanca no produce siempre otra escala mayor."
+      },
+      "en": {
+        "title": "Major and minor scales",
+        "body": "A scale organizes pitches around a tonic. The major pattern is 2–2–1–2–2–2–1 semitones. Natural minor is 2–1–2–2–1–2–2. C major and A natural minor share notes but have different centers. Sing a scale ending on its tonic and listen for the arrival.",
+        "question": "How does the major scale begin?",
+        "options": [
+          "2–2–1",
+          "2–1–2",
+          "1–1–1"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "In detail",
+            "body": "A scale organizes pitches around a tonic. Its formula describes distances, not fixed white keys. Changing tonic preserves the formula and may require accidentals."
+          },
+          {
+            "heading": "Example and common mistakes",
+            "body": "Major: 2–2–1–2–2–2–1 semitones. From G: G–A–B–C–D–E–F sharp–G. Starting on another white key does not always produce another major scale."
+          }
+        ],
+        "steps": [
+          "Hear C major.",
+          "Change to G in the dictionary.",
+          "Find F sharp and compare formulas."
+        ],
+        "why": "Major: 2–2–1–2–2–2–1 semitones. From G: G–A–B–C–D–E–F sharp–G. Starting on another white key does not always produce another major scale."
+      },
+      "pt": {
+        "title": "Escalas maiores e menores",
+        "body": "Uma escala organiza alturas em torno da tônica. A maior segue 2–2–1–2–2–2–1 semitons. A menor natural segue 2–1–2–2–1–2–2. Dó maior e Lá menor natural compartilham notas, mas têm centros diferentes. Cante terminando na tônica e ouça a sensação de chegada.",
+        "question": "Como começa a escala maior?",
+        "options": [
+          "2–2–1",
+          "2–1–2",
+          "1–1–1"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "Em detalhe",
+            "body": "Uma escala organiza alturas em torno de uma tônica. A fórmula descreve distâncias, não teclas brancas fixas. Mudar a tônica preserva a fórmula e pode exigir alterações."
+          },
+          {
+            "heading": "Exemplo e erros comuns",
+            "body": "Maior: 2–2–1–2–2–2–1 semitons. Em Sol: Sol–Lá–Si–Dó–Ré–Mi–Fá sustenido–Sol. Começar em outra tecla branca nem sempre produz outra escala maior."
+          }
+        ],
+        "steps": [
+          "Ouça Dó maior.",
+          "Mude para Sol no dicionário.",
+          "Localize Fá sustenido e compare as fórmulas."
+        ],
+        "why": "Maior: 2–2–1–2–2–2–1 semitons. Em Sol: Sol–Lá–Si–Dó–Ré–Mi–Fá sustenido–Sol. Começar em outra tecla branca nem sempre produz outra escala maior."
+      }
+    },
+    "level": 1,
+    "demo": {
+      "notes": [
+        60,
+        62,
+        64,
+        65,
+        67,
+        69,
+        71,
+        72
+      ]
+    }
+  },
+  {
+    "id": "triads",
+    "minutes": 7,
+    "text": {
+      "es": {
+        "title": "Tríadas",
+        "body": "Una tríada superpone dos terceras. Desde la fundamental, la mayor tiene 0–4–7 semitonos y la menor 0–3–7. Do–Mi–Sol es mayor; Do–Mib–Sol es menor. La tercera distingue estos dos tipos. Toca o canta cada nota por separado y después escucha el conjunto.",
+        "question": "¿Qué estructura corresponde a una tríada menor?",
+        "options": [
+          "0–3–7",
+          "0–4–7",
+          "0–4–8"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "En detalle",
+            "body": "Una tríada reúne fundamental, tercera y quinta. Su calidad depende de distancias desde la fundamental. Mayor: 0–4–7; menor: 0–3–7; disminuida: 0–3–6; aumentada: 0–4–8 semitonos."
+          },
+          {
+            "heading": "Ejemplo y errores frecuentes",
+            "body": "Do–Mi–Sol y Do–Mi bemol–Sol comparten fundamental y quinta. Cambiar la tercera transforma mayor en menor. Tres teclas cualesquiera no forman necesariamente una tríada por terceras."
+          }
+        ],
+        "steps": [
+          "Escucha Do mayor.",
+          "Compara Do menor.",
+          "Identifica qué nota cambió sin cambiar el bajo."
+        ],
+        "why": "Do–Mi–Sol y Do–Mi bemol–Sol comparten fundamental y quinta. Cambiar la tercera transforma mayor en menor. Tres teclas cualesquiera no forman necesariamente una tríada por terceras."
+      },
+      "en": {
+        "title": "Triads",
+        "body": "A triad stacks two thirds. From its root, a major triad has 0–4–7 semitones and a minor triad 0–3–7. C–E–G is major; C–E-flat–G is minor. The third distinguishes these two qualities. Sing each note, then hear the chord.",
+        "question": "Which structure is a minor triad?",
+        "options": [
+          "0–3–7",
+          "0–4–7",
+          "0–4–8"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "In detail",
+            "body": "A triad contains root, third and fifth. Quality depends on distances from the root. Major: 0–4–7; minor: 0–3–7; diminished: 0–3–6; augmented: 0–4–8 semitones."
+          },
+          {
+            "heading": "Example and common mistakes",
+            "body": "C–E–G and C–E flat–G share root and fifth. Changing the third transforms major into minor. Any three keys do not necessarily form a tertian triad."
+          }
+        ],
+        "steps": [
+          "Hear C major.",
+          "Compare C minor.",
+          "Identify the changed note without changing the bass."
+        ],
+        "why": "C–E–G and C–E flat–G share root and fifth. Changing the third transforms major into minor. Any three keys do not necessarily form a tertian triad."
+      },
+      "pt": {
+        "title": "Tríades",
+        "body": "Uma tríade empilha duas terças. A partir da fundamental, a maior tem 0–4–7 semitons e a menor 0–3–7. Dó–Mi–Sol é maior; Dó–Mib–Sol é menor. A terça distingue esses dois tipos. Cante cada nota e depois ouça o conjunto.",
+        "question": "Qual estrutura é uma tríade menor?",
+        "options": [
+          "0–3–7",
+          "0–4–7",
+          "0–4–8"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "Em detalhe",
+            "body": "Uma tríade reúne fundamental, terça e quinta. A qualidade depende das distâncias da fundamental. Maior: 0–4–7; menor: 0–3–7; diminuta: 0–3–6; aumentada: 0–4–8 semitons."
+          },
+          {
+            "heading": "Exemplo e erros comuns",
+            "body": "Dó–Mi–Sol e Dó–Mi bemol–Sol compartilham fundamental e quinta. Mudar a terça transforma maior em menor. Três teclas quaisquer não formam necessariamente uma tríade por terças."
+          }
+        ],
+        "steps": [
+          "Ouça Dó maior.",
+          "Compare Dó menor.",
+          "Identifique a nota alterada sem mudar o baixo."
+        ],
+        "why": "Dó–Mi–Sol e Dó–Mi bemol–Sol compartilham fundamental e quinta. Mudar a terça transforma maior em menor. Três teclas quaisquer não formam necessariamente uma tríade por terças."
+      }
+    },
+    "level": 1,
+    "demo": {
+      "notes": [
+        [
+          60,
+          64,
+          67
+        ],
+        [
+          60,
+          63,
+          67
+        ]
+      ],
+      "flats": [
+        3
+      ]
+    }
+  },
+  {
+    "id": "intonation-basics",
+    "minutes": 7,
+    "text": {
+      "es": {
+        "title": "Entonación: escuchar antes de cantar",
+        "body": "Entonar es producir una altura de forma intencional. Primero escucha una referencia, imagínala en silencio y después cántala con una vocal cómoda. Empieza con una sola nota y frases cortas; no hace falta cantar fuerte. El afinador mide frecuencia, pero no juzga respiración, expresión ni salud vocal. Si aparece molestia, detén la práctica y busca orientación docente.",
+        "practice": "Escucha una nota cómoda, deja terminar el sonido y cántala durante dos segundos. Descansa y repite. Después canta Do–Re–Mi–Re–Do lentamente. En el entrenador escoge un registro cómodo y usa auriculares para que el altavoz no entre al micrófono.",
+        "question": "¿Qué conviene hacer antes de cantar la referencia?",
+        "options": [
+          "Escuchar e imaginar la altura",
+          "Aumentar mucho el volumen"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "En detalle",
+            "body": "Entrena memoria auditiva antes de producir sonido: escucha, imagina, canta y compara. Empieza en una zona cómoda y descansa entre intentos. Usa auriculares para evitar que la referencia entre al micrófono."
+          },
+          {
+            "heading": "Ejemplo y errores frecuentes",
+            "body": "La misma nota en otra octava comparte nombre, pero el ejercicio compara altura exacta. Saltos de lectura pueden deberse a registro, ruido o armónicos. No fuerces la garganta para perseguir el indicador."
+          }
+        ],
+        "steps": [
+          "Escucha una referencia.",
+          "Espera a que termine.",
+          "Canta suavemente y detente si hay molestia."
+        ],
+        "why": "La misma nota en otra octava comparte nombre, pero el ejercicio compara altura exacta. Saltos de lectura pueden deberse a registro, ruido o armónicos. No fuerces la garganta para perseguir el indicador."
+      },
+      "en": {
+        "title": "Intonation: listen before singing",
+        "body": "Intonation means producing a pitch intentionally. First hear a reference, imagine it silently, then sing it on a comfortable vowel. Begin with one note and short phrases; loud singing is unnecessary. A tuner measures frequency but does not assess breathing, expression or vocal health. Stop if practice causes discomfort and seek teacher guidance.",
+        "practice": "Hear a comfortable note, let it finish, then sing it for two seconds. Rest and repeat. Next sing C–D–E–D–C slowly. Choose a comfortable register in the trainer and use headphones so speakers do not enter the microphone.",
+        "question": "What helps before singing the reference?",
+        "options": [
+          "Listen and imagine the pitch",
+          "Increase the volume greatly"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "In detail",
+            "body": "Train auditory memory before making sound: listen, imagine, sing and compare. Start in a comfortable range and rest between attempts. Use headphones to keep the reference out of the microphone."
+          },
+          {
+            "heading": "Example and common mistakes",
+            "body": "The same note in another octave shares a name, but this task compares exact pitch. Reading jumps can reflect register, noise or harmonics. Do not strain your throat to chase the meter."
+          }
+        ],
+        "steps": [
+          "Hear a reference.",
+          "Let it finish.",
+          "Sing gently and stop if uncomfortable."
+        ],
+        "why": "The same note in another octave shares a name, but this task compares exact pitch. Reading jumps can reflect register, noise or harmonics. Do not strain your throat to chase the meter."
+      },
+      "pt": {
+        "title": "Entonação: ouvir antes de cantar",
+        "body": "Entonar é produzir uma altura de forma intencional. Primeiro ouça uma referência, imagine-a em silêncio e depois cante com uma vogal confortável. Comece com uma nota e frases curtas; não precisa cantar forte. O afinador mede frequência, mas não avalia respiração, expressão nem saúde vocal. Pare se houver desconforto e procure orientação docente.",
+        "practice": "Ouça uma nota confortável, deixe o som terminar e cante por dois segundos. Descanse e repita. Depois cante Dó–Ré–Mi–Ré–Dó lentamente. Escolha um registro confortável no treinador e use fones para que o alto-falante não entre no microfone.",
+        "question": "O que ajuda antes de cantar a referência?",
+        "options": [
+          "Ouvir e imaginar a altura",
+          "Aumentar muito o volume"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "Em detalhe",
+            "body": "Treine memória auditiva antes de produzir som: ouça, imagine, cante e compare. Comece em região confortável e descanse entre tentativas. Use fones para evitar a referência no microfone."
+          },
+          {
+            "heading": "Exemplo e erros comuns",
+            "body": "A mesma nota em outra oitava compartilha nome, mas a tarefa compara altura exata. Saltos podem vir de registro, ruído ou harmônicos. Não force a garganta para perseguir o indicador."
+          }
+        ],
+        "steps": [
+          "Ouça uma referência.",
+          "Espere terminar.",
+          "Cante suavemente e pare se houver desconforto."
+        ],
+        "why": "A mesma nota em outra oitava compartilha nome, mas a tarefa compara altura exata. Saltos podem vir de registro, ruído ou harmônicos. Não force a garganta para perseguir o indicador."
+      }
+    },
+    "level": 1,
+    "demo": {
+      "notes": [
+        60,
+        62,
+        64,
+        62,
+        60
+      ]
+    }
+  },
+  {
+    "id": "study",
+    "minutes": 7,
+    "text": {
+      "es": {
+        "title": "Una rutina sostenible",
+        "body": "Practica unos minutos con una meta concreta: por ejemplo, distinguir terceras o leer una clave. Alterna escuchar, responder y explicar el error. El porcentaje de una sesión orienta tu práctica; no equivale a una nota universitaria ni certifica dominio. Repite otro día y conserva una copia de tu progreso antes de cambiar de dispositivo.",
+        "question": "¿Dónde se guarda tu progreso sin exportar?",
+        "options": [
+          "En este dispositivo",
+          "En una cuenta en la nube",
+          "En Hotmart"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "En detalle",
+            "body": "Combina recordar, escuchar y aplicar. Define una meta observable: reconocer dos intervalos, leer cinco notas o mantener un patrón. Los resultados orientan el siguiente paso, no tu valor musical."
+          },
+          {
+            "heading": "Ejemplo y errores frecuentes",
+            "body": "Diez minutos: dos de lectura, tres de oído, tres de ritmo y dos para revisar errores. Repite mañana lo que falló antes de subir la dificultad. Un buen cuestionario no demuestra por sí solo dominio instrumental."
+          }
+        ],
+        "steps": [
+          "Elige una meta pequeña.",
+          "Revisa un error concreto.",
+          "Decide qué repetir en la siguiente sesión."
+        ],
+        "why": "Diez minutos: dos de lectura, tres de oído, tres de ritmo y dos para revisar errores. Repite mañana lo que falló antes de subir la dificultad. Un buen cuestionario no demuestra por sí solo dominio instrumental."
+      },
+      "en": {
+        "title": "A sustainable routine",
+        "body": "Practice for a few minutes with a specific goal, such as distinguishing thirds or reading one clef. Alternate listening, answering and explaining mistakes. A session percentage guides practice; it is not a university grade or proof of mastery. Return another day and back up progress before changing devices.",
+        "question": "Where is progress stored before export?",
+        "options": [
+          "On this device",
+          "In a cloud account",
+          "On Hotmart"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "In detail",
+            "body": "Combine recall, listening and application. Choose an observable goal: identify two intervals, read five notes or hold a pattern. Results guide your next step, not your musical worth."
+          },
+          {
+            "heading": "Example and common mistakes",
+            "body": "Ten minutes: two for reading, three for ear work, three for rhythm and two for error review. Revisit missed content tomorrow before increasing difficulty. A quiz alone does not prove instrumental mastery."
+          }
+        ],
+        "steps": [
+          "Choose a small goal.",
+          "Review one specific error.",
+          "Decide what to revisit next time."
+        ],
+        "why": "Ten minutes: two for reading, three for ear work, three for rhythm and two for error review. Revisit missed content tomorrow before increasing difficulty. A quiz alone does not prove instrumental mastery."
+      },
+      "pt": {
+        "title": "Uma rotina sustentável",
+        "body": "Pratique alguns minutos com uma meta concreta, como distinguir terças ou ler uma clave. Alterne ouvir, responder e explicar os erros. A porcentagem orienta a prática; não é nota universitária nem certifica domínio. Volte em outro dia e faça uma cópia do progresso antes de trocar de dispositivo.",
+        "question": "Onde o progresso fica antes de exportar?",
+        "options": [
+          "Neste dispositivo",
+          "Em uma conta na nuvem",
+          "Na Hotmart"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "Em detalhe",
+            "body": "Combine memória, escuta e aplicação. Escolha uma meta observável: reconhecer dois intervalos, ler cinco notas ou manter um padrão. Resultados orientam o próximo passo, não seu valor musical."
+          },
+          {
+            "heading": "Exemplo e erros comuns",
+            "body": "Dez minutos: dois de leitura, três de ouvido, três de ritmo e dois de revisão. Retome amanhã o conteúdo errado antes de aumentar a dificuldade. Um questionário não comprova domínio instrumental."
+          }
+        ],
+        "steps": [
+          "Escolha uma meta pequena.",
+          "Revise um erro concreto.",
+          "Decida o que retomar na próxima sessão."
+        ],
+        "why": "Dez minutos: dois de leitura, três de ouvido, três de ritmo e dois de revisão. Retome amanhã o conteúdo errado antes de aumentar a dificuldade. Um questionário não comprova domínio instrumental."
+      }
+    },
+    "level": 1
+  },
+  {
     "id": "signatures",
-    "minutes": 5,
+    "minutes": 7,
     "practice": "keys",
     "text": {
       "es": {
@@ -521,7 +982,23 @@
           "Fa sostenido",
           "Si bemol"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "En detalle",
+            "body": "Observa tipo y cantidad de alteraciones antes de buscar la tónica. Las tonalidades relativas comparten armadura, pero tienen centros diferentes."
+          },
+          {
+            "heading": "Ejemplo y errores frecuentes",
+            "body": "Un sostenido corresponde a Sol mayor o Mi menor. Fa sostenido solo no decide cuál: escucha si Sol o Mi funcionan como reposo. El primer acorde no tiene por qué ser la tónica."
+          }
+        ],
+        "steps": [
+          "Compara Do mayor y Sol mayor.",
+          "Localiza la nota alterada.",
+          "Escucha llegadas a Sol y a Mi."
+        ],
+        "why": "Un sostenido corresponde a Sol mayor o Mi menor. Fa sostenido solo no decide cuál: escucha si Sol o Mi funcionan como reposo. El primer acorde no tiene por qué ser la tónica."
       },
       "en": {
         "title": "Reading key signatures",
@@ -532,7 +1009,23 @@
           "F sharp",
           "B flat"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "In detail",
+            "body": "Identify accidental type and count before finding a tonic. Relative keys share a signature but have different centers."
+          },
+          {
+            "heading": "Example and common mistakes",
+            "body": "One sharp belongs to G major or E minor. F sharp alone cannot decide which: hear whether G or E feels like rest. The opening chord need not be the tonic."
+          }
+        ],
+        "steps": [
+          "Compare C and G major.",
+          "Find the altered note.",
+          "Hear arrivals on G and E."
+        ],
+        "why": "One sharp belongs to G major or E minor. F sharp alone cannot decide which: hear whether G or E feels like rest. The opening chord need not be the tonic."
       },
       "pt": {
         "title": "Como ler uma armadura",
@@ -543,13 +1036,42 @@
           "Fá sustenido",
           "Si bemol"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "Em detalhe",
+            "body": "Identifique tipo e quantidade de alterações antes de buscar a tônica. Tonalidades relativas compartilham armadura, mas têm centros diferentes."
+          },
+          {
+            "heading": "Exemplo e erros comuns",
+            "body": "Um sustenido pertence a Sol maior ou Mi menor. Fá sustenido sozinho não decide: ouça se Sol ou Mi funcionam como repouso. O acorde inicial não precisa ser a tônica."
+          }
+        ],
+        "steps": [
+          "Compare Dó maior e Sol maior.",
+          "Localize a nota alterada.",
+          "Ouça chegadas em Sol e Mi."
+        ],
+        "why": "Um sustenido pertence a Sol maior ou Mi menor. Fá sustenido sozinho não decide: ouça se Sol ou Mi funcionam como repouso. O acorde inicial não precisa ser a tônica."
       }
+    },
+    "level": 2,
+    "demo": {
+      "notes": [
+        67,
+        69,
+        71,
+        72,
+        74,
+        76,
+        78,
+        79
+      ]
     }
   },
   {
     "id": "dotted",
-    "minutes": 5,
+    "minutes": 7,
     "practice": "rhythmTheory",
     "text": {
       "es": {
@@ -561,7 +1083,23 @@
           "1,5",
           "2"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "En detalle",
+            "body": "El puntillo modifica duración, también en silencios. Una ligadura de prolongación une duraciones de la misma altura: la segunda figura no recibe un nuevo ataque."
+          },
+          {
+            "heading": "Ejemplo y errores frecuentes",
+            "body": "Negra con puntillo más corchea suma dos pulsos de negra y tiene dos ataques. Blanca ligada a negra suma tres pulsos con un solo ataque sostenido. El tiempo sigue avanzando durante notas largas y silencios."
+          }
+        ],
+        "steps": [
+          "Cuenta cuatro pulsos.",
+          "Toca uno y medio y luego medio.",
+          "Mantén la subdivisión interior durante el silencio."
+        ],
+        "why": "Negra con puntillo más corchea suma dos pulsos de negra y tiene dos ataques. Blanca ligada a negra suma tres pulsos con un solo ataque sostenido. El tiempo sigue avanzando durante notas largas y silencios."
       },
       "en": {
         "title": "Dots and rests",
@@ -572,7 +1110,23 @@
           "1.5",
           "2"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "In detail",
+            "body": "A dot changes duration, including rests. A tie joins durations at the same pitch: the second value receives no new attack."
+          },
+          {
+            "heading": "Example and common mistakes",
+            "body": "Dotted quarter plus eighth totals two quarter beats with two attacks. Half tied to quarter totals three beats with one sustained attack. Time continues through long notes and rests."
+          }
+        ],
+        "steps": [
+          "Count four beats.",
+          "Play one-and-a-half then half a beat.",
+          "Keep subdivision going through a rest."
+        ],
+        "why": "Dotted quarter plus eighth totals two quarter beats with two attacks. Half tied to quarter totals three beats with one sustained attack. Time continues through long notes and rests."
       },
       "pt": {
         "title": "Pontos de aumento e pausas",
@@ -583,14 +1137,39 @@
           "1,5",
           "2"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "Em detalhe",
+            "body": "O ponto altera duração, inclusive de pausas. A ligadura de prolongamento une durações da mesma altura: a segunda figura não recebe novo ataque."
+          },
+          {
+            "heading": "Exemplo e erros comuns",
+            "body": "Semínima pontuada mais colcheia soma dois pulsos com dois ataques. Mínima ligada à semínima soma três pulsos com um ataque sustentado. O tempo continua em notas longas e pausas."
+          }
+        ],
+        "steps": [
+          "Conte quatro pulsos.",
+          "Toque um e meio e depois meio.",
+          "Mantenha a subdivisão durante a pausa."
+        ],
+        "why": "Semínima pontuada mais colcheia soma dois pulsos com dois ataques. Mínima ligada à semínima soma três pulsos com um ataque sustentado. O tempo continua em notas longas e pausas."
       }
     },
-    "practiceLevel": 2
+    "practiceLevel": 2,
+    "level": 2,
+    "demo": {
+      "rhythm": [
+        1.5,
+        0.5,
+        1.5,
+        0.5
+      ]
+    }
   },
   {
     "id": "compound",
-    "minutes": 5,
+    "minutes": 7,
     "practice": "rhythm",
     "text": {
       "es": {
@@ -602,7 +1181,23 @@
           "Dos",
           "Seis"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "En detalle",
+            "body": "Compás compuesto describe una subdivisión habitual de tres partes por pulso. 6/8, 9/8 y 12/8 suelen agrupar corcheas de tres en tres. Estilo y tempo influyen en cómo se sienten."
+          },
+          {
+            "heading": "Ejemplo y errores frecuentes",
+            "body": "En 6/8 cuenta UNO-dos-tres CUATRO-cinco-seis. En 3/4 cuenta UNO-y DOS-y TRES-y. Hay seis corcheas en ambos, agrupadas de modo diferente. El 8 no obliga a sentir cada corchea como pulso principal."
+          }
+        ],
+        "steps": [
+          "Di seis sílabas regulares.",
+          "Acentúa 1 y 4.",
+          "Luego acentúa 1, 3 y 5 y compara."
+        ],
+        "why": "En 6/8 cuenta UNO-dos-tres CUATRO-cinco-seis. En 3/4 cuenta UNO-y DOS-y TRES-y. Hay seis corcheas en ambos, agrupadas de modo diferente. El 8 no obliga a sentir cada corchea como pulso principal."
       },
       "en": {
         "title": "Simple and compound meter",
@@ -613,7 +1208,23 @@
           "Two",
           "Six"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "In detail",
+            "body": "Compound meter describes a usual three-part beat subdivision. 6/8, 9/8 and 12/8 commonly group eighths in threes. Style and tempo affect perception."
+          },
+          {
+            "heading": "Example and common mistakes",
+            "body": "In 6/8 count ONE-two-three FOUR-five-six. In 3/4 count ONE-and TWO-and THREE-and. Both contain six eighths, grouped differently. The 8 does not require each eighth to be a main beat."
+          }
+        ],
+        "steps": [
+          "Say six regular syllables.",
+          "Accent 1 and 4.",
+          "Then accent 1, 3 and 5 and compare."
+        ],
+        "why": "In 6/8 count ONE-two-three FOUR-five-six. In 3/4 count ONE-and TWO-and THREE-and. Both contain six eighths, grouped differently. The 8 does not require each eighth to be a main beat."
       },
       "pt": {
         "title": "Compasso simples e composto",
@@ -624,13 +1235,516 @@
           "Dois",
           "Seis"
         ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "Em detalhe",
+            "body": "Compasso composto descreve subdivisão habitual em três partes por pulso. 6/8, 9/8 e 12/8 costumam agrupar colcheias em três. Estilo e andamento afetam a percepção."
+          },
+          {
+            "heading": "Exemplo e erros comuns",
+            "body": "Em 6/8 conte UM-dois-três QUATRO-cinco-seis. Em 3/4 conte UM-e DOIS-e TRÊS-e. Ambos têm seis colcheias, agrupadas de modo diferente. O 8 não exige sentir cada colcheia como pulso principal."
+          }
+        ],
+        "steps": [
+          "Diga seis sílabas regulares.",
+          "Acentue 1 e 4.",
+          "Depois acentue 1, 3 e 5 e compare."
+        ],
+        "why": "Em 6/8 conte UM-dois-três QUATRO-cinco-seis. Em 3/4 conte UM-e DOIS-e TRÊS-e. Ambos têm seis colcheias, agrupadas de modo diferente. O 8 não exige sentir cada colcheia como pulso principal."
+      }
+    },
+    "level": 2
+  },
+  {
+    "id": "minor-forms",
+    "level": 2,
+    "minutes": 9,
+    "demo": {
+      "notes": [
+        69,
+        71,
+        72,
+        74,
+        76,
+        77,
+        79,
+        81,
+        69,
+        71,
+        72,
+        74,
+        76,
+        77,
+        80,
+        81
+      ]
+    },
+    "text": {
+      "es": {
+        "title": "Tres formas de la escala menor",
+        "body": "La menor natural tiene La–Si–Do–Re–Mi–Fa–Sol. La armónica eleva el séptimo grado: Sol sostenido crea una sensible hacia La. La melódica ascendente eleva también el sexto: Fa sostenido y Sol sostenido. Son recursos del lenguaje menor, no tres tonalidades independientes.",
+        "sections": [
+          {
+            "heading": "Ejemplo y aplicación",
+            "body": "En el uso clásico, la melódica suele descender como menor natural. En jazz suele usarse la forma con sexta y séptima mayores en ambos sentidos. Escucha y compara solo los grados que cambian antes de aprender un patrón completo."
+          }
+        ],
+        "steps": [
+          "Compara las dos versiones del ejemplo.",
+          "Abre menor melódica en el diccionario.",
+          "Canta el séptimo grado y resuélvelo a la tónica."
+        ],
+        "why": "En el uso clásico, la melódica suele descender como menor natural. En jazz suele usarse la forma con sexta y séptima mayores en ambos sentidos. Escucha y compara solo los grados que cambian antes de aprender un patrón completo.",
+        "question": "¿Qué grado cambia de menor natural a armónica?",
+        "options": [
+          "El séptimo",
+          "El segundo"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Three minor scale forms",
+        "body": "A natural minor has A–B–C–D–E–F–G. Harmonic minor raises degree seven: G sharp creates a leading tone toward A. Ascending melodic minor also raises degree six: F sharp and G sharp. These are resources within minor, not three independent keys.",
+        "sections": [
+          {
+            "heading": "Example and application",
+            "body": "Classical melodic minor commonly descends as natural minor. Jazz often uses the raised-sixth-and-seventh form both ways. Compare only the changing degrees before learning a whole pattern."
+          }
+        ],
+        "steps": [
+          "Compare the two versions in the example.",
+          "Open melodic minor in the dictionary.",
+          "Sing degree seven and resolve it to the tonic."
+        ],
+        "why": "Classical melodic minor commonly descends as natural minor. Jazz often uses the raised-sixth-and-seventh form both ways. Compare only the changing degrees before learning a whole pattern.",
+        "question": "Which degree changes from natural to harmonic minor?",
+        "options": [
+          "The seventh",
+          "The second"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Três formas da escala menor",
+        "body": "Lá menor natural tem Lá–Si–Dó–Ré–Mi–Fá–Sol. A harmônica eleva o sétimo grau: Sol sustenido cria uma sensível para Lá. A melódica ascendente eleva também o sexto: Fá sustenido e Sol sustenido. São recursos do modo menor, não três tonalidades independentes.",
+        "sections": [
+          {
+            "heading": "Exemplo e aplicação",
+            "body": "No uso clássico, a melódica costuma descer como menor natural. No jazz costuma usar a forma com sexta e sétima maiores nos dois sentidos. Compare os graus alterados antes de aprender o padrão inteiro."
+          }
+        ],
+        "steps": [
+          "Compare as duas versões do exemplo.",
+          "Abra menor melódica no dicionário.",
+          "Cante o sétimo grau e resolva na tônica."
+        ],
+        "why": "No uso clássico, a melódica costuma descer como menor natural. No jazz costuma usar a forma com sexta e sétima maiores nos dois sentidos. Compare os graus alterados antes de aprender o padrão inteiro.",
+        "question": "Qual grau muda da menor natural para harmônica?",
+        "options": [
+          "O sétimo",
+          "O segundo"
+        ],
         "answer": 0
       }
     }
   },
   {
+    "id": "modes",
+    "level": 2,
+    "minutes": 9,
+    "demo": {
+      "notes": [
+        62,
+        64,
+        65,
+        67,
+        69,
+        71,
+        72,
+        74
+      ]
+    },
+    "text": {
+      "es": {
+        "title": "Modos: centro y notas características",
+        "body": "Los modos diatónicos comparten una familia de intervalos, pero cada uno establece su propio centro. Dórico es 1–2–♭3–4–5–6–♭7; frigio incorpora ♭2; lidio, ♯4; mixolidio, ♭7. Jónico corresponde a mayor y eólico a menor natural.",
+        "sections": [
+          {
+            "heading": "Ejemplo y aplicación",
+            "body": "Re dórico usa las teclas blancas, pero debe sentirse Re como centro. Para distinguirlo de Re menor natural, compara Si con Si bemol. Tocar Do mayor empezando en Re no basta si sigues resolviendo todo a Do."
+          }
+        ],
+        "steps": [
+          "Escucha Re dórico.",
+          "Compara su sexta con menor natural.",
+          "Improvisa tres notas y termina en Re."
+        ],
+        "why": "Re dórico usa las teclas blancas, pero debe sentirse Re como centro. Para distinguirlo de Re menor natural, compara Si con Si bemol. Tocar Do mayor empezando en Re no basta si sigues resolviendo todo a Do.",
+        "question": "¿Qué grado distingue dórico de menor natural?",
+        "options": [
+          "La sexta mayor",
+          "La tercera mayor"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Modes: center and characteristic notes",
+        "body": "Diatonic modes share an interval family but establish different centers. Dorian is 1–2–♭3–4–5–6–♭7; Phrygian features ♭2; Lydian ♯4; Mixolydian ♭7. Ionian is major and Aeolian natural minor.",
+        "sections": [
+          {
+            "heading": "Example and application",
+            "body": "D Dorian uses white keys but should make D feel central. Compare B with B flat to distinguish it from D natural minor. Starting C major on D is insufficient if every phrase still resolves to C."
+          }
+        ],
+        "steps": [
+          "Hear D Dorian.",
+          "Compare its sixth with natural minor.",
+          "Improvise three notes ending on D."
+        ],
+        "why": "D Dorian uses white keys but should make D feel central. Compare B with B flat to distinguish it from D natural minor. Starting C major on D is insufficient if every phrase still resolves to C.",
+        "question": "Which degree distinguishes Dorian from natural minor?",
+        "options": [
+          "The major sixth",
+          "The major third"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Modos: centro e notas características",
+        "body": "Os modos diatônicos compartilham uma família de intervalos, mas estabelecem centros diferentes. Dórico é 1–2–♭3–4–5–6–♭7; frígio tem ♭2; lídio ♯4; mixolídio ♭7. Jônio corresponde à maior e eólio à menor natural.",
+        "sections": [
+          {
+            "heading": "Exemplo e aplicação",
+            "body": "Ré dórico usa teclas brancas, mas deve fazer Ré soar central. Compare Si com Si bemol para distinguir de Ré menor natural. Começar Dó maior em Ré não basta se todas as frases resolvem em Dó."
+          }
+        ],
+        "steps": [
+          "Ouça Ré dórico.",
+          "Compare sua sexta com menor natural.",
+          "Improvise três notas terminando em Ré."
+        ],
+        "why": "Ré dórico usa teclas brancas, mas deve fazer Ré soar central. Compare Si com Si bemol para distinguir de Ré menor natural. Começar Dó maior em Ré não basta se todas as frases resolvem em Dó.",
+        "question": "Qual grau distingue dórico de menor natural?",
+        "options": [
+          "A sexta maior",
+          "A terça maior"
+        ],
+        "answer": 0
+      }
+    }
+  },
+  {
+    "id": "pentatonic-blues",
+    "level": 2,
+    "minutes": 9,
+    "demo": {
+      "notes": [
+        60,
+        63,
+        65,
+        66,
+        67,
+        70,
+        72
+      ],
+      "flats": [
+        3,
+        6,
+        10
+      ]
+    },
+    "text": {
+      "es": {
+        "title": "Pentatónicas y lenguaje blues",
+        "body": "Pentatónica significa cinco notas. La mayor contiene 1–2–3–5–6; la menor, 1–♭3–4–5–♭7. La colección blues menor de seis notas añade ♭5. Estas fórmulas son mapas útiles, pero el blues incluye inflexiones, ritmo, articulación y contexto que un teclado temperado no reproduce por completo.",
+        "sections": [
+          {
+            "heading": "Ejemplo y aplicación",
+            "body": "Do pentatónica menor: Do–Mi bemol–Fa–Sol–Si bemol. Añadir Sol bemol crea la colección blues. Usa esa nota como paso hacia Fa o Sol y escucha su tensión, en vez de detener todas las frases allí."
+          }
+        ],
+        "steps": [
+          "Escucha la colección.",
+          "Compara con pentatónica menor en el diccionario.",
+          "Crea una frase que use la nota añadida como paso."
+        ],
+        "why": "Do pentatónica menor: Do–Mi bemol–Fa–Sol–Si bemol. Añadir Sol bemol crea la colección blues. Usa esa nota como paso hacia Fa o Sol y escucha su tensión, en vez de detener todas las frases allí.",
+        "question": "¿Qué nota añade la colección blues menor a la pentatónica menor?",
+        "options": [
+          "La quinta disminuida",
+          "La séptima mayor"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Pentatonics and blues language",
+        "body": "Pentatonic means five notes. Major pentatonic is 1–2–3–5–6; minor is 1–♭3–4–5–♭7. The six-note minor blues collection adds ♭5. These formulas are useful maps, but blues also involves inflections, rhythm, articulation and context beyond a tempered keyboard.",
+        "sections": [
+          {
+            "heading": "Example and application",
+            "body": "C minor pentatonic: C–E flat–F–G–B flat. Adding G flat creates the blues collection. Use it as a passing note toward F or G and hear its tension instead of ending every phrase there."
+          }
+        ],
+        "steps": [
+          "Hear the collection.",
+          "Compare minor pentatonic in the dictionary.",
+          "Create a phrase using the added note in passing."
+        ],
+        "why": "C minor pentatonic: C–E flat–F–G–B flat. Adding G flat creates the blues collection. Use it as a passing note toward F or G and hear its tension instead of ending every phrase there.",
+        "question": "What does minor blues add to minor pentatonic?",
+        "options": [
+          "The diminished fifth",
+          "The major seventh"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Pentatônicas e linguagem blues",
+        "body": "Pentatônica significa cinco notas. A maior contém 1–2–3–5–6; a menor 1–♭3–4–5–♭7. A coleção blues menor de seis notas acrescenta ♭5. As fórmulas são mapas úteis, mas blues também envolve inflexões, ritmo, articulação e contexto além do teclado temperado.",
+        "sections": [
+          {
+            "heading": "Exemplo e aplicação",
+            "body": "Dó pentatônica menor: Dó–Mi bemol–Fá–Sol–Si bemol. Acrescentar Sol bemol cria a coleção blues. Use como passagem para Fá ou Sol e ouça a tensão, em vez de terminar toda frase ali."
+          }
+        ],
+        "steps": [
+          "Ouça a coleção.",
+          "Compare pentatônica menor no dicionário.",
+          "Crie uma frase usando a nota acrescentada como passagem."
+        ],
+        "why": "Dó pentatônica menor: Dó–Mi bemol–Fá–Sol–Si bemol. Acrescentar Sol bemol cria a coleção blues. Use como passagem para Fá ou Sol e ouça a tensão, em vez de terminar toda frase ali.",
+        "question": "O que a coleção blues menor acrescenta à pentatônica menor?",
+        "options": [
+          "A quinta diminuta",
+          "A sétima maior"
+        ],
+        "answer": 0
+      }
+    }
+  },
+  {
+    "id": "inversions",
+    "minutes": 7,
+    "text": {
+      "es": {
+        "title": "Inversiones y bajo",
+        "body": "Una inversión cambia la nota más grave de un acorde sin cambiar sus notas esenciales. Do–Mi–Sol está en estado fundamental con Do en el bajo. Mi–Sol–Do es primera inversión; Sol–Do–Mi, segunda. La inversión no convierte por sí sola un acorde mayor en menor. Escucha el bajo y luego las otras voces.",
+        "question": "En Mi–Sol–Do, ¿qué inversión de Do mayor escuchas?",
+        "options": [
+          "Primera",
+          "Segunda",
+          "Estado fundamental"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "En detalle",
+            "body": "La fundamental identifica el acorde; el bajo es la nota más grave. En posición fundamental coinciden. Una inversión cambia el bajo sin cambiar la identidad del acorde."
+          },
+          {
+            "heading": "Ejemplo y errores frecuentes",
+            "body": "Do–Mi–Sol: posición fundamental. Mi–Sol–Do: primera inversión. Sol–Do–Mi: segunda. C/E significa Do mayor con Mi en el bajo. No nombres todo acorde solo a partir de su nota más grave."
+          }
+        ],
+        "steps": [
+          "Escucha las tres disposiciones.",
+          "Canta solamente el bajo.",
+          "Nombra las notas que permanecen comunes."
+        ],
+        "why": "Do–Mi–Sol: posición fundamental. Mi–Sol–Do: primera inversión. Sol–Do–Mi: segunda. C/E significa Do mayor con Mi en el bajo. No nombres todo acorde solo a partir de su nota más grave."
+      },
+      "en": {
+        "title": "Inversions and bass",
+        "body": "An inversion changes the lowest note of a chord while keeping its essential notes. C–E–G is root position with C in the bass. E–G–C is first inversion; G–C–E is second. An inversion does not itself change major to minor. Listen to the bass, then the other voices.",
+        "question": "Which C-major inversion is E–G–C?",
+        "options": [
+          "First",
+          "Second",
+          "Root position"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "In detail",
+            "body": "The root identifies a chord; the bass is its lowest note. They match in root position. An inversion changes bass without changing chord identity."
+          },
+          {
+            "heading": "Example and common mistakes",
+            "body": "C–E–G: root position. E–G–C: first inversion. G–C–E: second. C/E means C major with E in the bass. Do not name every chord only from its lowest note."
+          }
+        ],
+        "steps": [
+          "Hear all three voicings.",
+          "Sing only the bass.",
+          "Name the notes that remain common."
+        ],
+        "why": "C–E–G: root position. E–G–C: first inversion. G–C–E: second. C/E means C major with E in the bass. Do not name every chord only from its lowest note."
+      },
+      "pt": {
+        "title": "Inversões e baixo",
+        "body": "Uma inversão muda a nota mais grave sem alterar as notas essenciais do acorde. Dó–Mi–Sol é estado fundamental, com Dó no baixo. Mi–Sol–Dó é primeira inversão; Sol–Dó–Mi é segunda. Inverter não transforma um acorde maior em menor. Ouça primeiro o baixo.",
+        "question": "Qual inversão de Dó maior é Mi–Sol–Dó?",
+        "options": [
+          "Primeira",
+          "Segunda",
+          "Estado fundamental"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "Em detalhe",
+            "body": "A fundamental identifica o acorde; o baixo é a nota mais grave. Coincidem na posição fundamental. Uma inversão muda o baixo sem mudar a identidade do acorde."
+          },
+          {
+            "heading": "Exemplo e erros comuns",
+            "body": "Dó–Mi–Sol: posição fundamental. Mi–Sol–Dó: primeira inversão. Sol–Dó–Mi: segunda. C/E significa Dó maior com Mi no baixo. Não nomeie todo acorde só pela nota mais grave."
+          }
+        ],
+        "steps": [
+          "Ouça as três disposições.",
+          "Cante apenas o baixo.",
+          "Nomeie as notas que permanecem comuns."
+        ],
+        "why": "Dó–Mi–Sol: posição fundamental. Mi–Sol–Dó: primeira inversão. Sol–Dó–Mi: segunda. C/E significa Dó maior com Mi no baixo. Não nomeie todo acorde só pela nota mais grave."
+      }
+    },
+    "level": 2,
+    "demo": {
+      "notes": [
+        [
+          60,
+          64,
+          67
+        ],
+        [
+          64,
+          67,
+          72
+        ],
+        [
+          67,
+          72,
+          76
+        ]
+      ]
+    }
+  },
+  {
+    "id": "harmony",
+    "minutes": 7,
+    "text": {
+      "es": {
+        "title": "Grados y progresiones",
+        "body": "Al construir tríadas con las notas de Do mayor aparecen Do, Rem, Mim, Fa, Sol, Lam y Sidim. Los grados I, IV y V ofrecen un recorrido básico de salida y regreso. I–IV–V–I es una posibilidad, no una regla para todas las músicas. Escucha qué cambia al terminar en V en lugar de I.",
+        "question": "¿Cuál es el acorde del grado V en Do mayor?",
+        "options": [
+          "Sol mayor",
+          "Fa menor",
+          "La menor"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "En detalle",
+            "body": "Los números romanos describen acordes respecto a una tonalidad. Permiten comparar la misma idea en distintas tónicas. Aquí mayúscula indica tríada mayor y minúscula menor."
+          },
+          {
+            "heading": "Ejemplo y errores frecuentes",
+            "body": "En Do mayor, I–vi–IV–V es Do–La menor–Fa–Sol. En Sol mayor: Sol–Mi menor–Do–Re. Cambian notas, no el recorrido de grados. Un acorde aislado no determina la tonalidad."
+          }
+        ],
+        "steps": [
+          "Escucha I–IV–V–I.",
+          "Canta las fundamentales.",
+          "Busca el mismo recorrido en otra tonalidad."
+        ],
+        "why": "En Do mayor, I–vi–IV–V es Do–La menor–Fa–Sol. En Sol mayor: Sol–Mi menor–Do–Re. Cambian notas, no el recorrido de grados. Un acorde aislado no determina la tonalidad."
+      },
+      "en": {
+        "title": "Degrees and progressions",
+        "body": "Triads from the notes of C major are C, Dm, Em, F, G, Am and B diminished. I, IV and V offer a basic departure-and-return route. I–IV–V–I is one possibility, not a rule for all music. Compare ending on V with ending on I.",
+        "question": "What is the V chord in C major?",
+        "options": [
+          "G major",
+          "F minor",
+          "A minor"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "In detail",
+            "body": "Roman numerals describe chords relative to a key, allowing ideas to be compared across tonics. Here uppercase indicates a major triad and lowercase a minor one."
+          },
+          {
+            "heading": "Example and common mistakes",
+            "body": "In C major I–vi–IV–V is C–Am–F–G. In G major: G–Em–C–D. Notes change, not the degree pattern. An isolated chord does not determine the key."
+          }
+        ],
+        "steps": [
+          "Hear I–IV–V–I.",
+          "Sing the roots.",
+          "Find the same pattern in another key."
+        ],
+        "why": "In C major I–vi–IV–V is C–Am–F–G. In G major: G–Em–C–D. Notes change, not the degree pattern. An isolated chord does not determine the key."
+      },
+      "pt": {
+        "title": "Graus e progressões",
+        "body": "As tríades das notas de Dó maior são Dó, Rém, Mim, Fá, Sol, Lám e Sidim. I, IV e V oferecem um caminho básico de saída e retorno. I–IV–V–I é uma possibilidade, não uma regra para todas as músicas. Compare terminar em V com terminar em I.",
+        "question": "Qual é o acorde do grau V em Dó maior?",
+        "options": [
+          "Sol maior",
+          "Fá menor",
+          "Lá menor"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "Em detalhe",
+            "body": "Algarismos romanos descrevem acordes em relação à tonalidade, permitindo comparar ideias em outras tônicas. Aqui maiúscula indica tríade maior e minúscula menor."
+          },
+          {
+            "heading": "Exemplo e erros comuns",
+            "body": "Em Dó maior I–vi–IV–V é Dó–Lá menor–Fá–Sol. Em Sol maior: Sol–Mi menor–Dó–Ré. Mudam as notas, não os graus. Um acorde isolado não determina a tonalidade."
+          }
+        ],
+        "steps": [
+          "Ouça I–IV–V–I.",
+          "Cante as fundamentais.",
+          "Encontre o mesmo percurso em outra tonalidade."
+        ],
+        "why": "Em Dó maior I–vi–IV–V é Dó–Lá menor–Fá–Sol. Em Sol maior: Sol–Mi menor–Dó–Ré. Mudam as notas, não os graus. Um acorde isolado não determina a tonalidade."
+      }
+    },
+    "level": 2,
+    "demo": {
+      "notes": [
+        [
+          60,
+          64,
+          67
+        ],
+        [
+          65,
+          69,
+          72
+        ],
+        [
+          67,
+          71,
+          74
+        ],
+        [
+          60,
+          64,
+          67
+        ]
+      ]
+    }
+  },
+  {
     "id": "sevenths",
-    "minutes": 5,
+    "minutes": 7,
     "practice": "chordTheory",
     "text": {
       "es": {
@@ -642,7 +1756,23 @@
           "Do–Mi–Sol–Si bemol",
           "Do–Mi–Sol–Si"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "En detalle",
+            "body": "C7 pide tercera mayor y séptima menor; Cmaj7 pide ambas mayores. Cm7 combina tercera y séptima menores. El cifrado resume la estructura, no una disposición obligatoria de las voces."
+          },
+          {
+            "heading": "Ejemplo y errores frecuentes",
+            "body": "C7: Do–Mi–Sol–Si bemol. Cm7: Do–Mi bemol–Sol–Si bemol. Cmaj7: Do–Mi–Sol–Si. Mantén Do de referencia y compara primero la tercera, después la séptima. Un 7 sin maj no significa séptima mayor."
+          }
+        ],
+        "steps": [
+          "Escucha cada acorde.",
+          "Canta su tercera.",
+          "Compara séptimas menor y mayor."
+        ],
+        "why": "C7: Do–Mi–Sol–Si bemol. Cm7: Do–Mi bemol–Sol–Si bemol. Cmaj7: Do–Mi–Sol–Si. Mantén Do de referencia y compara primero la tercera, después la séptima. Un 7 sin maj no significa séptima mayor."
       },
       "en": {
         "title": "Seventh chords",
@@ -653,7 +1783,23 @@
           "C–E–G–B flat",
           "C–E–G–B"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "In detail",
+            "body": "C7 asks for a major third and minor seventh; Cmaj7 for both major. Cm7 combines minor third and seventh. Symbols describe structure, not one required voicing."
+          },
+          {
+            "heading": "Example and common mistakes",
+            "body": "C7: C–E–G–B flat. Cm7: C–E flat–G–B flat. Cmaj7: C–E–G–B. Keep C as reference and compare third, then seventh. Plain 7 does not mean major seventh."
+          }
+        ],
+        "steps": [
+          "Hear each chord.",
+          "Sing its third.",
+          "Compare minor and major sevenths."
+        ],
+        "why": "C7: C–E–G–B flat. Cm7: C–E flat–G–B flat. Cmaj7: C–E–G–B. Keep C as reference and compare third, then seventh. Plain 7 does not mean major seventh."
       },
       "pt": {
         "title": "Acordes de sétima",
@@ -664,14 +1810,57 @@
           "Dó–Mi–Sol–Si bemol",
           "Dó–Mi–Sol–Si"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "Em detalhe",
+            "body": "C7 pede terça maior e sétima menor; Cmaj7 ambas maiores. Cm7 combina terça e sétima menores. A cifra descreve a estrutura, não uma disposição obrigatória das vozes."
+          },
+          {
+            "heading": "Exemplo e erros comuns",
+            "body": "C7: Dó–Mi–Sol–Si bemol. Cm7: Dó–Mi bemol–Sol–Si bemol. Cmaj7: Dó–Mi–Sol–Si. Mantenha Dó de referência e compare terça e depois sétima. Um 7 sem maj não significa sétima maior."
+          }
+        ],
+        "steps": [
+          "Ouça cada acorde.",
+          "Cante sua terça.",
+          "Compare as sétimas menor e maior."
+        ],
+        "why": "C7: Dó–Mi–Sol–Si bemol. Cm7: Dó–Mi bemol–Sol–Si bemol. Cmaj7: Dó–Mi–Sol–Si. Mantenha Dó de referência e compare terça e depois sétima. Um 7 sem maj não significa sétima maior."
       }
     },
-    "practiceLevel": 3
+    "practiceLevel": 3,
+    "level": 2,
+    "demo": {
+      "notes": [
+        [
+          60,
+          64,
+          67,
+          70
+        ],
+        [
+          60,
+          63,
+          67,
+          70
+        ],
+        [
+          60,
+          64,
+          67,
+          71
+        ]
+      ],
+      "flats": [
+        3,
+        10
+      ]
+    }
   },
   {
     "id": "cadences",
-    "minutes": 5,
+    "minutes": 7,
     "practice": "progression",
     "text": {
       "es": {
@@ -683,7 +1872,23 @@
           "V–I",
           "I–IV"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "En detalle",
+            "body": "Una cadencia articula una frase; es más que dos símbolos. Bajo, melodía, ritmo y disposición contribuyen a la sensación de cierre. Hay llegadas más abiertas y más conclusivas."
+          },
+          {
+            "heading": "Ejemplo y errores frecuentes",
+            "body": "En Sol7–Do, Si suele subir a Do y Fa bajar a Mi. Ese movimiento hace audible la resolución dominante. Un V–I dentro de una frase no es automáticamente una cadencia conclusiva fuerte."
+          }
+        ],
+        "steps": [
+          "Escucha Sol7–Do.",
+          "Sigue Si–Do con la voz.",
+          "Después sigue Fa–Mi y compara el cierre."
+        ],
+        "why": "En Sol7–Do, Si suele subir a Do y Fa bajar a Mi. Ese movimiento hace audible la resolución dominante. Un V–I dentro de una frase no es automáticamente una cadencia conclusiva fuerte."
       },
       "en": {
         "title": "Functions and cadences",
@@ -694,7 +1899,23 @@
           "V–I",
           "I–IV"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "In detail",
+            "body": "A cadence articulates a phrase; it is more than two symbols. Bass, melody, rhythm and voicing contribute to closure, which can feel open or conclusive."
+          },
+          {
+            "heading": "Example and common mistakes",
+            "body": "In G7–C, B often rises to C and F falls to E. This motion makes dominant resolution audible. V–I inside a phrase is not automatically a strong concluding cadence."
+          }
+        ],
+        "steps": [
+          "Hear G7–C.",
+          "Follow B–C with your voice.",
+          "Then follow F–E and compare closure."
+        ],
+        "why": "In G7–C, B often rises to C and F falls to E. This motion makes dominant resolution audible. V–I inside a phrase is not automatically a strong concluding cadence."
       },
       "pt": {
         "title": "Funções e cadências",
@@ -705,52 +1926,412 @@
           "V–I",
           "I–IV"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "Em detalhe",
+            "body": "Uma cadência articula a frase; é mais que dois símbolos. Baixo, melodia, ritmo e disposição contribuem para um fechamento aberto ou conclusivo."
+          },
+          {
+            "heading": "Exemplo e erros comuns",
+            "body": "Em G7–C, Si costuma subir a Dó e Fá descer a Mi. O movimento torna audível a resolução dominante. V–I dentro da frase não é automaticamente uma cadência conclusiva forte."
+          }
+        ],
+        "steps": [
+          "Ouça G7–C.",
+          "Siga Si–Dó com a voz.",
+          "Depois siga Fá–Mi e compare o fechamento."
+        ],
+        "why": "Em G7–C, Si costuma subir a Dó e Fá descer a Mi. O movimento torna audível a resolução dominante. V–I dentro da frase não é automaticamente uma cadência conclusiva forte."
       }
+    },
+    "level": 2,
+    "demo": {
+      "notes": [
+        [
+          55,
+          59,
+          62,
+          65
+        ],
+        [
+          48,
+          60,
+          64,
+          67
+        ]
+      ]
     }
   },
   {
-    "id": "intonation-basics",
-    "minutes": 5,
+    "id": "dictation",
+    "minutes": 7,
     "text": {
       "es": {
-        "title": "Entonación: escuchar antes de cantar",
-        "body": "Entonar es producir una altura de forma intencional. Primero escucha una referencia, imagínala en silencio y después cántala con una vocal cómoda. Empieza con una sola nota y frases cortas; no hace falta cantar fuerte. El afinador mide frecuencia, pero no juzga respiración, expresión ni salud vocal. Si aparece molestia, detén la práctica y busca orientación docente.",
-        "practice": "Escucha una nota cómoda, deja terminar el sonido y cántala durante dos segundos. Descansa y repite. Después canta Do–Re–Mi–Re–Do lentamente. En el entrenador escoge un registro cómodo y usa auriculares para que el altavoz no entre al micrófono.",
-        "question": "¿Qué conviene hacer antes de cantar la referencia?",
+        "title": "Escuchar y transcribir",
+        "body": "Escucha primero la frase completa. Encuentra la nota de llegada, la dirección y las repeticiones. Divide después en grupos pequeños. No pulses notas al azar: canta una posibilidad y compruébala. El dictado de esta app trabaja alturas; sus notas tienen duración uniforme y no evalúa escritura rítmica.",
+        "question": "¿Qué evalúa el dictado de esta app?",
         "options": [
-          "Escuchar e imaginar la altura",
-          "Aumentar mucho el volumen"
+          "El orden de las alturas",
+          "La técnica física",
+          "Una partitura completa"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "En detalle",
+            "body": "Resuelve un dictado por capas: forma general, centro tonal, primera nota, intervalos y ritmo. Repetir con una intención concreta ayuda más que escuchar muchas veces sin plan."
+          },
+          {
+            "heading": "Ejemplo y errores frecuentes",
+            "body": "Para Do–Re–Mi–Re–Do, recuerda subir–subir–bajar–bajar antes de nombrar alturas. Aquí el dictado melódico evalúa alturas; el rítmico se trabaja aparte. No intentes escribir todos los detalles en la primera escucha."
+          }
+        ],
+        "steps": [
+          "Escucha sin tocar.",
+          "Canta la secuencia de memoria.",
+          "Introduce notas y compara la corrección."
+        ],
+        "why": "Para Do–Re–Mi–Re–Do, recuerda subir–subir–bajar–bajar antes de nombrar alturas. Aquí el dictado melódico evalúa alturas; el rítmico se trabaja aparte. No intentes escribir todos los detalles en la primera escucha."
+      },
+      "en": {
+        "title": "Listen and transcribe",
+        "body": "Listen to the whole phrase first. Notice its arrival, direction and repeated notes. Then divide it into small groups. Sing a candidate before checking it rather than guessing random keys. This app’s dictation trains pitch sequences with uniform note lengths; it does not assess rhythmic notation.",
+        "question": "What does this app’s dictation assess?",
+        "options": [
+          "Pitch order",
+          "Physical technique",
+          "A full score"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "In detail",
+            "body": "Solve dictation in layers: shape, tonal center, first note, intervals and rhythm. Purposeful repeats help more than many unfocused listens."
+          },
+          {
+            "heading": "Example and common mistakes",
+            "body": "For C–D–E–D–C, remember up–up–down–down before naming pitches. Here melodic dictation grades pitch; rhythm is trained separately. Do not try to write every detail on the first listen."
+          }
+        ],
+        "steps": [
+          "Listen without playing.",
+          "Sing the sequence from memory.",
+          "Enter notes and compare the correction."
+        ],
+        "why": "For C–D–E–D–C, remember up–up–down–down before naming pitches. Here melodic dictation grades pitch; rhythm is trained separately. Do not try to write every detail on the first listen."
+      },
+      "pt": {
+        "title": "Ouvir e transcrever",
+        "body": "Ouça primeiro a frase inteira. Perceba a chegada, a direção e as repetições. Depois divida em grupos pequenos. Cante uma hipótese antes de conferir, em vez de apertar teclas ao acaso. O ditado desta app trabalha alturas com durações uniformes; não avalia escrita rítmica.",
+        "question": "O que o ditado desta app avalia?",
+        "options": [
+          "A ordem das alturas",
+          "A técnica física",
+          "Uma partitura completa"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "Em detalhe",
+            "body": "Resolva ditados em camadas: desenho, centro tonal, primeira nota, intervalos e ritmo. Repetições com objetivo ajudam mais que muitas escutas sem plano."
+          },
+          {
+            "heading": "Exemplo e erros comuns",
+            "body": "Para Dó–Ré–Mi–Ré–Dó, lembre subir–subir–descer–descer antes de nomear alturas. Aqui o ditado melódico avalia alturas; ritmo é treinado separadamente. Não escreva todos os detalhes na primeira escuta."
+          }
+        ],
+        "steps": [
+          "Ouça sem tocar.",
+          "Cante de memória.",
+          "Insira notas e compare a correção."
+        ],
+        "why": "Para Dó–Ré–Mi–Ré–Dó, lembre subir–subir–descer–descer antes de nomear alturas. Aqui o ditado melódico avalia alturas; ritmo é treinado separadamente. Não escreva todos os detalhes na primeira escuta."
+      }
+    },
+    "level": 2,
+    "demo": {
+      "notes": [
+        60,
+        62,
+        64,
+        62,
+        60
+      ]
+    }
+  },
+  {
+    "id": "transposition",
+    "level": 2,
+    "minutes": 9,
+    "demo": {
+      "notes": [
+        60,
+        62,
+        64,
+        62,
+        60,
+        62,
+        64,
+        66,
+        64,
+        62
+      ]
+    },
+    "text": {
+      "es": {
+        "title": "Transponer conservando la idea",
+        "body": "Transponer desplaza una idea a otra altura conservando relaciones. Una transposición cromática exacta mueve cada nota el mismo número de semitonos. Una secuencia diatónica desplaza grados dentro de una escala y puede cambiar tamaños de intervalos.",
+        "sections": [
+          {
+            "heading": "Ejemplo y aplicación",
+            "body": "Do–Re–Mi sube un tono a Re–Mi–Fa sostenido. Re–Mi–Fa conserva solo el patrón de grados de Do mayor, no todos sus semitonos. Para escribir una nueva tonalidad, ajusta también armadura y alteraciones."
+          }
+        ],
+        "steps": [
+          "Escucha el motivo y su transposición.",
+          "Encuentra las notas en el piano.",
+          "Repite la idea empezando en Sol."
+        ],
+        "why": "Do–Re–Mi sube un tono a Re–Mi–Fa sostenido. Re–Mi–Fa conserva solo el patrón de grados de Do mayor, no todos sus semitonos. Para escribir una nueva tonalidad, ajusta también armadura y alteraciones.",
+        "question": "¿Qué resulta al subir Do–Re–Mi dos semitonos?",
+        "options": [
+          "Re–Mi–Fa sostenido",
+          "Re–Mi–Fa natural"
         ],
         "answer": 0
       },
       "en": {
-        "title": "Intonation: listen before singing",
-        "body": "Intonation means producing a pitch intentionally. First hear a reference, imagine it silently, then sing it on a comfortable vowel. Begin with one note and short phrases; loud singing is unnecessary. A tuner measures frequency but does not assess breathing, expression or vocal health. Stop if practice causes discomfort and seek teacher guidance.",
-        "practice": "Hear a comfortable note, let it finish, then sing it for two seconds. Rest and repeat. Next sing C–D–E–D–C slowly. Choose a comfortable register in the trainer and use headphones so speakers do not enter the microphone.",
-        "question": "What helps before singing the reference?",
+        "title": "Transposing while preserving an idea",
+        "body": "Transposition moves an idea while preserving relationships. Exact chromatic transposition moves every note by the same number of semitones. A diatonic sequence moves scale degrees and can change interval sizes.",
+        "sections": [
+          {
+            "heading": "Example and application",
+            "body": "C–D–E up a tone becomes D–E–F sharp. D–E–F preserves degree movement within C major, not all semitone distances. Written transposition also requires adjusting signatures and accidentals."
+          }
+        ],
+        "steps": [
+          "Hear the motif and transposition.",
+          "Find the notes on the piano.",
+          "Repeat the idea starting on G."
+        ],
+        "why": "C–D–E up a tone becomes D–E–F sharp. D–E–F preserves degree movement within C major, not all semitone distances. Written transposition also requires adjusting signatures and accidentals.",
+        "question": "What is C–D–E transposed up two semitones?",
         "options": [
-          "Listen and imagine the pitch",
-          "Increase the volume greatly"
+          "D–E–F sharp",
+          "D–E–F natural"
         ],
         "answer": 0
       },
       "pt": {
-        "title": "Entonação: ouvir antes de cantar",
-        "body": "Entonar é produzir uma altura de forma intencional. Primeiro ouça uma referência, imagine-a em silêncio e depois cante com uma vogal confortável. Comece com uma nota e frases curtas; não precisa cantar forte. O afinador mede frequência, mas não avalia respiração, expressão nem saúde vocal. Pare se houver desconforto e procure orientação docente.",
-        "practice": "Ouça uma nota confortável, deixe o som terminar e cante por dois segundos. Descanse e repita. Depois cante Dó–Ré–Mi–Ré–Dó lentamente. Escolha um registro confortável no treinador e use fones para que o alto-falante não entre no microfone.",
-        "question": "O que ajuda antes de cantar a referência?",
+        "title": "Transpor preservando a ideia",
+        "body": "Transposição desloca uma ideia preservando relações. A transposição cromática exata move cada nota o mesmo número de semitons. Uma sequência diatônica desloca graus e pode mudar o tamanho dos intervalos.",
+        "sections": [
+          {
+            "heading": "Exemplo e aplicação",
+            "body": "Dó–Ré–Mi um tom acima vira Ré–Mi–Fá sustenido. Ré–Mi–Fá preserva graus de Dó maior, não todas as distâncias em semitons. Na escrita, ajuste também armadura e alterações."
+          }
+        ],
+        "steps": [
+          "Ouça o motivo e a transposição.",
+          "Encontre as notas no piano.",
+          "Repita a ideia começando em Sol."
+        ],
+        "why": "Dó–Ré–Mi um tom acima vira Ré–Mi–Fá sustenido. Ré–Mi–Fá preserva graus de Dó maior, não todas as distâncias em semitons. Na escrita, ajuste também armadura e alterações.",
+        "question": "Como fica Dó–Ré–Mi dois semitons acima?",
         "options": [
-          "Ouvir e imaginar a altura",
-          "Aumentar muito o volume"
+          "Ré–Mi–Fá sustenido",
+          "Ré–Mi–Fá natural"
         ],
         "answer": 0
       }
     }
   },
   {
+    "id": "syncopation",
+    "level": 2,
+    "minutes": 9,
+    "demo": {
+      "rhythm": [
+        0.5,
+        1,
+        0.5,
+        1,
+        1
+      ]
+    },
+    "text": {
+      "es": {
+        "title": "Síncopa, contratiempo y continuidad",
+        "body": "Una síncopa desplaza el énfasis hacia una posición débil y puede prolongar el sonido sobre una posición más fuerte. El contratiempo suele alternar silencios o ausencia de ataque en partes fuertes con ataques en débiles. Su efecto depende del pulso que sigue sintiéndose debajo.",
+        "sections": [
+          {
+            "heading": "Ejemplo y aplicación",
+            "body": "Cuenta 1-y-2-y-3-y-4-y. En el ejemplo, un ataque en el y de 1 dura hasta el y de 2. Mantén el pie marcando negras mientras la mano realiza el patrón: el pulso no debe perseguir los ataques."
+          }
+        ],
+        "steps": [
+          "Escucha el patrón.",
+          "Marca negras con el pie.",
+          "Repite los ataques sin mover el pulso."
+        ],
+        "why": "Cuenta 1-y-2-y-3-y-4-y. En el ejemplo, un ataque en el y de 1 dura hasta el y de 2. Mantén el pie marcando negras mientras la mano realiza el patrón: el pulso no debe perseguir los ataques.",
+        "question": "¿Qué debe mantenerse estable al practicar una síncopa?",
+        "options": [
+          "El pulso de referencia",
+          "El número de ataques por pulso"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Syncopation, offbeats and continuity",
+        "body": "Syncopation shifts emphasis toward a weak position and may sustain across a stronger one. Offbeat patterns often omit attacks on strong positions and attack weak ones. Their effect depends on the underlying beat remaining perceptible.",
+        "sections": [
+          {
+            "heading": "Example and application",
+            "body": "Count 1-and-2-and-3-and-4-and. In the example an attack on the and of 1 lasts to the and of 2. Keep quarter beats with your foot while your hand plays: the beat must not chase attacks."
+          }
+        ],
+        "steps": [
+          "Hear the pattern.",
+          "Mark quarters with your foot.",
+          "Repeat the attacks without shifting the beat."
+        ],
+        "why": "Count 1-and-2-and-3-and-4-and. In the example an attack on the and of 1 lasts to the and of 2. Keep quarter beats with your foot while your hand plays: the beat must not chase attacks.",
+        "question": "What should stay stable when practicing syncopation?",
+        "options": [
+          "The reference beat",
+          "The number of attacks per beat"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Síncope, contratempo e continuidade",
+        "body": "A síncope desloca a ênfase para posição fraca e pode prolongar o som sobre uma posição forte. O contratempo costuma omitir ataques nas partes fortes e atacar nas fracas. O efeito depende da continuidade do pulso subjacente.",
+        "sections": [
+          {
+            "heading": "Exemplo e aplicação",
+            "body": "Conte 1-e-2-e-3-e-4-e. No exemplo, um ataque no e de 1 dura até o e de 2. Marque semínimas com o pé enquanto a mão toca: o pulso não deve perseguir os ataques."
+          }
+        ],
+        "steps": [
+          "Ouça o padrão.",
+          "Marque semínimas com o pé.",
+          "Repita os ataques sem deslocar o pulso."
+        ],
+        "why": "Conte 1-e-2-e-3-e-4-e. No exemplo, um ataque no e de 1 dura até o e de 2. Marque semínimas com o pé enquanto a mão toca: o pulso não deve perseguir os ataques.",
+        "question": "O que deve permanecer estável ao praticar síncope?",
+        "options": [
+          "O pulso de referência",
+          "O número de ataques por pulso"
+        ],
+        "answer": 0
+      }
+    }
+  },
+  {
+    "id": "motifs",
+    "minutes": 7,
+    "text": {
+      "es": {
+        "title": "Motivos y creación",
+        "body": "Un motivo es una idea breve reconocible por su ritmo, alturas o ambos. Repite una idea de tres notas y cambia solo el final. Luego conserva el ritmo y cambia la altura inicial. Comparar una sola modificación facilita escuchar su efecto. En composición hay varias respuestas válidas: explica tu intención y escucha el resultado.",
+        "question": "Para comparar una variación, conviene…",
+        "options": [
+          "Cambiar un elemento a la vez",
+          "Cambiar todo sin escuchar",
+          "Evitar repetir"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "En detalle",
+            "body": "Un motivo es una idea breve reconocible por ritmo, contorno o intervalos. Desarrollarlo cambia algo conservando una relación perceptible. Repetición, contraste y cierre ayudan a construir frases."
+          },
+          {
+            "heading": "Ejemplo y errores frecuentes",
+            "body": "Do–Re–Mi puede responderse con Re–Mi–Fa y terminar Re–Do. Es una secuencia diatónica: no conserva todos los tamaños en semitonos. Cambiar todo a la vez puede borrar la relación con el motivo."
+          }
+        ],
+        "steps": [
+          "Escucha tres notas.",
+          "Conserva el ritmo y cambia el final.",
+          "Crea una respuesta que termine en la tónica."
+        ],
+        "why": "Do–Re–Mi puede responderse con Re–Mi–Fa y terminar Re–Do. Es una secuencia diatónica: no conserva todos los tamaños en semitonos. Cambiar todo a la vez puede borrar la relación con el motivo."
+      },
+      "en": {
+        "title": "Motifs and creation",
+        "body": "A motif is a short idea recognized by rhythm, pitch or both. Repeat three notes and change only the ending. Then keep the rhythm and change the starting pitch. Changing one element makes its effect easier to hear. Composition allows many valid answers: explain your intention and listen to the result.",
+        "question": "To compare a variation, try…",
+        "options": [
+          "Changing one element at a time",
+          "Changing everything without listening",
+          "Never repeating"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "In detail",
+            "body": "A motif is a short idea recognized by rhythm, contour or intervals. Development changes something while preserving a relationship. Repetition, contrast and closure build phrases."
+          },
+          {
+            "heading": "Example and common mistakes",
+            "body": "C–D–E can be answered with D–E–F, ending D–C. This is a diatonic sequence: not all semitone distances stay identical. Changing everything at once can erase the relationship."
+          }
+        ],
+        "steps": [
+          "Hear three notes.",
+          "Keep the rhythm and change the ending.",
+          "Create an answer ending on the tonic."
+        ],
+        "why": "C–D–E can be answered with D–E–F, ending D–C. This is a diatonic sequence: not all semitone distances stay identical. Changing everything at once can erase the relationship."
+      },
+      "pt": {
+        "title": "Motivos e criação",
+        "body": "Um motivo é uma ideia curta reconhecida pelo ritmo, pelas alturas ou por ambos. Repita três notas e mude apenas o final. Depois mantenha o ritmo e mude a altura inicial. Alterar um elemento facilita ouvir o efeito. A composição admite várias respostas: explique sua intenção e ouça o resultado.",
+        "question": "Para comparar uma variação, tente…",
+        "options": [
+          "Mudar um elemento por vez",
+          "Mudar tudo sem ouvir",
+          "Nunca repetir"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "Em detalhe",
+            "body": "Um motivo é uma ideia curta reconhecida por ritmo, contorno ou intervalos. Desenvolver muda algo preservando uma relação. Repetição, contraste e fechamento constroem frases."
+          },
+          {
+            "heading": "Exemplo e erros comuns",
+            "body": "Dó–Ré–Mi pode responder com Ré–Mi–Fá e terminar Ré–Dó. É sequência diatônica: nem todas as distâncias em semitons ficam iguais. Mudar tudo de uma vez pode apagar a relação."
+          }
+        ],
+        "steps": [
+          "Ouça três notas.",
+          "Mantenha o ritmo e mude o final.",
+          "Crie uma resposta terminando na tônica."
+        ],
+        "why": "Dó–Ré–Mi pode responder com Ré–Mi–Fá e terminar Ré–Dó. É sequência diatônica: nem todas as distâncias em semitons ficam iguais. Mudar tudo de uma vez pode apagar a relação."
+      }
+    },
+    "level": 2,
+    "demo": {
+      "notes": [
+        60,
+        62,
+        64,
+        62,
+        64,
+        65,
+        62,
+        60
+      ]
+    }
+  },
+  {
     "id": "tuning-cents",
-    "minutes": 5,
+    "minutes": 7,
     "text": {
       "es": {
         "title": "Afinación y cents",
@@ -761,7 +2342,23 @@
           "La altura está por debajo de la referencia",
           "La altura está por encima"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "En detalle",
+            "body": "Cents miden una diferencia proporcional de frecuencia. La referencia elegida debe coincidir con tu instrumento o conjunto. La lectura instantánea puede variar con ataques, vibrato y ruido."
+          },
+          {
+            "heading": "Ejemplo y errores frecuentes",
+            "body": "Con La de referencia a 440 Hz, una señal a 442 está algo más aguda. Al cambiar la referencia a 442, la misma señal marca cero. Revisa tramos estables; no persigas cada salto del indicador."
+          }
+        ],
+        "steps": [
+          "Compara la referencia.",
+          "Sostén una nota sin vibrato si puedes.",
+          "Revisa varios segundos estables antes de ajustar."
+        ],
+        "why": "Con La de referencia a 440 Hz, una señal a 442 está algo más aguda. Al cambiar la referencia a 442, la misma señal marca cero. Revisa tramos estables; no persigas cada salto del indicador."
       },
       "en": {
         "title": "Tuning and cents",
@@ -772,7 +2369,23 @@
           "Pitch is below the reference",
           "Pitch is above the reference"
         ],
-        "answer": 0
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "In detail",
+            "body": "Cents measure proportional frequency difference. Your reference should match your instrument or ensemble. Instant readings vary with attacks, vibrato and noise."
+          },
+          {
+            "heading": "Example and common mistakes",
+            "body": "With A at 440 Hz a 442 signal is slightly sharp. Change the reference to 442 and the same signal reads zero. Assess steady segments rather than chasing every meter jump."
+          }
+        ],
+        "steps": [
+          "Compare the reference.",
+          "Hold a note without vibrato if possible.",
+          "Check several steady seconds before adjusting."
+        ],
+        "why": "With A at 440 Hz a 442 signal is slightly sharp. Change the reference to 442 and the same signal reads zero. Assess steady segments rather than chasing every meter jump."
       },
       "pt": {
         "title": "Afinação e cents",
@@ -782,6 +2395,514 @@
         "options": [
           "A altura está abaixo da referência",
           "A altura está acima da referência"
+        ],
+        "answer": 0,
+        "sections": [
+          {
+            "heading": "Em detalhe",
+            "body": "Cents medem diferença proporcional de frequência. A referência deve coincidir com seu instrumento ou conjunto. Leituras instantâneas variam com ataques, vibrato e ruído."
+          },
+          {
+            "heading": "Exemplo e erros comuns",
+            "body": "Com Lá em 440 Hz um sinal de 442 está um pouco agudo. Mude a referência para 442 e o mesmo sinal marca zero. Avalie trechos estáveis sem perseguir cada salto do indicador."
+          }
+        ],
+        "steps": [
+          "Compare a referência.",
+          "Sustente uma nota sem vibrato se possível.",
+          "Confira vários segundos estáveis antes de ajustar."
+        ],
+        "why": "Com Lá em 440 Hz um sinal de 442 está um pouco agudo. Mude a referência para 442 e o mesmo sinal marca zero. Avalie trechos estáveis sem perseguir cada salto do indicador."
+      }
+    },
+    "level": 2,
+    "demo": {
+      "notes": [
+        69
+      ]
+    }
+  },
+  {
+    "id": "voice-leading",
+    "level": 3,
+    "minutes": 9,
+    "demo": {
+      "notes": [
+        [
+          60,
+          64,
+          67
+        ],
+        [
+          60,
+          65,
+          69
+        ],
+        [
+          59,
+          62,
+          67
+        ],
+        [
+          60,
+          64,
+          67
+        ]
+      ]
+    },
+    "text": {
+      "es": {
+        "title": "Conducción de voces y notas comunes",
+        "body": "La conducción sigue cada línea entre acordes, en lugar de tratarlos como bloques independientes. Conservar notas comunes y mover otras por grado conjunto puede crear continuidad. La conveniencia de paralelas, cruces o saltos depende del estilo; las reglas de contrapunto tonal no son universales.",
+        "sections": [
+          {
+            "heading": "Ejemplo y aplicación",
+            "body": "Do–Mi–Sol puede ir a Do–Fa–La: Do permanece, Mi sube a Fa y Sol a La. Canta cada línea por separado antes de escuchar el conjunto. Luego cambia una disposición y observa cómo varía la melodía superior."
+          }
+        ],
+        "steps": [
+          "Escucha las voces juntas.",
+          "Canta solo la superior.",
+          "Repite siguiendo una voz interior."
+        ],
+        "why": "Do–Mi–Sol puede ir a Do–Fa–La: Do permanece, Mi sube a Fa y Sol a La. Canta cada línea por separado antes de escuchar el conjunto. Luego cambia una disposición y observa cómo varía la melodía superior.",
+        "question": "¿Qué nota permanece común entre esos dos acordes escritos?",
+        "options": [
+          "Do",
+          "Mi"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Voice leading and common tones",
+        "body": "Voice leading follows each line between chords instead of treating them as unrelated blocks. Common tones and stepwise motion can create continuity. Parallels, crossing and leaps depend on style; tonal counterpoint rules are not universal.",
+        "sections": [
+          {
+            "heading": "Example and application",
+            "body": "C–E–G can move to C–F–A: C stays, E rises to F and G to A. Sing each line before hearing the whole. Change one voicing and notice how the upper melody changes."
+          }
+        ],
+        "steps": [
+          "Hear the voices together.",
+          "Sing only the upper voice.",
+          "Repeat following an inner voice."
+        ],
+        "why": "C–E–G can move to C–F–A: C stays, E rises to F and G to A. Sing each line before hearing the whole. Change one voicing and notice how the upper melody changes.",
+        "question": "Which note stays common between these written chords?",
+        "options": [
+          "C",
+          "E"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Condução de vozes e notas comuns",
+        "body": "A condução acompanha cada linha entre acordes, em vez de tratá-los como blocos independentes. Notas comuns e movimento por graus conjuntos criam continuidade. Paralelas, cruzamentos e saltos dependem do estilo; regras do contraponto tonal não são universais.",
+        "sections": [
+          {
+            "heading": "Exemplo e aplicação",
+            "body": "Dó–Mi–Sol pode ir a Dó–Fá–Lá: Dó fica, Mi sobe a Fá e Sol a Lá. Cante cada linha antes de ouvir o conjunto. Mude uma disposição e observe a melodia superior."
+          }
+        ],
+        "steps": [
+          "Ouça as vozes juntas.",
+          "Cante apenas a superior.",
+          "Repita seguindo uma voz interna."
+        ],
+        "why": "Dó–Mi–Sol pode ir a Dó–Fá–Lá: Dó fica, Mi sobe a Fá e Sol a Lá. Cante cada linha antes de ouvir o conjunto. Mude uma disposição e observe a melodia superior.",
+        "question": "Qual nota permanece comum entre estes acordes escritos?",
+        "options": [
+          "Dó",
+          "Mi"
+        ],
+        "answer": 0
+      }
+    }
+  },
+  {
+    "id": "extensions",
+    "level": 3,
+    "minutes": 9,
+    "demo": {
+      "notes": [
+        [
+          48,
+          64,
+          67,
+          71
+        ],
+        [
+          48,
+          64,
+          71,
+          74
+        ],
+        [
+          48,
+          64,
+          70,
+          74
+        ]
+      ],
+      "flats": [
+        10
+      ]
+    },
+    "text": {
+      "es": {
+        "title": "Extensiones y selección de voces",
+        "body": "Novena, oncena y trecena son segundas, cuartas y sextas situadas en una estructura armónica extendida. El cifrado no obliga a tocar todas las notas posibles: registro, duplicaciones y notas omitidas afectan claridad y función. En muchos contextos la tercera y séptima definen gran parte de la identidad.",
+        "sections": [
+          {
+            "heading": "Ejemplo y aplicación",
+            "body": "Cmaj9 puede contener Do–Mi–Sol–Si–Re. C9 contiene Si bemol, no Si natural. Distribuye las voces para escuchar la novena sin acumular todo en registro grave. Una extensión se valora dentro del estilo y la conducción."
+          }
+        ],
+        "steps": [
+          "Compara Cmaj7 y Cmaj9.",
+          "Escucha C9 y localiza la séptima.",
+          "Prueba omitir la quinta conservando tercera y séptima."
+        ],
+        "why": "Cmaj9 puede contener Do–Mi–Sol–Si–Re. C9 contiene Si bemol, no Si natural. Distribuye las voces para escuchar la novena sin acumular todo en registro grave. Una extensión se valora dentro del estilo y la conducción.",
+        "question": "¿Qué séptima corresponde a C9 en este cifrado?",
+        "options": [
+          "Si bemol",
+          "Si natural"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Extensions and voicing choices",
+        "body": "Ninths, elevenths and thirteenths are seconds, fourths and sixths within extended harmony. Symbols do not require every possible note: register, doubling and omissions affect clarity and function. Third and seventh often define much of the identity.",
+        "sections": [
+          {
+            "heading": "Example and application",
+            "body": "Cmaj9 may contain C–E–G–B–D. C9 contains B flat, not B natural. Spread voices to hear the ninth without crowding the low register. Judge extensions within style and voice leading."
+          }
+        ],
+        "steps": [
+          "Compare Cmaj7 and Cmaj9.",
+          "Hear C9 and locate the seventh.",
+          "Try omitting the fifth while keeping third and seventh."
+        ],
+        "why": "Cmaj9 may contain C–E–G–B–D. C9 contains B flat, not B natural. Spread voices to hear the ninth without crowding the low register. Judge extensions within style and voice leading.",
+        "question": "Which seventh belongs to C9 here?",
+        "options": [
+          "B flat",
+          "B natural"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Extensões e escolha de vozes",
+        "body": "Nonas, décimas primeiras e décimas terceiras são segundas, quartas e sextas em harmonia estendida. A cifra não exige todas as notas possíveis: registro, duplicações e omissões afetam clareza e função. Terça e sétima costumam definir boa parte da identidade.",
+        "sections": [
+          {
+            "heading": "Exemplo e aplicação",
+            "body": "Cmaj9 pode conter Dó–Mi–Sol–Si–Ré. C9 contém Si bemol, não Si natural. Distribua as vozes para ouvir a nona sem congestionar os graves. Avalie extensões no contexto do estilo e da condução."
+          }
+        ],
+        "steps": [
+          "Compare Cmaj7 e Cmaj9.",
+          "Ouça C9 e localize a sétima.",
+          "Experimente omitir a quinta mantendo terça e sétima."
+        ],
+        "why": "Cmaj9 pode conter Dó–Mi–Sol–Si–Ré. C9 contém Si bemol, não Si natural. Distribua as vozes para ouvir a nona sem congestionar os graves. Avalie extensões no contexto do estilo e da condução.",
+        "question": "Qual sétima pertence a C9 aqui?",
+        "options": [
+          "Si bemol",
+          "Si natural"
+        ],
+        "answer": 0
+      }
+    }
+  },
+  {
+    "id": "secondary-dominants",
+    "level": 3,
+    "minutes": 9,
+    "demo": {
+      "notes": [
+        [
+          48,
+          64,
+          67
+        ],
+        [
+          50,
+          66,
+          69,
+          72
+        ],
+        [
+          43,
+          62,
+          67
+        ],
+        [
+          48,
+          64,
+          67
+        ]
+      ]
+    },
+    "text": {
+      "es": {
+        "title": "Dominantes secundarias y tonicización",
+        "body": "Una dominante secundaria dirige temporalmente la atención a un acorde diferente de la tónica principal. V/V significa dominante de la dominante. No toda alteración cromática implica una modulación completa: puede haber una tonicización breve dentro de la tonalidad.",
+        "sections": [
+          {
+            "heading": "Ejemplo y aplicación",
+            "body": "En Do mayor, Re7 contiene Fa sostenido y resuelve a Sol: funciona como V7/V. Si luego Sol vuelve a Do, la frase puede conservar Do como centro global. Identifica destino y resolución antes de asignar un análisis."
+          }
+        ],
+        "steps": [
+          "Escucha Do–Re7–Sol–Do.",
+          "Localiza Fa sostenido.",
+          "Compara el recorrido con uno sin dominante secundaria."
+        ],
+        "why": "En Do mayor, Re7 contiene Fa sostenido y resuelve a Sol: funciona como V7/V. Si luego Sol vuelve a Do, la frase puede conservar Do como centro global. Identifica destino y resolución antes de asignar un análisis.",
+        "question": "¿Hacia qué acorde suele dirigirse Re7 como V7/V en Do mayor?",
+        "options": [
+          "Sol",
+          "Fa"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Secondary dominants and tonicization",
+        "body": "A secondary dominant temporarily points toward a chord other than the main tonic. V/V means dominant of the dominant. Not every chromatic accidental implies a full modulation: a brief tonicization may occur within the key.",
+        "sections": [
+          {
+            "heading": "Example and application",
+            "body": "In C major D7 contains F sharp and resolves to G, functioning as V7/V. If G then returns to C, C can remain the overall center. Identify destination and resolution before assigning an analysis."
+          }
+        ],
+        "steps": [
+          "Hear C–D7–G–C.",
+          "Find F sharp.",
+          "Compare a progression without the secondary dominant."
+        ],
+        "why": "In C major D7 contains F sharp and resolves to G, functioning as V7/V. If G then returns to C, C can remain the overall center. Identify destination and resolution before assigning an analysis.",
+        "question": "Where does D7 as V7/V usually point in C major?",
+        "options": [
+          "G",
+          "F"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Dominantes secundárias e tonicização",
+        "body": "Uma dominante secundária aponta temporariamente para um acorde diferente da tônica principal. V/V é dominante da dominante. Nem toda alteração cromática implica modulação completa: pode ser uma tonicização breve dentro da tonalidade.",
+        "sections": [
+          {
+            "heading": "Exemplo e aplicação",
+            "body": "Em Dó maior, D7 contém Fá sustenido e resolve em Sol, funcionando como V7/V. Se Sol volta a Dó, Dó pode continuar centro global. Identifique destino e resolução antes de analisar."
+          }
+        ],
+        "steps": [
+          "Ouça C–D7–G–C.",
+          "Localize Fá sustenido.",
+          "Compare um percurso sem dominante secundária."
+        ],
+        "why": "Em Dó maior, D7 contém Fá sustenido e resolve em Sol, funcionando como V7/V. Se Sol volta a Dó, Dó pode continuar centro global. Identifique destino e resolução antes de analisar.",
+        "question": "Para onde D7 como V7/V costuma apontar em Dó maior?",
+        "options": [
+          "Sol",
+          "Fá"
+        ],
+        "answer": 0
+      }
+    }
+  },
+  {
+    "id": "modal-interchange",
+    "level": 3,
+    "minutes": 9,
+    "demo": {
+      "notes": [
+        [
+          48,
+          64,
+          67
+        ],
+        [
+          53,
+          69,
+          72
+        ],
+        [
+          53,
+          68,
+          72
+        ],
+        [
+          48,
+          64,
+          67
+        ]
+      ],
+      "flats": [
+        8
+      ]
+    },
+    "text": {
+      "es": {
+        "title": "Intercambio modal y color armónico",
+        "body": "El intercambio modal toma recursos de un modo paralelo, es decir, con la misma tónica. Es distinto de pasar a una tonalidad relativa. El efecto depende de la melodía, la conducción y el contexto; no es una lista de acordes que sirvan automáticamente en cualquier pieza.",
+        "sections": [
+          {
+            "heading": "Ejemplo y aplicación",
+            "body": "En Do mayor, Fa menor puede tomarse de Do menor: IV pasa a iv. La nota La baja a La bemol y suele continuar hacia Sol al regresar a Do. Escucha Do–Fa–Fa menor–Do y sigue esa línea."
+          }
+        ],
+        "steps": [
+          "Escucha el ejemplo.",
+          "Canta La–La bemol–Sol.",
+          "Escribe una frase que conserve Do como centro."
+        ],
+        "why": "En Do mayor, Fa menor puede tomarse de Do menor: IV pasa a iv. La nota La baja a La bemol y suele continuar hacia Sol al regresar a Do. Escucha Do–Fa–Fa menor–Do y sigue esa línea.",
+        "question": "¿Qué cambio transforma Fa mayor en Fa menor?",
+        "options": [
+          "La pasa a La bemol",
+          "Do pasa a Re"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Modal mixture and harmonic color",
+        "body": "Modal mixture borrows from a parallel mode, sharing the same tonic. It differs from moving to a relative key. Its effect depends on melody, voice leading and context, not a list of chords that automatically fit every piece.",
+        "sections": [
+          {
+            "heading": "Example and application",
+            "body": "In C major F minor may be borrowed from C minor: IV becomes iv. A lowers to A flat and often continues to G on returning to C. Hear C–F–Fm–C and follow that line."
+          }
+        ],
+        "steps": [
+          "Hear the example.",
+          "Sing A–A flat–G.",
+          "Write a phrase keeping C central."
+        ],
+        "why": "In C major F minor may be borrowed from C minor: IV becomes iv. A lowers to A flat and often continues to G on returning to C. Hear C–F–Fm–C and follow that line.",
+        "question": "What transforms F major into F minor?",
+        "options": [
+          "A becomes A flat",
+          "C becomes D"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Empréstimo modal e cor harmônica",
+        "body": "O empréstimo modal usa recursos de um modo paralelo, com a mesma tônica. É diferente de passar à tonalidade relativa. O efeito depende da melodia, condução e contexto, não de uma lista de acordes que servem automaticamente em toda peça.",
+        "sections": [
+          {
+            "heading": "Exemplo e aplicação",
+            "body": "Em Dó maior, Fá menor pode vir de Dó menor: IV vira iv. Lá abaixa para Lá bemol e costuma seguir para Sol ao voltar a Dó. Ouça C–F–Fm–C e acompanhe a linha."
+          }
+        ],
+        "steps": [
+          "Ouça o exemplo.",
+          "Cante Lá–Lá bemol–Sol.",
+          "Escreva uma frase mantendo Dó central."
+        ],
+        "why": "Em Dó maior, Fá menor pode vir de Dó menor: IV vira iv. Lá abaixa para Lá bemol e costuma seguir para Sol ao voltar a Dó. Ouça C–F–Fm–C e acompanhe a linha.",
+        "question": "O que transforma Fá maior em Fá menor?",
+        "options": [
+          "Lá passa a Lá bemol",
+          "Dó passa a Ré"
+        ],
+        "answer": 0
+      }
+    }
+  },
+  {
+    "id": "odd-meters",
+    "level": 3,
+    "minutes": 9,
+    "demo": {
+      "rhythm": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "meter": [
+        7,
+        8
+      ],
+      "accents": [
+        0,
+        2,
+        4
+      ]
+    },
+    "text": {
+      "es": {
+        "title": "Compases asimétricos y agrupación",
+        "body": "Un compás de 7/8 contiene siete corcheas, pero puede agruparse 2+2+3, 3+2+2 o 2+3+2. Las unidades pequeñas pueden ser iguales mientras los grupos principales tienen distinta duración. Escribe o escucha la agrupación antes de intentar aumentar el tempo.",
+        "sections": [
+          {
+            "heading": "Ejemplo y aplicación",
+            "body": "El ejemplo usa 2+2+3: UNO-dos TRES-cuatro CINCO-seis-siete. Mantén la misma velocidad de corchea y acentúa los comienzos de grupo. Cambiar a 3+2+2 altera el fraseo sin cambiar la cantidad total."
+          }
+        ],
+        "steps": [
+          "Escucha los grupos.",
+          "Cuenta las siete corcheas uniformemente.",
+          "Cambia los acentos a 3+2+2 como tarea libre."
+        ],
+        "why": "El ejemplo usa 2+2+3: UNO-dos TRES-cuatro CINCO-seis-siete. Mantén la misma velocidad de corchea y acentúa los comienzos de grupo. Cambiar a 3+2+2 altera el fraseo sin cambiar la cantidad total.",
+        "question": "¿Cuántas corcheas suma 2+2+3?",
+        "options": [
+          "Siete",
+          "Ocho"
+        ],
+        "answer": 0
+      },
+      "en": {
+        "title": "Asymmetric meters and grouping",
+        "body": "A 7/8 bar contains seven eighths but can group them 2+2+3, 3+2+2 or 2+3+2. Small units may stay equal while main groups differ in duration. Read or hear the grouping before increasing tempo.",
+        "sections": [
+          {
+            "heading": "Example and application",
+            "body": "The example uses 2+2+3: ONE-two THREE-four FIVE-six-seven. Maintain eighth-note speed and accent group starts. Moving to 3+2+2 changes phrasing without changing the total."
+          }
+        ],
+        "steps": [
+          "Hear the groups.",
+          "Count seven even eighths.",
+          "Try 3+2+2 accents as a free task."
+        ],
+        "why": "The example uses 2+2+3: ONE-two THREE-four FIVE-six-seven. Maintain eighth-note speed and accent group starts. Moving to 3+2+2 changes phrasing without changing the total.",
+        "question": "How many eighths does 2+2+3 contain?",
+        "options": [
+          "Seven",
+          "Eight"
+        ],
+        "answer": 0
+      },
+      "pt": {
+        "title": "Compassos assimétricos e agrupamento",
+        "body": "Um compasso 7/8 contém sete colcheias, mas pode agrupar em 2+2+3, 3+2+2 ou 2+3+2. Unidades pequenas podem ser iguais enquanto grupos principais têm durações diferentes. Leia ou ouça o agrupamento antes de aumentar o andamento.",
+        "sections": [
+          {
+            "heading": "Exemplo e aplicação",
+            "body": "O exemplo usa 2+2+3: UM-dois TRÊS-quatro CINCO-seis-sete. Mantenha a velocidade das colcheias e acentue os inícios. Mudar para 3+2+2 altera o fraseado sem mudar o total."
+          }
+        ],
+        "steps": [
+          "Ouça os grupos.",
+          "Conte sete colcheias uniformes.",
+          "Experimente acentos 3+2+2 como tarefa livre."
+        ],
+        "why": "O exemplo usa 2+2+3: UM-dois TRÊS-quatro CINCO-seis-sete. Mantenha a velocidade das colcheias e acentue os inícios. Mudar para 3+2+2 altera o fraseado sem mudar o total.",
+        "question": "Quantas colcheias soma 2+2+3?",
+        "options": [
+          "Sete",
+          "Oito"
         ],
         "answer": 0
       }
