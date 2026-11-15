@@ -1,12 +1,12 @@
-const VERSION='v1.3.1';
+const VERSION='v1.4.0';
 const PREFIX='walamort-academy:'+self.registration.scope+':';
 const CACHE=PREFIX+VERSION;
-const FILES=['./','index.html','app.css','app.js','core.js','notation.js','pitch.js','voice.js','dictionary.js','lessons.json','manifest.webmanifest','icon-192.png','icon-512.png','icon-maskable.png'];
+const FILES=['./','index.html','app.css','app.js','core.js','notation.js','pitch.js','voice.js','dictionary.js','rhythm-core.js','rhythm-lab.js','samples.js','icons.js','lessons.json','manifest.webmanifest','icon-192.png','icon-512.png','icon-maskable.png',"samples/CREDITS.txt","samples/Salamander-original-notice.txt","samples/flute-A4.mp3","samples/flute-A5.mp3","samples/flute-A6.mp3","samples/flute-C4.mp3","samples/flute-C5.mp3","samples/flute-C6.mp3","samples/flute-C7.mp3","samples/flute-E4.mp3","samples/flute-E5.mp3","samples/guitar-C3.mp3","samples/guitar-C4.mp3","samples/guitar-D5.mp3","samples/guitar-E2.mp3","samples/guitar-Fs3.mp3","samples/guitar-Fs4.mp3","samples/manifest.json","samples/piano-C2.mp3","samples/piano-C3.mp3","samples/piano-C4.mp3","samples/piano-C5.mp3","samples/piano-C6.mp3","samples/piano-Fs2.mp3","samples/piano-Fs3.mp3","samples/piano-Fs4.mp3","samples/piano-Fs5.mp3","samples/tonejs-instruments-original-license.md","samples/violin-A4.mp3","samples/violin-A5.mp3","samples/violin-C4.mp3","samples/violin-C5.mp3","samples/violin-C6.mp3","samples/violin-E4.mp3","samples/violin-E5.mp3","samples/violin-G3.mp3"];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES.map(p=>new Request(new URL(p,self.registration.scope).href,{cache:'reload'}))))));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const key of await caches.keys())if(key.startsWith(PREFIX)&&key!==CACHE)await caches.delete(key);await self.clients.claim();})()));
 self.addEventListener('message',event=>{if(event.data?.type==='ACTIVATE_UPDATE')self.skipWaiting();});
 self.addEventListener('fetch',event=>{const url=new URL(event.request.url),scope=new URL(self.registration.scope);if(event.request.method!=='GET'||url.origin!==scope.origin||!url.pathname.startsWith(scope.pathname))return;
- if(event.request.mode==='navigate'){event.respondWith((async()=>{const cache=await caches.open(CACHE),hit=await cache.match(new URL('index.html',scope).href);return hit||fetch(event.request);})());return;}
+ if(event.request.mode==='navigate'){event.respondWith((async()=>{const cache=await caches.open(CACHE),hit=await cache.match(url.origin+url.pathname);return hit||fetch(event.request);})());return;}
  const relative=url.pathname.slice(scope.pathname.length);if(!FILES.includes(relative)&&relative!=='')return;
  event.respondWith((async()=>{const cache=await caches.open(CACHE),hit=await cache.match(url.origin+url.pathname);return hit||fetch(event.request);})());
 });

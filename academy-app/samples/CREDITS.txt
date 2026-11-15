@@ -1,0 +1,12 @@
+Walamort Academy — recorded instrument subset
+
+Piano: Salamander Grand Piano, Alexander Holm. MP3 distribution: Tonejs/audio, commit efd8296360f9526e379bfbe5c1698ff54d6a1d34.
+Source and original license notice: https://github.com/Tonejs/audio/blob/efd8296360f9526e379bfbe5c1698ff54d6a1d34/salamander/README
+License: Creative Commons Attribution 3.0 Unported (CC BY 3.0): https://creativecommons.org/licenses/by/3.0/
+
+Guitar, flute and violin: tonejs-instruments sample collection, edited by Nicholaus P. Brosowsky, commit 622c2f1c32c8cfce4158ddc3eb26e518ddef37e5.
+The collection identifies acoustic guitar source as University of Iowa and flute/violin as VSCO 2 Community Edition (Versilian Studios / Sam Gossner).
+https://github.com/nbrosowsky/tonejs-instruments/blob/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/sample-source-info.txt
+Sample license declared by the publisher: CC BY 3.0. https://github.com/nbrosowsky/tonejs-instruments/blob/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/LICENSE.md
+
+MP3 bytes are unchanged. A sparse subset is bundled; notes between recordings are pitch-shifted during playback and use a release envelope. This is not a separately recorded sample for every pitch or a multi-velocity-layer instrument. No endorsement by the original authors is implied. Files, exact sources and SHA256 hashes are listed in manifest.json. Walamort's player is original code; Tone.js or tonejs-instruments software is not bundled.
