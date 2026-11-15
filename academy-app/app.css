@@ -26,3 +26,5 @@ main:focus{outline:none}
 .chord-piano{display:flex;gap:2px;overflow-x:auto;padding:8px 0 16px}.chord-piano button{flex:0 0 42px;min-height:110px;background:#fff0d2;color:#32151d;padding:4px;font-size:12px;align-items:flex-end}.chord-piano .black{background:#1e1015;color:#fff0d2;min-height:78px}.chord-piano .in-chord{border:3px solid #ff7a1a}.chord-guitar button{padding:4px;min-width:42px;min-height:44px;font-size:12px}.chord-guitar th{padding:5px}.chord-piano .is-playing,.chord-guitar .is-playing{background:#ff7a1a;color:#210b12}
 
 .chord-piano>div{position:relative;min-width:882px;height:135px}.chord-piano button{position:absolute;top:0;width:42px;height:128px;border-radius:0 0 6px 6px;align-items:flex-end}.chord-piano .black{z-index:2;width:26px;height:80px;min-height:80px;font-size:10px;padding:1px}
+
+@media(min-width:700px){[data-screen=chordLibrary] .dictionary-controls{grid-template-columns:repeat(3,minmax(0,1fr))}}
