@@ -1,6 +1,6 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
 const C=require('../academy-app/core.js'),N=require('../academy-app/notation.js'),P=require('../academy-app/pitch.js');
-assert.equal(C.kinds.length,18);
+assert.equal(C.kinds.length,19);
 for(const notation of ['solfege','letters']){assert(!/[0-9]/.test(C.displayNote(67,{notation},'es')));assert(C.displayNote(67,{notation,showOctave:true},'es').endsWith('4'));}
 for(let i=0;i<300;i++)for(const level of [1,2,3]){
  const q=C.question('reading',level);assert.equal(new Set(q.options.map(n=>n%12)).size,q.options.length);
