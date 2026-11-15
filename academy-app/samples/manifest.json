@@ -1,0 +1,237 @@
+{
+  "license": "CC-BY-3.0",
+  "banks": {
+    "piano": [
+      {
+        "file": "samples/piano-C2.mp3",
+        "midi": 36,
+        "bytes": 110357,
+        "sha256": "7029a9e84f748433bc33d067ee13d37d0b866768f09ae6c7dac8e2e98e1e53ca",
+        "source": "https://raw.githubusercontent.com/Tonejs/audio/efd8296360f9526e379bfbe5c1698ff54d6a1d34/salamander/C2.mp3"
+      },
+      {
+        "file": "samples/piano-Fs2.mp3",
+        "midi": 42,
+        "bytes": 102320,
+        "sha256": "dd34c708274eeba35da1fd99fc31ef904e390ff02f6864aefe8a13261f8a8327",
+        "source": "https://raw.githubusercontent.com/Tonejs/audio/efd8296360f9526e379bfbe5c1698ff54d6a1d34/salamander/Fs2.mp3"
+      },
+      {
+        "file": "samples/piano-C3.mp3",
+        "midi": 48,
+        "bytes": 78036,
+        "sha256": "bb70dd921d81b3dda561c19b5c029292ae5a6fba1947e364bf274218ce19a9d1",
+        "source": "https://raw.githubusercontent.com/Tonejs/audio/efd8296360f9526e379bfbe5c1698ff54d6a1d34/salamander/C3.mp3"
+      },
+      {
+        "file": "samples/piano-Fs3.mp3",
+        "midi": 54,
+        "bytes": 77933,
+        "sha256": "960fefd90f56608b7edf958dadfeca893cff5744ab9034d61e419401fe45ce9c",
+        "source": "https://raw.githubusercontent.com/Tonejs/audio/efd8296360f9526e379bfbe5c1698ff54d6a1d34/salamander/Fs3.mp3"
+      },
+      {
+        "file": "samples/piano-C4.mp3",
+        "midi": 60,
+        "bytes": 78718,
+        "sha256": "689eaa4c2fd7f29a2cc0e386eec462156d523a87d701269e5e2458e66056f4f6",
+        "source": "https://raw.githubusercontent.com/Tonejs/audio/efd8296360f9526e379bfbe5c1698ff54d6a1d34/salamander/C4.mp3"
+      },
+      {
+        "file": "samples/piano-Fs4.mp3",
+        "midi": 66,
+        "bytes": 68219,
+        "sha256": "613652f5c96e35736ce6a46bc4ddb6ba1076d1fb16a35a4c22c14e67efdde57c",
+        "source": "https://raw.githubusercontent.com/Tonejs/audio/efd8296360f9526e379bfbe5c1698ff54d6a1d34/salamander/Fs4.mp3"
+      },
+      {
+        "file": "samples/piano-C5.mp3",
+        "midi": 72,
+        "bytes": 68920,
+        "sha256": "2f5b0f7422063010fb379e684bfdf2daa3911dcd2251413d79fa2a53029fdc30",
+        "source": "https://raw.githubusercontent.com/Tonejs/audio/efd8296360f9526e379bfbe5c1698ff54d6a1d34/salamander/C5.mp3"
+      },
+      {
+        "file": "samples/piano-Fs5.mp3",
+        "midi": 78,
+        "bytes": 51597,
+        "sha256": "ed2fdf543274ea72ddd4eb634a16356531a5f4040b2a60d34fb12a5c72cbf22f",
+        "source": "https://raw.githubusercontent.com/Tonejs/audio/efd8296360f9526e379bfbe5c1698ff54d6a1d34/salamander/Fs5.mp3"
+      },
+      {
+        "file": "samples/piano-C6.mp3",
+        "midi": 84,
+        "bytes": 28065,
+        "sha256": "0d3232edd13ba69fd5caf4a295060ae0fd533b8a1433ae0a038644d70715c907",
+        "source": "https://raw.githubusercontent.com/Tonejs/audio/efd8296360f9526e379bfbe5c1698ff54d6a1d34/salamander/C6.mp3"
+      }
+    ],
+    "guitar": [
+      {
+        "file": "samples/guitar-E2.mp3",
+        "midi": 40,
+        "bytes": 260448,
+        "sha256": "917820984d1bb0b7712b4f2c42a9694efbb2479ccede45aa78af73811fc6818d",
+        "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/E2.mp3"
+      },
+      {
+        "file": "samples/guitar-C3.mp3",
+        "midi": 48,
+        "bytes": 331812,
+        "sha256": "b9533ea5477879ddb9e1742c29f9084488ef70beee50a6fb44429d5b9a994e99",
+        "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/C3.mp3"
+      },
+      {
+        "file": "samples/guitar-Fs3.mp3",
+        "midi": 54,
+        "bytes": 234782,
+        "sha256": "fbead0c33ab6e7ad2345be84c286f185f8a760149e848b711758606c6f55a12c",
+        "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Fs3.mp3"
+      },
+      {
+        "file": "samples/guitar-C4.mp3",
+        "midi": 60,
+        "bytes": 83916,
+        "sha256": "594c98aa8f9d1a426078e91899525f143e0bc82218b7b2c3f4cea2c54c181925",
+        "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/C4.mp3"
+      },
+      {
+        "file": "samples/guitar-Fs4.mp3",
+        "midi": 66,
+        "bytes": 113964,
+        "sha256": "51a5d7eab58e82579f9ae23daa73bae57561af96498eb39f73662e578d00fd9b",
+        "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Fs4.mp3"
+      },
+      {
+        "file": "samples/guitar-D5.mp3",
+        "midi": 74,
+        "bytes": 78282,
+        "sha256": "c9d74d19e672780b7b6e9eb4468b31b5fee6642f20df724198b232f7c78af4f1",
+        "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/D5.mp3"
+      }
+    ],
+    "flute": [
+      {
+        "file": "samples/flute-C4.mp3",
+        "midi": 60,
+        "bytes": 190962,
+        "sha256": "d6837b9e7c524e7b733a11530d930316d85a91cd80dbba38a497047624bb63e3",
+        "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/C4.mp3"
+      },
+      {
+        "file": "samples/flute-E4.mp3",
+        "midi": 64,
+        "bytes": 255440,
+        "sha256": "39fa9c7004bc2d168c98839475cc52448abdfb43486a11cf076b72dfcfa2b1d3",
+        "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/E4.mp3"
+      },
+      {
+        "file": "samples/flute-A4.mp3",
+        "midi": 69,
+        "bytes": 193466,
+        "sha256": "615376784bd2a716baa8c7b1c57a3d55048a62cf89b313ed005d85da06a1d918",
+        "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/A4.mp3"
+      },
+      {
+        "file": "samples/flute-C5.mp3",
+        "midi": 72,
+        "bytes": 183450,
+        "sha256": "1b6ec4d5bf2caeca80da4c53f6d9f09eb3a49e8de04588965c55ca8f00ff296d",
+        "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/C5.mp3"
+      },
+      {
+        "file": "samples/flute-E5.mp3",
+        "midi": 76,
+        "bytes": 195970,
+        "sha256": "2d024d4cd56412bcb8cc3ecbce0736b63c9ba1d77de2e9601ba4efeda559a157",
+        "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/E5.mp3"
+      },
+      {
+        "file": "samples/flute-A5.mp3",
+        "midi": 81,
+        "bytes": 177190,
+        "sha256": "0735eccfb744176f253d1f715f7a70cf045694cce1da99d934e52a3a3544f968",
+        "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/A5.mp3"
+      },
+      {
+        "file": "samples/flute-C6.mp3",
+        "midi": 84,
+        "bytes": 176564,
+        "sha256": "535d1fbfaddbdb7f91c415708470f0860669c08733823212e81e98909afc9a64",
+        "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/C6.mp3"
+      },
+      {
+        "file": "samples/flute-A6.mp3",
+        "midi": 93,
+        "bytes": 133370,
+        "sha256": "1d67a54c3a8e8d28e21194cec6cbcbf1af60ec226f568b11723057b08abfd2c8",
+        "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/A6.mp3"
+      },
+      {
+        "file": "samples/flute-C7.mp3",
+        "midi": 96,
+        "bytes": 115842,
+        "sha256": "3f19353492d8c293b5e3f6f21c7773355565bb2056a1300b28b33d5e990e8962",
+        "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/C7.mp3"
+      }
+    ],
+    "violin": [
+      {
+        "file": "samples/violin-G3.mp3",
+        "midi": 55,
+        "bytes": 400672,
+        "sha256": "4425d83aa3e497c3a38aba0d81821fa253b4d7ba5bc99ee51932f3af7587406b",
+        "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/G3.mp3"
+      },
+      {
+        "file": "samples/violin-C4.mp3",
+        "midi": 60,
+        "bytes": 318666,
+        "sha256": "47a86f01f5a9f978e3328d72ecc3d12ad72cc18852676f655090e68c34b87d8c",
+        "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/C4.mp3"
+      },
+      {
+        "file": "samples/violin-E4.mp3",
+        "midi": 64,
+        "bytes": 329934,
+        "sha256": "5dad3626ee3654e79cfdb9cdb769658b5c4b3da4c62d8cb08a2a88323b9d267a",
+        "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/E4.mp3"
+      },
+      {
+        "file": "samples/violin-A4.mp3",
+        "midi": 69,
+        "bytes": 339950,
+        "sha256": "b51bab05788a078a1ab8480acae9aa96bf2072aafe237991e414759fb0005243",
+        "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/A4.mp3"
+      },
+      {
+        "file": "samples/violin-C5.mp3",
+        "midi": 72,
+        "bytes": 341202,
+        "sha256": "51315c5bce2c5186d0ac5bd69b72d632bc6188c9401a19212998fcd11ba2934a",
+        "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/C5.mp3"
+      },
+      {
+        "file": "samples/violin-E5.mp3",
+        "midi": 76,
+        "bytes": 323048,
+        "sha256": "65ece2416a99a1e415286e75897dcc71f4a675e744bd9caf2a06ac75c8636d12",
+        "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/E5.mp3"
+      },
+      {
+        "file": "samples/violin-A5.mp3",
+        "midi": 81,
+        "bytes": 271716,
+        "sha256": "d7649681176736f820a3ff460fbfb1656922b4da0150ec7df4527b01c9bd8ffe",
+        "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/A5.mp3"
+      },
+      {
+        "file": "samples/violin-C6.mp3",
+        "midi": 84,
+        "bytes": 295504,
+        "sha256": "85c103492bd20f3bcf8eab6fd3de5f41853c98259b7d92a6a2ca169861d21f7c",
+        "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/C6.mp3"
+      }
+    ]
+  }
+}
