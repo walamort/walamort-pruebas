@@ -4,6 +4,7 @@ const names=['Do','Do♯','Re','Re♯','Mi','Fa','Fa♯','Sol','Sol♯','La','La
 const letters=['C','C♯','D','D♯','E','F','F♯','G','G♯','A','A♯','B'];
 const intervals=[2,4,5,7,9,12];const chords={major:[0,4,7],minor:[0,3,7],sus4:[0,5,7],dim:[0,3,6],aug:[0,4,8],dom7:[0,4,7,10],maj7:[0,4,7,11],min7:[0,3,7,10]};
 const scales={major:[0,2,4,5,7,9,11,12],minor:[0,2,3,5,7,8,10,12],pentMajor:[0,2,4,7,9,12],pentMinor:[0,3,5,7,10,12],dorian:[0,2,3,5,7,9,10,12],mixolydian:[0,2,4,5,7,9,10,12]};
+const dictionary=root.AcademyDictionary||(typeof module==='object'&&module.exports?require('./dictionary.js'):null);for(const entry of dictionary?.scales||[])scales[entry.id]=[...entry.intervals,12];
 const natural=n=>[0,2,4,5,7,9,11].includes(n%12);const note=(n,lang='es')=>(lang==='en'?letters:lang==='pt'?['Dó','Dó♯','Ré','Ré♯','Mi','Fá','Fá♯','Sol','Sol♯','Lá','Lá♯','Si']:names)[n%12]+(Math.floor(n/12)-1);
 function shuffle(a,r=Math.random){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(r()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 function pick(a,r){return a[Math.floor(r()*a.length)];}
@@ -16,7 +17,7 @@ function question(kind,level=1,r=Math.random){if(!kinds.includes(kind)||![1,2,3]
  }else if(kind==='interval'){
   const pool=level===1?[2,4,7,12]:level===2?intervals:[1,2,3,4,5,6,7,8,9,10,11,12];q.answer=pick(pool,r);q.options=shuffle([q.answer,...shuffle(pool.filter(n=>n!==q.answer),r).slice(0,3)],r);const n=level===1?60:60+Math.floor(r()*8);q.notes=[n,n+q.answer];
  }else if(kind==='chord'||kind==='scale'){
-  const map=kind==='chord'?chords:scales;const pool=kind==='chord'?Object.keys(map).slice(0,level===1?2:level===2?4:8):Object.keys(map).slice(0,level===1?2:level===2?4:6);q.answer=pick(pool,r);q.options=shuffle([q.answer,...shuffle(pool.filter(n=>n!==q.answer),r).slice(0,3)],r);const n=level===1?60:60+Math.floor(r()*12);q.root=n;q.notes=map[q.answer].map(x=>n+x);
+  const map=kind==='chord'?chords:scales;const pool=kind==='chord'?Object.keys(map).slice(0,level===1?2:level===2?4:8):Object.keys(map).slice(0,level===1?2:level===2?4:Object.keys(map).length);q.answer=pick(pool,r);q.options=shuffle([q.answer,...shuffle(pool.filter(n=>n!==q.answer),r).slice(0,3)],r);const n=level===1?60:60+Math.floor(r()*12);q.root=n;q.notes=map[q.answer].map(x=>n+x);
  }else if(kind==='dictation'){
   const pool=level===1?[60,62,64,65,67]:[60,62,64,65,67,69,71];q.notes=Array.from({length:level+2},()=>pick(pool,r));q.answer=q.notes.slice();q.keyboard=pool;
  }else if(kind==='rhythm'){

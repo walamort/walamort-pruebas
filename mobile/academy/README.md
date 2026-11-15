@@ -10,3 +10,8 @@ Debug builds may use different ephemeral signing keys. Export progress from the 
 
 ## Version 1.2 / test build 3
 Compact five-area exercise directory with accent-insensitive search, collapsed options and direct exercise switching. Compact lesson rows with search/completion filters. Smaller session chrome/notation cards while retaining 44px touch targets and comfortable lesson text. Existing history and settings remain compatible. Same microphone/privacy/debug-signing limitations as version 1.1.
+
+## Version 1.3 / test build 4
+30 original ES/EN/PT lessons in three open learning paths (10 foundation, 15 development, 5 deeper-study introductions), worked examples, 3 self-guided steps per lesson and 28 playable demonstrations. Concept reviews explain answers; completing a review continues within the same path. Existing lesson history identifiers are retained.
+
+Offline scale dictionary: 24 distinct equal-tempered collections in 12 tonics, degree/interval formulas, tonic-aware spelling, clickable piano and standard-tuned guitar maps in four fret windows, ascending/descending playback and four guided tasks. No automatic fingering/technique grading is claimed. The four selected synthesized timbres apply to demonstrations and exercises. Advanced aural scale practice now draws from all 24 collections; beginner/intermediate pools remain smaller. Dictionary access lives under Learn and Home, avoiding a sixth bottom tab. Same local privacy, microphone and debug-signing limits as earlier versions.
