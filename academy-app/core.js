@@ -1,5 +1,5 @@
 (function(root){'use strict';
-const kinds=['reading','interval','chord','scale','dictation','rhythm','intervalTheory','chordTheory','rhythmTheory','rhythmDictation','keys','progression','direction','scaleDegree','inversion','meterTheory'];
+const kinds=['reading','interval','chord','scale','dictation','rhythm','intervalTheory','chordTheory','rhythmTheory','rhythmDictation','keys','progression','direction','scaleDegree','inversion','meterTheory','pitchMemory','chordColor'];
 const names=['Do','Do♯','Re','Re♯','Mi','Fa','Fa♯','Sol','Sol♯','La','La♯','Si'];
 const letters=['C','C♯','D','D♯','E','F','F♯','G','G♯','A','A♯','B'];
 const intervals=[2,4,5,7,9,12];const chords={major:[0,4,7],minor:[0,3,7],sus4:[0,5,7],dim:[0,3,6],aug:[0,4,8],dom7:[0,4,7,10],maj7:[0,4,7,11],min7:[0,3,7,10]};
@@ -35,6 +35,10 @@ function question(kind,level=1,r=Math.random){if(!kinds.includes(kind)||![1,2,3]
  const pool=level===1?['C','G','F']:level===2?['C','G','D','F','Bb']:['C','G','D','A','E','F','Bb','Eb'];q.answer=pick(pool,r);q.options=shuffle([q.answer,...shuffle(pool.filter(k=>k!==q.answer),r).slice(0,3)],r);q.clef='treble';q.bottom=64;q.signature={C:0,G:1,D:2,A:3,E:4,F:-1,Bb:-2,Eb:-3}[q.answer];q.notes=[];
  }else if(kind==='progression'){
  const pool=level===1?['I–IV–V–I','I–V–IV–I']:['I–IV–V–I','I–V–vi–IV','ii–V–I','vi–IV–I–V'];q.answer=pick(pool,r);q.options=shuffle(pool,r);const map={'I':[60,64,67],'ii':[62,65,69],'IV':[65,69,72],'V':[67,71,74],'vi':[57,60,64]};q.progression=q.answer.split('–').map(x=>map[x]);q.notes=q.progression.flat();
+ }else if(kind==='pitchMemory'){
+ const pcs=level===1?[0,2,4,7]:level===2?[0,2,4,5,7,9,11]:[0,1,2,3,4,5,6,7,8,9,10,11],pc=pick(pcs,r);q.answer=60+pc;q.options=shuffle([q.answer,...shuffle(pcs.filter(x=>x!==pc),r).slice(0,3).map(x=>60+x)],r);q.notes=[(level===3?pick([48,60,72],r):60)+pc];
+ }else if(kind==='chordColor'){
+ const lib=root.AcademyChords||(typeof module==='object'&&module.exports?require('./chords.js'):null),pool=lib.types.filter(t=>level===1?['major','minor','sus2','sus4'].includes(t.id):level===2?['triad','sus','seventh','added'].includes(t.family):true);q.answer=pick(pool,r).id;q.options=shuffle([q.answer,...shuffle(pool.filter(t=>t.id!==q.answer),r).slice(0,3).map(t=>t.id)],r);q.root=level===1?60:60+Math.floor(r()*12);q.notes=lib.types.find(t=>t.id===q.answer).intervals.map(n=>q.root+n);
  }else if(kind==='direction'){
  const distance=pick(level===1?[0,7,12]:level===2?[0,2,3,4,5,7,12]:[0,1,2,3,4,5,6,7,8,9,10,11,12],r),sign=distance===0?0:pick([-1,1],r),n=60+Math.floor(r()*6);q.answer=sign===0?'same':sign>0?'up':'down';q.options=shuffle(['up','down','same'],r);q.notes=[n,n+sign*distance];
  }else if(kind==='scaleDegree'){
