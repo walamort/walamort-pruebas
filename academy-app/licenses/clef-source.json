@@ -1,0 +1,11 @@
+{
+  "source": "https://api.github.com/repos/steinbergmedia/bravura",
+  "commit": "37b194378b710cc40e406ab6c4b07608bb9548ae",
+  "unitsPerEm": 1000,
+  "glyphs": [
+    "gClef U+E050",
+    "fClef U+E062",
+    "cClef U+E05C"
+  ],
+  "license": "SIL Open Font License 1.1"
+}
