@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Walamort Pulso</string>
+    <string name="title_activity_main">Walamort Pulso</string>
+    <string name="package_name">com.walamort.pulso</string>
+    <string name="custom_url_scheme">com.walamort.pulso</string>
+</resources>

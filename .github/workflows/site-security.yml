@@ -17,3 +17,5 @@ jobs:
       - run: node tests/security.cjs
       - run: node tests/glockenspiel.cjs
       - run: node tests/glockenspiel-audio.cjs
+      - run: node tests/pulso-core.cjs
+      - run: node tests/pulso-audio.cjs

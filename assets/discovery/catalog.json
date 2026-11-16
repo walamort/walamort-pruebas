@@ -1440,5 +1440,29 @@
       "description": "Instale teoria, leitura, ouvido e ritmo. Progresso local e núcleo off-line."
     },
     "tags": "app aplicacion application instalar install android iphone offline sin conexion celular mobile teoria practice free gratis"
+  },
+  {
+    "id": "pulso-app",
+    "group": "academia",
+    "path": "pulso/",
+    "english": "pulso/?lang=en",
+    "portuguese": "pulso/?lang=pt",
+    "goals": [
+      "practice",
+      "play"
+    ],
+    "es": {
+      "title": "Walamort Pulso · afinador y metrónomo",
+      "description": "Afinación por instrumento, ritmos editables y seguimiento de práctica."
+    },
+    "en": {
+      "title": "Walamort Pulso · tuner and metronome",
+      "description": "Instrument tuning, editable rhythms and practice tracking."
+    },
+    "pt": {
+      "title": "Walamort Pulso · afinador e metrônomo",
+      "description": "Afinação por instrumento, ritmos editáveis e registro de prática."
+    },
+    "tags": "afinador metronomo tuner metronome ritmos pulso tempo bpm afinacao guitarra bajo violin app android offline"
   }
 ]
