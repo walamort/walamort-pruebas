@@ -19,7 +19,7 @@ for(const file of files){const html=fs.readFileSync(file,'utf8');if(!html.includ
 }
 assert.equal(surfaces,97);assert(images.size>=10);const fresh=JSON.parse(read('assets/editorial/portfolio-v3/manifest.json'));assert.equal(fresh.length,10);for(const entry of fresh){for(const variant of entry.variants)assert(fs.existsSync(path.join(root,'assets/editorial/portfolio-v3',variant.file)));assert(files.some(file=>fs.readFileSync(file,'utf8').includes('portfolio-v3/'+entry.id+'-1280.webp')),'Unused new scene '+entry.id);}
 for(const entry of catalog){let target=path.join(root,entry.path.split('#')[0]);if(fs.statSync(target).isDirectory())target=path.join(target,'index.html');assert(fs.existsSync(target));if(entry.english)assert(fs.existsSync(path.join(root,entry.english.split(/[?#]/)[0],'index.html')));}
-console.log('PASS: accented/bilingual/category search, safe empty states, 62 destinations, 97 six-menu surfaces, deep links, language fallbacks and responsive editorial assets.');
+console.log('PASS: accented/bilingual/category search, safe empty states, 63 destinations, 97 six-menu surfaces, deep links, language fallbacks and responsive editorial assets.');
 
 assert(api.search('glokenspiel').some(e=>e.path==='instrumentos/glockenspiel/studio/'));assert(api.search('glockenspiel metodo').some(e=>e.path==='guias/glockenspiel/'));
 
