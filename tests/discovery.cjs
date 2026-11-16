@@ -4,7 +4,7 @@ const scope={window:{WalamortDiscoveryCatalog:catalog}};vm.createContext(scope);
 for(const [query,lang] of [['ligaduras','es'],['ties','en'],['ligaduras','pt'],['6/8','es']])assert(api.search(query,'all',lang).some(e=>e.path==='dictado-pentagrama/'));
 assert(api.search('regiones').some(e=>e.path==='produccion-musical/'));assert(api.search('montage','all','en').some(e=>e.path==='produccion-musical/'));
 assert(api.search('RMS').some(e=>e.path==='produccion-musical/'));
-assert.equal(catalog.length,62);assert.equal(api.search('').length,62);
+assert.equal(catalog.length,63);assert.equal(api.search('').length,catalog.length);assert(api.search('pulso').some(e=>e.path==='pulso/'));assert(api.search('metronome','all','en').some(e=>e.path==='pulso/'));assert(api.search('afinacao','all','pt').some(e=>e.path==='pulso/'));
 assert.equal(api.search('diapason')[0].path,'diapason/');assert.equal(api.search('DIAPASÓN')[0].path,'diapason/');assert.equal(api.search('fretboard','all','en')[0].english,'en/diapason/');
 assert.equal(api.search('dictado melodico')[0].path,'dictado-melodico/');assert.equal(api.search('grabar')[0].path,'produccion-musical/');assert.equal(api.search('5.1')[0].path,'produccion-musical/#spatialPanel');
 assert(api.search('','estudio').every(e=>e.group==='estudio'));assert.equal(api.search('qwertyxyz').length,0);assert.equal(api.search('<img onerror=alert(1)>').length,0);

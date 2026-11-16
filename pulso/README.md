@@ -7,3 +7,5 @@ Metronome: 30–260 quarter-note BPM, six meters, fourteen simplified study patt
 Local WAV replacement for the wood track: 8 MB, 10 s, mono/stereo PCM16/24/32 or IEEEfloat32. Temporary, excluded from exports. No recording/upload. Saves up to20 patterns and100 played sessions (minimum5s), validated single-pattern JSON import/export. Progress export is an archive, not yet restorable. First web load needs network; Android bundles assets. No ads/accounts/analytics. Back up patterns because browser storage can be cleared.
 
 Tests: `node tests/pulso-core.cjs`, `node tests/pulso-audio.cjs`. Synthetic pitch fixtures are not a substitute for physical microphone/Android checks.
+
+Discovery regression checks cover Pulso searches in all three interface languages.
