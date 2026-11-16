@@ -1,0 +1,592 @@
+{
+  "instruments": [
+    {
+      "file": "samples/piano-C2.mp3",
+      "midi": 36,
+      "bytes": 110357,
+      "sha256": "7029a9e84f748433bc33d067ee13d37d0b866768f09ae6c7dac8e2e98e1e53ca",
+      "source": "https://raw.githubusercontent.com/Tonejs/audio/efd8296360f9526e379bfbe5c1698ff54d6a1d34/salamander/C2.mp3"
+    },
+    {
+      "file": "samples/piano-Fs2.mp3",
+      "midi": 42,
+      "bytes": 102320,
+      "sha256": "dd34c708274eeba35da1fd99fc31ef904e390ff02f6864aefe8a13261f8a8327",
+      "source": "https://raw.githubusercontent.com/Tonejs/audio/efd8296360f9526e379bfbe5c1698ff54d6a1d34/salamander/Fs2.mp3"
+    },
+    {
+      "file": "samples/piano-C3.mp3",
+      "midi": 48,
+      "bytes": 78036,
+      "sha256": "bb70dd921d81b3dda561c19b5c029292ae5a6fba1947e364bf274218ce19a9d1",
+      "source": "https://raw.githubusercontent.com/Tonejs/audio/efd8296360f9526e379bfbe5c1698ff54d6a1d34/salamander/C3.mp3"
+    },
+    {
+      "file": "samples/piano-Fs3.mp3",
+      "midi": 54,
+      "bytes": 77933,
+      "sha256": "960fefd90f56608b7edf958dadfeca893cff5744ab9034d61e419401fe45ce9c",
+      "source": "https://raw.githubusercontent.com/Tonejs/audio/efd8296360f9526e379bfbe5c1698ff54d6a1d34/salamander/Fs3.mp3"
+    },
+    {
+      "file": "samples/piano-C4.mp3",
+      "midi": 60,
+      "bytes": 78718,
+      "sha256": "689eaa4c2fd7f29a2cc0e386eec462156d523a87d701269e5e2458e66056f4f6",
+      "source": "https://raw.githubusercontent.com/Tonejs/audio/efd8296360f9526e379bfbe5c1698ff54d6a1d34/salamander/C4.mp3"
+    },
+    {
+      "file": "samples/piano-Fs4.mp3",
+      "midi": 66,
+      "bytes": 68219,
+      "sha256": "613652f5c96e35736ce6a46bc4ddb6ba1076d1fb16a35a4c22c14e67efdde57c",
+      "source": "https://raw.githubusercontent.com/Tonejs/audio/efd8296360f9526e379bfbe5c1698ff54d6a1d34/salamander/Fs4.mp3"
+    },
+    {
+      "file": "samples/piano-C5.mp3",
+      "midi": 72,
+      "bytes": 68920,
+      "sha256": "2f5b0f7422063010fb379e684bfdf2daa3911dcd2251413d79fa2a53029fdc30",
+      "source": "https://raw.githubusercontent.com/Tonejs/audio/efd8296360f9526e379bfbe5c1698ff54d6a1d34/salamander/C5.mp3"
+    },
+    {
+      "file": "samples/piano-Fs5.mp3",
+      "midi": 78,
+      "bytes": 51597,
+      "sha256": "ed2fdf543274ea72ddd4eb634a16356531a5f4040b2a60d34fb12a5c72cbf22f",
+      "source": "https://raw.githubusercontent.com/Tonejs/audio/efd8296360f9526e379bfbe5c1698ff54d6a1d34/salamander/Fs5.mp3"
+    },
+    {
+      "file": "samples/piano-C6.mp3",
+      "midi": 84,
+      "bytes": 28065,
+      "sha256": "0d3232edd13ba69fd5caf4a295060ae0fd533b8a1433ae0a038644d70715c907",
+      "source": "https://raw.githubusercontent.com/Tonejs/audio/efd8296360f9526e379bfbe5c1698ff54d6a1d34/salamander/C6.mp3"
+    },
+    {
+      "file": "samples/guitar-E2.mp3",
+      "midi": 40,
+      "bytes": 260448,
+      "sha256": "917820984d1bb0b7712b4f2c42a9694efbb2479ccede45aa78af73811fc6818d",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/E2.mp3"
+    },
+    {
+      "file": "samples/guitar-C3.mp3",
+      "midi": 48,
+      "bytes": 331812,
+      "sha256": "b9533ea5477879ddb9e1742c29f9084488ef70beee50a6fb44429d5b9a994e99",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/C3.mp3"
+    },
+    {
+      "file": "samples/guitar-Fs3.mp3",
+      "midi": 54,
+      "bytes": 234782,
+      "sha256": "fbead0c33ab6e7ad2345be84c286f185f8a760149e848b711758606c6f55a12c",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Fs3.mp3"
+    },
+    {
+      "file": "samples/guitar-C4.mp3",
+      "midi": 60,
+      "bytes": 83916,
+      "sha256": "594c98aa8f9d1a426078e91899525f143e0bc82218b7b2c3f4cea2c54c181925",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/C4.mp3"
+    },
+    {
+      "file": "samples/guitar-Fs4.mp3",
+      "midi": 66,
+      "bytes": 113964,
+      "sha256": "51a5d7eab58e82579f9ae23daa73bae57561af96498eb39f73662e578d00fd9b",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Fs4.mp3"
+    },
+    {
+      "file": "samples/guitar-D5.mp3",
+      "midi": 74,
+      "bytes": 78282,
+      "sha256": "c9d74d19e672780b7b6e9eb4468b31b5fee6642f20df724198b232f7c78af4f1",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/D5.mp3"
+    },
+    {
+      "file": "samples/flute-C4.mp3",
+      "midi": 60,
+      "bytes": 190962,
+      "sha256": "d6837b9e7c524e7b733a11530d930316d85a91cd80dbba38a497047624bb63e3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/C4.mp3"
+    },
+    {
+      "file": "samples/flute-E4.mp3",
+      "midi": 64,
+      "bytes": 255440,
+      "sha256": "39fa9c7004bc2d168c98839475cc52448abdfb43486a11cf076b72dfcfa2b1d3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/E4.mp3"
+    },
+    {
+      "file": "samples/flute-A4.mp3",
+      "midi": 69,
+      "bytes": 193466,
+      "sha256": "615376784bd2a716baa8c7b1c57a3d55048a62cf89b313ed005d85da06a1d918",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/A4.mp3"
+    },
+    {
+      "file": "samples/flute-C5.mp3",
+      "midi": 72,
+      "bytes": 183450,
+      "sha256": "1b6ec4d5bf2caeca80da4c53f6d9f09eb3a49e8de04588965c55ca8f00ff296d",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/C5.mp3"
+    },
+    {
+      "file": "samples/flute-E5.mp3",
+      "midi": 76,
+      "bytes": 195970,
+      "sha256": "2d024d4cd56412bcb8cc3ecbce0736b63c9ba1d77de2e9601ba4efeda559a157",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/E5.mp3"
+    },
+    {
+      "file": "samples/flute-A5.mp3",
+      "midi": 81,
+      "bytes": 177190,
+      "sha256": "0735eccfb744176f253d1f715f7a70cf045694cce1da99d934e52a3a3544f968",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/A5.mp3"
+    },
+    {
+      "file": "samples/flute-C6.mp3",
+      "midi": 84,
+      "bytes": 176564,
+      "sha256": "535d1fbfaddbdb7f91c415708470f0860669c08733823212e81e98909afc9a64",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/C6.mp3"
+    },
+    {
+      "file": "samples/flute-A6.mp3",
+      "midi": 93,
+      "bytes": 133370,
+      "sha256": "1d67a54c3a8e8d28e21194cec6cbcbf1af60ec226f568b11723057b08abfd2c8",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/A6.mp3"
+    },
+    {
+      "file": "samples/flute-C7.mp3",
+      "midi": 96,
+      "bytes": 115842,
+      "sha256": "3f19353492d8c293b5e3f6f21c7773355565bb2056a1300b28b33d5e990e8962",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/C7.mp3"
+    },
+    {
+      "file": "samples/violin-G3.mp3",
+      "midi": 55,
+      "bytes": 400672,
+      "sha256": "4425d83aa3e497c3a38aba0d81821fa253b4d7ba5bc99ee51932f3af7587406b",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/G3.mp3"
+    },
+    {
+      "file": "samples/violin-C4.mp3",
+      "midi": 60,
+      "bytes": 318666,
+      "sha256": "47a86f01f5a9f978e3328d72ecc3d12ad72cc18852676f655090e68c34b87d8c",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/C4.mp3"
+    },
+    {
+      "file": "samples/violin-E4.mp3",
+      "midi": 64,
+      "bytes": 329934,
+      "sha256": "5dad3626ee3654e79cfdb9cdb769658b5c4b3da4c62d8cb08a2a88323b9d267a",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/E4.mp3"
+    },
+    {
+      "file": "samples/violin-A4.mp3",
+      "midi": 69,
+      "bytes": 339950,
+      "sha256": "b51bab05788a078a1ab8480acae9aa96bf2072aafe237991e414759fb0005243",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/A4.mp3"
+    },
+    {
+      "file": "samples/violin-C5.mp3",
+      "midi": 72,
+      "bytes": 341202,
+      "sha256": "51315c5bce2c5186d0ac5bd69b72d632bc6188c9401a19212998fcd11ba2934a",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/C5.mp3"
+    },
+    {
+      "file": "samples/violin-E5.mp3",
+      "midi": 76,
+      "bytes": 323048,
+      "sha256": "65ece2416a99a1e415286e75897dcc71f4a675e744bd9caf2a06ac75c8636d12",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/E5.mp3"
+    },
+    {
+      "file": "samples/violin-A5.mp3",
+      "midi": 81,
+      "bytes": 271716,
+      "sha256": "d7649681176736f820a3ff460fbfb1656922b4da0150ec7df4527b01c9bd8ffe",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/A5.mp3"
+    },
+    {
+      "file": "samples/violin-C6.mp3",
+      "midi": 84,
+      "bytes": 295504,
+      "sha256": "85c103492bd20f3bcf8eab6fd3de5f41853c98259b7d92a6a2ca169861d21f7c",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/C6.mp3"
+    },
+    {
+      "file": "samples/bass-Cs1.mp3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/Cs1.mp3",
+      "bytes": 450752,
+      "sha256": "3c7dc5f53979a45faa710133cda695f3d68fa7b79b80f42b6a15c8bb3f6526b8"
+    },
+    {
+      "file": "samples/bass-E1.mp3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/E1.mp3",
+      "bytes": 450752,
+      "sha256": "41fd91721398a47c6afa030feb324a1cd981ffac7da9bd313b775ad4f7b1a24c"
+    },
+    {
+      "file": "samples/bass-G1.mp3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/G1.mp3",
+      "bytes": 428216,
+      "sha256": "fd14e6e099056b6f0ff4433ef1d86358bffe7916f90c7ed2c6a7e2b0b4186cc6"
+    },
+    {
+      "file": "samples/bass-As1.mp3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/As1.mp3",
+      "bytes": 405680,
+      "sha256": "45bdecf48711f9f0455b2256d1b1b3bfa41a1950d70eab64ef2a28da6c2e605b"
+    },
+    {
+      "file": "samples/bass-Cs2.mp3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/Cs2.mp3",
+      "bytes": 361234,
+      "sha256": "7558885c23cf0a313c9651b7b2e11fd297902bb063db6b003748156ca9c07e9f"
+    },
+    {
+      "file": "samples/bass-E2.mp3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/E2.mp3",
+      "bytes": 316162,
+      "sha256": "6a3c12185068beb22fc3225e1f2216f1f7440f4ba32a97dc8476c068df8307e8"
+    },
+    {
+      "file": "samples/bass-G2.mp3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/G2.mp3",
+      "bytes": 316162,
+      "sha256": "b5990f64a7094c946b0e88a47280649bab1ea0bff8f1ae1c420a97c1c2996cd2"
+    },
+    {
+      "file": "samples/bass-As2.mp3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/As2.mp3",
+      "bytes": 316162,
+      "sha256": "c6f79e3e05bad4e41e2858b3acbd3edbee4e399529a7a97b9ade411080eac4b4"
+    },
+    {
+      "file": "samples/cello-C2.mp3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/C2.mp3",
+      "bytes": 93306,
+      "sha256": "800cd97bcffd99fc80680d39b73d5143f7ea3188b79244bc3f1bad4845d28fb4"
+    },
+    {
+      "file": "samples/cello-G2.mp3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/G2.mp3",
+      "bytes": 93306,
+      "sha256": "4fc66a5348ab915c313d5607cbeecdf74a9196a35797db19387702e865ea6290"
+    },
+    {
+      "file": "samples/cello-C3.mp3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/C3.mp3",
+      "bytes": 75778,
+      "sha256": "bde16914903926f7b7924756e9e28617d9357fe1f7d7085b0d06cedeb527e62a"
+    },
+    {
+      "file": "samples/cello-G3.mp3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/G3.mp3",
+      "bytes": 70770,
+      "sha256": "869683c073aa1264e5b2d2ec5f68818d20acea390d6926a728654a6d6a026169"
+    },
+    {
+      "file": "samples/cello-C4.mp3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/C4.mp3",
+      "bytes": 80160,
+      "sha256": "e652c5eafaec4fb339da2595daf5554005f39357fac3f6c093b0d0f594b1012b"
+    },
+    {
+      "file": "samples/cello-G4.mp3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/G4.mp3",
+      "bytes": 62006,
+      "sha256": "9508f47315235b62bcf53498f2ec61555cdc121325b07e880b1484851f92e763"
+    },
+    {
+      "file": "samples/cello-C5.mp3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/C5.mp3",
+      "bytes": 81412,
+      "sha256": "d2f71abde898fc86c86a252fc1a6d7316bc4dd57bb2200eacdbc41cfca38c08e"
+    },
+    {
+      "file": "samples/sax-Cs3.mp3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Cs3.mp3",
+      "bytes": 150272,
+      "sha256": "95f33777b647e8438ccea298c3fb4bf7dfdee43766a9db21475bd68c06fdd8ff"
+    },
+    {
+      "file": "samples/sax-G3.mp3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/G3.mp3",
+      "bytes": 108956,
+      "sha256": "a7d39d740e03a8235dcde94779c24aa83397b329a9a9124517d36a9d3f56252f"
+    },
+    {
+      "file": "samples/sax-C4.mp3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/C4.mp3",
+      "bytes": 150272,
+      "sha256": "151eb3f3142d10bdc188561870679b018fe6afddb157808bf5ccf75a5154d16a"
+    },
+    {
+      "file": "samples/sax-E4.mp3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/E4.mp3",
+      "bytes": 165922,
+      "sha256": "7b1fd8af99567be67bd4515533b3b296583c14e4c78e98600dd1bcbcf821c15f"
+    },
+    {
+      "file": "samples/sax-A4.mp3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/A4.mp3",
+      "bytes": 150898,
+      "sha256": "5b25b871bb52bd5b5c7aea79681cecc35d10820be107a37ddc290553b60fda35"
+    },
+    {
+      "file": "samples/sax-C5.mp3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/C5.mp3",
+      "bytes": 144638,
+      "sha256": "4ac9089d8a86c4f9e85f1cfc63376f846d60cd5c9d69e714277057ba2307f38c"
+    },
+    {
+      "file": "samples/sax-F5.mp3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/F5.mp3",
+      "bytes": 144638,
+      "sha256": "bdcd560c229a2561ce6e389d72c74978120f1473819bbf4f564de2309eb5aad2"
+    },
+    {
+      "file": "samples/sax-A5.mp3",
+      "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/A5.mp3",
+      "bytes": 146516,
+      "sha256": "95f6b32b092dffe53bf28380ec4168f4ec066db596017f55d5b4ccee71735c4e"
+    }
+  ],
+  "drums": [
+    {
+      "file": "samples/drum-kick-0-1.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/kick/mid_kick_snon_vl2_rr1.flac",
+      "originalSha256": "fb2da719f0ae30f668ada98df7503e6def1ee26c53a5e183de50075e43fa597a",
+      "sha256": "c4964cd76b04f99a8ba3429ca95f92d630c562b3e8de04caaa8275e16a93f3a8",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-kick-0-2.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/kick/mid_kick_snon_vl2_rr2.flac",
+      "originalSha256": "30da88d84b4e37df87510b40ad115943056a3b5ed9b2dbcbe1266a267848c6f4",
+      "sha256": "c7f1f756a268e973baa7a47577a87b89d63f4e226919cea33c5102813e4a3fcd",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-kick-1-1.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/kick/mid_kick_snon_vl4_rr1.flac",
+      "originalSha256": "14b76405040ba7e6b9fca95c4f73cf99a27f36e3ec6f071050c26a46cdd3350c",
+      "sha256": "f3b43ae29331c1a5975aaa95e60460ac4705a152471220c66572dea92da1dba0",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-kick-1-2.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/kick/mid_kick_snon_vl4_rr2.flac",
+      "originalSha256": "1fde8aeb9ed8af4e90c2df124376c88a28c218de76e4db6500f3cb8f791186d7",
+      "sha256": "434e2536e9410e4fbaff79cd3e28ce7e574e2d97fc30ad05a068ef5204b90ccf",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-snare-0-1.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/snare/mid_snare_center_vl14.flac",
+      "originalSha256": "939edc3f6391275bb5c6347999d44a7f192f56ba5c8548a771ea5d4cd19b7f9f",
+      "sha256": "dbf9d51a37d09631c9924228cea9884cdc145a782202437d7646a948698b8130",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-snare-0-2.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/snare/mid_snare_center_vl16.flac",
+      "originalSha256": "dd4e1de6e84465f94b26e8dbdfdf0f4e72999a7d5ed348a76ab9c8a73d74da79",
+      "sha256": "8e352a334a4d51da18565c698d361e0d2e1c6e7169864411af5f2b43ca3a7832",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-snare-1-1.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/snare/mid_snare_center_vl30.flac",
+      "originalSha256": "3b26473469dfdbf7de685ede8eaea791fa28d6bccb745ad72d40e20f62913e5e",
+      "sha256": "024628e68062c7830e720d7594f57c8dd430c63e7f21d14c42d93ead607f210f",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-snare-1-2.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/snare/mid_snare_center_vl32.flac",
+      "originalSha256": "eaf9025d6b879877add05f2314022f2c2b030c334780a0476a97ed1109f2755a",
+      "sha256": "8e74e4451b04c723b2c2dfc858d0409dc42af2a67d15cfa4d98cc00710ae8295",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-hat-0-1.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/hh/mid_hh_closed_vl2_rr1.flac",
+      "originalSha256": "ca9a6b1ce1d274c329a987e21f22d34a9001bb1869d53f5b00cc88c0128199a3",
+      "sha256": "ed777611da0952cfd0a9444cb35f8127a6b75c2db5f3dea68cc5deed1f518caa",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-hat-0-2.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/hh/mid_hh_closed_vl2_rr2.flac",
+      "originalSha256": "8cd1197e7726cc9bcf6b074464c4a42dc00e02a9d402f392bc9d3cb4330d4b96",
+      "sha256": "1522b481ab3ab4b35b0c90f90c54e06fd6abb62115a1367e7571bc7ee4827634",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-hat-1-1.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/hh/mid_hh_closed_vl4_rr1.flac",
+      "originalSha256": "f4b91973f55cbfc1e424e494cb4a2e15c779967cfa4b7d28c6440337984bd440",
+      "sha256": "aefd233b069f42052a86c1b5a07a15cf1d09484840a132108334436584bd7d72",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-hat-1-2.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/hh/mid_hh_closed_vl4_rr2.flac",
+      "originalSha256": "ef8cca9e89507fc69738062fcba478fc037e7220c47e040be1298f877e78c402",
+      "sha256": "e5c29ff7c38c2f31e06cc0b0542752d4b460a71f4f7692c5971c7cbd761c5a1d",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-ride-0-1.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/ride/mid_ride_ride_vl1_rr1.flac",
+      "originalSha256": "465995b9f2ee979a0f2f26d0065c06cd11b57fd8b03a978e396abbb8ebe4284d",
+      "sha256": "31a4ad36763bbadadb9420a2c250ad067fb45cee5c69abf9a3850f09024e4d22",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-ride-0-2.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/ride/mid_ride_ride_vl1_rr2.flac",
+      "originalSha256": "424828e598a8e2bbb396f1b0606497d914b5f769af773f12a78f8ae9ca99135e",
+      "sha256": "8c4775f3ae7d5c41b27ddb7d6ffe1edc7c606b4678a8cfc8519d49d07661df7c",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-ride-1-1.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/ride/mid_ride_ride_vl3_rr1.flac",
+      "originalSha256": "3ba4ca0d97b7a4298d345af6855d4713db73ec4b748209e3857b77dc69fa641a",
+      "sha256": "8c77b0574cd72e5b48adb9377bcc29b06bb32f32ed7f51202652975cd2a4835e",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-ride-1-2.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/ride/mid_ride_ride_vl3_rr2.flac",
+      "originalSha256": "21c96c6ff845378d60ab6ffa7b6d158004a1de49d2f55bbc048479956b20a5b9",
+      "sha256": "dfd817a0dc64261f70a1000185349f97b55e43dc24e953c5d15c15da0a613117",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-clave-0-1.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/perc/close/claves/Claves1_Hit_v2_rr1_Close.wav",
+      "originalSha256": "6e03ebd310bffab6605307155c22b1dc05718e8e69ce021feedf44afbbfbf5ab",
+      "sha256": "f8fc06acfa9501ee910f5e55784f7b8d1d7c2f884541e9e510b2c0ddca7e0369",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-clave-0-2.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/perc/close/claves/Claves1_Hit_v2_rr2_Close.wav",
+      "originalSha256": "10ed9bd8c8a038d5fc09c5f604b3bd6bee6833fb5a203882125c64d3cfd6f5e4",
+      "sha256": "7a7d1bc8f811f3731d8f216bca3a26df5c0ac29a4f79072387dce44f8681c177",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-clave-1-1.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/perc/close/claves/Claves1_Hit_v3_rr1_Close.wav",
+      "originalSha256": "dc58dfe336882338a8be83b535f09e574a89756dc2e0da1f1dcabfb47f905eaf",
+      "sha256": "37317d8a0d0c1b8a4b44579cab09a2798d18054553ebb8232d26964438e5a19a",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-clave-1-2.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/perc/close/claves/Claves1_Hit_v3_rr2_Close.wav",
+      "originalSha256": "199d1105981c3cee424c8098e1b4791387ff2c3009a63d99ae616bbde9c9b7fc",
+      "sha256": "4deec89e3737f9b1e35c6fb1f172d4391881c0b8aa9b7bc3ef27dd9bf2b64eb5",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-conga-0-1.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/perc/close/conga/Conga_22_HitN_51_100_rr1_Close.wav",
+      "originalSha256": "45f132edce0a52766763e157fe14153616aa862b25c8161b1773d3422efea9c5",
+      "sha256": "c62ce595362d3d08e3c099c43a890848d385c111b6e2221bbdb578e9beb95177",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-conga-0-2.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/perc/close/conga/Conga_22_HitN_51_100_rr2_Close.wav",
+      "originalSha256": "5676cdb78f8d9622e57fb34ffe9c70d6c6e341d43899b4a77851c5b55f6e9555",
+      "sha256": "93b40d453450442819b02220b2b1ce87f93a226ad374015adbecfbceae9ee4a7",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-conga-1-1.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/perc/close/conga/Conga_22_HitN_101_127_rr1_Close.wav",
+      "originalSha256": "eb64d3feb973a8d704b4d7c5a19898807bd0754239edbec0ba1fddeb8f60e158",
+      "sha256": "4e4ff28633bda84396297798ed49918cf1e61d1a0f1786019c71a975f4b00237",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-conga-1-2.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/perc/close/conga/Conga_22_HitN_101_127_rr2_Close.wav",
+      "originalSha256": "b9a9a46f8c43ca1f2243410a6e3202e2e6bf9c239d66074e8a510d2a3f3bea9b",
+      "sha256": "87ccfa8dcf6eeea527ac3f34262b904f7182ccbe1f4e96be36e58d4bb50831af",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-shaker-0-1.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/perc/close/shaker/LShaker_Shake1D_rr1_Close.wav",
+      "originalSha256": "b3aa3914ef344f3f4fffedb1aa7ccaae20db2d43a8386848c7944fadfed73e63",
+      "sha256": "55e79c8c9dbd36a1685375856a26a15137ab8d9f9ab2c56ace826286193f9763",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-shaker-0-2.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/perc/close/shaker/LShaker_Shake1D_rr2_Close.wav",
+      "originalSha256": "8e090bae2f9b79f21ee8703e3fd2009e4a57bc05719264b1864d2dbdbd0ef2cf",
+      "sha256": "7906762a7396a0601f74e246c0a2b5870dba525a309085cd0e4196315bd35e35",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-shaker-1-1.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/perc/close/shaker/LShaker_Shake1U_rr1_Close.wav",
+      "originalSha256": "4ae8e16412617c5d2c9fdb0fb9479cdef188462bc841c357e6521a6b732ed2c4",
+      "sha256": "274882c17f5931c6a0733b983ce11e36e8b31a91bf154b0c37f21db14e0492ad",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    },
+    {
+      "file": "samples/drum-shaker-1-2.mp3",
+      "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/perc/close/shaker/LShaker_Shake1U_rr2_Close.wav",
+      "originalSha256": "070f3c7e2040b4f9b94a4f6a17ad37cd75d212e4176457a0732176b40a0cc509",
+      "sha256": "f7726bd8d933cc69d1d78962599bc411b30e0c509fcd6244ddfbcd5eebd0bfcb",
+      "license": "CC0-1.0",
+      "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+    }
+  ]
+}
