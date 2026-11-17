@@ -1,0 +1,39 @@
+[
+  {
+    "file": "audio/piano-C4.mp3",
+    "midi": 60,
+    "bytes": 78718,
+    "sha256": "689eaa4c2fd7f29a2cc0e386eec462156d523a87d701269e5e2458e66056f4f6",
+    "source": "https://raw.githubusercontent.com/Tonejs/audio/efd8296360f9526e379bfbe5c1698ff54d6a1d34/salamander/C4.mp3"
+  },
+  {
+    "file": "audio/bass-E2.mp3",
+    "source": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/E2.mp3",
+    "bytes": 316162,
+    "sha256": "6a3c12185068beb22fc3225e1f2216f1f7440f4ba32a97dc8476c068df8307e8"
+  },
+  {
+    "file": "audio/drum-kick-1-1.mp3",
+    "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/kick/mid_kick_snon_vl4_rr1.flac",
+    "originalSha256": "14b76405040ba7e6b9fca95c4f73cf99a27f36e3ec6f071050c26a46cdd3350c",
+    "sha256": "f3b43ae29331c1a5975aaa95e60460ac4705a152471220c66572dea92da1dba0",
+    "license": "CC0-1.0",
+    "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+  },
+  {
+    "file": "audio/drum-snare-1-1.mp3",
+    "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/snare/mid_snare_center_vl30.flac",
+    "originalSha256": "3b26473469dfdbf7de685ede8eaea791fa28d6bccb745ad72d40e20f62913e5e",
+    "sha256": "024628e68062c7830e720d7594f57c8dd430c63e7f21d14c42d93ead607f210f",
+    "license": "CC0-1.0",
+    "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+  },
+  {
+    "file": "audio/drum-hat-1-1.mp3",
+    "source": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/hh/mid_hh_closed_vl4_rr1.flac",
+    "originalSha256": "f4b91973f55cbfc1e424e494cb4a2e15c779967cfa4b7d28c6440337984bd440",
+    "sha256": "aefd233b069f42052a86c1b5a07a15cf1d09484840a132108334436584bd7d72",
+    "license": "CC0-1.0",
+    "changes": "mono 44.1kHz MP3 96kbps, max3s, tail fade"
+  }
+]

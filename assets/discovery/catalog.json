@@ -1464,5 +1464,30 @@
       "description": "Afinação por instrumento, ritmos editáveis e registro de prática."
     },
     "tags": "afinador metronomo tuner metronome ritmos pulso tempo bpm afinacao guitarra bajo violin app android offline"
+  },
+  {
+    "id": "mezcla-app",
+    "group": "estudio",
+    "path": "mezcla-app/",
+    "english": null,
+    "portuguese": null,
+    "goals": [
+      "learn",
+      "practice",
+      "create"
+    ],
+    "es": {
+      "title": "Walamort Mezcla · app de aprendizaje",
+      "description": "18 lecciones y un laboratorio con EQ, compresión, espacio y comparación A/B."
+    },
+    "en": {
+      "title": "Walamort Mixing · Spanish learning app",
+      "description": "Spanish course: 18 lessons and an interactive mixing lab."
+    },
+    "pt": {
+      "title": "Walamort Mixagem · curso em espanhol",
+      "description": "18 aulas em espanhol e laboratório interativo de mixagem."
+    },
+    "tags": "app mezcla mixing mixagem curso produccion productores ecualizacion compresion aprender entrenamiento"
   }
 ]
