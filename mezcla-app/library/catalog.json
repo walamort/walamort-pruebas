@@ -46,7 +46,8 @@
         "label": "Mandolina"
       }
     ],
-    "archiveSHA256": "7c3344938e853b9e19670319538312a63d3714bad2d8973847f495fe6a5d9c47"
+    "archiveSHA256": "7c3344938e853b9e19670319538312a63d3714bad2d8973847f495fe6a5d9c47",
+    "genre": "cinematic"
   },
   {
     "id": "reach-out",
@@ -109,6 +110,176 @@
         "label": "Guitarra solista"
       }
     ],
-    "archiveSHA256": "81218a93e05354f2458c05c3cef47f7b5da6a8ccfaa3d861355dc55b7ac08868"
+    "archiveSHA256": "81218a93e05354f2458c05c3cef47f7b5da6a8ccfaa3d861355dc55b7ac08868",
+    "genre": "rock"
+  },
+  {
+    "id": "slowly",
+    "title": "Slowly but surely",
+    "artist": "Tom_Ena",
+    "bpm": 92,
+    "genre": "jazz",
+    "source": "https://ccmixter.org/files/Tom_Ena/28020",
+    "license": "CC BY 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/3.0/",
+    "changes": "Fragmento común 16–48 s, FLAC 44.1 kHz/16 bits; relleno de silencio si hace falta; sin normalizar stems por separado.",
+    "duration": 32,
+    "tracks": [
+      {
+        "name": "Slowly but surely - Bass",
+        "label": "Bajo",
+        "file": "slowly-0.flac",
+        "bytes": 416051,
+        "sha256": "8e1e5e97fc9e3baaf117b84de63c923938f69c5b38836391c55dd3350d9fb671"
+      },
+      {
+        "name": "Slowly but surely - Drums",
+        "label": "Batería",
+        "file": "slowly-1.flac",
+        "bytes": 2546603,
+        "sha256": "f95be49f5ed10fc18a67721c6bcdd5fc5f7a0ea734d8cf24130bf72129870c05"
+      },
+      {
+        "name": "Slowly but surely - Piano",
+        "label": "Piano",
+        "file": "slowly-2.flac",
+        "bytes": 1442943,
+        "sha256": "91dafbcd54cec791cf3728070c7b34692704315bde3971f9d81374b278af96f9"
+      },
+      {
+        "name": "Slowly but surely - Sax",
+        "label": "Saxo",
+        "file": "slowly-3.flac",
+        "bytes": 1717347,
+        "sha256": "c9253b2d56a44c67ecefefca6e81fb7b7d1ea363bddb754bdc23899289124943"
+      }
+    ],
+    "archiveSHA256": "5804d756324ff0b84f0f71cbd4e2de468d8835376f6a18e493dc6650b0cc23e0",
+    "scope": "Fragmento de canción."
+  },
+  {
+    "id": "reggae-drums",
+    "title": "Reggae Stuff · batería",
+    "artist": "boxboy333",
+    "bpm": 88,
+    "genre": "reggae",
+    "source": "https://ccmixter.org/files/boxboy333/47940",
+    "license": "CC BY 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/3.0/",
+    "changes": "Fragmento común 16–48 s, FLAC 44.1 kHz/16 bits; relleno de silencio si hace falta; sin normalizar stems por separado.",
+    "duration": 32,
+    "tracks": [
+      {
+        "name": "Reggae Stuff - Snare",
+        "label": "Caja",
+        "file": "reggae-drums-0.flac",
+        "bytes": 874679,
+        "sha256": "c58fc701040497a9de589978df471ed83947067924d07f969c66c35cb210dd2c"
+      },
+      {
+        "name": "Reggae Stuff - Kick",
+        "label": "Bombo",
+        "file": "reggae-drums-1.flac",
+        "bytes": 745138,
+        "sha256": "4c70b3dafd4bed01a20bc8ed8f532ed4e9b4cb9f129e6993ba1491557e3dd57d"
+      },
+      {
+        "name": "Reggae Stuff - Overheads",
+        "label": "Overheads",
+        "file": "reggae-drums-2.flac",
+        "bytes": 2137144,
+        "sha256": "9bc814ed69915898a9fed6aa11bbfdd523b845ae9b88eb7698eea50eb13ed093"
+      }
+    ],
+    "archiveSHA256": "dc28df6fe95b005fd04f777136dbb0e00a1692eeee74f5b89495e446f1ffd821",
+    "scope": "Batería multipista, no canción completa."
+  },
+  {
+    "id": "dnb",
+    "title": "Drum n Bass · capas melódicas",
+    "artist": "canton",
+    "bpm": 168,
+    "genre": "dnb",
+    "source": "https://ccmixter.org/files/canton/49962",
+    "license": "CC BY 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/3.0/",
+    "changes": "Fragmento común 0–16 s, FLAC 44.1 kHz/16 bits; relleno de silencio si hace falta; sin normalizar stems por separado.",
+    "duration": 16,
+    "tracks": [
+      {
+        "name": "168_bass",
+        "label": "Bajo",
+        "file": "dnb-0.flac",
+        "bytes": 547738,
+        "sha256": "eadad4790e6d68685aa185e8f3e4eb0a55a51066a9d177f42765455fd108638f"
+      },
+      {
+        "name": "168_string_piano",
+        "label": "Piano y cuerdas",
+        "file": "dnb-1.flac",
+        "bytes": 1069513,
+        "sha256": "8edc2fe9de7055b0c5a561c20ed8fcdf7b7f5c33c32990a9832b1b8e8567e475"
+      },
+      {
+        "name": "168_synth",
+        "label": "Sintetizador",
+        "file": "dnb-2.flac",
+        "bytes": 1047734,
+        "sha256": "5763638fc08455f1b6ea5c28b99dd6cd9240d81a8ea20f15cade1f4133c4e24f"
+      }
+    ],
+    "archiveSHA256": "ff8ee7f174fba206bd0ce9579dbfc2ccc3674cad4c6df79f5ea1b71692eb61fa",
+    "scope": "Capas melódicas, sin batería incluida."
+  },
+  {
+    "id": "mistakes",
+    "title": "Mistakes were made",
+    "artist": "_ghost",
+    "bpm": 90,
+    "genre": "downtempo",
+    "source": "https://ccmixter.org/files/_ghost/43091",
+    "license": "CC BY 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/3.0/",
+    "changes": "Fragmento común 24–56 s, FLAC 44.1 kHz/16 bits; relleno de silencio si hace falta; sin normalizar stems por separado. Seis guitarras agrupadas; ganancia común 0,25 (−12,04 dB) en todas las pistas para conservar margen.",
+    "duration": 32,
+    "tracks": [
+      {
+        "name": "Guitarras agrupadas",
+        "label": "Guitarras agrupadas",
+        "file": "mistakes-0.flac",
+        "bytes": 1691994,
+        "sha256": "cbd5f02334278ca9d4eff1d8e24f114d03c414d9a29856edc1f5ae1abbfd818e"
+      },
+      {
+        "name": "piano",
+        "label": "Piano",
+        "file": "mistakes-1.flac",
+        "bytes": 164700,
+        "sha256": "7c61ac7aaad07dab7d2bcc4c896ab053378509cd2e9c186b9586e8c86be1a2d2"
+      },
+      {
+        "name": "bass",
+        "label": "Bajo",
+        "file": "mistakes-2.flac",
+        "bytes": 504417,
+        "sha256": "c5c3129214ed6f85f15f9f8b1a43533209d5bd2322a431f504fc07e8549e36dc"
+      },
+      {
+        "name": "chord",
+        "label": "Acordes",
+        "file": "mistakes-3.flac",
+        "bytes": 42869,
+        "sha256": "d56b2e4e6ec44251667f472e257df1198e1f7deae6e7fd7ee7b226c3442d7d71"
+      },
+      {
+        "name": "drums",
+        "label": "Batería",
+        "file": "mistakes-4.flac",
+        "bytes": 1823663,
+        "sha256": "505ad98ffaa8a8b4c9c8b8eb356ae8611dc5044a8f7465892f6591022a93af45"
+      }
+    ],
+    "archiveSHA256": "dab3df98310cee5fa6a149af8c0c946b70a93c067d4d9ae2bad88ffb4eefc35e",
+    "scope": "Fragmento de canción."
   }
 ]
