@@ -20,3 +20,7 @@ Pico, RMS estéreo sin ponderar (bloques de 300 ms), pico retenido, correlación
 Captura WAV estéreo PCM 16 bits en tiempo real, hasta 120 segundos o 64 MiB de muestras (lo que ocurra primero); incluye los cambios que se hagan al escuchar. No es render offline ni exportación automática de toda la canción. Se mantiene en memoria hasta cerrar y debe descargarse. Proyectos JSON no contienen audio.
 
 Dos packs optativos de 32 s bajo CC BY 3.0 (Nickleus y spinningmerkaba), fuentes/créditos/transformaciones y SHA256 en library/. Se entregan desde el propio sitio, solo a petición, fuera del precache obligatorio. Los originales completos se enlazan en ccMixter.
+
+
+### Corrección 1.3.1
+Los packs integrados se recuperan desde su identidad y nombres de stems al pulsar Escuchar después de recargar. La biblioteca carga e inicia reproducción en una sola acción, con progreso y reintento visible. Se reconoce la nomenclatura anterior; los archivos privados siguen requiriendo selección explícita.
