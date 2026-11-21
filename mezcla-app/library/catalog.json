@@ -1,0 +1,114 @@
+[
+  {
+    "id": "descension",
+    "title": "Descension Oh Yeah",
+    "artist": "Nickleus",
+    "bpm": 132,
+    "source": "https://ccmixter.org/files/nickleus/48842",
+    "license": "CC BY 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/3.0/",
+    "changes": "Fragmento común 90–122 s; conversión a FLAC estéreo 44.1 kHz/16 bits, relleno con silencio si es necesario; sin normalizar pistas por separado.",
+    "duration": 32,
+    "tracks": [
+      {
+        "name": "Daylight Piano",
+        "file": "descension-0.flac",
+        "sha256": "a9323f90f341e359903cae8c895984d45dda1280c51124f2f3d7608b277589c2",
+        "bytes": 979321,
+        "label": "Piano"
+      },
+      {
+        "name": "Gospel Vocal Effects",
+        "file": "descension-1.flac",
+        "sha256": "9101f908ef6101185928024d48b53d032916c0e4765b44d920d13f406bfc1cf9",
+        "bytes": 377520,
+        "label": "Voces corales"
+      },
+      {
+        "name": "logan nick three rings",
+        "file": "descension-2.flac",
+        "sha256": "2004d1d0be999b1cc95e87c7f760716ae998ea3e5bc0f24663896aea740da7c0",
+        "bytes": 1665162,
+        "label": "Batería"
+      },
+      {
+        "name": "Modern Strings",
+        "file": "descension-3.flac",
+        "sha256": "0a261a24cdab9860121f292e08211f1cfec75b37ab60af4a0e3d70c31485699a",
+        "bytes": 701760,
+        "label": "Cuerdas"
+      },
+      {
+        "name": "Space Mandolin",
+        "file": "descension-4.flac",
+        "sha256": "91a47d7da41726ebd4682ae35fca600b6a7fd83b540534ef7cbc9731988464b9",
+        "bytes": 955852,
+        "label": "Mandolina"
+      }
+    ],
+    "archiveSHA256": "7c3344938e853b9e19670319538312a63d3714bad2d8973847f495fe6a5d9c47"
+  },
+  {
+    "id": "reach-out",
+    "title": "Reach Out",
+    "artist": "spinningmerkaba",
+    "bpm": 113,
+    "source": "https://ccmixter.org/files/jlbrock44/32919",
+    "license": "CC BY 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/3.0/",
+    "changes": "Fragmento común 24–56 s; conversión a FLAC estéreo 44.1 kHz/16 bits, relleno con silencio si es necesario; sin normalizar pistas por separado.",
+    "duration": 32,
+    "tracks": [
+      {
+        "name": "reachout_acoustic",
+        "file": "reach-out-0.flac",
+        "sha256": "aa27f9ddd7b8b95b99d2a59b29417df6eb4649ca93451a941b2abac4b4390c75",
+        "bytes": 1883703,
+        "label": "Guitarra acústica"
+      },
+      {
+        "name": "reachout_bass",
+        "file": "reach-out-1.flac",
+        "sha256": "8a4bd33c2e5fe99a1790c16602e47f68eed07de9aaa6139bdc04bc3fe56ab067",
+        "bytes": 1342117,
+        "label": "Bajo"
+      },
+      {
+        "name": "reachout_drums",
+        "file": "reach-out-2.flac",
+        "sha256": "28cce303d4748cd02f62ad9446d1d6fd1550cc72b40759dd94ca02449ab2d228",
+        "bytes": 2795897,
+        "label": "Batería"
+      },
+      {
+        "name": "reachout_electric02",
+        "file": "reach-out-3.flac",
+        "sha256": "703fc751f98a8a7e35f88c9d63ed8bb8af81018931f10c8b3435d31fee1e6bf6",
+        "bytes": 1981193,
+        "label": "Guitarra eléctrica 2"
+      },
+      {
+        "name": "reachout_electric03",
+        "file": "reach-out-4.flac",
+        "sha256": "dd8dfb2d1356b459c0537c58cecbb504282485a4c7b558277b572f24e3b005da",
+        "bytes": 2854958,
+        "label": "Guitarra eléctrica 3"
+      },
+      {
+        "name": "reachout_electric",
+        "file": "reach-out-5.flac",
+        "sha256": "055a6eec088fe373057d68ca2a874d39b1bc99dcffebde333525d3a22f3e85e8",
+        "bytes": 2297075,
+        "label": "Guitarra eléctrica"
+      },
+      {
+        "name": "reachout_guitar_solo_extras",
+        "file": "reach-out-6.flac",
+        "sha256": "f9c478a6024ee534e642e10ed7270fa5a43928b9ab80432b3c599d29f4221fe4",
+        "bytes": 1394945,
+        "label": "Guitarra solista"
+      }
+    ],
+    "archiveSHA256": "81218a93e05354f2458c05c3cef47f7b5da6a8ccfaa3d861355dc55b7ac08868"
+  }
+]
