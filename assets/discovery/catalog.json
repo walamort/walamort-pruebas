@@ -1478,16 +1478,16 @@
     ],
     "es": {
       "title": "Walamort Mezcla · app de aprendizaje",
-      "description": "18 lecciones y un laboratorio con EQ, compresión, espacio y comparación A/B."
+      "description": "24 lecciones, tus canciones o stems y un rack con EQ de cuatro bandas, compresión y efectos."
     },
     "en": {
       "title": "Walamort Mixing · Spanish learning app",
-      "description": "Spanish course: 18 lessons and an interactive mixing lab."
+      "description": "Spanish course: 24 lessons, local song/stem import and an interactive mixing rack."
     },
     "pt": {
       "title": "Walamort Mixagem · curso em espanhol",
-      "description": "18 aulas em espanhol e laboratório interativo de mixagem."
+      "description": "24 aulas em espanhol, importação local de músicas/stems e rack de mixagem."
     },
-    "tags": "app mezcla mixing mixagem curso produccion productores ecualizacion compresion aprender entrenamiento"
+    "tags": "app mezcla mixing mixagem curso produccion productores ecualizacion compresion aprender entrenamiento stems cancion canciones compresor ecualizador audio archivos efectos"
   }
 ]

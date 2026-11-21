@@ -21,3 +21,6 @@ jobs:
       - run: node tests/pulso-audio.cjs
       - run: node tests/pulso-recordings.cjs
       - run: node tests/mezcla-app.cjs
+      - run: node tests/mezcla-media.cjs
+      - run: node tests/mezcla-dsp.cjs
+      - run: node tests/mezcla-engine.cjs
