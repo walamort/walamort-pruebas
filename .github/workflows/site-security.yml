@@ -24,3 +24,4 @@ jobs:
       - run: node tests/mezcla-media.cjs
       - run: node tests/mezcla-dsp.cjs
       - run: node tests/mezcla-engine.cjs
+      - run: node tests/mezcla-studio.cjs

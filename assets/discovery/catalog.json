@@ -1478,15 +1478,33 @@
     ],
     "es": {
       "title": "Walamort Mezcla · app de aprendizaje",
-      "description": "24 lecciones, tus canciones o stems y un rack con EQ de cuatro bandas, compresión y efectos."
+      "description": "24 lecciones, canciones con stems, EQ gráfica, mastering editable, pico/RMS y descarga WAV.",
+      "tags": [
+        "mastering",
+        "stems",
+        "RMS",
+        "WAV"
+      ]
     },
     "en": {
       "title": "Walamort Mixing · Spanish learning app",
-      "description": "Spanish course: 24 lessons, local song/stem import and an interactive mixing rack."
+      "description": "Spanish mixing app: real stems, interactive EQ, editable mastering, peak/RMS meters and WAV capture.",
+      "tags": [
+        "mastering",
+        "stems",
+        "RMS",
+        "WAV"
+      ]
     },
     "pt": {
       "title": "Walamort Mixagem · curso em espanhol",
-      "description": "24 aulas em espanhol, importação local de músicas/stems e rack de mixagem."
+      "description": "App em espanhol: stems reais, EQ interativo, mastering ajustável, pico/RMS e captura WAV.",
+      "tags": [
+        "mastering",
+        "stems",
+        "RMS",
+        "WAV"
+      ]
     },
     "tags": "app mezcla mixing mixagem curso produccion productores ecualizacion compresion aprender entrenamiento stems cancion canciones compresor ecualizador audio archivos efectos"
   }
