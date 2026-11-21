@@ -3,7 +3,7 @@
     "id": "ruta",
     "level": "básico",
     "title": "01 · El recorrido del sonido",
-    "text": "Comprender dónde ocurre cada cambio evita mover controles al azar. Una mezcla reúne pistas, regula su nivel y posición, procesa su tono y dinámica, y entrega una señal común. En este laboratorio las tres pistas pasan por sus faders y panoramas, después por EQ y compresión del bus; delay y reverb se suman en paralelo. Procesar el bus afecta todo lo que llega a él.",
+    "text": "Una mezcla reúne pistas, regula su nivel y posición, procesa su tono y dinámica y entrega una suma. Este laboratorio tiene un rack de aprendizaje que puedes dirigir al bus completo o a un stem: los demás canales quedan secos. El orden del rack es EQ, compresión con mezcla paralela y retornos de delay y reverb. Cada canal conserva fader, panorama, mute y solo. Cambiar el destino mueve ese mismo rack; no crea procesadores independientes por pista.",
     "steps": [
       "Escucha las tres pistas sin efectos.",
       "Baja el piano y observa qué cambia en la relación con el bajo.",
@@ -45,9 +45,9 @@
     "title": "03 · Balance antes que efectos",
     "text": "El balance decide qué atrae la atención. Si una melodía desaparece, primero escucha si otra pista la cubre; no añadas brillo automáticamente. Construye la mezcla con faders, a un volumen de escucha que puedas mantener sin esfuerzo. La pista más importante depende del arreglo y de la intención, no de una regla fija.",
     "steps": [
-      "Pon las tres pistas a cero.",
-      "Añade batería, luego bajo y finalmente piano.",
-      "Busca un balance donde distingas el bajo sin tapar el ataque del piano."
+      "En la demo, baja faders a cero; con tus stems, usa Mute para comenzar en silencio.",
+      "Incorpora batería o pulso, luego bajo y finalmente el elemento principal.",
+      "Busca un balance donde distingas los elementos sin competir innecesariamente."
     ],
     "question": "¿Qué conviene probar primero si una pista domina demasiado?",
     "options": [
@@ -88,11 +88,11 @@
     "id": "eq",
     "level": "básico",
     "title": "05 · EQ: reconocer zonas",
-    "text": "La ecualización modifica la relación entre frecuencias. Graves aportan peso; medios contienen gran parte del cuerpo y la inteligibilidad; agudos aportan ataque y aire. Son descripciones orientativas: el mismo rango puede ser útil o molesto según el instrumento. La curva muestra la respuesta combinada de los filtros de esta app, no un espectro de la música.",
+    "text": "La EQ modifica la relación entre frecuencias. Este rack tiene cuatro bandas: estantería o campana en los extremos y dos campanas de medios. Cada banda permite elegir frecuencia y ganancia; Q define el ancho de las campanas, no de las estanterías de este modelo. Selecciona una banda para modificarla. La curva naranja combina EQ y cortes; la verde muestra solo la banda elegida. Ninguna es el espectro de tu canción. Decide en contexto y compara con bypass.",
     "steps": [
-      "Sube los medios de forma temporal para identificar la zona.",
-      "Mueve la frecuencia lentamente con volumen moderado.",
-      "Reduce la ganancia y compara con bypass."
+      "Selecciona banda 2 y realza temporalmente 6 dB a 1200 Hz.",
+      "Cambia su frecuencia y Q; observa la curva verde frente al total naranja.",
+      "Reduce la ganancia y compara el mismo fragmento con bypass."
     ],
     "question": "¿Qué representa la curva de EQ de esta app?",
     "options": [
@@ -130,9 +130,47 @@
     }
   },
   {
+    "id": "archivos",
+    "level": "básico",
+    "title": "07 · Tu canción y tus stems",
+    "text": "Una canción estéreo permite estudiar cambios sobre una suma ya mezclada. Los stems separan grupos o instrumentos y permiten explorar balance y procesamiento de un rol dentro del conjunto. Los archivos se leen y decodifican en tu dispositivo: no se suben al servidor. Usa WAV o FLAC para conservar mejor la alineación entre stems; MP3 puede añadir relleno de códec. Existen límites de tamaño, duración y memoria para mantener la sesión manejable.",
+    "steps": [
+      "Carga una canción o varios stems desde la misma selección.",
+      "Elige un stem como destino del rack y comprueba que los demás quedan secos.",
+      "Alterna Solo y contexto: decide escuchando de ambas formas."
+    ],
+    "question": "¿Qué ofrece cargar stems en lugar de una mezcla estéreo?",
+    "options": [
+      "Control separado de sus grupos o instrumentos",
+      "Separación automática de cualquier voz",
+      "Un máster garantizado"
+    ],
+    "correct": 0,
+    "preset": {}
+  },
+  {
+    "id": "fragmento",
+    "level": "básico",
+    "title": "08 · Una frase en bucle",
+    "text": "Practicar sobre un fragmento fijo ayuda a comparar decisiones sin cambiar constantemente de contexto. Todos los stems comparten inicio y final del bucle; la duración máxima común la determina el más corto. Exportarlos desde el mismo origen conserva su relación temporal. Los fundidos de borde de cinco milisegundos reducen clics al repetir; no modifican tus archivos originales. Si necesitas revisar otra sección, detén la reproducción y aplica otros límites.",
+    "steps": [
+      "Elige una frase de 5 a 15 segundos con ataques y pausas.",
+      "Escribe inicio y final y pulsa Aplicar fragmento.",
+      "Repite una comparación A/B sin cambiar el fragmento."
+    ],
+    "question": "Para que varios stems mantengan su relación temporal conviene…",
+    "options": [
+      "Exportarlos desde el mismo inicio",
+      "Mover cada uno al primer golpe que se vea",
+      "Cambiarles el tempo por separado"
+    ],
+    "correct": 0,
+    "preset": {}
+  },
+  {
     "id": "hp",
     "level": "intermedio",
-    "title": "07 · Pasa-altos con criterio",
+    "title": "09 · Pasa-altos con criterio",
     "text": "Un pasa-altos atenúa frecuencias por debajo de su corte. Puede liberar energía innecesaria, pero cortar por costumbre puede quitar el fundamento del bajo o del bombo. Aquí actúa sobre todo el bus, por lo que una decisión extrema afecta a toda la mezcla. En producción real, decide también qué pistas necesitan un filtro individual.",
     "steps": [
       "Sube el corte a 250 Hz para reconocer la pérdida de cuerpo.",
@@ -147,13 +185,14 @@
     ],
     "correct": 0,
     "preset": {
-      "hp": 250
+      "hp": 250,
+      "hpEnabled": 1
     }
   },
   {
     "id": "q",
     "level": "intermedio",
-    "title": "08 · Frecuencia y ancho de banda",
+    "title": "10 · Frecuencia y ancho de banda",
     "text": "Q regula qué tan estrecha es una banda de medios. Un Q alto concentra el cambio alrededor de una frecuencia; uno bajo modifica una zona más amplia. Barrer con mucho realce puede resultar incómodo y engañoso: úsalo brevemente, a nivel moderado, para reconocer una zona; después decide en contexto y con menos ganancia.",
     "steps": [
       "Fija medios en +6 dB y escucha brevemente Q 1 frente a Q 5.",
@@ -176,12 +215,12 @@
   {
     "id": "attack",
     "level": "intermedio",
-    "title": "09 · Ataque y transitorios",
-    "text": "El ataque influye en cómo responde el compresor al inicio de un sonido. Un ataque más lento puede conservar parte del golpe inicial; uno rápido puede controlarlo más. No funciona como un retraso fijo antes de empezar a comprimir: la respuesta depende del detector, la envolvente y el programa. Escucha el carácter del golpe, además del medidor.",
+    "title": "11 · Ataque y transitorios",
+    "text": "El ataque influye en la rapidez con que cambia la reducción de ganancia. Este procesador de pico usa un suavizado exponencial en dB: el tiempo es una constante de respuesta, no un retraso antes de actuar. 2 ms puede controlar parte del inicio; 2000 ms responde tan lentamente que golpes enteros pueden pasar antes de acercarse a la reducción final. Los valores de fabricantes distintos no siempre son comparables porque detector, definición y lookahead pueden cambiar.",
     "steps": [
-      "Deja ratio 6:1 y umbral −26.",
-      "Compara ataque 2 ms y 60 ms.",
-      "Anota si cambia el ataque de la caja o la sensación de pegada."
+      "Fija ratio 6:1 y umbral −26 dBFS.",
+      "Usa la comparación Ataque 2 ↔ 2000 ms sobre el mismo bucle.",
+      "Escucha golpes y frases; observa cómo tarda en crecer la reducción."
     ],
     "question": "Un ataque más lento puede permitir que pase…",
     "options": [
@@ -193,18 +232,19 @@
     "preset": {
       "threshold": -26,
       "ratio": 6,
-      "attack": 60
+      "attack": 2,
+      "knee": 0
     }
   },
   {
     "id": "release",
     "level": "intermedio",
-    "title": "10 · Recuperación y respiración",
+    "title": "12 · Recuperación y respiración",
     "text": "Release determina cómo se recupera la ganancia después de la compresión. Si la recuperación interactúa con el pulso, puedes percibir bombeo; a veces es un recurso creativo y otras una distracción. Un release demasiado largo puede mantener la señal reducida entre golpes. El tempo ayuda a orientar, pero escuchar la frase completa sigue siendo necesario.",
     "steps": [
-      "Usa umbral −28 y ratio 6:1.",
-      "Compara release 70 ms y 700 ms.",
-      "Observa si la reducción vuelve antes del próximo golpe."
+      "Usa umbral −28 dBFS y ratio 6:1.",
+      "Compara release 2 y 2000 ms sin cambiar las otras variables.",
+      "Comprueba si la reducción se recupera antes del siguiente golpe o permanece entre frases."
     ],
     "question": "Un release muy largo puede…",
     "options": [
@@ -222,8 +262,8 @@
   {
     "id": "reverb",
     "level": "intermedio",
-    "title": "11 · Profundidad y reverb",
-    "text": "La reverberación añade una cola que puede sugerir espacio y distancia. Mucha cola puede ocultar articulación y ocupar silencios. Esta app usa una respuesta de sala sintetizada, no una sala medida. El retorno se suma en paralelo al sonido directo; comienza con poco y compara la claridad de las frases.",
+    "title": "13 · Profundidad y reverb",
+    "text": "La reverberación puede sugerir profundidad, pero una cola intensa ocupa silencios y puede ocultar articulación. Aquí la respuesta de sala se sintetiza con una envolvente de decaimiento y pérdida progresiva de agudos; no es una sala medida. Cola, pre-delay, amortiguación, filtro de graves y retorno cumplen funciones distintas. La señal reverberada se suma en paralelo al directo. Escucha con nivel moderado y comienza con un retorno pequeño.",
     "steps": [
       "Sube reverb a 40 % para reconocer la cola.",
       "Reduce hasta que aporte espacio sin cubrir el ritmo.",
@@ -243,8 +283,8 @@
   {
     "id": "delay",
     "level": "intermedio",
-    "title": "12 · Delay y tempo",
-    "text": "Un delay repite la señal. En este laboratorio el tiempo se sincroniza a una corchea: 30 dividido entre BPM, en segundos. A 120 BPM son 250 ms. Feedback devuelve parte del eco a su entrada y prolonga las repeticiones. La cantidad de retorno controla cuánto eco se mezcla con la señal directa.",
+    "title": "14 · Delay y tempo",
+    "text": "Un delay repite la señal. Puedes fijar milisegundos o sincronizarlo con una figura. En corchea, el tiempo es 30 dividido entre BPM en segundos: a 120 BPM son 250 ms. Cambiar BPM no estira tu canción importada. Feedback devuelve parte del eco a su entrada; los filtros moldean también esas repeticiones. Un valor alto puede acumular energía, por lo que debes vigilar retorno y nivel de salida.",
     "steps": [
       "Pon tempo 120 y delay al 25 %.",
       "Compara feedback 10 % y 50 %.",
@@ -264,9 +304,56 @@
     }
   },
   {
+    "id": "bandas",
+    "level": "intermedio",
+    "title": "15 · Cuatro bandas con intención",
+    "text": "Una banda se define por su forma, frecuencia, ganancia y, en una campana, Q. Las estanterías cambian una zona hacia un extremo; las campanas concentran el cambio alrededor del centro. Puedes escoger el tipo de las bandas uno y cuatro; las dos centrales son campanas. La banda elegida se dibuja en verde. Un cambio útil en un stem puede dejar de ayudar al sumar los demás, así que no tomes la decisión final solo con Solo.",
+    "steps": [
+      "Usa banda 2 para comparar 250 y 3000 Hz con igual ganancia.",
+      "En banda 4 compara estantería y campana; con campana cambia Q.",
+      "Vuelve al conjunto y reduce los cambios a lo necesario."
+    ],
+    "question": "En una campana, subir Q normalmente…",
+    "options": [
+      "Estrecha la zona afectada",
+      "Sube siempre toda la mezcla",
+      "Convierte la banda en un delay"
+    ],
+    "correct": 0,
+    "preset": {
+      "mid": 3,
+      "freq": 1500,
+      "q": 1
+    }
+  },
+  {
+    "id": "efectos",
+    "level": "intermedio",
+    "title": "16 · Separar tiempo, tono y cantidad",
+    "text": "Tiempo y cantidad son decisiones diferentes. En reverb, pre-delay separa el inicio de la cola del sonido directo; el tiempo de cola determina cuánto persiste, y el retorno cuánto se suma. En delay, tiempo separa ecos, feedback determina cuánto vuelve y los filtros cambian su tono. Escucha cada variable por separado antes de combinarlas. Ni una cola larga ni un feedback alto garantizan profundidad; pueden ocultar articulación y ocupar espacio útil.",
+    "steps": [
+      "Compara pre-delay 0 y 80 ms con la misma cola.",
+      "Compara delay 125 y 750 ms manteniendo feedback.",
+      "Después cambia solo el feedback y observa el dibujo de repeticiones."
+    ],
+    "question": "¿Qué control prolonga las repeticiones de un delay sin cambiar su separación?",
+    "options": [
+      "Feedback",
+      "Panorama",
+      "Q de una banda del piano"
+    ],
+    "correct": 0,
+    "preset": {
+      "delay": 0.25,
+      "delayMode": 1,
+      "delayMs": 250,
+      "feedback": 0.3
+    }
+  },
+  {
     "id": "parallel",
     "level": "avanzado",
-    "title": "13 · Compresión paralela",
+    "title": "17 · Compresión paralela",
     "text": "La compresión paralela combina señal comprimida y señal sin comprimir. Puede aportar densidad conservando parte de la articulación original. El control mezcla es un balance lineal entre ambas rutas; una posición intermedia no implica igual sonoridad percibida. Escucha si el resultado beneficia el arreglo y compensa nivel antes de preferirlo.",
     "steps": [
       "Configura compresión intensa con ratio 10:1 y umbral −32.",
@@ -283,13 +370,14 @@
     "preset": {
       "threshold": -32,
       "ratio": 10,
-      "parallel": 0.35
+      "parallel": 0.35,
+      "makeup": 4
     }
   },
   {
     "id": "mono",
     "level": "avanzado",
-    "title": "14 · Compatibilidad mono",
+    "title": "18 · Compatibilidad mono",
     "text": "Escuchar en mono ayuda a revisar el balance y la dependencia de la separación estéreo. Esta app suma izquierda y derecha con ganancia 0,5 por canal y duplica el resultado a ambas salidas. No es una medición de correlación. Cambios de nivel y cancelaciones dependen de la señal; una mezcla puede conservar amplitud estéreo y funcionar bien en mono.",
     "steps": [
       "Separa el piano y deja el bajo centrado.",
@@ -310,7 +398,7 @@
   {
     "id": "contexto",
     "level": "avanzado",
-    "title": "15 · Decidir dentro del arreglo",
+    "title": "19 · Decidir dentro del arreglo",
     "text": "Un ajuste que parece impresionante de forma aislada puede perjudicar el conjunto. Al mezclar, compara dentro de una frase, con pausas y a un nivel de escucha estable. El objetivo no es que cada pista ocupe todo el espectro, sino que los elementos importantes convivan. Usa los faders a cero para aislar temporalmente una pista y después devuelve el contexto.",
     "steps": [
       "Escucha el piano solo reduciendo las otras pistas.",
@@ -333,12 +421,12 @@
   {
     "id": "bus",
     "level": "avanzado",
-    "title": "16 · Procesamiento del bus",
-    "text": "Los efectos del bus actúan sobre una suma. La compresión puede cambiar cómo los elementos se influyen entre sí: un bombo dominante puede provocar reducción que también afecte al piano. Antes de procesar más, revisa el balance de entrada. Este laboratorio permite explorar ese vínculo, pero no ofrece sidechain externo ni limitador de mastering.",
+    "title": "20 · Procesamiento del bus",
+    "text": "Un procesador en el bus actúa sobre la suma: un bombo fuerte puede activar reducción que también afecte al piano o la voz. Selecciona Bus de mezcla para esta práctica. El compresor ofrece un pasa-altos en su detector: reduce la influencia de graves sobre la detección, sin recortar directamente el audio. No es un sidechain externo. Prueba también un menor nivel de bombo antes de cambiar parámetros; el balance puede resolver la causa.",
     "steps": [
-      "Escucha la reducción con el bombo presente.",
-      "Baja batería y comprueba cuánto cambia la reducción.",
-      "Decide si conviene corregir el balance o el umbral."
+      "Selecciona Bus de mezcla como destino y escucha su reducción.",
+      "Compara el detector HP a 0 y 150 Hz manteniendo el balance.",
+      "Baja el fader del bombo y decide qué solución respeta mejor la intención."
     ],
     "question": "Si el bombo hace comprimir todo el bus, una primera revisión útil es…",
     "options": [
@@ -356,7 +444,7 @@
   {
     "id": "ab",
     "level": "avanzado",
-    "title": "17 · Comparar A/B con honestidad",
+    "title": "21 · Comparar A/B con honestidad",
     "text": "Más fuerte suele parecer mejor en una comparación breve. Alterna procesado y bypass, pero recuerda que igual posición del fader no garantiza igual sonoridad. La app no compensa LUFS automáticamente. Puedes ajustar el nivel de salida manualmente entre escuchas y volver a comparar. El pico orienta sobre margen; no reemplaza una medición integrada de sonoridad.",
     "steps": [
       "Escucha con efectos y después activa bypass.",
@@ -380,12 +468,12 @@
   {
     "id": "entrega",
     "level": "avanzado",
-    "title": "18 · Guardar y revisar una mezcla",
-    "text": "Una entrega profesional incluye revisión técnica, escucha y archivos adecuados al destino. Guarda versiones y comprueba inicio, final y silencios. El proyecto JSON de esta app conserva controles y notas, no exporta un máster WAV ni el audio de la sesión. Para importar tus pistas, preparar montajes y exportar audio, continúa en el laboratorio completo de Walamort. No prometas un formato o nivel que no hayas medido.",
+    "title": "22 · Guardar y revisar una mezcla",
+    "text": "Guarda versiones y comprueba principio, final y silencios. El JSON conserva ajustes del rack, mezcla de stems, fragmento y nombres de originales; no contiene los audios ni un máster WAV. Al reabrir debes seleccionar los archivos correspondientes desde tu dispositivo. Para entregar audio renderizado, usa el laboratorio completo o tu DAW y comprueba los requisitos del destino. Esta app no mide LUFS ni picos intersample y no certifica una entrega profesional.",
     "steps": [
-      "Guarda una versión con nombre descriptivo.",
-      "Exporta el proyecto JSON y comprueba su importación.",
-      "Continúa en el laboratorio completo para trabajar con audio propio y exportaciones."
+      "Guarda y exporta un JSON con nombre descriptivo.",
+      "Reábrelo y vuelve a seleccionar los originales para retomar el fragmento.",
+      "Usa el laboratorio completo o tu DAW para renderizar y revisar un archivo de audio final."
     ],
     "question": "¿Qué contiene el JSON de esta app?",
     "options": [
@@ -395,5 +483,52 @@
     ],
     "correct": 0,
     "preset": {}
+  },
+  {
+    "id": "detector",
+    "level": "avanzado",
+    "title": "23 · Detector, señal y enlace estéreo",
+    "text": "El detector decide cuánta reducción aplicar; no es lo mismo que la señal que escuchas. El filtro HP del detector puede disminuir cuánto gobierna el bombo la compresión, aunque los graves sigan presentes en la salida. El modelo de esta app enlaza los canales usando el mayor pico instantáneo para aplicar igual ganancia a izquierda y derecha. Así no desplaza el panorama al comprimir un lado. No ofrece señal externa de sidechain ni emula un equipo concreto.",
+    "steps": [
+      "Usa una mezcla con bombo y un instrumento sostenido.",
+      "Compara detector HP 0 y 150 Hz sin tocar la EQ del audio.",
+      "Observa reducción y escucha si el elemento sostenido respira de otra forma."
+    ],
+    "question": "El pasa-altos del detector…",
+    "options": [
+      "Cambia lo que activa la compresión, no recorta directamente la salida",
+      "Elimina necesariamente los graves del audio",
+      "Es una entrada externa de sidechain"
+    ],
+    "correct": 0,
+    "preset": {
+      "threshold": -26,
+      "ratio": 4,
+      "sidechain": 150
+    }
+  },
+  {
+    "id": "tiempos",
+    "level": "avanzado",
+    "title": "24 · Interpretar 2 y 2000 milisegundos",
+    "text": "Un número de ataque no equivale a una pausa hasta ese instante. En este modelo, con una demanda de reducción constante, una constante de tiempo alcanza aproximadamente el 63 % del cambio en dB; requiere más tiempo para acercarse al valor final. El release usa la misma idea al recuperar ganancia. Una canción dinámica rara vez exige una reducción constante, por eso compara transitorios y frases. Las pruebas con tu material describen su respuesta; no demuestran que todos los compresores respondan igual.",
+    "steps": [
+      "Escucha Ataque 2 ↔ 2000 ms sin modificar umbral ni ratio.",
+      "Repite con un stem sostenido y después con percusión.",
+      "Anota por qué el mismo ajuste se comporta distinto con cada fuente."
+    ],
+    "question": "En este compresor, ataque 2000 ms significa…",
+    "options": [
+      "Una respuesta gradual, no dos segundos de espera",
+      "Que no hay procesamiento durante dos segundos exactos",
+      "Que la canción se vuelve más lenta"
+    ],
+    "correct": 0,
+    "preset": {
+      "threshold": -26,
+      "ratio": 6,
+      "attack": 2000,
+      "release": 300
+    }
   }
 ]
