@@ -35,3 +35,10 @@ Seis colores de mastering propios con aplicación inmediata e intensidad; compar
 Biblioteca de seis géneros: rock/acústico, cinematográfico/ambient, jazz, reggae (batería), drum and bass (capas melódicas) y downtempo. 27 stems CC BY 3.0, fragmentos de 16–32 s; no se representan los ejercicios de batería/capas como canciones completas. Filtro por género, entrada a mezcla/mastering y pautas de escucha exportadas en informes. No hay clasificación automática de género ni puntuación estética.
 
 Pruebas de señal offline en navegador (motor real): ráfaga corta, cola seca casi cero, cola reverb/delay no nula, retornos desactivados sin cola, diferencias PCM de EQ y saturación. Las comparaciones numéricas no sustituyen la escucha en dispositivos físicos.
+
+
+## Flujo 1.5
+
+Género, tipo de audio, carga, estado/revinculación y entrada a biblioteca se muestran por encima de reproducir/detener. Preparación local optativa en un Web Worker: HPSS en dos capas complementarias (armónicos/percusión) con STFT 2048, hop 512 y medianas; reducción de ruido espectral con muestra elegida por el usuario. No es separación neuronal en voz/bajo/batería, no recupera stems originales y no elimina todo ruido. Máximo 30 s del fragmento; el archivo abierto permanece intacto hasta pulsar usar resultado. Previsualización local, cancelación, descarga WAV PCM16 y carga explícita al mezclador. Los resultados solo viven en memoria: deben descargarse.
+
+Mastering por destino: música, podcast, locución, audiolibro y video/directo. Cada destino de voz ofrece cuatro puntos de partida editables que cambian EQ, compresión y límite de pico; no es normalización LUFS ni certificación de entrega. Los colores musicales se conservan; al elegir un color se vuelve al uso música. El preset de claridad es específicamente para voz, no una reparación automática universal.
