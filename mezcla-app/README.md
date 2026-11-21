@@ -24,3 +24,14 @@ Dos packs optativos de 32 s bajo CC BY 3.0 (Nickleus y spinningmerkaba), fuentes
 
 ### Corrección 1.3.1
 Los packs integrados se recuperan desde su identidad y nombres de stems al pulsar Escuchar después de recargar. La biblioteca carga e inicia reproducción en una sola acción, con progreso y reintento visible. Se reconoce la nomenclatura anterior; los archivos privados siguen requiriendo selección explícita.
+
+
+## Estudio avanzado 1.4
+
+Seis bandas EQ independientes (20 Hz–20 kHz), selección/arrastre de cada nodo, Q por Mayús+arrastre, rueda con foco y PageUp/PageDown. Ajustar Q de una estantería la convierte en campana para que la anchura tenga efecto. Las bandas 5/6 se insertan realmente en la cadena, se miden en su respuesta y se conservan en proyectos. Gráficas adicionales de ataque/release, cola/retorno/pre-delay de reverb y tiempo/feedback/retorno de delay.
+
+Seis colores de mastering propios con aplicación inmediata e intensidad; comparación Original/Procesado sin igualación automática de sonoridad. El color Cinta usa saturación tanh mezclada en paralelo, sin afirmar emulación de hardware. La comparación temporal no se guarda como un nuevo ajuste. Seleccionar color reactiva el rack y pone el destino en el bus. Los retornos apagados o a cero se indican; subir un retorno/reactivar desde la gráfica hace audible el efecto. La reproducción no cíclica deja terminar la cola de reverb/delay (delay limitado a 12 s adicionales).
+
+Biblioteca de seis géneros: rock/acústico, cinematográfico/ambient, jazz, reggae (batería), drum and bass (capas melódicas) y downtempo. 27 stems CC BY 3.0, fragmentos de 16–32 s; no se representan los ejercicios de batería/capas como canciones completas. Filtro por género, entrada a mezcla/mastering y pautas de escucha exportadas en informes. No hay clasificación automática de género ni puntuación estética.
+
+Pruebas de señal offline en navegador (motor real): ráfaga corta, cola seca casi cero, cola reverb/delay no nula, retornos desactivados sin cola, diferencias PCM de EQ y saturación. Las comparaciones numéricas no sustituyen la escucha en dispositivos físicos.
