@@ -7,4 +7,4 @@ main:focus{outline:none}.check{display:flex;align-items:center;gap:9px;margin:12
 
 .suite-link{font-size:14px;margin-left:auto;max-width:150px;line-height:1.3}@media(max-width:520px){header{flex-wrap:wrap}.suite-link{font-size:13px}}
 
-.suite-embedded header{display:none}
+.suite-embedded header img,.suite-embedded header>div,.suite-embedded header .suite-link,.suite-embedded #install{display:none}.suite-embedded header:has(#update[hidden]){display:none}
