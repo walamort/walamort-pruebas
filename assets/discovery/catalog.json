@@ -1507,5 +1507,30 @@
       ]
     },
     "tags": "app mezcla mixing mixagem curso produccion productores ecualizacion compresion aprender entrenamiento stems cancion canciones compresor ecualizador audio archivos efectos"
+  },
+  {
+    "id": "estudio-produccion",
+    "group": "estudio",
+    "path": "estudio-produccion/",
+    "english": null,
+    "portuguese": null,
+    "goals": [
+      "learn",
+      "practice",
+      "create"
+    ],
+    "es": {
+      "title": "Estudio de producción musical",
+      "description": "Mezcla, mastering, podcast, grabación, ritmos, arreglos, MIDI y recursos en un solo lugar."
+    },
+    "en": {
+      "title": "Music production studio · Spanish",
+      "description": "Mixing, mastering, recording, rhythm and learning tools in Spanish."
+    },
+    "pt": {
+      "title": "Estúdio de produção · espanhol",
+      "description": "Mixagem, mastering, gravação, ritmos e aprendizagem em espanhol."
+    },
+    "tags": "produccion mezcla mastering stems podcast grabacion midi ritmos arreglos estudio"
   }
 ]
